@@ -29,7 +29,36 @@ def wrap(ctx, text, maxw):
     return lines
 
 
-def text_png(path, text, size=64):
+def _shadowed(ctx, x, y, ln, rgb=(1, 1, 1)):
+    for r, a in ((10, 0.10), (6, 0.16), (3, 0.28)):
+        for dx, dy in ((r, r), (-r, r), (r, -r), (-r, -r), (0, r), (r, 0)):
+            ctx.move_to(x + dx * 0.4 + 2, y + dy * 0.4 + 3); ctx.text_path(ln)
+        ctx.set_source_rgba(0, 0, 0, a); ctx.fill()
+    ctx.move_to(x, y); ctx.text_path(ln)
+    ctx.set_source_rgba(0, 0, 0, 0.55); ctx.set_line_width(5); ctx.stroke()
+    ctx.move_to(x, y); ctx.set_source_rgb(*rgb); ctx.show_text(ln)
+
+
+def header_png(path, text="QUOTE OF THE DAY"):
+    """Stalni natpis gore: razmaknuta slova + zlatne linije."""
+    surf = cairo.ImageSurface(cairo.FORMAT_ARGB32, W, H)
+    ctx = cairo.Context(surf)
+    ctx.select_font_face(FONT, cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_BOLD)
+    ctx.set_font_size(40)
+    spaced = " ".join(text.upper())
+    e = ctx.text_extents(spaced)
+    y = H * 0.17
+    _shadowed(ctx, W / 2 - e.x_advance / 2, y, spaced)
+    for sx in (-1, 1):
+        x0 = W / 2 + sx * (e.x_advance / 2 + 24)
+        ctx.move_to(x0, y - 13); ctx.line_to(x0 + sx * 70, y - 13)
+        ctx.set_source_rgba(0, 0, 0, 0.4); ctx.set_line_width(7); ctx.stroke()
+        ctx.move_to(x0, y - 13); ctx.line_to(x0 + sx * 70, y - 13)
+        ctx.set_source_rgb(1.0, 0.83, 0.23); ctx.set_line_width(4); ctx.stroke()
+    surf.write_to_png(path)
+
+
+def text_png(path, text, size=64, label=None):
     surf = cairo.ImageSurface(cairo.FORMAT_ARGB32, W, H)
     ctx = cairo.Context(surf)
     ctx.select_font_face(FONT, cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_BOLD)
@@ -44,15 +73,13 @@ def text_png(path, text, size=64):
     y0 = H * TEXT_Y - (len(lines) - 1) * lh / 2
     for i, ln in enumerate(lines):
         e = ctx.text_extents(ln)
-        x, y = W / 2 - e.x_advance / 2, y0 + i * lh
-        # meka senka
-        for r, a in ((10, 0.10), (6, 0.16), (3, 0.28)):
-            for dx, dy in ((r, r), (-r, r), (r, -r), (-r, -r), (0, r), (r, 0)):
-                ctx.move_to(x + dx * 0.4 + 2, y + dy * 0.4 + 3); ctx.text_path(ln)
-            ctx.set_source_rgba(0, 0, 0, a); ctx.fill()
-        ctx.move_to(x, y); ctx.text_path(ln)
-        ctx.set_source_rgba(0, 0, 0, 0.55); ctx.set_line_width(5); ctx.stroke()
-        ctx.move_to(x, y); ctx.set_source_rgb(1, 1, 1); ctx.show_text(ln)
+        _shadowed(ctx, W / 2 - e.x_advance / 2, y0 + i * lh, ln)
+    if label:  # npr. "TODAY'S LESSON" iznad teksta, zlatno
+        ctx.set_font_size(42)
+        lt = " ".join(label.upper())
+        e = ctx.text_extents(lt)
+        _shadowed(ctx, W / 2 - e.x_advance / 2, y0 - size - 34, lt, (1.0, 0.83, 0.23))
+        ctx.set_font_size(size)
     surf.write_to_png(path)
 
 
@@ -99,20 +126,27 @@ def ambient(path, dur, seed=7):
 def build(qid, preview=False):
     q = QUOTES[qid]
     os.makedirs(TMP, exist_ok=True); os.makedirs(OUTDIR, exist_ok=True)
-    lines = q["lines"]
+    lines = list(q["lines"]) + ([q["lesson"]] if q.get("lesson") else [])
     per = q.get("per_line", 5.2)
     dur = per * len(lines) + 0.8
     pngs = []
     for i, ln in enumerate(lines):
-        p = os.path.join(TMP, f"{qid}_{i}.png"); text_png(p, ln, q.get("size", 64)); pngs.append(p)
+        lab = "Today's lesson" if (q.get("lesson") and i == len(lines) - 1) else None
+        p = os.path.join(TMP, f"{qid}_{i}.png"); text_png(p, ln, q.get("size", 64), lab); pngs.append(p)
+    hdr = None
+    if q.get("header", True if q.get("lesson") else False):
+        hdr = os.path.join(TMP, f"{qid}_hdr.png"); header_png(hdr, q.get("header_text", "Quote of the day"))
     bg = os.path.join(HERE, "broll", q["broll"])
     out = os.path.join(OUTDIR, f"{qid}.mp4")
     if preview:
         for i in range(len(lines)):
             t = 0.4 + i * per + per / 2
-            subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-ss", str(t % 14), "-i", bg, "-i", pngs[i],
-                            "-filter_complex", "[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,"
-                            "eq=saturation=0.8:brightness=-0.04[b];[b][1:v]overlay", "-frames:v", "1",
+            extra = ["-i", hdr] if hdr else []
+            post = ";[o][2:v]overlay" if hdr else ""
+            subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-ss", str(t % 14), "-i", bg, "-i", pngs[i]] + extra +
+                           ["-filter_complex", "[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,"
+                            + ("hflip," if q.get("flip") else "") +
+                            "eq=saturation=0.8:brightness=-0.04[b];[b][1:v]overlay" + ("[o]" + post if hdr else ""), "-frames:v", "1",
                             os.path.join(TMP, f"{qid}_prev{i}.png")], check=True)
         return
     music = os.path.join(TMP, f"{qid}.wav")
@@ -126,6 +160,8 @@ def build(qid, preview=False):
         ambient(music, dur, seed=hash(qid) % 1000)
     inputs = ["-stream_loop", "-1", "-ss", str(q.get("broll_start", 0)), "-i", bg]
     for p in pngs: inputs += ["-loop", "1", "-t", str(dur), "-i", p]
+    if hdr: inputs += ["-loop", "1", "-t", str(dur), "-i", hdr]
+    music_idx = len(pngs) + 1 + (1 if hdr else 0)
     inputs += ["-i", music]
     fc = ("[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1,fps=30,"
           + ("hflip," if q.get("flip") else "") +
@@ -134,9 +170,14 @@ def build(qid, preview=False):
         a = 0.4 + i * per; b = a + per - 0.15
         fc += (f"[{i + 1}:v]format=rgba,fade=t=in:st={a:.2f}:d=0.35:alpha=1,fade=t=out:st={b - 0.3:.2f}:d=0.3:alpha=1[t{i}];"
                f"[v{i}][t{i}]overlay=enable='between(t,{a:.2f},{b:.2f})'[v{i + 1}];")
+    last = f"v{len(lines)}"
+    if hdr:
+        fc += (f"[{len(pngs) + 1}:v]format=rgba,fade=t=in:st=0.2:d=0.5:alpha=1[hd];"
+               f"[{last}][hd]overlay[vh];")
+        last = "vh"
     fc = fc.rstrip(";")
     cmd = ["ffmpeg", "-loglevel", "error", "-y"] + inputs + [
-        "-filter_complex", fc, "-map", f"[v{len(lines)}]", "-map", f"{len(lines) + 1}:a",
+        "-filter_complex", fc, "-map", f"[{last}]", "-map", f"{music_idx}:a",
         "-t", f"{dur:.2f}", "-c:v", "libx264", "-preset", "medium", "-crf", "21", "-maxrate", "8M", "-bufsize", "16M", "-pix_fmt", "yuv420p",
         "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", out]
     subprocess.run(cmd, check=True)

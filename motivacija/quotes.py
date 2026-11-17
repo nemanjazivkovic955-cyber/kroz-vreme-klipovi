@@ -17,6 +17,12 @@ Backgrounds (Pexels, free license, attribution not required):
 Music: music/cinematic_piano.mp3 - original royalty-free track generated with vidIQ AI music.
 """
 TAGS = "#motivation #mindset #selfimprovement #discipline #fyp"
+CAT_TAGS = {
+    "priroda": "#quoteoftheday #motivation #nature #mindset #fyp",
+    "trening": "#quoteoftheday #gymmotivation #discipline #fitness #fyp",
+    "kola_novac": "#quoteoftheday #moneymotivation #success #luxury #fyp",
+    "putovanja": "#quoteoftheday #travelmotivation #wanderlust #mindset #fyp",
+}
 
 QUOTES = {
     "m001": {
@@ -212,5 +218,58 @@ QUOTES = {
             "Never settle for less than respect.",
         ],
         "caption": "Know your worth. 💎 " + TAGS,
+    },
+    # ---- Novi format: QUOTE OF THE DAY + TODAY'S LESSON, 4 kategorije po terminu ----
+    "m017": {
+        "category": "priroda",
+        "music_start": 30,
+        "broll": "nature_39657533.mp4",
+        "lines": [
+            "The sun doesn't ask permission to rise.",
+            "It just shows up. Every single day.",
+            "Even after the darkest night.",
+            "Be like the sun.",
+        ],
+        "lesson": "Consistency beats intensity. Show up daily.",
+        "caption": "Be like the sun. 🌄 " + CAT_TAGS["priroda"],
+    },
+    "m018": {
+        "category": "trening",
+        "music_start": 88,
+        "broll": "workout_6296377.mp4",
+        "lines": [
+            "Nobody claps for your 5 AM workout.",
+            "Nobody sees the reps you do alone.",
+            "But one day",
+            "everyone will see the results.",
+        ],
+        "lesson": "Discipline is doing it even when nobody is watching.",
+        "caption": "Train in silence. 🥊 " + CAT_TAGS["trening"],
+    },
+    "m019": {
+        "category": "kola_novac",
+        "music_start": 105,
+        "broll": "car_39371057.mp4",
+        "lines": [
+            "They laughed when you saved",
+            "instead of spending.",
+            "Now they ask how you did it.",
+            "Delayed gratification pays the best interest.",
+        ],
+        "lesson": "Buy assets first. Luxuries later.",
+        "caption": "Buy assets first. 🏎️💰 " + CAT_TAGS["kola_novac"],
+    },
+    "m020": {
+        "category": "putovanja",
+        "music_start": 60,
+        "broll": "travel_18934517.mp4",
+        "lines": [
+            "Collect moments, not things.",
+            "The world is too big",
+            "to stay in one place your whole life.",
+            "Work hard. Then go see it.",
+        ],
+        "lesson": "Invest in experiences. They pay you back forever.",
+        "caption": "Collect moments, not things. ✈️ " + CAT_TAGS["putovanja"],
     },
 }

@@ -1,20 +1,30 @@
 # Raspored objava (motivacija, EN)
 
-Svaki termin = 4 klipa, svaki na drugu temu. Klipovi su u `videos/motivacija/bez_muzike/`, opisi u `opisi.txt`.
+Termini: svaki dan **10:00** i **18:00**. Svaki termin = **4 klipa, po jedan iz svake kategorije**:
+1. `priroda` – priroda + motivacija
+2. `trening` – workout / teretana / boks + motivacija
+3. `kola_novac` – kola, novac, uspeh + motivacija
+4. `putovanja` – putovanja + motivacija
 
-| Termin | Klipovi (tema) |
-|---|---|
-| 17.11. 18:00 | m004 (disciplina), m010 (izgubljenost / tezak period), m008 (navike), m012 (pustiti proslost) |
-| 18.11. 10:00 | m013 (poceti odmah), m002 (spori napredak), m009 (pritisak / oluja), m006 (strpljenje) |
-| 18.11. 18:00 | m001 (borba koju niko ne vidi), m003 (tuga / teske noci), m011 (usamljen put do vrha), m014 (buducnost / poceti danas) |
-| 19.11. 10:00 | m005 (nastavi dalje), m007 (ustati posle pada), m015 (poredjenje sa drugima), m016 (samopostovanje) |
+Format svakog klipa: gore stalno **QUOTE OF THE DAY**, 4 recenice citata, poslednji kadar **TODAY'S LESSON** + pouka
+(polja `lines` (4) i `lesson` u `quotes.py`, `category`, caption sa `CAT_TAGS[...]`).
+Klipovi bez muzike: `videos/motivacija/bez_muzike/`, opisi: `opisi.txt`.
 
-## Iskoriscene teme
-disciplina, izgubljenost, navike, pustiti proslost, poceti odmah, spori napredak, pritisak,
-strpljenje, nevidljiva borba, tuga, usamljenost na putu, buducnost, nastavi dalje, ustati posle pada, poredjenje sa drugima, samopostovanje
+## Pravila
+- Pozadina se NE ponavlja: koristi samo snimke iz `broll/katalog.json` sa praznim `used_in` za tu kategoriju,
+  i upisi klip u `used_in` posle renderovanja.
+- Kada u nekoj kategoriji nema neiskoriscenih snimaka: `vidiq_find_broll` (1 kredit, portrait) za tu kategoriju,
+  pa svaki rezultat uvezi sa `vidiq_video_upload` url=`https://www.pexels.com/download/video/<ID>/` (besplatno, pun kvalitet),
+  preuzmi sa `fetch_broll.sh` (redovi "kategorija_ID url"), dodaj u katalog. Ako nema kredita, ponovo upotrebi
+  najstariji snimak te kategorije sa drugim `broll_start` i `flip: True` i to javi korisniku.
+- Teme i pouke se ne ponavljaju (vidi listu ispod). Tekstovi originalni, engleski.
 
-## Pravila za nove pakete
-- 4 klipa po terminu, svaki na DRUGU temu koja nije u listi iskoriscenih.
-- Tekstovi originalni, engleski, 5 recenica, ~27 s.
-- Pozadine iz `broll/`: ne koristiti istu pozadinu dvaput u istom paketu; pri ponovnoj upotrebi
-  menjati `broll_start` i/ili `flip`, i ne ponavljati pozadinu iz prethodnog termina.
+| Termin | priroda | trening | kola_novac | putovanja |
+|---|---|---|---|---|
+| 17.11. 18:00 | m017 (doslednost) | m018 (trening u tisini) | m019 (stednja / imovina) | m020 (iskustva > stvari) |
+
+## Iskoriscene teme / pouke
+doslednost, trening kad niko ne gleda, odlozeno zadovoljstvo / prvo imovina, iskustva umesto stvari
+
+## Rezerva (stari format, bez QUOTE OF THE DAY)
+m001–m016 su gotovi klipovi u starom stilu; mogu se objaviti kao dodatni.
