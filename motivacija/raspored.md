@@ -26,10 +26,12 @@ Klipovi bez muzike: `videos/motivacija/bez_muzike/`, opisi: `opisi.txt`.
 |---|---|---|---|---|
 | 17.11. 18:00 | m017 (doslednost) | m018 (trening u tisini) | m019 (stednja / imovina) | m020 (iskustva > stvari) |
 | 18.11. 10:00 | m021 (oluje / reakcija) | m022 (napredak > savrsenstvo) | m023 (novac da radi za tebe) | m024 (zona komfora) |
+| 18.11. 18:00 | m025 (nevidljiv rast / koren) | m026 (bol prolazi, odustajanje ostaje) | m027 (izgledati bogato vs biti bogat) | m028 (putuj sam / ne cekaj druge) |
 
 ## Iskoriscene teme / pouke
 doslednost, trening kad niko ne gleda, odlozeno zadovoljstvo / prvo imovina, iskustva umesto stvari,
-oluje otkrivaju dubinu / reakcija, napredak umesto savrsenstva, novac da radi za tebe / prvo plati sebe, izlazak iz zone komfora
+oluje otkrivaju dubinu / reakcija, napredak umesto savrsenstva, novac da radi za tebe / prvo plati sebe, izlazak iz zone komfora,
+nevidljiv rast (bambus), mentalna snaga / bol je privremen, izgledati bogato vs biti bogat, putovanje solo / ne cekaj druge
 
 ## Rezerva (stari format, bez QUOTE OF THE DAY)
 m001–m016 su gotovi klipovi u starom stilu; mogu se objaviti kao dodatni.
