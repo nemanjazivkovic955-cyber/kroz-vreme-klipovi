@@ -139,6 +139,12 @@ def build(qid, preview=False):
         "-t", f"{dur:.2f}", "-c:v", "libx264", "-preset", "medium", "-crf", "21", "-maxrate", "8M", "-bufsize", "16M", "-pix_fmt", "yuv420p",
         "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", out]
     subprocess.run(cmd, check=True)
+    silent_dir = os.path.join(OUTDIR, "bez_muzike"); os.makedirs(silent_dir, exist_ok=True)
+    subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", out, "-an", "-c:v", "copy", "-movflags", "+faststart",
+                    os.path.join(silent_dir, f"{qid}.mp4")], check=True)
+    with open(os.path.join(silent_dir, "opisi.txt"), "w") as f:
+        for k, qq in QUOTES.items():
+            f.write(f"{k}.mp4\n{qq['caption']}\n\n")
     print("OK", os.path.abspath(out))
 
 
