@@ -8,4 +8,6 @@ for f in poppins/Poppins-Bold poppins/Poppins-Regular poppins/Poppins-SemiBold a
   [ -f "$HOME/.fonts/$n" ] || curl -sSfLo "$HOME/.fonts/$n" "https://raw.githubusercontent.com/google/fonts/main/ofl/$f.ttf"
 done
 fc-cache -f >/dev/null
+# Blender kao Python modul (renderovanje bez ekrana: Cycles na CPU)
+python3 -c "import bpy" 2>/dev/null || pip install -q bpy
 echo "setup ok"
