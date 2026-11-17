@@ -25,13 +25,24 @@ def _face(ctx, family, size, bold=False, italic=False):
     ctx.set_font_size(size)
 
 
-def _shadow_text(ctx, x, y, s, rgb, a=1.0, blur=True):
+def _shadow_text(ctx, x, y, s, rgb, a=1.0, blur=True, outline=0):
     if blur:
         for r, al in ((9, 0.10), (5, 0.18), (2, 0.30)):
             for dx, dy in ((r, r), (-r, r), (r, -r), (-r, -r), (0, r), (r, 0), (0, -r), (-r, 0)):
                 ctx.move_to(x + dx * 0.5 + 2, y + dy * 0.5 + 4); ctx.text_path(s)
             ctx.set_source_rgba(0, 0, 0, al * a); ctx.fill()
+    if outline:
+        ctx.move_to(x, y); ctx.text_path(s)
+        ctx.set_source_rgba(0, 0, 0, 0.9 * a); ctx.set_line_width(outline); ctx.stroke()
     ctx.move_to(x, y); ctx.set_source_rgba(*rgb, a); ctx.show_text(s)
+
+
+def _gold_grad(y0, y1, a=1.0):
+    g = cairo.LinearGradient(0, y0, 0, y1)
+    g.add_color_stop_rgba(0, 1.0, 0.90, 0.55, a)
+    g.add_color_stop_rgba(0.55, 0.98, 0.76, 0.26, a)
+    g.add_color_stop_rgba(1, 0.80, 0.56, 0.12, a)
+    return g
 
 
 def _tokens(text):
@@ -84,7 +95,7 @@ def header(ctx, t, text="Quote of the Day"):
     _shadow_text(ctx, W / 2 - e.x_advance / 2, y - 40, "“", GOLD, 0.95 * a)
     _face(ctx, SERIF, 64, italic=True)
     e = ctx.text_extents(text)
-    _shadow_text(ctx, W / 2 - e.x_advance / 2, y + 60, text, WHITE, a)
+    _shadow_text(ctx, W / 2 - e.x_advance / 2, y + 60, text, GOLD, a, outline=4)
     # zlatna linija sa rombom
     w = 150 * a; yy = y + 95
     ctx.set_source_rgba(*GOLD, a); ctx.set_line_width(3)
@@ -107,16 +118,21 @@ def quote_line(ctx, t, text, t0, t1, size=96):
     for li, (words, lw) in enumerate(lines):
         x = W / 2 - lw / 2
         y = y0 + li * lh
+        x -= sum(14 for (_, h, _) in words if h)  # centriranje uz dodatni razmak
         for (w, hl, ww) in words:
+            if hl: x += 14
             p = ease((t - t0 - 0.08 * k) / 0.35)
             if p > 0:
                 a = p * out_a
                 yy = y + 26 * (1 - p)
-                if hl:  # zlatni podvucen naglasak
-                    ctx.rectangle(x - 4, yy + 10, (ww + 8) * p, 8)
-                    ctx.set_source_rgba(*GOLD, 0.55 * a); ctx.fill()
-                _shadow_text(ctx, x, yy, w, GOLD if hl else WHITE, a)
-            x += ww + sp; k += 1
+                if hl:  # crna slova na zlatnoj traci
+                    _rrect(ctx, x - 12, yy - size * 0.86, ww + 24, size * 1.02, 10)
+                    ctx.set_source_rgba(0, 0, 0, 0.35 * a); ctx.set_line_width(8); ctx.stroke_preserve()
+                    ctx.set_source(_gold_grad(yy - size * 0.86, yy + size * 0.16, a)); ctx.fill()
+                    ctx.move_to(x, yy); ctx.set_source_rgba(0.04, 0.03, 0.02, a); ctx.show_text(w)
+                else:
+                    _shadow_text(ctx, x, yy, w, GOLD, a, outline=6)
+            x += ww + sp + (14 if hl else 0); k += 1
 
 
 def dots(ctx, t, idx, n, a=1.0):
@@ -147,7 +163,7 @@ def lesson_card(ctx, t, text, t0, t1):
     cw = 900; cx = (W - cw) / 2; cy = 0.43 * H - ch / 2 + 30 * (1 - p)
     sc = 0.94 + 0.06 * p
     ctx.save(); ctx.translate(W / 2, cy + ch / 2); ctx.scale(sc, sc); ctx.translate(-W / 2, -(cy + ch / 2))
-    _rrect(ctx, cx, cy, cw, ch, 36); ctx.set_source_rgba(0.04, 0.04, 0.06, 0.58 * a); ctx.fill_preserve()
+    _rrect(ctx, cx, cy, cw, ch, 36); ctx.set_source_rgba(0, 0, 0, 0.78 * a); ctx.fill_preserve()
     ctx.set_source_rgba(*GOLD, 0.9 * a); ctx.set_line_width(3); ctx.stroke()
     # natpis
     _face(ctx, SANS, 34, bold=True)
@@ -161,10 +177,16 @@ def lesson_card(ctx, t, text, t0, t1):
         ctx.set_source_rgba(*GOLD, a); ctx.fill()
     _face(ctx, SANS, 54, bold=True)
     for li, (words, lw) in enumerate(lines):
-        x = W / 2 - lw / 2; y = cy + 160 + li * lh
+        x = W / 2 - lw / 2 - sum(10 for (_, h, _) in words if h); y = cy + 160 + li * lh
         for (w, hl, ww) in words:
-            _shadow_text(ctx, x, y, w, GOLD if hl else WHITE, a, blur=False)
-            x += ww + sp
+            if hl: x += 10
+            if hl:
+                _rrect(ctx, x - 8, y - 46, ww + 16, 60, 8)
+                ctx.set_source(_gold_grad(y - 46, y + 14, a)); ctx.fill()
+                ctx.move_to(x, y); ctx.set_source_rgba(0.04, 0.03, 0.02, a); ctx.show_text(w)
+            else:
+                _shadow_text(ctx, x, y, w, GOLD, a, blur=False)
+            x += ww + sp + (10 if hl else 0)
     ctx.restore()
 
 
@@ -174,7 +196,7 @@ def cta(ctx, t, t0):
     _face(ctx, SANS, 32, bold=True)
     s = "SAVE THIS  •  SHARE IT WITH SOMEONE WHO NEEDS IT"
     e = ctx.text_extents(s)
-    _shadow_text(ctx, W / 2 - e.x_advance / 2, 1640, s, WHITE, 0.85 * a)
+    _shadow_text(ctx, W / 2 - e.x_advance / 2, 1640, s, GOLD, 0.9 * a, outline=4)
 
 
 def draw(ctx, t, q, per, dur):
@@ -190,5 +212,3 @@ def draw(ctx, t, q, per, dur):
         a = 0.6 + len(lines) * per
         lesson_card(ctx, t, q["lesson"], a, dur + 1)
         cta(ctx, t, a + 0.8)
-    idx = min(n - 1, int(max(0, t - 0.6) // per))
-    dots(ctx, t, idx, n, ease((t - 0.4) / 0.6))
