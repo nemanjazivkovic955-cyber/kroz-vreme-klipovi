@@ -71,7 +71,7 @@ def s1(ctx, t, sp):
     k = pop((t - 1.3) / 0.7)
     if k > 0:
         owl(ctx, 540, 1110 + (1 - k) * 900, 1.05, t, flap=t < 2.5)
-        crown(ctx, 540, 830 + (1 - k) * 900, 0.75)
+        crown(ctx, 540, 745 + (1 - k) * 900, 0.7)
 
 # ---- Scena 2: pitanje (6-14s)
 D2 = [(0.4, 3.8, "Mila", "Ko je vodio Srbe kad su stigli na Balkan?"),
