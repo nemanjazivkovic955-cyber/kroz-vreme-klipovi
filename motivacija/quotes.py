@@ -8,11 +8,14 @@ Backgrounds (Pexels, free license, attribution not required):
   city_11390239.mp4      - Altaf Shah           https://www.pexels.com/video/11390239/
   road_16535478.mp4      - Ferhat Tok           https://www.pexels.com/video/16535478/
   stars_5747525.mp4      - Ahnaf Piash          https://www.pexels.com/video/5747525/
+
+Music: music/cinematic_piano.mp3 - original royalty-free track generated with vidIQ AI music.
 """
 TAGS = "#motivation #mindset #selfimprovement #discipline #fyp"
 
 QUOTES = {
     "m001": {
+        "music_start": 100,
         "broll": "waves_12136143.mp4",
         "lines": [
             "Nobody sees how hard you fight.",
@@ -24,6 +27,7 @@ QUOTES = {
         "caption": "Become the rock. 🌊 " + TAGS,
     },
     "m002": {
+        "music_start": 55,
         "broll": "mountains_11856435.mp4",
         "lines": [
             "You don't have to see the whole mountain.",
@@ -35,6 +39,7 @@ QUOTES = {
         "caption": "Just the next step. ⛰️ " + TAGS,
     },
     "m003": {
+        "music_start": 0,
         "broll": "rain_18222676.mp4",
         "lines": [
             "Some nights feel heavier than others.",
@@ -46,6 +51,7 @@ QUOTES = {
         "caption": "Rain doesn't last forever. 🌧️ " + TAGS,
     },
     "m004": {
+        "music_start": 112,
         "broll": "city_11390239.mp4",
         "lines": [
             "While they sleep, you build.",
@@ -57,6 +63,7 @@ QUOTES = {
         "caption": "Let results speak. 🌃 " + TAGS,
     },
     "m005": {
+        "music_start": 80,
         "broll": "road_16535478.mp4",
         "lines": [
             "The road ahead won't always be clear.",
@@ -68,6 +75,7 @@ QUOTES = {
         "caption": "Keep going. 🛣️ " + TAGS,
     },
     "m006": {
+        "music_start": 28,
         "broll": "stars_5747525.mp4",
         "lines": [
             "Stars can't shine without darkness.",
@@ -79,6 +87,7 @@ QUOTES = {
         "caption": "Your time is coming. ✨ " + TAGS,
     },
     "m007": {
+        "music_start": 90,
         "broll": "waves_8438341.mp4",
         "lines": [
             "Sometimes life hits hard.",

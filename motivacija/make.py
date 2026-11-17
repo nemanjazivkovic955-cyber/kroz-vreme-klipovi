@@ -115,7 +115,15 @@ def build(qid, preview=False):
                             "eq=saturation=0.8:brightness=-0.04[b];[b][1:v]overlay", "-frames:v", "1",
                             os.path.join(TMP, f"{qid}_prev{i}.png")], check=True)
         return
-    music = os.path.join(TMP, f"{qid}.wav"); ambient(music, dur, seed=hash(qid) % 1000)
+    music = os.path.join(TMP, f"{qid}.wav")
+    track = os.path.join(HERE, "music", q.get("music", "cinematic_piano.mp3"))
+    if os.path.exists(track):  # deo prave numere, sa fade in/out
+        start = q.get("music_start", 0)
+        subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-ss", str(start), "-t", f"{dur:.2f}", "-i", track,
+                        "-af", f"afade=t=in:d=0.8,afade=t=out:st={dur - 2.5:.2f}:d=2.5,loudnorm=I=-16:TP=-1.5",
+                        "-ar", "44100", "-ac", "2", music], check=True)
+    else:
+        ambient(music, dur, seed=hash(qid) % 1000)
     inputs = ["-stream_loop", "-1", "-i", bg]
     for p in pngs: inputs += ["-loop", "1", "-t", str(dur), "-i", p]
     inputs += ["-i", music]
