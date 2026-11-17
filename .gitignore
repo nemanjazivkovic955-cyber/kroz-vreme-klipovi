@@ -1,1 +1,4 @@
 tools/out/
+__pycache__/
+videos/*.silent.mp4
+videos/*.mp4.txt
