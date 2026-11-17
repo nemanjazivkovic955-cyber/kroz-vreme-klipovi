@@ -128,7 +128,7 @@ def build(qid, preview=False):
     fc = fc.rstrip(";")
     cmd = ["ffmpeg", "-loglevel", "error", "-y"] + inputs + [
         "-filter_complex", fc, "-map", f"[v{len(lines)}]", "-map", f"{len(lines) + 1}:a",
-        "-t", f"{dur:.2f}", "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p",
+        "-t", f"{dur:.2f}", "-c:v", "libx264", "-preset", "medium", "-crf", "21", "-maxrate", "8M", "-bufsize", "16M", "-pix_fmt", "yuv420p",
         "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", out]
     subprocess.run(cmd, check=True)
     print("OK", os.path.abspath(out))
