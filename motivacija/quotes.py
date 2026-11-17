@@ -187,4 +187,30 @@ QUOTES = {
         ],
         "caption": "Start today. 🌆 " + TAGS,
     },
+    "m015": {
+        "music_start": 60,
+        "broll": "road_16535478.mp4",
+        "broll_start": 30,
+        "lines": [
+            "Stop comparing your chapter 1",
+            "to someone else's chapter 20.",
+            "Their path is not your path.",
+            "Your only competition",
+            "is who you were yesterday.",
+        ],
+        "caption": "Your only competition is you. 🛤️ " + TAGS,
+    },
+    "m016": {
+        "music_start": 20,
+        "broll": "rain_18222676.mp4",
+        "flip": True,
+        "lines": [
+            "You are not too much.",
+            "You were just around the wrong people.",
+            "Know your worth.",
+            "Then add tax.",
+            "Never settle for less than respect.",
+        ],
+        "caption": "Know your worth. 💎 " + TAGS,
+    },
 }

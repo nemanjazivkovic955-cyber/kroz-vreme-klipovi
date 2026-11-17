@@ -124,10 +124,11 @@ def build(qid, preview=False):
                         "-ar", "44100", "-ac", "2", music], check=True)
     else:
         ambient(music, dur, seed=hash(qid) % 1000)
-    inputs = ["-stream_loop", "-1", "-i", bg]
+    inputs = ["-stream_loop", "-1", "-ss", str(q.get("broll_start", 0)), "-i", bg]
     for p in pngs: inputs += ["-loop", "1", "-t", str(dur), "-i", p]
     inputs += ["-i", music]
     fc = ("[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1,fps=30,"
+          + ("hflip," if q.get("flip") else "") +
           "eq=saturation=0.8:brightness=-0.04,trim=0:%.2f,setpts=PTS-STARTPTS[v0];" % dur)
     for i in range(len(lines)):
         a = 0.4 + i * per; b = a + per - 0.15
