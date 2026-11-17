@@ -6,6 +6,8 @@ Termini: svaki dan **10:00** i **18:00**. Svaki termin = **4 klipa, po jedan iz 
 3. `kola_novac` – kola, novac, uspeh + motivacija
 4. `putovanja` – putovanja + motivacija
 
+Dizajn v2 (`design2.py`, automatski kad klip ima `lesson`): zlatni navodnik + *Quote of the Day*, tekst rec-po-rec (Anton),
+zlatno istaknute reci oznacene zvezdicama u tekstu (`*rec*`, 1 po recenici), staklena kartica za pouku, tackice napretka, poziv SAVE/SHARE.
 Format svakog klipa: gore stalno **QUOTE OF THE DAY**, 4 recenice citata, poslednji kadar **TODAY'S LESSON** + pouka
 (polja `lines` (4) i `lesson` u `quotes.py`, `category`, caption sa `CAT_TAGS[...]`).
 Klipovi bez muzike: `videos/motivacija/bez_muzike/`, opisi: `opisi.txt`.

@@ -123,6 +123,43 @@ def ambient(path, dur, seed=7):
         wf.setnchannels(2); wf.setsampwidth(2); wf.setframerate(sr); wf.writeframes(data.tobytes())
 
 
+def _silent_and_captions(qid, out):
+    silent_dir = os.path.join(OUTDIR, "bez_muzike"); os.makedirs(silent_dir, exist_ok=True)
+    subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", out, "-an", "-c:v", "copy", "-movflags", "+faststart",
+                    os.path.join(silent_dir, f"{qid}.mp4")], check=True)
+    with open(os.path.join(silent_dir, "opisi.txt"), "w") as f:
+        for k, qq in QUOTES.items():
+            f.write(f"{k}.mp4\n{qq['caption']}\n\n")
+
+
+def build_v2(qid, q, music_path, dur, per, bg, out):
+    """Dizajn v2: overlay se crta kadar po kadar (design2.py) i salje ffmpeg-u kroz pipe."""
+    import design2
+    fps = 30
+    cmd = ["ffmpeg", "-loglevel", "error", "-y",
+           "-stream_loop", "-1", "-ss", str(q.get("broll_start", 0)), "-i", bg,
+           "-f", "rawvideo", "-pix_fmt", "bgra", "-s", f"{W}x{H}", "-r", str(fps), "-i", "-",
+           "-i", music_path,
+           "-filter_complex",
+           "[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1,fps=30,"
+           + ("hflip," if q.get("flip") else "") +
+           "eq=saturation=0.85:brightness=-0.03,trim=0:%.2f,setpts=PTS-STARTPTS[b];" % dur +
+           "[1:v]unpremultiply=inplace=1[o];[b][o]overlay=format=auto[v]",
+           "-map", "[v]", "-map", "2:a", "-t", f"{dur:.2f}",
+           "-c:v", "libx264", "-preset", "medium", "-crf", "21", "-maxrate", "8M", "-bufsize", "16M",
+           "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", out]
+    p = subprocess.Popen(cmd, stdin=subprocess.PIPE)
+    surf = cairo.ImageSurface(cairo.FORMAT_ARGB32, W, H)
+    for i in range(int(round(dur * fps))):
+        ctx = cairo.Context(surf)
+        ctx.set_operator(cairo.OPERATOR_CLEAR); ctx.paint(); ctx.set_operator(cairo.OPERATOR_OVER)
+        design2.draw(ctx, i / fps, q, per, dur)
+        surf.flush(); p.stdin.write(bytes(surf.get_data()))
+    p.stdin.close()
+    if p.wait() != 0:
+        raise SystemExit("ffmpeg greska " + qid)
+
+
 def build(qid, preview=False):
     q = QUOTES[qid]
     os.makedirs(TMP, exist_ok=True); os.makedirs(OUTDIR, exist_ok=True)
@@ -158,6 +195,11 @@ def build(qid, preview=False):
                         "-ar", "44100", "-ac", "2", music], check=True)
     else:
         ambient(music, dur, seed=hash(qid) % 1000)
+    if q.get("design", 2 if q.get("lesson") else 1) == 2:
+        build_v2(qid, q, music, dur, per, bg, out)
+        _silent_and_captions(qid, out)
+        print("OK", os.path.abspath(out))
+        return
     inputs = ["-stream_loop", "-1", "-ss", str(q.get("broll_start", 0)), "-i", bg]
     for p in pngs: inputs += ["-loop", "1", "-t", str(dur), "-i", p]
     if hdr: inputs += ["-loop", "1", "-t", str(dur), "-i", hdr]
@@ -181,12 +223,7 @@ def build(qid, preview=False):
         "-t", f"{dur:.2f}", "-c:v", "libx264", "-preset", "medium", "-crf", "21", "-maxrate", "8M", "-bufsize", "16M", "-pix_fmt", "yuv420p",
         "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", out]
     subprocess.run(cmd, check=True)
-    silent_dir = os.path.join(OUTDIR, "bez_muzike"); os.makedirs(silent_dir, exist_ok=True)
-    subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", out, "-an", "-c:v", "copy", "-movflags", "+faststart",
-                    os.path.join(silent_dir, f"{qid}.mp4")], check=True)
-    with open(os.path.join(silent_dir, "opisi.txt"), "w") as f:
-        for k, qq in QUOTES.items():
-            f.write(f"{k}.mp4\n{qq['caption']}\n\n")
+    _silent_and_captions(qid, out)
     print("OK", os.path.abspath(out))
 
 
