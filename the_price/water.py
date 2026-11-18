@@ -49,11 +49,62 @@ def seg(i, name, d, W, H):
     src = os.path.join(SRC, name + ".mp4"); L = P.dur(src)
     st = max(0.0, min(L * 0.3, L - d - 0.1))
     out = os.path.join(TMP, f"w_{W}_{i:02d}.mp4")
+    if os.path.exists(out) and os.environ.get("REUSE"): return out
     vf = (f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={P.FPS},"
           f"scale=w='{W}*(1+0.06*t/{d})':h=-2:eval=frame,crop={W}:{H},setsar=1,{GRADE},vignette=PI/5,format=yuv420p")
     subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-ss", f"{st:.2f}", "-t", str(d), "-i", src,
                     "-vf", vf, "-an", "-c:v", "libx264", "-preset", "fast", "-crf", "16", out], check=True)
     return out
+
+
+def elegant_overlay(caps, total, W, H, out):
+    """Elegantni titlovi: ukosen serif (DM Serif Display Italic), bledo zlatno + kljucne reci jarko zlatne sa
+    tankom linijom; mek ulaz (fade + blago podizanje). Letterbox samo za 16:9."""
+    import cairo
+    D = P.D
+    vertical = H > W
+    bar = 0 if vertical else int((H - W / 2.39) / 2)
+    size = 96 if vertical else 76
+    cy = H * 0.64 if vertical else H - bar - 70
+    PALE, RICH = (0.96, 0.89, 0.72), (1.0, 0.78, 0.28)
+    p = subprocess.Popen(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-f", "rawvideo", "-pix_fmt", "bgra",
+                          "-s", f"{W}x{H}", "-r", str(P.FPS), "-i", "-", "-c:v", "qtrle", out], stdin=subprocess.PIPE)
+    s = cairo.ImageSurface(cairo.FORMAT_ARGB32, W, H)
+    for f in range(int(total * P.FPS)):
+        t = f / P.FPS
+        c = cairo.Context(s); c.set_operator(cairo.OPERATOR_CLEAR); c.paint(); c.set_operator(cairo.OPERATOR_OVER)
+        if bar:
+            c.rectangle(0, 0, W, bar); c.rectangle(0, H - bar, W, bar); c.set_source_rgb(0, 0, 0); c.fill()
+        # meka tamna traka iza titlova (citljivost preko belih vodopada)
+        band = cairo.LinearGradient(0, cy - size * 2.2, 0, cy + size * 1.6)
+        for st_, a_ in ((0, 0), (0.35, 0.42), (0.65, 0.42), (1, 0)):
+            band.add_color_stop_rgba(st_, 0, 0, 0, a_)
+        c.rectangle(0, cy - size * 2.2, W, size * 3.8); c.set_source(band); c.fill()
+        for a0, b0, txt in caps:
+            if not (a0 <= t < b0 + 0.25): continue
+            al = D.ease((t - a0) / 0.3) * (1 - D.ease((t - b0) / 0.25))
+            dy = 18 * (1 - D.ease((t - a0) / 0.4))
+            c.select_font_face("DM Serif Display", cairo.FONT_SLANT_ITALIC, cairo.FONT_WEIGHT_NORMAL)
+            c.set_font_size(size)
+            toks = [(w.replace("*", ""), "*" in w) for w in txt.split()]
+            lines, sp = D._balanced(c, toks, W * 0.8)
+            lh = size * 1.18
+            for li, (words, lw) in enumerate(lines):
+                y = cy + dy + (li - (len(lines) - 1) / 2) * lh
+                x = W / 2 - lw / 2
+                for (w, hl, ww) in words:
+                    col = RICH if hl else PALE
+                    for r, aa in ((8, 0.10), (4, 0.18), (2, 0.30)):
+                        for ox, oy in ((r, r), (-r, r), (0, r), (r, 0)):
+                            c.move_to(x + ox * 0.5 + 1, y + oy * 0.5 + 3); c.text_path(w)
+                        c.set_source_rgba(0, 0, 0, aa * al); c.fill()
+                    c.move_to(x, y); c.set_source_rgba(*col, al); c.show_text(w)
+                    if hl:
+                        c.move_to(x + 4, y + size * 0.16); c.line_to(x + ww - 4, y + size * 0.16)
+                        c.set_source_rgba(*RICH, 0.85 * al); c.set_line_width(3); c.stroke()
+                    x += ww + sp
+        s.flush(); p.stdin.write(bytes(s.get_data()))
+    p.stdin.close(); p.wait()
 
 
 def main(fmt="16x9"):
@@ -72,8 +123,8 @@ def main(fmt="16x9"):
                     "-map", f"[{last}]", "-c:v", "libx264", "-preset", "fast", "-crf", "16", base], check=True)
     total = round(t, 2)
     ep = {"captions": chunks(TALK["segments"])}
-    ov = os.path.join(TMP, f"w_cap_{W}.mov"); P.caption_overlay(ep, total, W, H, ov)
-    out = os.path.join(OUTDIR, f"be_like_water_{fmt}.mp4")
+    ov = os.path.join(TMP, f"w_cap_{W}.mov"); elegant_overlay(ep["captions"], total, W, H, ov)
+    final = os.path.join(OUTDIR, f"be_like_water_{fmt}.mp4"); out = final + ".part.mp4"
     # zvuk: glas (toplina + jasnoca + prostor) + gudaci (ducking) + fade
     fc = (f"[0:v][1:v]overlay=format=auto,noise=alls=5:allf=t,format=yuv420p[v];"
           f"[2:a]aresample=48000,highpass=f=70,equalizer=f=180:t=q:w=1:g=3,equalizer=f=3200:t=q:w=1.2:g=2.5,"
@@ -87,7 +138,8 @@ def main(fmt="16x9"):
                     "-filter_complex", fc, "-map", "[v]", "-map", "[a]", "-t", f"{total}",
                     "-c:v", "libx264", "-preset", "slow", "-crf", "19", "-maxrate", "9M", "-bufsize", "18M",
                     "-c:a", "aac", "-b:a", "256k", "-movflags", "+faststart", out], check=True)
-    print("OK", os.path.abspath(out), total)
+    os.replace(out, final)
+    print("OK", os.path.abspath(final), total)
 
 
 if __name__ == "__main__":

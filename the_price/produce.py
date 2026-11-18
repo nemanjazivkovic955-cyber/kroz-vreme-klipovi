@@ -86,7 +86,10 @@ def card_clip(path, d, W, H, big, small, fade_in=True):
         size = min(W * 0.13, 190)
         c.select_font_face("Anton"); c.set_font_size(size)
         spaced = "  ".join(big.split(" ")); txt = " ".join(spaced)
-        e = c.text_extents(txt); x = W / 2 - e.x_advance / 2; y = H / 2 + size * 0.32
+        e = c.text_extents(txt)
+        if e.x_advance > W * 0.86:  # uklopi u sirinu (npr. uspravni format)
+            size *= W * 0.86 / e.x_advance; c.set_font_size(size); e = c.text_extents(txt)
+        x = W / 2 - e.x_advance / 2; y = H / 2 + size * 0.32
         c.move_to(x, y); c.text_path(txt); c.set_source(D._gold_grad(y - size * 0.75, y)); c.fill()
         c.set_source_rgba(1, 0.82, 0.35, 0.9 * a); c.set_line_width(2)
         lw = e.x_advance * 0.55 * D.ease(t / 1.0)
