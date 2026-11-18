@@ -3,3 +3,5 @@ __pycache__/
 videos/*.silent.mp4
 videos/*.mp4.txt
 motivacija/out/
+the_price/out/
+the_price/src/
