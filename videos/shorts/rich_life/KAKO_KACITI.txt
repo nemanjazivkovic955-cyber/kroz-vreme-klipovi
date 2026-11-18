@@ -1,0 +1,17 @@
+RICH LIFE mozaik - 6 klipova (bez_muzike/)
+
+Na profilu (3 kolone) se prvi kadrovi spajaju u veliki natpis RICH / LIFE.
+Najnoviji klip je uvek gore levo, zato kaci OBRNUTIM redom:
+
+  1. kaci prvi:   rl6.mp4   (dole desno)
+  2.              rl5.mp4   (dole sredina)
+  3.              rl4.mp4   (dole levo)
+  4.              rl3.mp4   (gore desno)
+  5.              rl2.mp4   (gore sredina)
+  6. kaci zadnji: rl1.mp4   (gore levo)
+
+- Kaci ih jedan za drugim, bez drugih objava izmedju.
+- Naslovna slika (cover) = PRVI kadar videa (TikTok: "Select cover" -> pomeri na sam pocetak).
+- Ako na profilu vec imas objave koje nisu deljive sa 3, mozaik ce biti pomeren:
+  pre mozaika okaci 1-2 obicna klipa tako da broj objava bude deljiv sa 3.
+- Opisi su u bez_muzike/opisi.txt
