@@ -1,7 +1,9 @@
 {
  "car_30028386.mp4": {
   "category": "kola_novac",
-  "used_in": []
+  "used_in": [
+   "rich2"
+  ]
  },
  "car_32779590.mp4": {
   "category": "kola_novac",
@@ -17,7 +19,9 @@
  },
  "car_39371052.mp4": {
   "category": "kola_novac",
-  "used_in": []
+  "used_in": [
+   "rich1"
+  ]
  },
  "car_39371057.mp4": {
   "category": "kola_novac",
@@ -33,7 +37,9 @@
  },
  "car_40061525.mp4": {
   "category": "kola_novac",
-  "used_in": []
+  "used_in": [
+   "rich4"
+  ]
  },
  "car_40965920.mp4": {
   "category": "kola_novac",
@@ -62,11 +68,15 @@
  },
  "money_6266251.mp4": {
   "category": "kola_novac",
-  "used_in": []
+  "used_in": [
+   "rich5"
+  ]
  },
  "money_6326861.mp4": {
   "category": "kola_novac",
-  "used_in": []
+  "used_in": [
+   "rich3"
+  ]
  },
  "money_7735913.mp4": {
   "category": "kola_novac",

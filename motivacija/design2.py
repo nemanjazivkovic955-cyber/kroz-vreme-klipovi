@@ -190,11 +190,11 @@ def lesson_card(ctx, t, text, t0, t1):
     ctx.restore()
 
 
-def cta(ctx, t, t0):
+def cta(ctx, t, t0, text=None):
     a = ease((t - t0) / 0.6)
     if a <= 0: return
-    _face(ctx, SANS, 32, bold=True)
-    s = "SAVE THIS  •  SHARE IT WITH SOMEONE WHO NEEDS IT"
+    _face(ctx, SANS, 46 if text else 32, bold=True)
+    s = text or "SAVE THIS  •  SHARE IT WITH SOMEONE WHO NEEDS IT"
     e = ctx.text_extents(s)
     _shadow_text(ctx, W / 2 - e.x_advance / 2, 1640, s, GOLD, 0.9 * a, outline=4)
 
@@ -211,4 +211,4 @@ def draw(ctx, t, q, per, dur):
     if q.get("lesson"):
         a = 0.6 + len(lines) * per
         lesson_card(ctx, t, q["lesson"], a, dur + 1)
-        cta(ctx, t, a + 0.8)
+        cta(ctx, t, a + 0.8, q.get("cta"))

@@ -124,11 +124,12 @@ def ambient(path, dur, seed=7):
 
 
 def _silent_and_captions(qid, out):
-    silent_dir = os.path.join(OUTDIR, "bez_muzike"); os.makedirs(silent_dir, exist_ok=True)
+    silent_dir = os.path.join(os.path.dirname(out), "bez_muzike"); os.makedirs(silent_dir, exist_ok=True)
     subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", out, "-an", "-c:v", "copy", "-movflags", "+faststart",
                     os.path.join(silent_dir, f"{qid}.mp4")], check=True)
     with open(os.path.join(silent_dir, "opisi.txt"), "w") as f:
         for k, qq in QUOTES.items():
+            if qq.get("outdir") != QUOTES[qid].get("outdir"): continue
             f.write(f"{k}.mp4\n{qq['caption']}\n\n")
 
 
@@ -174,7 +175,9 @@ def build(qid, preview=False):
     if q.get("header", True if q.get("lesson") else False):
         hdr = os.path.join(TMP, f"{qid}_hdr.png"); header_png(hdr, q.get("header_text", "Quote of the day"))
     bg = os.path.join(HERE, "broll", q["broll"])
-    out = os.path.join(OUTDIR, f"{qid}.mp4")
+    odir = os.path.join(HERE, "..", q["outdir"]) if q.get("outdir") else OUTDIR
+    os.makedirs(odir, exist_ok=True)
+    out = os.path.join(odir, f"{qid}.mp4")
     if preview:
         for i in range(len(lines)):
             t = 0.4 + i * per + per / 2
