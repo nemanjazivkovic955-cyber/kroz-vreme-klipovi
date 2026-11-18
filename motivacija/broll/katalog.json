@@ -25,7 +25,9 @@
  },
  "car_39421363.mp4": {
   "category": "kola_novac",
-  "used_in": []
+  "used_in": [
+   "m035"
+  ]
  },
  "car_40061525.mp4": {
   "category": "kola_novac",
@@ -97,7 +99,9 @@
  },
  "nature_39139504.mp4": {
   "category": "priroda",
-  "used_in": []
+  "used_in": [
+   "m033"
+  ]
  },
  "nature_39657533.mp4": {
   "category": "priroda",
@@ -167,7 +171,9 @@
  },
  "travel_34467289.mp4": {
   "category": "putovanja",
-  "used_in": []
+  "used_in": [
+   "m036"
+  ]
  },
  "travel_34899705.mp4": {
   "category": "putovanja",
@@ -203,7 +209,9 @@
  },
  "workout_34901409.mp4": {
   "category": "trening",
-  "used_in": []
+  "used_in": [
+   "m034"
+  ]
  },
  "workout_4944398.mp4": {
   "category": "trening",
