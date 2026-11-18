@@ -69,15 +69,20 @@ def text_png(path, text, size=130):
     s.write_to_png(path)
 
 
-os.makedirs(OUT, exist_ok=True)
-tmp = os.path.join(HERE, "out"); os.makedirs(tmp, exist_ok=True)
-for name, text in TEXTS.items():
-    src = os.path.join(SRC, name + ".mp4")
+def render_all(texts=TEXTS, src_dir=SRC, out_dir=OUT, tag="t16"):
+  os.makedirs(out_dir, exist_ok=True)
+  tmp = os.path.join(HERE, "out"); os.makedirs(tmp, exist_ok=True)
+  for name, text in texts.items():
+    src = os.path.join(src_dir, name + ".mp4")
     if not os.path.exists(src): continue
-    png = os.path.join(tmp, f"t16_{name}.png"); text_png(png, text)
+    png = os.path.join(tmp, f"{tag}_{name}.png"); text_png(png, text)
     subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-i", src, "-loop", "1", "-t", "4", "-i", png,
                     "-filter_complex", "[1:v]format=rgba,fade=t=in:st=0.1:d=0.3:alpha=1,fade=t=out:st=3.6:d=0.35:alpha=1[t];"
                     "[0:v][t]overlay=format=auto,format=yuv420p[v]", "-map", "[v]", "-t", "4", "-an",
                     "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-movflags", "+faststart",
-                    os.path.join(OUT, name + ".mp4")], check=True)
+                    os.path.join(out_dir, name + ".mp4")], check=True)
     print("ok", name)
+
+
+if __name__ == "__main__":
+    render_all()

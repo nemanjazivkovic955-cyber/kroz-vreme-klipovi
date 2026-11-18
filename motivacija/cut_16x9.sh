@@ -2,7 +2,7 @@
 # Ulaz: redovi "grupa L|P url". L = horizontalni izvor, P = uspravni (iseca se srednja traka 16:9).
 # Izlaz: videos/youtube/rich_edit_16x9/<grupa>_NN.mp4, 4 s, 1920x1080, bez zvuka, luksuzni kolor.
 set -e
-OUT="$(cd "$(dirname "$0")/.." && pwd)/videos/youtube/rich_edit_16x9"; mkdir -p "$OUT"
+OUT="${OUT:-$(cd "$(dirname "$0")/.." && pwd)/videos/youtube/rich_edit_16x9}"; mkdir -p "$OUT"
 TMPD="$(mktemp -d)"
 GRADE="eq=contrast=1.15:saturation=0.92:brightness=-0.02,colorbalance=rs=-0.03:bs=0.04:rh=0.06:gh=0.025:bh=-0.06,vignette=PI/5"
 i=0

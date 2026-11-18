@@ -42,18 +42,25 @@ def still(png, out, d):
                     "-c:v", "libx264", "-preset", "medium", "-crf", "20", out], check=True)
 
 
-card(os.path.join(TMP, "intro.png"), "RICH LIFE", "Money  •  Cars  •  Power")
-card(os.path.join(TMP, "outro.png"), "SUBSCRIBE", "for more rich life motivation")
-still(os.path.join(TMP, "intro.png"), os.path.join(TMP, "intro.mp4"), 3.0)
-still(os.path.join(TMP, "outro.png"), os.path.join(TMP, "outro.mp4"), 3.5)
-parts = [os.path.join(TMP, "intro.mp4")] + [os.path.join(SRC, n + ".mp4") for n in ORDER] + [os.path.join(TMP, "outro.mp4")]
-total = 3.0 + 4 * len(ORDER) + 3.5
-inputs = sum([["-i", p] for p in parts], [])
-fc = "".join(f"[{i}:v]fps=30,setsar=1,format=yuv420p[v{i}];" for i in range(len(parts)))
-fc += "".join(f"[v{i}]" for i in range(len(parts))) + f"concat=n={len(parts)}:v=1:a=0[v];"
-music = os.path.join(HERE, "music", "cinematic_piano.mp3")
-fc += f"[{len(parts)}:a]atrim=start=18:duration={total},asetpts=PTS-STARTPTS,afade=t=in:d=1.5,afade=t=out:st={total-3}:d=3,loudnorm=I=-16:TP=-1.5[a]"
-subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y"] + inputs + ["-i", music, "-filter_complex", fc,
-                "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-maxrate", "12M",
-                "-bufsize", "24M", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", OUT], check=True)
-print("OK", OUT, round(total, 1), "s")
+def build(order=ORDER, src=SRC, out=OUT, title="RICH LIFE", sub="Money  \u2022  Cars  \u2022  Power",
+          outro_sub="for more rich life motivation", music_start=18):
+    card(os.path.join(TMP, "intro.png"), title, sub)
+    card(os.path.join(TMP, "outro.png"), "SUBSCRIBE", outro_sub)
+    still(os.path.join(TMP, "intro.png"), os.path.join(TMP, "intro.mp4"), 3.0)
+    still(os.path.join(TMP, "outro.png"), os.path.join(TMP, "outro.mp4"), 3.5)
+    parts = [os.path.join(TMP, "intro.mp4")] + [os.path.join(src, n + ".mp4") for n in order] + [os.path.join(TMP, "outro.mp4")]
+    total = 3.0 + 4 * len(order) + 3.5
+    inputs = sum([["-i", p] for p in parts], [])
+    fc = "".join(f"[{i}:v]fps=30,setsar=1,format=yuv420p[v{i}];" for i in range(len(parts)))
+    fc += "".join(f"[v{i}]" for i in range(len(parts))) + f"concat=n={len(parts)}:v=1:a=0[v];"
+    music = os.path.join(HERE, "music", "cinematic_piano.mp3")
+    fc += (f"[{len(parts)}:a]atrim=start={music_start}:duration={total},asetpts=PTS-STARTPTS,"
+           f"afade=t=in:d=1.5,afade=t=out:st={total-3}:d=3,loudnorm=I=-16:TP=-1.5[a]")
+    subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y"] + inputs + ["-i", music, "-filter_complex", fc,
+                    "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-maxrate", "12M",
+                    "-bufsize", "24M", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", out], check=True)
+    print("OK", out, round(total, 1), "s")
+
+
+if __name__ == "__main__":
+    build()
