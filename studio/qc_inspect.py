@@ -88,8 +88,11 @@ def expected_for(vid):
     if m_:
         sys.path.insert(0, os.path.join(ROOT, "stoic")); import edit as _E
         _e = _E.EDITS.get(int(m_.group(1)), {})
+        _t, _pc = 0.5, [0.5]
+        for _x in _e.get("shots", []): _t += _E.sdur(_x); _pc.append(round(_t, 3))
         return {"texts": [], "text_changes": [2.0, 4.0] if _e.get("hook") else [4.0], "silent": True, "loop": True, "kind": "stoic_edit", "dur": (7, 11),
-                "min_luma": 0.07, "min_shot": 0.45}
+                "planned_cuts": _pc,
+                "min_luma": 0.07, "min_shot": 0.2 if any(len(x) > 5 for x in _e.get("shots", [])) else 0.45}
     try:
         import talks
         k = vid.replace("talk_", "")
@@ -135,14 +138,19 @@ def inspect(path, vid=None, expect_silent=None):
     cuts = [k for k in range(1, n) if (dnb[k] > max(18.0, 6 * medd) and hc[k] < 0.75) or (dnb[k] > max(10.0, 4 * medd) and hc[k] < 0.3)]  # 2. uslov: rez između dva tamna kadra
     # treperenje: >=4 "reza" u 1 s = nestabilna ekspozicija izvora (timelapse flicker), ne pravi rezovi
     flick = set()
-    for k in cuts:
-        grp = [c for c in cuts if 0 <= c - k <= fps]
+    pcs = [round(x * fps) for x in exp.get("planned_cuts", [])]
+    # planirani rezovi (+ do 0.2 s udarca zumom posle njih) nisu treperenje
+    cand = [c for c in cuts if not any(0 <= c - p_ <= fps * 0.2 or abs(c - p_) <= 1 for p_ in pcs)]
+    for k in cand:
+        grp = [c for c in cand if 0 <= c - k <= fps]
         if len(grp) >= 4: flick.update(grp)
     flicker_ranges = []
     for k in sorted(flick):
         if flicker_ranges and k - flicker_ranges[-1][1] <= fps * 0.4: flicker_ranges[-1][1] = k
         else: flicker_ranges.append([k, k])
     cuts = [c for c in cuts if c not in flick]
+    if pcs:  # kod poznatog plana, rezovi = planirani; ostali skokovi (udarac zuma) se ne broje kao novi kadrovi
+        cuts = [c for c in cuts if any(abs(c - p_) <= 1 for p_ in pcs)]
     # munja/blic: 2 "reza" na <=0.2 s koji se vrate na istu sliku -> jedan dogadjaj, ne rez
     flashes = [c for c in cuts if any(0 < d - c <= fps * 0.2 for d in cuts)]
     for c in flashes:

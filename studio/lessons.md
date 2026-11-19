@@ -41,3 +41,9 @@
 
 ## Čuvanje prostora (odluka korisnika 19.11.)
 26. Okačeni klipovi i njihovi izvorni snimci se BRIŠU (prostor). Istorija scena ostaje u `studio/visual_history.json` (gradi se iz koda, ne iz fajlova) — zato se stara scena nikad ne vraća. Obrisano 19.11.: sve stare serije (QOTD, loop, THE PRICE, govori, YouTube, shorts) + motivacija/broll, the_price/src.
+
+## v4 "ŽIVO" (zahtev korisnika 19.11.: promena slika, teme i malo življe)
+27. Živi stil (`"style": "live"` u stoic/edit.py): topliji/zasićeniji kolor, lakša vinjeta, "udarac" zumom 7% na svakom rezu, hook sa "pop" efektom, završni burst 4 x 0.25 s (1/8 @120 BPM). Scene sa pokretom: sport, ples, vatromet, voda, sneg.
+28. Inspektor dobija PLAN rezova (planned_cuts) — brzi rezovi i udarci zuma nisu treperenje; flicker se traži samo van plana.
+29. Koncertni snimci često imaju bljesak scenskog svetla (gitara 483) i reklame na sportskim terenima (43499) — proveravati kadar po kadar.
+30. Test sledećeg kruga: v4 (živo) protiv v3 (tamno) po % gledanja do kraja.

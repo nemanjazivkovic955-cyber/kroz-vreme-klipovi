@@ -200,6 +200,107 @@ EDITS = {
         "caption": "The hardest part is the part right before it works. Who needs to hear this today? \U0001F447",
         "tags": "#stoicism #discipline #mindset #neverquit #resilience",
         "sound": "emotional phonk / epic slowed beat (trending ↗) - udarac na svakih 0.5 s"},
+    # ---- v4 ŽIVI (zahtev korisnika: promena slika, teme i 'malo življe') - topliji kolor, udarac zumom, završni burst 0.25 s
+    11: {"style": "live", "hook": "This is why you can't stay consistent.", "word": "HABITS", "line": "small wins. daily.",
+        "loop": ("mk_44448", 0.5, 3.0, "", "košarka"),
+        "shots": [
+("mk_42541", 0.5, None, "", "fudbal"),
+                  ("mk_725", 0.5, None, "", "vijača"),
+                  ("mk_43776", 0.5, None, "", "klavir"),  # 483 gitara odbačena: bljesak scenskog svetla
+                  ("mk_3168", 0.55, None, "", "plivanje"),
+                  ("mk_873", 0.62, None, "", "tenis"),
+                  ("mk_591", 0.4, None, "", "atletika"),
+                  ("mk_472", 0.5, None, "", "bubnjevi"),
+                  ("mk_52316", 0.5, None, "eq=gamma=1.3", "teretana"),
+                  ("mk_3171", 0.5, None, "", "plivanje"),
+                  ("mk_759", 0.5, None, "", "teretana"),
+                  ("mk_2273", 0.55, None, "", "košarka", 0.25),
+                  ("mk_43494", 0.55, None, "", "fudbal", 0.25),
+                  ("mk_878", 0.4, None, "", "tenis", 0.25),
+                  ("mk_1367", 0.5, None, "", "skejt", 0.25),],
+        "caption": "Motivation starts it. Habits finish it. What's one small habit you never skip? \U0001F447",
+        "tags": "#stoicism #discipline #mindset #habits #consistency",
+        "sound": "upbeat phonk / energetic trap (trending ↗) - udarac na 0.5 s, završnica na 0.25 s"},
+    12: {"style": "live", "hook": "Your comfort is your cage.", "word": "GROWTH", "line": "get uncomfortable.",
+        "loop": ("mk_41010", 0.3, 4.5, "", "salto"),
+        "shots": [
+("mk_3373", 0.5, None, "", "sneg"),
+                  ("mk_1276", 0.5, None, "", "skok-voda"),
+                  ("mk_3378", 0.55, None, "", "sneg"),
+                  ("mk_3362", 0.62, None, "", "vrh"),
+                  ("mk_2186", 0.6, None, "", "vodopad"),
+                  ("mk_40742", 0.5, None, "eq=gamma=1.2", "veslanje"),
+                  ("mk_4016", 0.5, None, "", "ski"),
+                  ("mk_52497", 0.5, None, "", "skok-voda"),
+                  ("mk_50244", 0.5, None, "", "veslanje"),
+                  ("mk_3340", 0.6, None, "", "ski"),
+                  ("mk_4568", 0.55, None, "", "skejt", 0.25),
+                  ("mk_25542", 0.5, None, "", "vodopad", 0.25),
+                  ("mk_1366", 0.62, None, "", "skejt", 0.25),
+                  ("mk_3333", 0.65, None, "", "vrh", 0.25),],
+        "caption": "Growth lives right outside what feels safe. What's one thing you've been avoiding? \U0001F447",
+        "tags": "#stoicism #discipline #mindset #growth #selfimprovement",
+        "sound": "epic phonk / adrenaline beat (trending ↗) - udarac na 0.5 s, završnica na 0.25 s"},
+    13: {"style": "live", "hook": "Watch who claps when you win.", "word": "CIRCLE", "line": "choose your people.",
+        "loop": ("mk_40147", 0.25, 8.0, "", "daj-pet"),
+        "shots": [
+("mk_44469", 0.5, None, "", "košarka"),
+                  ("mk_3621", 0.55, None, "", "ples"),
+                  ("mk_43486", 0.3, None, "eq=gamma=1.3", "fudbal"),
+                  ("mk_4185", 0.5, None, "", "publika"),
+                  ("mk_1375", 0.5, None, "", "skejt"),
+                  ("mk_51296", 0.5, None, "eq=gamma=1.2", "ples"),
+                  ("mk_4155", 0.5, None, "", "vatromet"),
+                  ("mk_44464", 0.5, None, "", "košarka"),
+                  ("mk_46874", 0.45, None, "", "žurka"),
+                  ("mk_4344", 0.5, None, "", "žurka-klub"),
+                  ("mk_341", 0.5, None, "", "ruke-gore", 0.25),
+                  ("mk_4151", 0.5, None, "", "vatromet", 0.25),
+                  ("mk_51540", 0.75, None, "eq=gamma=1.3", "slavlje", 0.25),  # 43499 odbačen: reklamni natpis sponzora
+                  ("mk_4401", 0.5, None, "", "gužva", 0.25),],
+        "caption": "Real ones celebrate you loudly. Who was first to clap for your last win? \U0001F447",
+        "tags": "#stoicism #discipline #mindset #friendship #loyalty",
+        "sound": "feel-good phonk / hype beat (trending ↗) - udarac na 0.5 s, završnica na 0.25 s"},
+    14: {"style": "live", "hook": "Nobody owes you anything.", "word": "EARN", "line": "go get it.",
+        "loop": ("mk_2285", 0.5, 5.0, "", "košarka"),
+        "shots": [
+("mk_43484", 0.45, None, "", "fudbal"),
+                  ("mk_877", 0.5, None, "", "tenis"),
+                  ("mk_3338", 0.5, None, "", "ski"),
+                  ("mk_3624", 0.45, None, "", "ples"),
+                  ("mk_2923", 0.5, None, "", "fudbal"),
+                  ("mk_869", 0.5, None, "", "tenis"),
+                  ("mk_4437", 0.6, None, "", "ulica"),
+                  ("mk_3356", 0.4, None, "", "ski"),
+                  ("mk_4152", 0.5, None, "", "vatromet"),
+                  ("mk_50243", 0.5, None, "", "veslanje"),
+                  ("mk_3628", 0.5, None, "", "ples", 0.25),
+                  ("mk_2275", 0.5, None, "", "košarka", 0.25),
+                  ("mk_583", 0.45, None, "", "zagrevanje", 0.25),
+                  ("mk_4156", 0.5, None, "", "vatromet", 0.25),],
+        "caption": "Nobody is handing it to you. Earn it. What are you going after this year? \U0001F447",
+        "tags": "#stoicism #discipline #mindset #hustle #goals",
+        "sound": "hard phonk / hype trap (trending ↗) - udarac na 0.5 s, završnica na 0.25 s"},
+    15: {"style": "live", "hook": "Busy is not the same as focused.", "word": "PURPOSE", "line": "pick one direction.",
+        "loop": ("mk_421", 0.45, 9.0, "", "dim"),
+        "shots": [
+("mk_4180", 0.5, None, "", "stanica"),
+                  ("mk_683", 0.5, None, "", "iskre"),
+                  ("mk_4390", 0.5, None, "eq=gamma=1.2", "stanica"),
+                  ("mk_349", 0.5, None, "", "hodnik"),
+                  ("mk_677", 0.5, None, "", "prah"),
+                  ("mk_4026", 0.5, None, "", "scena"),
+                  ("mk_4244", 0.5, None, "", "vatromet"),
+                  ("mk_478", 0.5, None, "", "pevačica"),
+                  ("mk_4154", 0.5, None, "", "pokretne-stepenice"),
+                  ("mk_3619", 0.55, None, "", "ples"),
+                  ("mk_4064", 0.5, None, "", "vatromet", 0.25),
+                  ("mk_42742", 0.5, None, "", "igra", 0.25),
+                  ("mk_3622", 0.5, None, "", "ples", 0.25),
+                  ("mk_52507", 0.5, None, "", "voda-igra", 0.25),],
+        "caption": "Doing a lot is not the same as doing what matters. What's your ONE thing right now? \U0001F447",
+        "tags": "#stoicism #discipline #mindset #focus #purpose",
+        "sound": "dark-to-hype phonk / beat drop (trending ↗) - udarac na 0.5 s, završnica na 0.25 s"},
 }
 
 
@@ -253,6 +354,8 @@ def overlay(e, n, total, path):
         c.rectangle(0, bt, W, bb - bt); c.set_source(g); c.fill()
         hook = e.get("hook")  # v3 (lekcija 22): krupna hook rečenica 0-2 s, čita se i na sličici profila
         if hook and t < 2.0:
+            pop = 0.9 + 0.1 * min(1.0, t / 0.15) if e.get("style") == "live" else 1.0
+            c.save(); c.translate(M.CX, cy); c.scale(pop, pop); c.translate(-M.CX, -cy)
             M.face(c, 84, cairo.FONT_WEIGHT_BOLD)
             words = hook.split(); lines = M.wrap(c, words, M.MAXW)
             if len(lines) > 2: lines = M.balance3(c, words, M.MAXW)
@@ -262,6 +365,7 @@ def overlay(e, n, total, path):
                 y = cy + (li - (len(lines) - 1) / 2) * lh + 30
                 M.BOXES.append((x, y - 70, x + tw, y + 20))
                 M.shadow_text(c, x, y, s_, 1.0)
+            c.restore()
         elif t < split:
             M.face(c, 54, cairo.FONT_WEIGHT_NORMAL)
             letters = list(e["word"]); gap = 34
@@ -286,20 +390,32 @@ def overlay(e, n, total, path):
     p.stdin.close(); p.wait()
 
 
+# ŽIVI stil (zahtev korisnika "malo življe"): toplije i zasićenije boje, udarac zumom na rezu, završni "burst" po 0.25 s
+LIVE_GRADE = ("eq=saturation=1.18:contrast=1.10:brightness=0.015,"
+              "colorbalance=rs=0.02:bs=-0.02:rm=0.02:bm=-0.03:rh=0.03:bh=-0.03")
+
+
+def sdur(x):  # trajanje kadra: 6. polje ili 1 udarac (0.5 s); burst = 0.25 s (1/8 @120 BPM)
+    return x[5] if len(x) > 5 else BEAT
+
+
 def make(n):
     e = EDITS[n]; M.BOXES.clear()
-    shots = e["shots"]; total = BEAT * (len(shots) + 2)
+    shots = e["shots"]; total = BEAT * 2 + sum(sdur(x) for x in shots)
+    live = e.get("style") == "live"
+    rk = dict(grade=LIVE_GRADE, vig="PI/6") if live else {}
     check_variety(n)
     lname, lx, a, lex = e["loop"][:4]
     full = os.path.join(M.TMP, f"e{n}_loop.mp4")
-    M.render_shot(full, lname, a - BEAT, 2 * BEAT, lx, 1.00, 1.04, lex)
+    M.render_shot(full, lname, a - BEAT, 2 * BEAT, lx, 1.00, 1.04, lex, **rk)
     head, tail = os.path.join(M.TMP, f"e{n}_head.mp4"), os.path.join(M.TMP, f"e{n}_tail.mp4")
     M.cut(full, head, BEAT, BEAT); M.cut(full, tail, 0.0, BEAT)
     parts = [head]
-    for k, (nm, xc, st, ex, _kind) in enumerate(shots, 1):
+    for k, x in enumerate(shots, 1):
+        nm, xc, st, ex = x[:4]; d = sdur(x)
         if st is None: st = round(dur(M.src(nm)) * 0.4, 2)
         o = os.path.join(M.TMP, f"e{n}_{k:02d}.mp4")
-        M.render_shot(o, nm, st, BEAT, xc, 1.00, 1.04, ex); parts.append(o)
+        M.render_shot(o, nm, st, d, xc, 1.00, 1.04, ex, hit=(0.07 if live else 0.0), **rk); parts.append(o)
     parts.append(tail)
     lst = os.path.join(M.TMP, f"e{n}_list.txt"); open(lst, "w").write("".join(f"file '{q}'\n" for q in parts))
     base = os.path.join(M.TMP, f"e{n}_base.mp4")
@@ -307,7 +423,7 @@ def make(n):
     ov = os.path.join(M.TMP, f"e{n}_ov.mov"); overlay(e, n, total, ov)
     out = os.path.join(M.OUT, f"stoic_edit_{n:02d}.mp4"); part = out.replace(".mp4", ".part.mp4")
     subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-i", base, "-i", ov, "-filter_complex",
-                    "[0:v][1:v]overlay=format=auto,noise=alls=7:allf=t,format=yuv420p[v]", "-map", "[v]", "-an",
+                    f"[0:v][1:v]overlay=format=auto,noise=alls={4 if live else 7}:allf=t,format=yuv420p[v]", "-map", "[v]", "-an",
                     "-tune", "grain", "-maxrate", "22M", "-bufsize", "44M", "-t", f"{total}", "-c:v", "libx264",
                     "-preset", "slow", "-crf", "19", "-pix_fmt", "yuv420p", "-movflags", "+faststart", part], check=True)
     os.replace(part, out)

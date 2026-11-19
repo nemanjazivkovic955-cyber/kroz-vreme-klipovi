@@ -3806,6 +3806,354 @@
   }
  },
  {
+  "id": "stoic_edit_11",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "habits",
+  "hook": "H A B I T S",
+  "text": [
+   "H A B I T S",
+   "small wins. daily."
+  ],
+  "ending": "small wins. daily.",
+  "footage": [
+   "mk_44448",
+   "mk_42541",
+   "mk_725",
+   "mk_43776",
+   "mk_3168",
+   "mk_873",
+   "mk_591",
+   "mk_472",
+   "mk_52316",
+   "mk_3171",
+   "mk_759",
+   "mk_2273",
+   "mk_43494",
+   "mk_878",
+   "mk_1367"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_11.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_11.md",
+   "inspected_at": "2026-11-19T16:17:33",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 86,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 86 < 90"
+    ]
+   },
+   "issues": 1,
+   "cuts": [
+    0.5,
+    1.0,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    5.767,
+    6.0,
+    6.267,
+    6.533
+   ],
+   "loop_seam": {
+    "seam_diff": 16.46,
+    "median_neighbor_diff": 7.05,
+    "ok": true,
+    "seam_diff_no_text": 12.64
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_12",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "growth",
+  "hook": "G R O W T H",
+  "text": [
+   "G R O W T H",
+   "get uncomfortable."
+  ],
+  "ending": "get uncomfortable.",
+  "footage": [
+   "mk_41010",
+   "mk_3373",
+   "mk_1276",
+   "mk_3378",
+   "mk_3362",
+   "mk_2186",
+   "mk_40742",
+   "mk_4016",
+   "mk_52497",
+   "mk_50244",
+   "mk_3340",
+   "mk_4568",
+   "mk_25542",
+   "mk_1366",
+   "mk_3333"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_12.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_12.md",
+   "inspected_at": "2026-11-19T16:15:37",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 87,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 87 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    5.767,
+    6.033,
+    6.3
+   ],
+   "loop_seam": {
+    "seam_diff": 14.55,
+    "median_neighbor_diff": 5.69,
+    "ok": true,
+    "seam_diff_no_text": 11.62
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_13",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "circle",
+  "hook": "C I R C L E",
+  "text": [
+   "C I R C L E",
+   "choose your people."
+  ],
+  "ending": "choose your people.",
+  "footage": [
+   "mk_40147",
+   "mk_44469",
+   "mk_3621",
+   "mk_43486",
+   "mk_4185",
+   "mk_1375",
+   "mk_51296",
+   "mk_4155",
+   "mk_44464",
+   "mk_46874",
+   "mk_4344",
+   "mk_341",
+   "mk_4151",
+   "mk_51540",
+   "mk_4401"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_13.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_13.md",
+   "inspected_at": "2026-11-19T16:19:13",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 86,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 86 < 90"
+    ]
+   },
+   "issues": 5,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0,
+    6.267,
+    6.533
+   ],
+   "loop_seam": {
+    "seam_diff": 16.47,
+    "median_neighbor_diff": 6.64,
+    "ok": true,
+    "seam_diff_no_text": 11.9
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_14",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "earn",
+  "hook": "E A R N",
+  "text": [
+   "E A R N",
+   "go get it."
+  ],
+  "ending": "go get it.",
+  "footage": [
+   "mk_2285",
+   "mk_43484",
+   "mk_877",
+   "mk_3338",
+   "mk_3624",
+   "mk_2923",
+   "mk_869",
+   "mk_4437",
+   "mk_3356",
+   "mk_4152",
+   "mk_50243",
+   "mk_3628",
+   "mk_2275",
+   "mk_583",
+   "mk_4156"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_14.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_14.md",
+   "inspected_at": "2026-11-19T16:15:44",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 86,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 86 < 90"
+    ]
+   },
+   "issues": 1,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    5.767,
+    6.033,
+    6.3
+   ],
+   "loop_seam": {
+    "seam_diff": 19.71,
+    "median_neighbor_diff": 7.84,
+    "ok": true,
+    "seam_diff_no_text": 16.01
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_15",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "purpose",
+  "hook": "P U R P O S E",
+  "text": [
+   "P U R P O S E",
+   "pick one direction."
+  ],
+  "ending": "pick one direction.",
+  "footage": [
+   "mk_421",
+   "mk_4180",
+   "mk_683",
+   "mk_4390",
+   "mk_349",
+   "mk_677",
+   "mk_4026",
+   "mk_4244",
+   "mk_478",
+   "mk_4154",
+   "mk_3619",
+   "mk_4064",
+   "mk_42742",
+   "mk_3622",
+   "mk_52507"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_15.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_15.md",
+   "inspected_at": "2026-11-19T16:15:47",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 85,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 85 < 90"
+    ]
+   },
+   "issues": 1,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0,
+    6.267,
+    6.5
+   ],
+   "loop_seam": {
+    "seam_diff": 11.79,
+    "median_neighbor_diff": 10.08,
+    "ok": true,
+    "seam_diff_no_text": 5.92
+   }
+  }
+ },
+ {
   "id": "talk_city",
   "family": "talk_v1",
   "format": "TikTok 9:16 ~30 s, glas + muzika",

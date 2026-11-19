@@ -31,10 +31,11 @@ GRADE = ("colortemperature=temperature=7800:pl=0.5,eq=saturation=0.68:contrast=1
 def src(n): return os.path.join(HERE, "src", n + ".mp4")
 
 
-def render_shot(out, name, start, d, xc, z0, z1, extra=""):
-    vf = (f"scale=-2:{H}:flags=lanczos,crop={W}:{H}:x='(iw-{W})*{xc}':y=0,fps={FPS},{GRADE}" + ("," + extra if extra else "") + ","
-          f"scale=w='{W}*({z0}+({z1}-{z0})*t/{d})':h=-2:eval=frame:flags=bicubic,crop={W}:{H},setsar=1,"
-          f"vignette=PI/4.5,format=yuv420p")
+def render_shot(out, name, start, d, xc, z0, z1, extra="", grade=None, hit=0.0, vig="PI/4.5"):
+    hz = f"+{hit}*max(0\\,1-t/0.18)" if hit else ""  # "udarac" zumom na početku kadra (živi stil)
+    vf = (f"scale=-2:{H}:flags=lanczos,crop={W}:{H}:x='(iw-{W})*{xc}':y=0,fps={FPS},{grade or GRADE}" + ("," + extra if extra else "") + ","
+          f"scale=w='{W}*({z0}+({z1}-{z0})*t/{d}{hz})':h=-2:eval=frame:flags=bicubic,crop={W}:{H},setsar=1,"
+          f"vignette={vig},format=yuv420p")
     subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-ss", f"{start:.3f}", "-t", f"{d:.3f}", "-i", src(name),
                     "-vf", vf, "-an", "-r", str(FPS), "-frames:v", str(int(round(d * FPS))), "-c:v", "libx264", "-preset", "fast", "-crf", "14", out], check=True)
 
