@@ -3805,5 +3805,254 @@
     "seam_diff_no_text": 3.16
    }
   }
+ },
+ {
+  "id": "talk_city",
+  "family": "talk_v1",
+  "format": "TikTok 9:16 ~30 s, glas + muzika",
+  "topic": "WHILE THEY SLEEP",
+  "hook": "While they sleep...",
+  "text": [
+   "While they sleep...",
+   "you build.",
+   "While they scroll...",
+   "you work.",
+   "Nobody sees the late nights.",
+   "Nobody claps for the quiet hours.",
+   "But every hour you give...",
+   "is a brick in a house they will never understand.",
+   "So stay quiet.",
+   "Stay focused.",
+   "Let the results speak."
+  ],
+  "ending": "Let the results speak.",
+  "footage": [
+   "03_midnight",
+   "pexels_11390239",
+   "09_typing",
+   "10_overtime",
+   "pexels_30028386",
+   "pexels_8345041",
+   "11_exhausted",
+   "pexels_8345155",
+   "20_burj",
+   "pexels_19713848"
+  ],
+  "visual_style": "filmski kolor teal/zlato, meki prelazi, elegantni serif titlovi",
+  "music": "mixkit_88.mp3",
+  "editing": "xfade 0.7 s, push-in 6%",
+  "output": "videos/the_price/talk_city_9x16.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 66,
+   "breakdown": {
+    "storytelling": 15,
+    "visual": 13,
+    "hook": 9,
+    "cinematography": 9,
+    "sound": 7,
+    "editing": 7,
+    "originality": 6
+   },
+   "evidence": "Pravi luk govora i više snimaka po temi; ali spor početak (1.5 s tišine + mirna rečenica), TTS glas neproveren uhom, isti xfade 0.7 s svuda, snimci ponovljeni iz QOTD serije.",
+   "verdict": "ISPOD PRAGA - najbolja osnova za dalji razvoj"
+  },
+  "inspection": {
+   "report": "studio/inspections/talk_city.md",
+   "inspected_at": "2026-11-19T10:00:31",
+   "approval": {
+    "technical_pass": false,
+    "vision_reviewed": false,
+    "weak_scenes": 0,
+    "creative_score": null,
+    "approved": false,
+    "blocking": [
+     "1 kritičnih",
+     "10 većih problema",
+     "nema vizuelnog pregleda"
+    ]
+   },
+   "issues": 14,
+   "cuts": [
+    5.833,
+    13.8,
+    21.9,
+    22.667,
+    22.833,
+    23.1,
+    24.2
+   ],
+   "loop_seam": null
+  },
+  "archived": true
+ },
+ {
+  "id": "talk_climb",
+  "family": "talk_v1",
+  "format": "TikTok 9:16 ~30 s, glas + muzika",
+  "topic": "THE CLIMB",
+  "hook": "The mountain doesn't care how you feel.",
+  "text": [
+   "The mountain doesn't care how you feel.",
+   "It doesn't get smaller...",
+   "because you're tired.",
+   "You get stronger...",
+   "because you keep climbing.",
+   "Every step is heavy.",
+   "Every breath is hard.",
+   "But the view at the top...",
+   "belongs only to the ones who didn't turn back.",
+   "Keep climbing."
+  ],
+  "ending": "Keep climbing.",
+  "footage": [
+   "mountains_11856435",
+   "pexels_39657533",
+   "pexels_6650177",
+   "road_16535478",
+   "pexels_38840179",
+   "pexels_8970213",
+   "sunset_5189814",
+   "stars_5747525"
+  ],
+  "visual_style": "filmski kolor teal/zlato, meki prelazi, elegantni serif titlovi",
+  "music": "mixkit_350.mp3",
+  "editing": "xfade 0.7 s, push-in 6%",
+  "output": "videos/the_price/talk_climb_9x16.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 66,
+   "breakdown": {
+    "storytelling": 15,
+    "visual": 13,
+    "hook": 9,
+    "cinematography": 9,
+    "sound": 7,
+    "editing": 7,
+    "originality": 6
+   },
+   "evidence": "Pravi luk govora i više snimaka po temi; ali spor početak (1.5 s tišine + mirna rečenica), TTS glas neproveren uhom, isti xfade 0.7 s svuda, snimci ponovljeni iz QOTD serije.",
+   "verdict": "ISPOD PRAGA - najbolja osnova za dalji razvoj"
+  },
+  "archived": true
+ },
+ {
+  "id": "talk_storm",
+  "family": "talk_v1",
+  "format": "TikTok 9:16 ~30 s, glas + muzika",
+  "topic": "THE STORM",
+  "hook": "Calm seas never made a strong sailor.",
+  "text": [
+   "Calm seas never made a strong sailor.",
+   "The storm is not here to break you.",
+   "It's here to show you...",
+   "what you're made of.",
+   "So let it rain.",
+   "Let it thunder.",
+   "Stand in the middle of it...",
+   "and don't move.",
+   "Because storms don't last forever.",
+   "But you will."
+  ],
+  "ending": "But you will.",
+  "footage": [
+   "lightning_5387436",
+   "waves_8438341",
+   "rain_18222676",
+   "waves_12136143",
+   "pexels_34769638",
+   "lightning_5387436",
+   "waves_8438341",
+   "pexels_30370640"
+  ],
+  "visual_style": "filmski kolor teal/zlato, meki prelazi, elegantni serif titlovi",
+  "music": "mixkit_679.mp3",
+  "editing": "xfade 0.7 s, push-in 6%",
+  "output": "videos/the_price/talk_storm_9x16.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 66,
+   "breakdown": {
+    "storytelling": 15,
+    "visual": 13,
+    "hook": 9,
+    "cinematography": 9,
+    "sound": 7,
+    "editing": 7,
+    "originality": 6
+   },
+   "evidence": "Pravi luk govora i više snimaka po temi; ali spor početak (1.5 s tišine + mirna rečenica), TTS glas neproveren uhom, isti xfade 0.7 s svuda, snimci ponovljeni iz QOTD serije.",
+   "verdict": "ISPOD PRAGA - najbolja osnova za dalji razvoj"
+  },
+  "archived": true
+ },
+ {
+  "id": "talk_water",
+  "family": "talk_v1",
+  "format": "TikTok 9:16 69 s, glas + muzika",
+  "topic": "BE LIKE WATER",
+  "hook": "Look at the water.",
+  "text": [
+   "Look at the water.",
+   "It doesn't stop when it hits a rock.",
+   "It doesn't complain. It doesn't quit.",
+   "It finds another way.",
+   "And when there is no way...",
+   "it makes one.",
+   "Slowly. Quietly. Day after day.",
+   "Drop by drop, it cuts through mountains.",
+   "Not because it's strong...",
+   "but because it never stops.",
+   "So when life puts a wall in front of you,",
+   "don't wait for it to move.",
+   "Keep flowing.",
+   "Keep pushing.",
+   "One more day. One more step. One more try.",
+   "Because one day, they will look at who you became,",
+   "and call it talent.",
+   "But you'll know the truth.",
+   "It was never talent.",
+   "It was you... refusing to stop.",
+   "Be like water."
+  ],
+  "ending": "Be like water.",
+  "footage": [
+   "wf_slowmo",
+   "wf_crash",
+   "wf_rocks",
+   "wf_riverslow",
+   "wf_rocky",
+   "pexels_13878296",
+   "wf_iguazu",
+   "wf_niagara",
+   "wf_valley",
+   "pexels_6650177",
+   "wf_hiker",
+   "pexels_38840179",
+   "pexels_33545687",
+   "wf_rainbow",
+   "pexels_28951859",
+   "pexels_8970213"
+  ],
+  "visual_style": "vodopadi, filmski kolor",
+  "music": "mixkit_871",
+  "editing": "xfade 0.7 s",
+  "output": "videos/the_price/be_like_water_9x16.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 66,
+   "breakdown": {
+    "storytelling": 15,
+    "visual": 13,
+    "hook": 9,
+    "cinematography": 9,
+    "sound": 7,
+    "editing": 7,
+    "originality": 6
+   },
+   "evidence": "Pravi luk govora i više snimaka po temi; ali spor početak (1.5 s tišine + mirna rečenica), TTS glas neproveren uhom, isti xfade 0.7 s svuda, snimci ponovljeni iz QOTD serije.",
+   "verdict": "ISPOD PRAGA - najbolja osnova za dalji razvoj"
+  },
+  "archived": true
  }
 ]

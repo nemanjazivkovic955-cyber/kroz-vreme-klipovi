@@ -142,6 +142,14 @@ try:
 except Exception as e:
     print("stoic:", e)
 
+# zadrži zapise produkcija čiji izvori više ne postoje (okačene i obrisane serije)
+_pdb = os.path.join(OUT, "production_db.json")
+if os.path.exists(_pdb):
+    _have = {p["id"] for p in prods}
+    for _old in json.load(open(_pdb)):
+        if _old["id"] not in _have:
+            _old["archived"] = True; prods.append(_old)
+
 # ocene
 ev_path = os.path.join(OUT, "evaluations.json")
 ev = json.load(open(ev_path)) if os.path.exists(ev_path) else {}
@@ -154,11 +162,12 @@ for p in prods:
         p["inspection"] = {"report": f"studio/inspections/{p['id']}.md", "inspected_at": r["inspected_at"], "approval": r["approval"],
                            "issues": len(r["issues"]), "cuts": r["cuts"], "loop_seam": r.get("loop_seam")}
 
-# vizuelna istorija
-vh = {}
+# vizuelna istorija — NIKAD se ne smanjuje: spaja se sa postojećom (izvori/fajlovi okačenih serija se brišu radi prostora)
+_vh_path = os.path.join(OUT, "visual_history.json")
+vh = {k: list(v) for k, v in json.load(open(_vh_path)).items()} if os.path.exists(_vh_path) else {}
 for p in prods:
     for f in dict.fromkeys(p["footage"]):
-        vh.setdefault(f, []).append(p["id"])
+        if p["id"] not in vh.setdefault(f, []): vh[f].append(p["id"])
 json.dump(prods, open(os.path.join(OUT, "production_db.json"), "w"), indent=1, ensure_ascii=False)
 json.dump(dict(sorted(vh.items(), key=lambda x: -len(x[1]))), open(os.path.join(OUT, "visual_history.json"), "w"),
           indent=1, ensure_ascii=False)

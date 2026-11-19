@@ -2,7 +2,40 @@
  "pexels_11390239": [
   "m004",
   "m014",
+  "talk_city",
   "shorts_rich_edit"
+ ],
+ "pexels_38840179": [
+  "m037",
+  "loop_m037",
+  "talk_climb",
+  "talk_water"
+ ],
+ "pexels_8970213": [
+  "m040",
+  "loop_m040",
+  "talk_climb",
+  "talk_water"
+ ],
+ "mountains_11856435": [
+  "m002",
+  "m013",
+  "talk_climb"
+ ],
+ "rain_18222676": [
+  "m003",
+  "m016",
+  "talk_storm"
+ ],
+ "road_16535478": [
+  "m005",
+  "m015",
+  "talk_climb"
+ ],
+ "pexels_6650177": [
+  "m011",
+  "talk_climb",
+  "talk_water"
  ],
  "pexels_39421363": [
   "m035",
@@ -14,26 +47,67 @@
   "loop_m039",
   "shorts_rich_edit"
  ],
+ "pexels_13878296": [
+  "m041",
+  "loop_m041",
+  "talk_water"
+ ],
  "pexels_29470443": [
   "m043",
   "loop_m043",
   "shorts_rich_edit"
  ],
- "mountains_11856435": [
-  "m002",
-  "m013"
+ "pexels_30028386": [
+  "rl2",
+  "talk_city",
+  "shorts_rich_edit"
  ],
- "rain_18222676": [
-  "m003",
-  "m016"
+ "pexels_19713848": [
+  "rl6",
+  "talk_city",
+  "shorts_rich_edit"
  ],
- "road_16535478": [
-  "m005",
-  "m015"
+ "09_typing": [
+  "loop_discipline",
+  "talk_city",
+  "price_ep1"
+ ],
+ "11_exhausted": [
+  "loop_discipline",
+  "talk_city",
+  "price_ep1"
+ ],
+ "waves_12136143": [
+  "m001",
+  "talk_storm"
+ ],
+ "stars_5747525": [
+  "m006",
+  "talk_climb"
+ ],
+ "waves_8438341": [
+  "m007",
+  "talk_storm"
+ ],
+ "lightning_5387436": [
+  "m009",
+  "talk_storm"
+ ],
+ "sunset_5189814": [
+  "m012",
+  "talk_climb"
+ ],
+ "pexels_39657533": [
+  "m017",
+  "talk_climb"
  ],
  "pexels_39371057": [
   "m019",
   "shorts_rich_edit"
+ ],
+ "pexels_34769638": [
+  "m021",
+  "talk_storm"
  ],
  "pexels_7735913": [
   "m023",
@@ -43,9 +117,17 @@
   "m027",
   "shorts_rich_edit"
  ],
+ "pexels_30370640": [
+  "m029",
+  "talk_storm"
+ ],
  "pexels_35353790": [
   "m031",
   "shorts_rich_edit"
+ ],
+ "pexels_33545687": [
+  "m032",
+  "talk_water"
  ],
  "pexels_39139504": [
   "m033",
@@ -59,21 +141,9 @@
   "m036",
   "loop_m036"
  ],
- "pexels_38840179": [
-  "m037",
-  "loop_m037"
- ],
  "pexels_31939567": [
   "m038",
   "loop_m038"
- ],
- "pexels_8970213": [
-  "m040",
-  "loop_m040"
- ],
- "pexels_13878296": [
-  "m041",
-  "loop_m041"
  ],
  "pexels_7187460": [
   "m042",
@@ -87,10 +157,6 @@
   "rl1",
   "shorts_rich_edit"
  ],
- "pexels_30028386": [
-  "rl2",
-  "shorts_rich_edit"
- ],
  "pexels_6326861": [
   "rl3",
   "shorts_rich_edit"
@@ -101,10 +167,6 @@
  ],
  "pexels_6266251": [
   "rl5",
-  "shorts_rich_edit"
- ],
- "pexels_19713848": [
-  "rl6",
   "shorts_rich_edit"
  ],
  "01_alarm": [
@@ -127,20 +189,32 @@
   "loop_discipline",
   "price_ep1"
  ],
- "09_typing": [
-  "loop_discipline",
-  "price_ep1"
- ],
  "08_bag": [
-  "loop_discipline",
-  "price_ep1"
- ],
- "11_exhausted": [
   "loop_discipline",
   "price_ep1"
  ],
  "12_sunrise": [
   "loop_discipline",
+  "price_ep1"
+ ],
+ "03_midnight": [
+  "talk_city",
+  "price_ep1"
+ ],
+ "10_overtime": [
+  "talk_city",
+  "price_ep1"
+ ],
+ "pexels_8345041": [
+  "talk_city",
+  "shorts_rich_edit"
+ ],
+ "pexels_8345155": [
+  "talk_city",
+  "shorts_rich_edit"
+ ],
+ "20_burj": [
+  "talk_city",
   "price_ep1"
  ],
  "kola_04": [
@@ -187,41 +261,17 @@
   "yt_i_made_it",
   "yt_rich_life"
  ],
- "waves_12136143": [
-  "m001"
- ],
- "stars_5747525": [
-  "m006"
- ],
- "waves_8438341": [
-  "m007"
- ],
  "run_19523592": [
   "m008"
  ],
- "lightning_5387436": [
-  "m009"
- ],
  "forest_15086974": [
   "m010"
- ],
- "pexels_6650177": [
-  "m011"
- ],
- "sunset_5189814": [
-  "m012"
- ],
- "pexels_39657533": [
-  "m017"
  ],
  "pexels_6296377": [
   "m018"
  ],
  "pexels_18934517": [
   "m020"
- ],
- "pexels_34769638": [
-  "m021"
  ],
  "pexels_4944398": [
   "m022"
@@ -238,14 +288,8 @@
  "pexels_34899705": [
   "m028"
  ],
- "pexels_30370640": [
-  "m029"
- ],
  "pexels_29569378": [
   "m030"
- ],
- "pexels_33545687": [
-  "m032"
  ],
  "mk_28892": [
   "m045"
@@ -319,13 +363,40 @@
  "mk_4680": [
   "m048"
  ],
- "03_midnight": [
-  "price_ep1"
+ "wf_slowmo": [
+  "talk_water"
+ ],
+ "wf_crash": [
+  "talk_water"
+ ],
+ "wf_rocks": [
+  "talk_water"
+ ],
+ "wf_riverslow": [
+  "talk_water"
+ ],
+ "wf_rocky": [
+  "talk_water"
+ ],
+ "wf_iguazu": [
+  "talk_water"
+ ],
+ "wf_niagara": [
+  "talk_water"
+ ],
+ "wf_valley": [
+  "talk_water"
+ ],
+ "wf_hiker": [
+  "talk_water"
+ ],
+ "wf_rainbow": [
+  "talk_water"
+ ],
+ "pexels_28951859": [
+  "talk_water"
  ],
  "05_rain": [
-  "price_ep1"
- ],
- "10_overtime": [
   "price_ep1"
  ],
  "13_watch_on": [
@@ -347,9 +418,6 @@
   "price_ep1"
  ],
  "19_jet": [
-  "price_ep1"
- ],
- "20_burj": [
   "price_ep1"
  ],
  "21_yacht": [
@@ -497,12 +565,6 @@
   "shorts_rich_edit"
  ],
  "pexels_6700180": [
-  "shorts_rich_edit"
- ],
- "pexels_8345155": [
-  "shorts_rich_edit"
- ],
- "pexels_8345041": [
   "shorts_rich_edit"
  ],
  "mk_4059": [
