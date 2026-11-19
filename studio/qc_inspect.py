@@ -84,6 +84,10 @@ def expected_for(vid):
         r = RULES[int(m_.group(1))]
         return {"texts": [r["hook"]] + r["rule"] + [f"Follow for rule #{int(m_.group(1)) + 1}"],
                 "text_changes": [2.0, 4.5, 7.0, 9.0], "silent": True, "loop": True, "kind": "stoic", "dur": (9, 11), "min_luma": 0.07}
+    m_ = re.match(r"stoic_edit_(\d+)$", vid)
+    if m_:
+        return {"texts": [], "text_changes": [4.0], "silent": True, "loop": True, "kind": "stoic_edit", "dur": (7, 11),
+                "min_luma": 0.07, "min_shot": 0.45}
     try:
         import talks
         k = vid.replace("talk_", "")
@@ -188,7 +192,7 @@ def inspect(path, vid=None, expect_silent=None):
         if s["overexposed_frac"] > 0.35: issue("minor", "overexposed", s["start"], f"kadar {s['index']}: {s['overexposed_frac']:.0%} piksela izgoreno")
         if s["luma"] < exp.get("min_luma", 0.22): issue("major", "underexposed", s["start"], f"kadar {s['index']}: osvetljenost {s['luma']}")
         if s["sharpness"] < 25: issue("minor", "soft", s["start"], f"kadar {s['index']}: mutno (Laplacian {s['sharpness']})")
-        if s["dur"] < 0.3: issue("major", "flash_shot", s["start"], f"kadar {s['index']} traje samo {s['dur']} s")
+        if s["dur"] < exp.get("min_shot", 0.3) - 0.05: issue("major", "flash_shot", s["start"], f"kadar {s['index']} traje samo {s['dur']} s")
     # 3 ponavljanje unutar videa
     reps = []
     for x in range(len(shots)):

@@ -1,0 +1,422 @@
+{
+ "id": "stoic_edit_05",
+ "file": "videos/stoic/stoic_edit_05.mp4",
+ "inspected_at": "2026-11-19T12:27:28",
+ "method": "Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.",
+ "meta": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "duration": 9.0,
+  "vcodec": "h264",
+  "pix_fmt": "yuv420p",
+  "video_streams": 1,
+  "audio_streams": 0,
+  "acodec": null,
+  "bitrate_kbps": 23497
+ },
+ "expected": {
+  "texts": [],
+  "text_changes": [
+   4.0
+  ],
+  "silent": true,
+  "loop": true,
+  "kind": "stoic_edit",
+  "dur": [
+   7,
+   11
+  ],
+  "min_luma": 0.07,
+  "min_shot": 0.45
+ },
+ "technical": {
+  "resolution_ok": true,
+  "aspect": "1080:1920",
+  "fps_ok": true,
+  "duration_ok": true,
+  "audio_rule_ok": true,
+  "frames_decoded": 270,
+  "frames_expected": 270
+ },
+ "shots": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.5,
+   "dur": 0.5,
+   "luma": 0.181,
+   "sharpness": 243.7,
+   "overexposed_frac": 0.0,
+   "hue": 111.1
+  },
+  {
+   "index": 1,
+   "start": 0.5,
+   "end": 1.0,
+   "dur": 0.5,
+   "luma": 0.128,
+   "sharpness": 229.8,
+   "overexposed_frac": 0.0,
+   "hue": 116.6
+  },
+  {
+   "index": 2,
+   "start": 1.0,
+   "end": 1.5,
+   "dur": 0.5,
+   "luma": 0.296,
+   "sharpness": 147.3,
+   "overexposed_frac": 0.0,
+   "hue": 77.4
+  },
+  {
+   "index": 3,
+   "start": 1.5,
+   "end": 2.0,
+   "dur": 0.5,
+   "luma": 0.127,
+   "sharpness": 199.9,
+   "overexposed_frac": 0.0,
+   "hue": 104.6
+  },
+  {
+   "index": 4,
+   "start": 2.0,
+   "end": 2.5,
+   "dur": 0.5,
+   "luma": 0.26,
+   "sharpness": 104.8,
+   "overexposed_frac": 0.0,
+   "hue": 75.6
+  },
+  {
+   "index": 5,
+   "start": 2.5,
+   "end": 3.0,
+   "dur": 0.5,
+   "luma": 0.369,
+   "sharpness": 148.9,
+   "overexposed_frac": 0.0,
+   "hue": 103.5
+  },
+  {
+   "index": 6,
+   "start": 3.0,
+   "end": 3.5,
+   "dur": 0.5,
+   "luma": 0.221,
+   "sharpness": 209.5,
+   "overexposed_frac": 0.0,
+   "hue": 59.4
+  },
+  {
+   "index": 7,
+   "start": 3.5,
+   "end": 4.0,
+   "dur": 0.5,
+   "luma": 0.354,
+   "sharpness": 306.2,
+   "overexposed_frac": 0.0,
+   "hue": 75.5
+  },
+  {
+   "index": 8,
+   "start": 4.0,
+   "end": 4.5,
+   "dur": 0.5,
+   "luma": 0.165,
+   "sharpness": 246.3,
+   "overexposed_frac": 0.001,
+   "hue": 70.7
+  },
+  {
+   "index": 9,
+   "start": 4.5,
+   "end": 5.0,
+   "dur": 0.5,
+   "luma": 0.215,
+   "sharpness": 124.1,
+   "overexposed_frac": 0.001,
+   "hue": 72.0
+  },
+  {
+   "index": 10,
+   "start": 5.0,
+   "end": 5.5,
+   "dur": 0.5,
+   "luma": 0.186,
+   "sharpness": 314.2,
+   "overexposed_frac": 0.001,
+   "hue": 61.3
+  },
+  {
+   "index": 11,
+   "start": 5.5,
+   "end": 6.0,
+   "dur": 0.5,
+   "luma": 0.193,
+   "sharpness": 130.2,
+   "overexposed_frac": 0.001,
+   "hue": 56.9
+  },
+  {
+   "index": 12,
+   "start": 6.0,
+   "end": 6.5,
+   "dur": 0.5,
+   "luma": 0.205,
+   "sharpness": 451.4,
+   "overexposed_frac": 0.001,
+   "hue": 124.5
+  },
+  {
+   "index": 13,
+   "start": 6.5,
+   "end": 7.0,
+   "dur": 0.5,
+   "luma": 0.214,
+   "sharpness": 174.6,
+   "overexposed_frac": 0.001,
+   "hue": 103.1
+  },
+  {
+   "index": 14,
+   "start": 7.0,
+   "end": 7.5,
+   "dur": 0.5,
+   "luma": 0.24,
+   "sharpness": 158.9,
+   "overexposed_frac": 0.001,
+   "hue": 111.2
+  },
+  {
+   "index": 15,
+   "start": 7.5,
+   "end": 8.0,
+   "dur": 0.5,
+   "luma": 0.345,
+   "sharpness": 771.3,
+   "overexposed_frac": 0.001,
+   "hue": 98.3
+  },
+  {
+   "index": 16,
+   "start": 8.0,
+   "end": 8.5,
+   "dur": 0.5,
+   "luma": 0.248,
+   "sharpness": 378.1,
+   "overexposed_frac": 0.001,
+   "hue": 20.9
+  },
+  {
+   "index": 17,
+   "start": 8.5,
+   "end": 9.0,
+   "dur": 0.5,
+   "luma": 0.179,
+   "sharpness": 212.2,
+   "overexposed_frac": 0.001,
+   "hue": 111.6
+  }
+ ],
+ "cuts": [
+  0.5,
+  1.0,
+  1.5,
+  2.0,
+  2.5,
+  3.0,
+  3.5,
+  4.0,
+  4.5,
+  5.0,
+  5.5,
+  6.0,
+  6.5,
+  7.0,
+  7.5,
+  8.0,
+  8.5
+ ],
+ "dissolves": [],
+ "continuity": [
+  {
+   "t": 0.5,
+   "luma_jump": 0.056,
+   "hue_jump": 6.2
+  },
+  {
+   "t": 1.0,
+   "luma_jump": 0.141,
+   "hue_jump": 30.0
+  },
+  {
+   "t": 1.5,
+   "luma_jump": 0.187,
+   "hue_jump": 36.7
+  },
+  {
+   "t": 2.0,
+   "luma_jump": 0.132,
+   "hue_jump": 28.4
+  },
+  {
+   "t": 2.5,
+   "luma_jump": 0.099,
+   "hue_jump": 28.4
+  },
+  {
+   "t": 3.0,
+   "luma_jump": 0.097,
+   "hue_jump": 40.6
+  },
+  {
+   "t": 3.5,
+   "luma_jump": 0.187,
+   "hue_jump": 15.0
+  },
+  {
+   "t": 4.0,
+   "luma_jump": 0.197,
+   "hue_jump": 1.0
+  },
+  {
+   "t": 4.5,
+   "luma_jump": 0.045,
+   "hue_jump": 1.8
+  },
+  {
+   "t": 5.0,
+   "luma_jump": 0.05,
+   "hue_jump": 9.9
+  },
+  {
+   "t": 5.5,
+   "luma_jump": 0.001,
+   "hue_jump": 5.5
+  },
+  {
+   "t": 6.0,
+   "luma_jump": 0.017,
+   "hue_jump": 70.0
+  },
+  {
+   "t": 6.5,
+   "luma_jump": 0.01,
+   "hue_jump": 20.2
+  },
+  {
+   "t": 7.0,
+   "luma_jump": 0.022,
+   "hue_jump": 7.2
+  },
+  {
+   "t": 7.5,
+   "luma_jump": 0.1,
+   "hue_jump": 11.9
+  },
+  {
+   "t": 8.0,
+   "luma_jump": 0.099,
+   "hue_jump": 76.6
+  },
+  {
+   "t": 8.5,
+   "luma_jump": 0.072,
+   "hue_jump": 90.2
+  }
+ ],
+ "loop_seam": {
+  "seam_diff": 2.71,
+  "median_neighbor_diff": 3.39,
+  "ok": true,
+  "seam_diff_no_text": 1.99
+ },
+ "text_timing": {
+  "detected": [
+   0.5,
+   0.933,
+   1.5,
+   1.933,
+   2.5,
+   2.933,
+   4.0,
+   5.0,
+   5.433,
+   6.0,
+   6.433,
+   8.0,
+   8.433
+  ],
+  "expected": [
+   4.0
+  ],
+  "offset_s": [
+   0.0
+  ],
+  "on_beat_120bpm": true
+ },
+ "audio": {
+  "streams": 0,
+  "note": "bez zvučnog zapisa — po pravilu korisnika (muziku dodaje u TikTok-u)"
+ },
+ "repetition": {
+  "in_video": [],
+  "across_videos": []
+ },
+ "issues": [],
+ "sheets": [
+  "studio/inspections/stoic_edit_05/sheet_time.jpg",
+  "studio/inspections/stoic_edit_05/sheet_cuts.jpg"
+ ],
+ "history": [
+  {
+   "at": "2026-11-19T12:23:38",
+   "approved": false,
+   "issues": 2
+  },
+  {
+   "at": "2026-11-19T12:25:30",
+   "approved": false,
+   "issues": 1
+  }
+ ],
+ "approval": {
+  "technical_pass": true,
+  "vision_reviewed": true,
+  "weak_scenes": 0,
+  "creative_score": 84,
+  "approved": false,
+  "blocking": [
+   "kreativna ocena 84 < 90"
+  ]
+ },
+ "vision_review": {
+  "reviewer": "Claude (vision) — kontakt-listovi 0.5 s + frejmovi oko svih 17 rezova i loop spoja; video NIJE gledan u pokretu",
+  "summary": "Edit format po uzoru na referencu @erfolgssprint: 18 kadrova po 0.5 s (rez na svaki udarac 120 BPM), minimalan tekst (P A T I E N C E -> patience pays.), tamni noćni luksuz. 4 kadra zamenjena posle prvog pregleda (crvena površina, siva silueta, tamni motor, beli far - ništa se nije prepoznavalo).",
+  "scenes": [
+   {
+    "index": 0,
+    "verdict": "good",
+    "note": "Ruka i sat, crno-belo - hook kadar sa subjektom."
+   }
+  ],
+  "storytelling": "Bez priče, kao referenca: jedna reč-vrlina pa nagrada ('patience pays.'), kadrovi grade želju (novac, jahta, avion, grad).",
+  "creative_score": 84,
+  "breakdown": {
+   "storytelling": 15,
+   "visual": 17,
+   "hook": 13,
+   "cinematography": 13,
+   "sound": 9,
+   "editing": 10,
+   "originality": 7
+  },
+  "recommendations": [
+   "Kadrovi nasmejanih poslovnih ljudi (4805, 30016) deluju kao reklamni stok - za POV luksuz (ruke na volanu noću, ulazak u auto) potreban Pexels",
+   "Testirati protiv Stoic #1-#4 formata po pregledima i % gledanja do kraja"
+  ]
+ }
+}

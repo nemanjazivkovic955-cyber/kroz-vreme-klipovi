@@ -118,6 +118,12 @@ try:
             hook=r["hook"], text=[r["hook"]] + r["rule"], ending=f"Follow for rule #{n + 1}",
             footage=[r["loop"][0]] + [s_[0] for s_ in r["shots"]], visual_style="tamno-hladni filmski, zrno, beli Poppins Bold",
             music="nema (korisnik dodaje)", editing="2/2.5/2.5/2/1 s, reči na 1/8 @120 BPM", output=f"videos/stoic/stoic_rule_{n:02d}.mp4")
+    import edit as E_
+    for n, e in E_.EDITS.items():
+        add(id=f"stoic_edit_{n:02d}", family="stoic_edit", format="TikTok 9:16 9 s edit, bez zvuka", topic=e["word"].lower(),
+            hook=" ".join(e["word"]), text=[" ".join(e["word"]), e["line"]], ending=e["line"],
+            footage=[e["loop"][0]] + [x[0] for x in e["shots"]], visual_style="noćni luksuz, rez na svaki udarac",
+            music="nema (korisnik dodaje)", editing="18 x 0.5 s @120 BPM", output=f"videos/stoic/stoic_edit_{n:02d}.mp4")
 except Exception as e:
     print("stoic:", e)
 

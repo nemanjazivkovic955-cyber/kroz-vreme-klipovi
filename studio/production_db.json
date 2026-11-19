@@ -3316,5 +3316,80 @@
     "seam_diff_no_text": 2.9
    }
   }
+ },
+ {
+  "id": "stoic_edit_05",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "patience",
+  "hook": "P A T I E N C E",
+  "text": [
+   "P A T I E N C E",
+   "patience pays."
+  ],
+  "ending": "patience pays.",
+  "footage": [
+   "mk_28888",
+   "mk_64",
+   "mk_18296",
+   "mk_4446",
+   "mk_231",
+   "mk_53",
+   "mk_18304",
+   "mk_3673",
+   "mk_4076",
+   "mk_4805",
+   "mk_4067",
+   "mk_18303",
+   "mk_4087",
+   "mk_30016",
+   "px_6700180",
+   "mk_18249",
+   "px_30351567"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_05.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_05.md",
+   "inspected_at": "2026-11-19T12:27:28",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 84,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 84 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0,
+    6.5,
+    7.0,
+    7.5,
+    8.0,
+    8.5
+   ],
+   "loop_seam": {
+    "seam_diff": 2.71,
+    "median_neighbor_diff": 3.39,
+    "ok": true,
+    "seam_diff_no_text": 1.99
+   }
+  }
  }
 ]
