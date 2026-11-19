@@ -38,3 +38,6 @@
 23. **Tip hook-a "This is why…" (radoznalost + prozivka) je za sada najbolji** -> testirati ga u 2 od 5 sledećih klipova sa novom temom.
 24. Pratioci (936) ne gledaju (≤90 pregleda): follow-za-follow publika kvari signal. Profil bez bio-a, srpsko ime, mešan sadržaj -> preporuke korisniku (ime/bio/privatni stari klipovi).
 25. Posle svakog kruga: brojevi -> lekcija ovde -> promena šablona u sledećem krugu (ne ponavljati isti format bez promene).
+
+## Čuvanje prostora (odluka korisnika 19.11.)
+26. Okačeni klipovi i njihovi izvorni snimci se BRIŠU (prostor). Istorija scena ostaje u `studio/visual_history.json` (gradi se iz koda, ne iz fajlova) — zato se stara scena nikad ne vraća. Obrisano 19.11.: sve stare serije (QOTD, loop, THE PRICE, govori, YouTube, shorts) + motivacija/broll, the_price/src.
