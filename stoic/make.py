@@ -20,6 +20,7 @@ SAFE_R, SAFE_B = int(W * 0.85), int(H * 0.80)
 CX = (70 + SAFE_R) / 2; MAXW = SAFE_R - 70 - 50
 TMP = os.path.join(HERE, "out"); OUT = os.path.join(ROOT, "videos", "stoic")
 os.makedirs(TMP, exist_ok=True); os.makedirs(OUT, exist_ok=True)
+SHOW_TAG = True  # False: bez "STOIC RULE #N" gore levo
 SHOW_TEXT = True  # False: bez teksta (verzija sa glasom), ostaje oznaka serije
 CTA = "Follow for rule #{n}"  # youtube.py menja u "Subscribe for rule #{n}"
 SEG = [(0.0, 2.0), (2.0, 4.5), (4.5, 7.0), (7.0, 9.0), (9.0, 10.0)]
@@ -139,11 +140,11 @@ def overlay(r, n, path):
             c.rectangle(0, H * 0.27, W, H * 0.33); c.set_source(g); c.fill()
             txt, rev, size = texts[i]
             draw_block(c, txt, t - SEG[i][0], size, rev)
-        # oznaka serije gore levo
-        face(c, 34, cairo.FONT_WEIGHT_BOLD); tag = f"STOIC RULE #{n}"
-        c.move_to(64, 262); c.set_source_rgba(0, 0, 0, 0.5); c.show_text(tag)
-        c.move_to(62, 260); c.set_source_rgba(1, 1, 1, 0.82); c.show_text(tag)
-        if f == 0: BOXES.append((62, 228, 62 + c.text_extents(tag).x_advance, 268))
+        if SHOW_TAG:  # oznaka serije gore levo (TikTok); YouTube bez nje - Shorts se objavljuju bilo kojim redom
+            face(c, 34, cairo.FONT_WEIGHT_BOLD); tag = f"STOIC RULE #{n}"
+            c.move_to(64, 262); c.set_source_rgba(0, 0, 0, 0.5); c.show_text(tag)
+            c.move_to(62, 260); c.set_source_rgba(1, 1, 1, 0.82); c.show_text(tag)
+            if f == 0: BOXES.append((62, 228, 62 + c.text_extents(tag).x_advance, 268))
         s.flush(); p.stdin.write(bytes(s.get_data()))
     p.stdin.close(); p.wait()
 

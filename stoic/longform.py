@@ -7,14 +7,14 @@ Upotreba: python3 stoic/longform.py long_ep01
 import os, sys, re, math, json, wave, importlib, subprocess
 import numpy as np, cairo
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
-sys.path.insert(0, HERE)
+sys.path.insert(0, HERE); sys.path.insert(0, os.path.join(ROOT, "studio"))
 import make as M
 import youtube as YT
 
 W, H, FPS = 1920, 1080, 30
 TSR = 24000  # TTS sample rate
 GAP, PARA_GAP, CARD_LEAD = 0.38, 0.30, 0.9
-SUBS = False  # bez titlova (odluka korisnika 19.11.); kartica pravila ostaje
+SUBS = True  # titlovi preko ekrana (odluka korisnika 19.11., posle verzije bez teksta)
 GRADE = M.GRADE
 OUTD = os.path.join(ROOT, "videos", "stoic_long")
 
@@ -144,6 +144,50 @@ def long_music(path, total, n_sections):
         w.setnchannels(2); w.setsampwidth(2); w.setframerate(44100); w.writeframes((st * 32767).astype(np.int16).tobytes())
 
 
+def inspected_music(ep, timeline, chapters, video, total, out_wav, tmp, keep=0.06, xf=2.5):
+    """Muzički inspektor po delu videa (poglavlju). Ista numera se zadržava dok je skoro jednako dobra (manje smena);
+    smena = pretapanje xf s. Izveštaji: studio/music_reports/<ep>_NN.md"""
+    import music_inspector as MI
+    bounds = [c[0] for c in chapters] + [total]
+    runs = []  # [track_pick, t0, t1]
+    for k in range(len(chapters)):
+        a, b = bounds[k], bounds[k + 1]
+        segs = [(s0, s1, txt) for p in timeline for (s0, s1, txt, _) in p["sents"] if a <= s0 < b]
+        if not segs: continue
+        segs[-1] = (segs[-1][0], b, segs[-1][2])
+        pick = MI.choose(f"{ep}_{k:02d}", segs, video, voice=True, record=False,
+                         exclude=() if not runs else ())
+        if runs:
+            prev = runs[-1][0]
+            same = next((x for x in pick["all"] if x["id"] == prev["id"]), None)
+            if same and same["score"] >= pick["score"] - keep:
+                runs[-1][2] = b; continue
+        runs.append([pick, a, b])
+    print("muzika:", " | ".join(f"{fmt(r[1])} {r[0]['title'] or r[0]['id']}" for r in runs))
+    parts = []
+    for i, (pick, a, b) in enumerate(runs):
+        d = b - a + (xf if i < len(runs) - 1 else 0)
+        f = MI.audio_feats(pick["id"]); off = pick["offset"]
+        if off + d > f["dur"]: off = max(0.0, f["dur"] - d)
+        w = os.path.join(tmp, f"mus_{i:02d}.wav")
+        loop = ["-stream_loop", "-1"] if d > f["dur"] else []
+        subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y"] + loop + ["-ss", f"{off:.2f}", "-i", pick["path"], "-t", f"{d:.3f}",
+                        "-af", "afade=t=in:d=1.5", "-ar", "44100", "-ac", "2", w], check=True)
+        parts.append(w)
+    if len(parts) == 1:
+        os.replace(parts[0], out_wav)
+    else:
+        ins = sum([["-i", q] for q in parts], []); fc = ""; cur = "0:a"
+        for i in range(1, len(parts)):
+            fc += f"[{cur}][{i}:a]acrossfade=d={xf}:c1=tri:c2=tri[x{i}];"; cur = f"x{i}"
+        subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y"] + ins + ["-filter_complex", fc.rstrip(";"), "-map", f"[{cur}]", out_wav], check=True)
+    subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-i", out_wav, "-af", f"afade=t=out:st={total - 4:.2f}:d=4", "-t", f"{total:.3f}",
+                    out_wav + ".f.wav"], check=True)
+    os.replace(out_wav + ".f.wav", out_wav)
+    json.dump([{"od": fmt(r[1]), "do": fmt(r[2]), "numera": r[0]["title"], "mixkit": r[0]["id"]} for r in runs],
+              open(os.path.join(OUTD, f"{ep}_muzika.json"), "w"), indent=1)
+
+
 def fmt(t):
     return f"{int(t // 60)}:{int(t % 60):02d}"
 
@@ -201,11 +245,15 @@ def build(ep):
     with wave.open(vw, "w") as w:
         w.setnchannels(1); w.setsampwidth(2); w.setframerate(TSR)
         w.writeframes((vt / (np.abs(vt).max() + 1e-9) * 0.9 * 32767).astype(np.int16).tobytes())
-    mw = os.path.join(tmp, "music.wav"); long_music(mw, total, len(E.SECTIONS))
+    mw = os.path.join(tmp, "music.wav")
+    try:
+        inspected_music(ep, timeline, chapters, base, total, mw, tmp)
+    except Exception as e:
+        print("muzički inspektor nije uspeo, generisana podloga:", e); long_music(mw, total, len(E.SECTIONS))
     out = os.path.join(OUTD, f"{ep}.mp4")
     fc = ("[2:a]aresample=44100,highpass=f=70,acompressor=threshold=-20dB:ratio=3:attack=5:release=120,"
           "aecho=0.8:0.5:40|75:0.10|0.06,asplit[v1][v2];"
-          "[1:a]volume=0.32[m];[m][v1]sidechaincompress=threshold=0.03:ratio=5:attack=30:release=400[md];"
+          "[1:a]volume=0.25[m];[m][v1]sidechaincompress=threshold=0.03:ratio=5:attack=30:release=400[md];"
           "[md][v2]amix=inputs=2:weights='1 1.7':normalize=0,loudnorm=I=-14:TP=-1.5:LRA=9[a]")
     subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-i", base, "-i", mw, "-i", vw, "-filter_complex", fc,
                     "-map", "0:v", "-map", "[a]", "-c:v", "libx264", "-preset", "slow", "-crf", "21", "-maxrate", "8M", "-bufsize", "16M",

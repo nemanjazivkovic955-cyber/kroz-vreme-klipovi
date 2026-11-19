@@ -12,7 +12,7 @@ Upotreba: python3 stoic/youtube.py 1 [2 3 ...]
 import os, sys, math, subprocess, wave
 import numpy as np
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
-sys.path.insert(0, HERE)
+sys.path.insert(0, HERE); sys.path.insert(0, os.path.join(ROOT, "studio"))
 import make as M
 from rules import RULES
 
@@ -96,7 +96,7 @@ def tts():
 
 def voice_lines(r, n):
     k = tts()
-    lines = [r["hook"]] + r["rule"] + [f"Subscribe for rule number {n + 1}."]
+    lines = [r["hook"]] + r["rule"] + ["Subscribe for the next rule."]
     clips = []
     for ln in lines:
         a, sr = k.create(ln, voice=VOICE, speed=SPEED, lang=LANG)
@@ -110,8 +110,9 @@ def voice_lines(r, n):
 def make(n, voice=True):
     r = RULES[n]
     os.makedirs(OUT, exist_ok=True)
-    M.CTA = "Subscribe for rule #{n}"
-    M.SHOW_TEXT = not voice  # sa glasom bez teksta na ekranu (odluka korisnika 19.11.), ostaje samo "STOIC RULE #N"
+    M.CTA = "Subscribe for the next rule"
+    M.SHOW_TEXT = True  # tekst preko ekrana i uz glas (odluka korisnika 19.11.)
+    M.SHOW_TAG = False  # bez broja dela gore: Shorts se ubacuju bilo kojim redom
     M.OUT = M.TMP  # tihu međuverziju drži u stoic/out
     vtrack = None
     if voice:
@@ -127,7 +128,17 @@ def make(n, voice=True):
             i0 = int((s0 + LEAD) * 24000); vtrack[i0:i0 + len(a)] += a
         vtrack = vtrack[:int(t * 24000)]
     silent = M.make(n)
-    wav = os.path.join(M.TMP, f"yt{n}.wav"); music(wav, n, M.TOTAL)
+    wav = os.path.join(M.TMP, f"yt{n}.wav")
+    pick = None
+    try:  # muzički inspektor: Mixkit numera po scenama i temi; ako ne uspe -> generisana podloga
+        import music_inspector as MI
+        txts = [r["hook"]] + r["rule"] + ["Subscribe for the next rule."]
+        pick = MI.choose(f"short_{n:02d}", [(a, b, t) for (a, b), t in zip(M.SEG, txts)], silent, voice=voice)
+        if pick: MI.cut(pick, wav, M.TOTAL, fade_in=0.15, fade_out=0.8)
+    except Exception as e:
+        print("muzički inspektor nije uspeo:", e); pick = None
+    if not pick: music(wav, n, M.TOTAL)
+    else: print(f"muzika: {pick['title']} (mixkit {pick['id']}) od {pick['offset']:.1f}s")
     out = os.path.join(OUT, f"stoic_rule_yt_{n:02d}.mp4")
     if vtrack is not None:
         vw = os.path.join(M.TMP, f"yt{n}_voice.wav")
@@ -136,7 +147,7 @@ def make(n, voice=True):
             w.writeframes((vtrack / (np.abs(vtrack).max() + 1e-9) * 0.9 * 32767).astype(np.int16).tobytes())
         fc = ("[2:a]aresample=44100,highpass=f=70,acompressor=threshold=-20dB:ratio=3:attack=5:release=120,"
               "aecho=0.8:0.5:40|75:0.12|0.07,volume=1.0,asplit[v1][v2];"
-              "[1:a]volume=0.55[m];[m][v1]sidechaincompress=threshold=0.04:ratio=6:attack=20:release=300[md];"
+              "[1:a]volume=0.40[m];[m][v1]sidechaincompress=threshold=0.04:ratio=6:attack=20:release=300[md];"
               "[md][v2]amix=inputs=2:weights='1 1.6':normalize=0,loudnorm=I=-14:TP=-1.5:LRA=7[a]")
         subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-i", silent, "-i", wav, "-i", vw,
                         "-filter_complex", fc, "-map", "0:v", "-map", "[a]", "-c:v", "copy",
@@ -145,9 +156,9 @@ def make(n, voice=True):
         subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-i", silent, "-i", wav,
                         "-af", "loudnorm=I=-14:TP=-1.5:LRA=7", "-map", "0:v", "-map", "1:a", "-c:v", "copy",
                         "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-shortest", "-movflags", "+faststart", out], check=True)
-    title = f"Stoic Rule #{n}: {r['hook'].rstrip('.')} #shorts"
-    desc = (f"{r['caption']}\n\nStoic rule #{n}: {' '.join(r['rule'])}\n\n"
-            f"Subscribe for rule #{n + 1} — one stoic rule every day.\n\n{r['tags']} #shorts\n")
+    title = f"Stoic Rule: {r['hook'].rstrip('.')} #shorts"
+    desc = (f"{r['caption']}\n\nStoic rule: {' '.join(r['rule'])}\n\n"
+            f"Subscribe for the next rule — one stoic rule every day.\n\n{r['tags']} #shorts\n")
     open(out.replace(".mp4", "_opis.txt"), "w").write(f"NASLOV: {title}\n\nOPIS:\n{desc}")
     print(out)
     return out, title, desc
