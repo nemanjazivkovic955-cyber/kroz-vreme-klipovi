@@ -30,6 +30,7 @@ Klipovi bez muzike: `videos/motivacija/bez_muzike/`, opisi: `opisi.txt`.
 | 19.11. 10:00 | m029 (odmor nije odustajanje) | m030 (ne pregovaraj sa sobom) | m031 (bogatstvo = ono sto zadrzis) | m032 (svet kao ucionica) |
 | 19.11. 18:00 | m033 (rad koji nadzivi tebe / zvezde) | m034 (izgovori ne grade misice / odgovornost) | m035 (prvo vestine pa kola) | m036 (perspektiva iz aviona) |
 | 20.11. 10:00 | m037 (fleksibilan put, cvrst cilj) | m038 (tvoje drustvo odredjuje koliko ces daleko) | m039 (uspeh preko noci traje godinama) | m040 (pogled se zasluzi) |
+| 20.11. 18:00 | m041 (veruj svom tempu) | m042 (ne gubis, ucis) | m043 (bogatstvo = odluka godinama) | m044 (put te oblikuje) |
 
 ## Iskoriscene teme / pouke
 doslednost, trening kad niko ne gleda, odlozeno zadovoljstvo / prvo imovina, iskustva umesto stvari,
@@ -37,7 +38,8 @@ oluje otkrivaju dubinu / reakcija, napredak umesto savrsenstva, novac da radi za
 nevidljiv rast (bambus), mentalna snaga / bol je privremen, izgledati bogato vs biti bogat, putovanje solo / ne cekaj druge,
 odmor nije odustajanje, ne cekaj motivaciju / ne pregovaraj sa sobom, plata vs bogatstvo / investiraj razliku, putovanje uci vise od knjiga,
 nasledje / rad koji nadzivi tebe, odgovornost / bez izgovora, ulaganje u vestine, perspektiva / distanca,
-fleksibilnost puta / cvrst cilj, okruzenje / krug ljudi, uspeh preko noci traje godinama, najlepsi pogled posle najtezeg uspona
+fleksibilnost puta / cvrst cilj, okruzenje / krug ljudi, uspeh preko noci traje godinama, najlepsi pogled posle najtezeg uspona,
+veruj svom tempu / proces, neuspeh je povratna informacija, misli u decenijama, put je vazniji od cilja
 
 ## Rezerva (stari format, bez QUOTE OF THE DAY)
 m001–m016 su gotovi klipovi u starom stilu; mogu se objaviti kao dodatni.

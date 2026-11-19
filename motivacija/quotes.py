@@ -532,6 +532,58 @@ QUOTES = {
         "lesson": "The best views come after the *hardest* climbs.",
         "caption": "The view is earned. 🏔️ " + CAT_TAGS["putovanja"],
     },
+    "m041": {
+        "category": "priroda",
+        "music_start": 26,
+        "broll": "nature_13878296.mp4",
+        "lines": [
+            "The river doesn't *rush*.",
+            "Yet it always *arrives*.",
+            "Trust your *timing*.",
+            "You are exactly where you need to *be*.",
+        ],
+        "lesson": "Trust the *process*. You are not late.",
+        "caption": "Trust your timing. 🌊 " + CAT_TAGS["priroda"],
+    },
+    "m042": {
+        "category": "trening",
+        "music_start": 86,
+        "broll": "workout_7187460.mp4",
+        "lines": [
+            "You don't *lose*.",
+            "You *learn*.",
+            "Every round you survive",
+            "makes the next one *easier*.",
+        ],
+        "lesson": "Failure is just *feedback*.",
+        "caption": "You don't lose. You learn. 🥊 " + CAT_TAGS["trening"],
+    },
+    "m043": {
+        "category": "kola_novac",
+        "music_start": 116,
+        "broll": "power_jet_29470443.mp4",
+        "lines": [
+            "Rich is not a *moment*.",
+            "It's a *decision*",
+            "you make every single day",
+            "for *years*.",
+        ],
+        "lesson": "Think in *decades*, not days.",
+        "caption": "Think in decades. ✈️ " + CAT_TAGS["kola_novac"],
+    },
+    "m044": {
+        "category": "putovanja",
+        "music_start": 52,
+        "broll": "travel_37838353.mp4",
+        "lines": [
+            "The destination is *beautiful*.",
+            "But the *journey*",
+            "is where you become",
+            "someone *new*.",
+        ],
+        "lesson": "Enjoy the *road*. It's shaping you.",
+        "caption": "The journey shapes you. 🏜️ " + CAT_TAGS["putovanja"],
+    },
     # ---- Shorts mozaik serija RICH / LIFE (6 klipova, bez numeracije) ----
     "rl1": {
         "outdir": "videos/shorts/rich_life",
