@@ -14,6 +14,10 @@ Format svakog klipa: gore stalno **QUOTE OF THE DAY**, 4 recenice citata, posled
 Klipovi bez muzike: `videos/motivacija/bez_muzike/`, opisi: `opisi.txt`.
 
 ## Pravila
+- ORIGINALNOST TEKSTA (obavezno): teme biraj iz `teme_banka.md` (redom, precrtaj iskorisceno), menjaj FORMU teksta
+  (metafora, pitanje, kontrast, lista, mini-prica, pismo sebi, brojka, obrnuta logika) i u istom paketu nikad dve iste forme.
+  Pre renderovanja OBAVEZNO `python3 motivacija/check_unique.py <id1> <id2> ...` - ako javi problem, prepisi tekst dok ne dobijes OK.
+- ORIGINALNOST SNIMAKA: isti snimak se ne koristi dvaput ni u razlicitim serijama; kad ponestane, novi izvori (Mixkit, Pexels, ostali).
 - Pozadina se NE ponavlja: koristi samo snimke iz `broll/katalog.json` sa praznim `used_in` za tu kategoriju,
   i upisi klip u `used_in` posle renderovanja.
 - Kada u nekoj kategoriji nema neiskoriscenih snimaka: `vidiq_find_broll` (1 kredit, portrait) za tu kategoriju,
