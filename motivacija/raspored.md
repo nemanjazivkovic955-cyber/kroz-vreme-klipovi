@@ -8,7 +8,7 @@ Termini: svaki dan **10:00** i **18:00**. Svaki termin = **4 klipa, po jedan iz 
 
 Dizajn v2 (`design2.py`, automatski kad klip ima `lesson`): zlatni navodnik + *Quote of the Day*, tekst rec-po-rec (Anton),
 SAMO CRNA I ZLATNA boja (bez bele): zlatna slova sa crnim obrubom, istaknute reci (`*rec*`, 1 po recenici) = crna slova na zlatnoj traci,
-crna kartica sa zlatnim okvirom za pouku, zlatni poziv SAVE/SHARE. BEZ tackica napretka.
+crna kartica sa zlatnim okvirom za pouku, odmah ispod nje zlatni poziv SHARE • LIKE • COMMENT FOR MORE. BEZ tackica napretka.
 Format svakog klipa: gore stalno **QUOTE OF THE DAY**, 4 recenice citata, poslednji kadar **TODAY'S LESSON** + pouka
 (polja `lines` (4) i `lesson` u `quotes.py`, `category`, caption sa `CAT_TAGS[...]`).
 Klipovi bez muzike: `videos/motivacija/bez_muzike/`, opisi: `opisi.txt`.

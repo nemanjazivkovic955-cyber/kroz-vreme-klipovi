@@ -19,7 +19,7 @@ FPS, SR = 30, 48000
 
 EPISODES = {
     "ep1": {
-        "title": "THE PRICE", "subtitle": "EPISODE 1", "next": "EPISODE 2  •  FOLLOW",
+        "title": "THE PRICE", "subtitle": "EPISODE 1", "next": "SHARE  •  LIKE  •  COMMENT FOR MORE",
         "voice": "voiceover_ep1.wav",
         "title_len": 1.5, "end_len": 2.5,
         # (izvor, trajanje, tip) - grind = hladno, reward = toplo

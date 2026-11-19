@@ -110,7 +110,7 @@ def elegant_overlay(caps, total, W, H, out):
 def main(fmt="16x9"):
     W, H = (1920, 1080) if fmt == "16x9" else (1080, 1920)
     parts = [seg(i, n, d, W, H) for i, (n, d) in enumerate(SHOTS)]
-    parts.append(P.card_clip(os.path.join(TMP, f"w_end_{W}.mp4"), END_LEN, W, H, "BE LIKE WATER", "FOLLOW FOR MORE"))
+    parts.append(P.card_clip(os.path.join(TMP, f"w_end_{W}.mp4"), END_LEN, W, H, "BE LIKE WATER", "SHARE  •  LIKE  •  COMMENT FOR MORE"))
     durs = [d for _, d in SHOTS] + [END_LEN]
     # meki prelazi (xfade lanac)
     inputs = sum([["-i", p] for p in parts], []); fc = ""; last = "0:v"; t = durs[0]

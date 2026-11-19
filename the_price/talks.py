@@ -100,7 +100,7 @@ def make(name, fmt="9x16"):
     n = len(v["shots"])
     d = (card_start + XF * (n - 1)) / n
     parts = [seg(i, r, d, W, H, name) for i, r in enumerate(v["shots"])]
-    parts.append(P.card_clip(os.path.join(P.TMP, f"t_{name}_end_{W}.mp4"), end_len, W, H, v["title"], "FOLLOW FOR MORE"))
+    parts.append(P.card_clip(os.path.join(P.TMP, f"t_{name}_end_{W}.mp4"), end_len, W, H, v["title"], "SHARE  •  LIKE  •  COMMENT FOR MORE"))
     durs = [d] * n + [end_len]
     inputs = sum([["-i", p] for p in parts], []); fc = ""; last = "0:v"; t = durs[0]
     for i in range(1, len(parts)):
