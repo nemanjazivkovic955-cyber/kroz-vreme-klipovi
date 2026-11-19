@@ -14,6 +14,7 @@ import youtube as YT
 W, H, FPS = 1920, 1080, 30
 TSR = 24000  # TTS sample rate
 GAP, PARA_GAP, CARD_LEAD = 0.38, 0.30, 0.9
+SUBS = False  # bez titlova (odluka korisnika 19.11.); kartica pravila ostaje
 GRADE = M.GRADE
 OUTD = os.path.join(ROOT, "videos", "stoic_long")
 
@@ -76,7 +77,17 @@ def wrap2(c, text, maxw):
 
 def sub_png(path, text, card=None, tag=None):
     s = cairo.ImageSurface(cairo.FORMAT_ARGB32, W, H); c = cairo.Context(s)
-    # titl: donja trećina, 2 reda max, tamna traka
+    if not SUBS: text = None
+    if text:
+        _subtitle(c, text)
+    if card:  # kartica pravila: "RULE 3" + naslov, centrirano
+        _card(c, card)
+    if tag:
+        face(c, 30); shadow(c, 70, 90, tag, 0.75)
+    s.write_to_png(path)
+
+
+def _subtitle(c, text):
     face(c, 50); size = 50
     while True:
         lines = wrap2(c, text, 1500)
@@ -88,7 +99,9 @@ def sub_png(path, text, card=None, tag=None):
     c.rectangle(0, y0 - 110, W, H - y0 + 110); c.set_source(g); c.fill()
     for i, l in enumerate(lines):
         shadow(c, W / 2 - c.text_extents(l).x_advance / 2, y0 + i * lh, l)
-    if card:  # kartica pravila: "RULE 3" + naslov, centrirano
+
+
+def _card(c, card):
         big, small = card
         g = cairo.RadialGradient(W / 2, H * 0.42, 0, W / 2, H * 0.42, W * 0.45)
         g.add_color_stop_rgba(0, 0, 0, 0, 0.55); g.add_color_stop_rgba(1, 0, 0, 0, 0)
@@ -100,9 +113,6 @@ def sub_png(path, text, card=None, tag=None):
         face(c, 92); sm = small.upper()
         while c.text_extents(sm).x_advance > 1600: face(c, c.get_font_matrix().xx - 4)
         shadow(c, W / 2 - c.text_extents(sm).x_advance / 2, H * 0.36 + 140, sm)
-    if tag:
-        face(c, 30); shadow(c, 70, 90, tag, 0.75)
-    s.write_to_png(path)
 
 
 def long_music(path, total, n_sections):
@@ -151,11 +161,11 @@ def build(ep):
             lead = CARD_LEAD if (sec["card"] and pi == 0) else 0.0
             p0 = t; t += lead
             for s_ in sentences(text):
-                f = os.path.join(tmp, f"tts_{si:02d}_{pi:02d}_{len(sents):02d}.wav")
+                f = os.path.join(tmp, f"tts_{YT.VOICE}_{si:02d}_{pi:02d}_{len(sents):02d}.npy")
                 if not os.path.exists(f):
-                    a, sr = k.create(s_, voice=YT.VOICE, speed=YT.SPEED, lang="en-us")
+                    a, sr = k.create(s_, voice=YT.VOICE, speed=YT.SPEED, lang=YT.LANG)
                     nz = np.where(np.abs(a) > 0.01)[0]; a = a[max(0, nz[0] - 240): nz[-1] + 1200]
-                    np.save(f + ".npy", a); os.replace(f + ".npy", f)
+                    np.save(f, a)
                 a = np.load(f)
                 sents.append((t, t + len(a) / TSR + GAP, s_, sec["card"] if pi == 0 and not sents else None))
                 voice.append((t, a)); t += len(a) / TSR + GAP

@@ -73,7 +73,7 @@ def music(path, n, dur):
 
 TTS_DIR = os.path.join(HERE, "tts")  # Kokoro-82M (Apache 2.0, besplatno i za komercijalnu upotrebu), u .gitignore
 TTS_URL = "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/main/"
-VOICE, SPEED = "am_onyx", 0.92  # dubok, miran muški glas
+VOICE, LANG, SPEED = "bm_george", "en-gb", 0.92  # izbor korisnika 19.11.: George (britanski, dubok)
 LEAD, PAD, BEAT = 0.12, 0.45, 0.5
 
 
@@ -81,7 +81,7 @@ def tts():
     import glob
     from kokoro_onnx import Kokoro
     os.makedirs(TTS_DIR, exist_ok=True)
-    mp, vp = os.path.join(TTS_DIR, "model.onnx"), os.path.join(TTS_DIR, "voices.bin")
+    mp, vp = os.path.join(TTS_DIR, "model.onnx"), os.path.join(TTS_DIR, f"voices_{VOICE}.bin")
     if not os.path.exists(mp):
         subprocess.run(["curl", "-sSfLo", mp, TTS_URL + "onnx/model_quantized.onnx"], check=True)
     if not os.path.exists(vp):
@@ -99,7 +99,7 @@ def voice_lines(r, n):
     lines = [r["hook"]] + r["rule"] + [f"Subscribe for rule number {n + 1}."]
     clips = []
     for ln in lines:
-        a, sr = k.create(ln, voice=VOICE, speed=SPEED, lang="en-us")
+        a, sr = k.create(ln, voice=VOICE, speed=SPEED, lang=LANG)
         assert sr == 24000
         nz = np.where(np.abs(a) > 0.01)[0]  # odseci tišinu na krajevima
         a = a[max(0, nz[0] - 240): nz[-1] + 1200]
@@ -111,6 +111,7 @@ def make(n, voice=True):
     r = RULES[n]
     os.makedirs(OUT, exist_ok=True)
     M.CTA = "Subscribe for rule #{n}"
+    M.SHOW_TEXT = not voice  # sa glasom bez teksta na ekranu (odluka korisnika 19.11.), ostaje samo "STOIC RULE #N"
     M.OUT = M.TMP  # tihu međuverziju drži u stoic/out
     vtrack = None
     if voice:

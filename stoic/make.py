@@ -20,6 +20,7 @@ SAFE_R, SAFE_B = int(W * 0.85), int(H * 0.80)
 CX = (70 + SAFE_R) / 2; MAXW = SAFE_R - 70 - 50
 TMP = os.path.join(HERE, "out"); OUT = os.path.join(ROOT, "videos", "stoic")
 os.makedirs(TMP, exist_ok=True); os.makedirs(OUT, exist_ok=True)
+SHOW_TEXT = True  # False: bez teksta (verzija sa glasom), ostaje oznaka serije
 CTA = "Follow for rule #{n}"  # youtube.py menja u "Subscribe for rule #{n}"
 SEG = [(0.0, 2.0), (2.0, 4.5), (4.5, 7.0), (7.0, 9.0), (9.0, 10.0)]
 TOTAL = 10.0; WORD = 0.25
@@ -132,11 +133,12 @@ def overlay(r, n, path):
         i = next(k for k, (a, b) in enumerate(SEG) if a <= t < b or k == len(SEG) - 1)
         c = cairo.Context(s); c.set_operator(cairo.OPERATOR_CLEAR); c.paint(); c.set_operator(cairo.OPERATOR_OVER)
         # blaga tamna traka iza teksta (čitljivost na svetlim kadrovima)
-        g = cairo.LinearGradient(0, H * 0.27, 0, H * 0.60)
-        for st, al in ((0, 0), (0.35, 0.32), (0.65, 0.32), (1, 0)): g.add_color_stop_rgba(st, 0, 0, 0, al)
-        c.rectangle(0, H * 0.27, W, H * 0.33); c.set_source(g); c.fill()
-        txt, rev, size = texts[i]
-        draw_block(c, txt, t - SEG[i][0], size, rev)
+        if SHOW_TEXT:
+            g = cairo.LinearGradient(0, H * 0.27, 0, H * 0.60)
+            for st, al in ((0, 0), (0.35, 0.32), (0.65, 0.32), (1, 0)): g.add_color_stop_rgba(st, 0, 0, 0, al)
+            c.rectangle(0, H * 0.27, W, H * 0.33); c.set_source(g); c.fill()
+            txt, rev, size = texts[i]
+            draw_block(c, txt, t - SEG[i][0], size, rev)
         # oznaka serije gore levo
         face(c, 34, cairo.FONT_WEIGHT_BOLD); tag = f"STOIC RULE #{n}"
         c.move_to(64, 262); c.set_source_rgba(0, 0, 0, 0.5); c.show_text(tag)
