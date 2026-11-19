@@ -19,4 +19,4 @@
 
 ## Dugi video (nedeljno, 8+ min zbog reklama u sredini)
 - `python3 stoic/longform.py long_epNN` — naracija (George), titlovi, kartice pravila, poglavlja u opisu, thumbnail `stoic/thumb.py`.
-- Muzika: `studio/music_inspector.py` (Mixkit, bira po scenama i temi, izveštaj u `studio/music_reports/`).
+- **Bez muzike, samo glas** (kao Shorts). Muzički inspektor `studio/music_inspector.py` ostaje spreman (`MUSIC = True` u longform.py / youtube.py).

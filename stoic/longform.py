@@ -14,6 +14,7 @@ import youtube as YT
 W, H, FPS = 1920, 1080, 30
 TSR = 24000  # TTS sample rate
 GAP, PARA_GAP, CARD_LEAD = 0.38, 0.30, 0.9
+MUSIC = False  # samo glas, bez muzike (odluka korisnika 19.11.); True -> muzički inspektor
 SUBS = True  # titlovi preko ekrana (odluka korisnika 19.11., posle verzije bez teksta)
 GRADE = M.GRADE
 OUTD = os.path.join(ROOT, "videos", "stoic_long")
@@ -249,10 +250,14 @@ def build(ep):
         w.setnchannels(1); w.setsampwidth(2); w.setframerate(TSR)
         w.writeframes((vt / (np.abs(vt).max() + 1e-9) * 0.9 * 32767).astype(np.int16).tobytes())
     mw = os.path.join(tmp, "music.wav")
-    try:
-        inspected_music(ep, timeline, chapters, base, total, mw, tmp)
-    except Exception as e:
-        print("muzički inspektor nije uspeo, generisana podloga:", e); long_music(mw, total, len(E.SECTIONS))
+    if MUSIC:
+        try:
+            inspected_music(ep, timeline, chapters, base, total, mw, tmp)
+        except Exception as e:
+            print("muzički inspektor nije uspeo, generisana podloga:", e); long_music(mw, total, len(E.SECTIONS))
+    else:  # samo glas: tiha "muzika" da filter ostane isti
+        subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo",
+                        "-t", f"{total:.3f}", mw], check=True)
     out = os.path.join(OUTD, f"{ep}.mp4")
     fc = ("[2:a]aresample=44100,highpass=f=70,acompressor=threshold=-20dB:ratio=3:attack=5:release=120,"
           "aecho=0.8:0.5:40|75:0.10|0.06,asplit[v1][v2];"
