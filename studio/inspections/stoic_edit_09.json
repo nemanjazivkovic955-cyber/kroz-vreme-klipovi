@@ -1,7 +1,7 @@
 {
  "id": "stoic_edit_09",
  "file": "videos/stoic/stoic_edit_09.mp4",
- "inspected_at": "2026-11-19T15:02:56",
+ "inspected_at": "2026-11-19T15:54:03",
  "method": "Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.",
  "meta": {
   "width": 1080,
@@ -13,7 +13,7 @@
   "video_streams": 1,
   "audio_streams": 0,
   "acodec": null,
-  "bitrate_kbps": 24140
+  "bitrate_kbps": 24204
  },
  "expected": {
   "texts": [],
@@ -49,7 +49,7 @@
    "luma": 0.168,
    "sharpness": 95.6,
    "overexposed_frac": 0.011,
-   "hue": 63.5
+   "hue": 63.4
   },
   {
    "index": 1,
@@ -59,7 +59,7 @@
    "luma": 0.202,
    "sharpness": 83.8,
    "overexposed_frac": 0.011,
-   "hue": 52.6
+   "hue": 52.4
   },
   {
    "index": 2,
@@ -67,7 +67,7 @@
    "end": 1.5,
    "dur": 0.5,
    "luma": 0.285,
-   "sharpness": 952.9,
+   "sharpness": 956.7,
    "overexposed_frac": 0.011,
    "hue": 99.8
   },
@@ -77,9 +77,9 @@
    "end": 2.0,
    "dur": 0.5,
    "luma": 0.33,
-   "sharpness": 175.8,
+   "sharpness": 169.2,
    "overexposed_frac": 0.011,
-   "hue": 54.8
+   "hue": 54.9
   },
   {
    "index": 4,
@@ -87,9 +87,9 @@
    "end": 2.5,
    "dur": 0.5,
    "luma": 0.268,
-   "sharpness": 106.3,
+   "sharpness": 110.0,
    "overexposed_frac": 0.0,
-   "hue": 45.4
+   "hue": 45.5
   },
   {
    "index": 5,
@@ -97,7 +97,7 @@
    "end": 3.0,
    "dur": 0.5,
    "luma": 0.283,
-   "sharpness": 1508.4,
+   "sharpness": 1503.5,
    "overexposed_frac": 0.0,
    "hue": 107.6
   },
@@ -107,7 +107,7 @@
    "end": 3.5,
    "dur": 0.5,
    "luma": 0.239,
-   "sharpness": 67.8,
+   "sharpness": 68.4,
    "overexposed_frac": 0.0,
    "hue": 58.4
   },
@@ -117,7 +117,7 @@
    "end": 4.0,
    "dur": 0.5,
    "luma": 0.192,
-   "sharpness": 159.5,
+   "sharpness": 160.8,
    "overexposed_frac": 0.0,
    "hue": 84.5
   },
@@ -126,30 +126,30 @@
    "start": 4.0,
    "end": 4.5,
    "dur": 0.5,
-   "luma": 0.211,
-   "sharpness": 1047.6,
+   "luma": 0.212,
+   "sharpness": 1055.9,
    "overexposed_frac": 0.001,
-   "hue": 108.7
+   "hue": 108.6
   },
   {
    "index": 9,
    "start": 4.5,
    "end": 5.0,
    "dur": 0.5,
-   "luma": 0.11,
-   "sharpness": 88.2,
+   "luma": 0.113,
+   "sharpness": 70.1,
    "overexposed_frac": 0.001,
-   "hue": 70.6
+   "hue": 70.8
   },
   {
    "index": 10,
    "start": 5.0,
    "end": 5.5,
    "dur": 0.5,
-   "luma": 0.287,
-   "sharpness": 64.6,
+   "luma": 0.288,
+   "sharpness": 72.8,
    "overexposed_frac": 0.001,
-   "hue": 103.4
+   "hue": 103.3
   },
   {
    "index": 11,
@@ -157,29 +157,29 @@
    "end": 6.0,
    "dur": 0.5,
    "luma": 0.243,
-   "sharpness": 133.7,
+   "sharpness": 116.2,
    "overexposed_frac": 0.001,
-   "hue": 96.1
+   "hue": 96.6
   },
   {
    "index": 12,
    "start": 6.0,
    "end": 6.5,
    "dur": 0.5,
-   "luma": 0.27,
-   "sharpness": 103.2,
+   "luma": 0.272,
+   "sharpness": 136.2,
    "overexposed_frac": 0.001,
-   "hue": 70.9
+   "hue": 71.4
   },
   {
    "index": 13,
    "start": 6.5,
    "end": 7.0,
    "dur": 0.5,
-   "luma": 0.158,
-   "sharpness": 61.8,
+   "luma": 0.161,
+   "sharpness": 43.3,
    "overexposed_frac": 0.001,
-   "hue": 63.2
+   "hue": 61.2
   }
  ],
  "cuts": [
@@ -202,7 +202,7 @@
   {
    "t": 0.5,
    "luma_jump": 0.034,
-   "hue_jump": 9.7
+   "hue_jump": 9.5
   },
   {
    "t": 1.0,
@@ -212,7 +212,7 @@
   {
    "t": 1.5,
    "luma_jump": 0.059,
-   "hue_jump": 50.2
+   "hue_jump": 49.8
   },
   {
    "t": 2.0,
@@ -222,7 +222,7 @@
   {
    "t": 2.5,
    "luma_jump": 0.005,
-   "hue_jump": 62.7
+   "hue_jump": 62.4
   },
   {
    "t": 3.0,
@@ -232,44 +232,44 @@
   {
    "t": 3.5,
    "luma_jump": 0.048,
-   "hue_jump": 24.9
+   "hue_jump": 24.7
   },
   {
    "t": 4.0,
    "luma_jump": 0.019,
-   "hue_jump": 24.7
+   "hue_jump": 24.5
   },
   {
    "t": 4.5,
-   "luma_jump": 0.097,
-   "hue_jump": 36.7
+   "luma_jump": 0.098,
+   "hue_jump": 37.3
   },
   {
    "t": 5.0,
-   "luma_jump": 0.174,
-   "hue_jump": 33.8
+   "luma_jump": 0.173,
+   "hue_jump": 33.2
   },
   {
    "t": 5.5,
-   "luma_jump": 0.051,
-   "hue_jump": 15.2
+   "luma_jump": 0.052,
+   "hue_jump": 15.3
   },
   {
    "t": 6.0,
-   "luma_jump": 0.038,
-   "hue_jump": 24.6
+   "luma_jump": 0.04,
+   "hue_jump": 24.2
   },
   {
    "t": 6.5,
    "luma_jump": 0.114,
-   "hue_jump": 7.1
+   "hue_jump": 12.7
   }
  ],
  "loop_seam": {
-  "seam_diff": 7.17,
-  "median_neighbor_diff": 5.02,
+  "seam_diff": 7.39,
+  "median_neighbor_diff": 5.0,
   "ok": true,
-  "seam_diff_no_text": 1.07
+  "seam_diff_no_text": 0.97
  },
  "text_timing": {
   "detected": [
@@ -301,23 +301,6 @@
   "studio/inspections/stoic_edit_09/sheet_time.jpg",
   "studio/inspections/stoic_edit_09/sheet_cuts.jpg"
  ],
- "history": [
-  {
-   "at": "2026-11-19T14:56:37",
-   "approved": false,
-   "issues": 2
-  }
- ],
- "approval": {
-  "technical_pass": true,
-  "vision_reviewed": true,
-  "weak_scenes": 0,
-  "creative_score": 84,
-  "approved": false,
-  "blocking": [
-   "kreativna ocena 84 < 90"
-  ]
- },
  "vision_review": {
   "reviewer": "Claude (vision) — kontakt-listovi 0.5 s + frejmovi oko rezova i loop spoja; video NIJE gledan u pokretu",
   "summary": "Zalazak, dine, kamila, sneg, talasi odozgo; bez ljudi osim čaja - mirno ali manje lično.",
@@ -341,6 +324,28 @@
   },
   "recommendations": [
    "Uporediti sa klipovima 1-5 posle 48 h (pregledi, % do kraja)"
+  ]
+ },
+ "history": [
+  {
+   "at": "2026-11-19T14:56:37",
+   "approved": false,
+   "issues": 2
+  },
+  {
+   "at": "2026-11-19T15:02:56",
+   "approved": false,
+   "issues": 0
+  }
+ ],
+ "approval": {
+  "technical_pass": true,
+  "vision_reviewed": true,
+  "weak_scenes": 0,
+  "creative_score": 84,
+  "approved": false,
+  "blocking": [
+   "kreativna ocena 84 < 90"
   ]
  }
 }

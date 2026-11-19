@@ -3147,7 +3147,7 @@
   "output": "videos/stoic/stoic_edit_01.mp4",
   "inspection": {
    "report": "studio/inspections/stoic_edit_01.md",
-   "inspected_at": "2026-11-19T13:32:48",
+   "inspected_at": "2026-11-19T15:53:34",
    "approval": {
     "technical_pass": true,
     "vision_reviewed": true,
@@ -3179,10 +3179,10 @@
     8.5
    ],
    "loop_seam": {
-    "seam_diff": 3.03,
-    "median_neighbor_diff": 3.08,
+    "seam_diff": 3.42,
+    "median_neighbor_diff": 3.02,
     "ok": true,
-    "seam_diff_no_text": 2.21
+    "seam_diff_no_text": 1.99
    }
   }
  },
@@ -3219,7 +3219,7 @@
   "output": "videos/stoic/stoic_edit_02.mp4",
   "inspection": {
    "report": "studio/inspections/stoic_edit_02.md",
-   "inspected_at": "2026-11-19T13:32:52",
+   "inspected_at": "2026-11-19T15:53:37",
    "approval": {
     "technical_pass": true,
     "vision_reviewed": true,
@@ -3248,8 +3248,8 @@
     7.0
    ],
    "loop_seam": {
-    "seam_diff": 3.03,
-    "median_neighbor_diff": 2.47,
+    "seam_diff": 3.67,
+    "median_neighbor_diff": 2.44,
     "ok": true,
     "seam_diff_no_text": 1.98
    }
@@ -3290,7 +3290,7 @@
   "output": "videos/stoic/stoic_edit_03.mp4",
   "inspection": {
    "report": "studio/inspections/stoic_edit_03.md",
-   "inspected_at": "2026-11-19T13:32:56",
+   "inspected_at": "2026-11-19T15:53:41",
    "approval": {
     "technical_pass": true,
     "vision_reviewed": true,
@@ -3317,8 +3317,8 @@
     8.0
    ],
    "loop_seam": {
-    "seam_diff": 3.56,
-    "median_neighbor_diff": 2.57,
+    "seam_diff": 3.91,
+    "median_neighbor_diff": 2.53,
     "ok": true,
     "seam_diff_no_text": 1.47
    }
@@ -3359,7 +3359,7 @@
   "output": "videos/stoic/stoic_edit_04.mp4",
   "inspection": {
    "report": "studio/inspections/stoic_edit_04.md",
-   "inspected_at": "2026-11-19T13:33:00",
+   "inspected_at": "2026-11-19T15:54:22",
    "approval": {
     "technical_pass": true,
     "vision_reviewed": true,
@@ -3386,14 +3386,13 @@
     6.0,
     6.5,
     7.0,
-    7.5,
     8.0
    ],
    "loop_seam": {
-    "seam_diff": 2.99,
+    "seam_diff": 3.1,
     "median_neighbor_diff": 2.05,
     "ok": true,
-    "seam_diff_no_text": 2.03
+    "seam_diff_no_text": 1.57
    }
   }
  },
@@ -3431,7 +3430,7 @@
   "output": "videos/stoic/stoic_edit_05.mp4",
   "inspection": {
    "report": "studio/inspections/stoic_edit_05.md",
-   "inspected_at": "2026-11-19T13:33:03",
+   "inspected_at": "2026-11-19T15:53:49",
    "approval": {
     "technical_pass": true,
     "vision_reviewed": true,
@@ -3461,8 +3460,8 @@
     7.5
    ],
    "loop_seam": {
-    "seam_diff": 8.09,
-    "median_neighbor_diff": 2.63,
+    "seam_diff": 8.55,
+    "median_neighbor_diff": 2.64,
     "ok": true,
     "seam_diff_no_text": 7.57
    }
@@ -3501,7 +3500,7 @@
   "output": "videos/stoic/stoic_edit_06.mp4",
   "inspection": {
    "report": "studio/inspections/stoic_edit_06.md",
-   "inspected_at": "2026-11-19T15:04:42",
+   "inspected_at": "2026-11-19T15:53:52",
    "approval": {
     "technical_pass": true,
     "vision_reviewed": true,
@@ -3529,10 +3528,10 @@
     7.0
    ],
    "loop_seam": {
-    "seam_diff": 9.98,
+    "seam_diff": 9.96,
     "median_neighbor_diff": 3.53,
     "ok": true,
-    "seam_diff_no_text": 4.12
+    "seam_diff_no_text": 3.84
    }
   }
  },
@@ -3568,7 +3567,7 @@
   "output": "videos/stoic/stoic_edit_07.mp4",
   "inspection": {
    "report": "studio/inspections/stoic_edit_07.md",
-   "inspected_at": "2026-11-19T15:02:49",
+   "inspected_at": "2026-11-19T15:53:56",
    "approval": {
     "technical_pass": true,
     "vision_reviewed": true,
@@ -3596,10 +3595,10 @@
     6.5
    ],
    "loop_seam": {
-    "seam_diff": 8.04,
-    "median_neighbor_diff": 3.99,
+    "seam_diff": 8.17,
+    "median_neighbor_diff": 4.02,
     "ok": true,
-    "seam_diff_no_text": 2.95
+    "seam_diff_no_text": 2.86
    }
   }
  },
@@ -3635,7 +3634,7 @@
   "output": "videos/stoic/stoic_edit_08.mp4",
   "inspection": {
    "report": "studio/inspections/stoic_edit_08.md",
-   "inspected_at": "2026-11-19T15:02:52",
+   "inspected_at": "2026-11-19T15:53:59",
    "approval": {
     "technical_pass": true,
     "vision_reviewed": true,
@@ -3663,10 +3662,10 @@
     6.5
    ],
    "loop_seam": {
-    "seam_diff": 7.45,
-    "median_neighbor_diff": 3.33,
+    "seam_diff": 7.88,
+    "median_neighbor_diff": 3.37,
     "ok": true,
-    "seam_diff_no_text": 1.41
+    "seam_diff_no_text": 1.48
    }
   }
  },
@@ -3702,7 +3701,7 @@
   "output": "videos/stoic/stoic_edit_09.mp4",
   "inspection": {
    "report": "studio/inspections/stoic_edit_09.md",
-   "inspected_at": "2026-11-19T15:02:56",
+   "inspected_at": "2026-11-19T15:54:03",
    "approval": {
     "technical_pass": true,
     "vision_reviewed": true,
@@ -3730,10 +3729,10 @@
     6.5
    ],
    "loop_seam": {
-    "seam_diff": 7.17,
-    "median_neighbor_diff": 5.02,
+    "seam_diff": 7.39,
+    "median_neighbor_diff": 5.0,
     "ok": true,
-    "seam_diff_no_text": 1.07
+    "seam_diff_no_text": 0.97
    }
   }
  },
@@ -3770,7 +3769,7 @@
   "output": "videos/stoic/stoic_edit_10.mp4",
   "inspection": {
    "report": "studio/inspections/stoic_edit_10.md",
-   "inspected_at": "2026-11-19T15:03:00",
+   "inspected_at": "2026-11-19T15:54:26",
    "approval": {
     "technical_pass": true,
     "vision_reviewed": true,
@@ -3799,10 +3798,10 @@
     7.0
    ],
    "loop_seam": {
-    "seam_diff": 8.34,
+    "seam_diff": 8.58,
     "median_neighbor_diff": 3.25,
     "ok": true,
-    "seam_diff_no_text": 3.16
+    "seam_diff_no_text": 3.15
    }
   }
  },

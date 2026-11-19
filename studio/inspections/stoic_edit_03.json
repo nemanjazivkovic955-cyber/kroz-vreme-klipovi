@@ -1,7 +1,7 @@
 {
  "id": "stoic_edit_03",
  "file": "videos/stoic/stoic_edit_03.mp4",
- "inspected_at": "2026-11-19T13:32:56",
+ "inspected_at": "2026-11-19T15:53:41",
  "method": "Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.",
  "meta": {
   "width": 1080,
@@ -13,7 +13,7 @@
   "video_streams": 1,
   "audio_streams": 0,
   "acodec": null,
-  "bitrate_kbps": 24066
+  "bitrate_kbps": 23709
  },
  "expected": {
   "texts": [],
@@ -45,8 +45,8 @@
    "start": 0.0,
    "end": 1.0,
    "dur": 1.0,
-   "luma": 0.157,
-   "sharpness": 106.0,
+   "luma": 0.155,
+   "sharpness": 107.4,
    "overexposed_frac": 0.0,
    "hue": 109.6
   },
@@ -55,60 +55,60 @@
    "start": 1.0,
    "end": 2.0,
    "dur": 1.0,
-   "luma": 0.205,
-   "sharpness": 104.3,
+   "luma": 0.202,
+   "sharpness": 93.6,
    "overexposed_frac": 0.0,
-   "hue": 98.3
+   "hue": 98.4
   },
   {
    "index": 2,
    "start": 2.0,
    "end": 3.0,
    "dur": 1.0,
-   "luma": 0.103,
-   "sharpness": 165.8,
+   "luma": 0.101,
+   "sharpness": 164.5,
    "overexposed_frac": 0.0,
-   "hue": 99.8
+   "hue": 99.7
   },
   {
    "index": 3,
    "start": 3.0,
    "end": 3.5,
    "dur": 0.5,
-   "luma": 0.35,
-   "sharpness": 124.1,
+   "luma": 0.344,
+   "sharpness": 113.3,
    "overexposed_frac": 0.0,
-   "hue": 38.2
+   "hue": 38.4
   },
   {
    "index": 4,
    "start": 3.5,
    "end": 4.0,
    "dur": 0.5,
-   "luma": 0.182,
-   "sharpness": 139.3,
+   "luma": 0.18,
+   "sharpness": 126.0,
    "overexposed_frac": 0.0,
-   "hue": 88.6
+   "hue": 88.7
   },
   {
    "index": 5,
    "start": 4.0,
    "end": 4.5,
    "dur": 0.5,
-   "luma": 0.25,
-   "sharpness": 122.3,
+   "luma": 0.247,
+   "sharpness": 115.7,
    "overexposed_frac": 0.001,
-   "hue": 97.9
+   "hue": 97.6
   },
   {
    "index": 6,
    "start": 4.5,
    "end": 5.0,
    "dur": 0.5,
-   "luma": 0.198,
-   "sharpness": 809.9,
+   "luma": 0.197,
+   "sharpness": 816.6,
    "overexposed_frac": 0.001,
-   "hue": 81.5
+   "hue": 81.7
   },
   {
    "index": 7,
@@ -116,9 +116,9 @@
    "end": 5.5,
    "dur": 0.5,
    "luma": 0.149,
-   "sharpness": 42.9,
+   "sharpness": 42.7,
    "overexposed_frac": 0.001,
-   "hue": 61.1
+   "hue": 60.5
   },
   {
    "index": 8,
@@ -126,49 +126,49 @@
    "end": 6.0,
    "dur": 0.5,
    "luma": 0.107,
-   "sharpness": 220.8,
+   "sharpness": 224.1,
    "overexposed_frac": 0.001,
-   "hue": 107.3
+   "hue": 107.2
   },
   {
    "index": 9,
    "start": 6.0,
    "end": 6.5,
    "dur": 0.5,
-   "luma": 0.176,
-   "sharpness": 257.7,
+   "luma": 0.177,
+   "sharpness": 233.8,
    "overexposed_frac": 0.001,
-   "hue": 91.6
+   "hue": 91.3
   },
   {
    "index": 10,
    "start": 6.5,
    "end": 7.5,
    "dur": 1.0,
-   "luma": 0.135,
-   "sharpness": 120.3,
+   "luma": 0.136,
+   "sharpness": 131.0,
    "overexposed_frac": 0.001,
-   "hue": 114.1
+   "hue": 114.0
   },
   {
    "index": 11,
    "start": 7.5,
    "end": 8.0,
    "dur": 0.5,
-   "luma": 0.216,
-   "sharpness": 66.2,
+   "luma": 0.21,
+   "sharpness": 56.9,
    "overexposed_frac": 0.001,
-   "hue": 88.7
+   "hue": 88.8
   },
   {
    "index": 12,
    "start": 8.0,
    "end": 8.5,
    "dur": 0.5,
-   "luma": 0.158,
-   "sharpness": 85.4,
+   "luma": 0.157,
+   "sharpness": 78.3,
    "overexposed_frac": 0.001,
-   "hue": 111.6
+   "hue": 112.2
   }
  ],
  "cuts": [
@@ -189,68 +189,68 @@
  "continuity": [
   {
    "t": 1.0,
-   "luma_jump": 0.057,
+   "luma_jump": 0.055,
    "hue_jump": 35.6
   },
   {
    "t": 2.0,
-   "luma_jump": 0.115,
-   "hue_jump": 11.0
+   "luma_jump": 0.113,
+   "hue_jump": 10.3
   },
   {
    "t": 3.0,
-   "luma_jump": 0.219,
-   "hue_jump": 66.7
+   "luma_jump": 0.217,
+   "hue_jump": 66.9
   },
   {
    "t": 3.5,
-   "luma_jump": 0.189,
-   "hue_jump": 48.5
+   "luma_jump": 0.184,
+   "hue_jump": 48.3
   },
   {
    "t": 4.0,
-   "luma_jump": 0.07,
-   "hue_jump": 8.7
+   "luma_jump": 0.069,
+   "hue_jump": 8.5
   },
   {
    "t": 4.5,
-   "luma_jump": 0.054,
-   "hue_jump": 15.8
+   "luma_jump": 0.053,
+   "hue_jump": 15.2
   },
   {
    "t": 5.0,
-   "luma_jump": 0.045,
+   "luma_jump": 0.044,
    "hue_jump": 19.2
   },
   {
    "t": 5.5,
-   "luma_jump": 0.057,
-   "hue_jump": 48.6
+   "luma_jump": 0.056,
+   "hue_jump": 48.8
   },
   {
    "t": 6.0,
-   "luma_jump": 0.07,
-   "hue_jump": 16.6
+   "luma_jump": 0.071,
+   "hue_jump": 16.8
   },
   {
    "t": 6.5,
    "luma_jump": 0.045,
-   "hue_jump": 18.0
+   "hue_jump": 18.4
   },
   {
    "t": 7.5,
-   "luma_jump": 0.07,
-   "hue_jump": 25.9
+   "luma_jump": 0.064,
+   "hue_jump": 26.8
   },
   {
    "t": 8.0,
-   "luma_jump": 0.043,
-   "hue_jump": 21.3
+   "luma_jump": 0.037,
+   "hue_jump": 23.1
   }
  ],
  "loop_seam": {
-  "seam_diff": 3.56,
-  "median_neighbor_diff": 2.57,
+  "seam_diff": 3.91,
+  "median_neighbor_diff": 2.53,
   "ok": true,
   "seam_diff_no_text": 1.47
  },
@@ -286,6 +286,31 @@
   "studio/inspections/stoic_edit_03/sheet_time.jpg",
   "studio/inspections/stoic_edit_03/sheet_cuts.jpg"
  ],
+ "vision_review": {
+  "reviewer": "Claude (vision) — kontakt-listovi 0.5 s + frejmovi oko rezova i loop spoja; video NIJE gledan u pokretu",
+  "summary": "Noćna vožnja, metro, knjiga, kamin, kanal, mesec - mirno i raznovrsno; nekoliko tamnih kadrova.",
+  "scenes": [
+   {
+    "index": 0,
+    "verdict": "good",
+    "note": "hook kadar sa subjektom"
+   }
+  ],
+  "storytelling": "Edit format kao referenca: proređena reč pa kratak red.",
+  "creative_score": 84,
+  "breakdown": {
+   "storytelling": 15,
+   "visual": 16,
+   "hook": 13,
+   "cinematography": 13,
+   "sound": 9,
+   "editing": 10,
+   "originality": 8
+  },
+  "recommendations": [
+   "Noćni POV luksuz (Pexels) bi podigao vizuel"
+  ]
+ },
  "history": [
   {
    "at": "2026-11-19T12:47:40",
@@ -336,6 +361,11 @@
    "at": "2026-11-19T13:30:37",
    "approved": false,
    "issues": 0
+  },
+  {
+   "at": "2026-11-19T13:32:56",
+   "approved": false,
+   "issues": 0
   }
  ],
  "approval": {
@@ -346,31 +376,6 @@
   "approved": false,
   "blocking": [
    "kreativna ocena 84 < 90"
-  ]
- },
- "vision_review": {
-  "reviewer": "Claude (vision) — kontakt-listovi 0.5 s + frejmovi oko rezova i loop spoja; video NIJE gledan u pokretu",
-  "summary": "Noćna vožnja, metro, knjiga, kamin, kanal, mesec - mirno i raznovrsno; nekoliko tamnih kadrova.",
-  "scenes": [
-   {
-    "index": 0,
-    "verdict": "good",
-    "note": "hook kadar sa subjektom"
-   }
-  ],
-  "storytelling": "Edit format kao referenca: proređena reč pa kratak red.",
-  "creative_score": 84,
-  "breakdown": {
-   "storytelling": 15,
-   "visual": 16,
-   "hook": 13,
-   "cinematography": 13,
-   "sound": 9,
-   "editing": 10,
-   "originality": 8
-  },
-  "recommendations": [
-   "Noćni POV luksuz (Pexels) bi podigao vizuel"
   ]
  }
 }

@@ -1,6 +1,6 @@
 # Inspekcija stoic_edit_01 — NIJE ODOBRENO
 
-Fajl: `videos/stoic/stoic_edit_01.mp4` · 2026-11-19T13:32:48
+Fajl: `videos/stoic/stoic_edit_01.mp4` · 2026-11-19T15:53:34
 
 _Metod:_ Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.
 
@@ -10,31 +10,31 @@ _Metod:_ Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na
 ## Scene (merenja)
 | # | od–do s | osvetljenost | oštrina | vizuelna ocena | napomena |
 |---|---|---|---|---|---|
-| 0 | 0.0–0.5 | 0.173 | 163.1 | good | hook kadar sa subjektom |
-| 1 | 0.5–1.0 | 0.12 | 125.1 | — |  |
-| 2 | 1.0–1.5 | 0.282 | 85.9 | — |  |
-| 3 | 1.5–2.0 | 0.119 | 115.5 | — |  |
-| 4 | 2.0–2.5 | 0.247 | 60.5 | — |  |
-| 5 | 2.5–3.0 | 0.349 | 119.1 | — |  |
-| 6 | 3.0–3.5 | 0.174 | 78.9 | — |  |
-| 7 | 3.5–4.0 | 0.338 | 273.7 | — |  |
-| 8 | 4.0–4.5 | 0.158 | 161.5 | — |  |
-| 9 | 4.5–5.0 | 0.167 | 119.8 | — |  |
-| 10 | 5.0–5.5 | 0.18 | 250.3 | — |  |
-| 11 | 5.5–6.0 | 0.182 | 51.3 | — |  |
-| 12 | 6.0–6.5 | 0.197 | 393.2 | — |  |
-| 13 | 6.5–7.0 | 0.207 | 82.0 | — |  |
-| 14 | 7.0–7.5 | 0.204 | 95.2 | — |  |
-| 15 | 7.5–8.0 | 0.299 | 52.1 | — |  |
-| 16 | 8.0–8.5 | 0.205 | 103.6 | — |  |
-| 17 | 8.5–9.0 | 0.171 | 144.8 | — |  |
+| 0 | 0.0–0.5 | 0.171 | 162.5 | good | hook kadar sa subjektom |
+| 1 | 0.5–1.0 | 0.118 | 123.7 | — |  |
+| 2 | 1.0–1.5 | 0.278 | 88.0 | — |  |
+| 3 | 1.5–2.0 | 0.116 | 117.9 | — |  |
+| 4 | 2.0–2.5 | 0.244 | 65.8 | — |  |
+| 5 | 2.5–3.0 | 0.343 | 119.1 | — |  |
+| 6 | 3.0–3.5 | 0.172 | 83.5 | — |  |
+| 7 | 3.5–4.0 | 0.334 | 273.3 | — |  |
+| 8 | 4.0–4.5 | 0.156 | 159.6 | — |  |
+| 9 | 4.5–5.0 | 0.166 | 119.3 | — |  |
+| 10 | 5.0–5.5 | 0.181 | 239.1 | — |  |
+| 11 | 5.5–6.0 | 0.182 | 55.0 | — |  |
+| 12 | 6.0–6.5 | 0.197 | 392.5 | — |  |
+| 13 | 6.5–7.0 | 0.204 | 89.6 | — |  |
+| 14 | 7.0–7.5 | 0.201 | 75.6 | — |  |
+| 15 | 7.5–8.0 | 0.294 | 62.3 | — |  |
+| 16 | 8.0–8.5 | 0.205 | 95.8 | — |  |
+| 17 | 8.5–9.0 | 0.171 | 139.3 | — |  |
 
 ## Kontinuitet i loop
 Rezovi: [0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0, 6.5, 7.0, 7.5, 8.0, 8.5]
-Loop spoj: {'seam_diff': 3.03, 'median_neighbor_diff': 3.08, 'ok': True, 'seam_diff_no_text': 2.21}
+Loop spoj: {'seam_diff': 3.42, 'median_neighbor_diff': 3.02, 'ok': True, 'seam_diff_no_text': 1.99}
 
 ## Tekst / titlovi
-{'detected': [0.5, 0.933, 2.5, 2.933, 3.367, 4.0, 5.0, 5.433, 6.0, 6.433], 'expected': [4.0], 'offset_s': [0.0], 'on_beat_120bpm': True}
+{'detected': [0.5, 0.933, 2.5, 2.933, 3.367, 4.0, 5.0, 5.433, 6.067, 6.5], 'expected': [4.0], 'offset_s': [0.0], 'on_beat_120bpm': True}
 
 ## Zvuk
 {'streams': 0, 'note': 'bez zvučnog zapisa — po pravilu korisnika (muziku dodaje u TikTok-u)'}

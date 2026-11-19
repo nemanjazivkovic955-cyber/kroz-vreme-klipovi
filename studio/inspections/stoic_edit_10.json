@@ -1,7 +1,7 @@
 {
  "id": "stoic_edit_10",
  "file": "videos/stoic/stoic_edit_10.mp4",
- "inspected_at": "2026-11-19T15:03:00",
+ "inspected_at": "2026-11-19T15:54:26",
  "method": "Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.",
  "meta": {
   "width": 1080,
@@ -13,7 +13,7 @@
   "video_streams": 1,
   "audio_streams": 0,
   "acodec": null,
-  "bitrate_kbps": 23729
+  "bitrate_kbps": 24621
  },
  "expected": {
   "texts": [],
@@ -47,7 +47,7 @@
    "end": 0.5,
    "dur": 0.5,
    "luma": 0.115,
-   "sharpness": 101.3,
+   "sharpness": 101.6,
    "overexposed_frac": 0.008,
    "hue": 106.2
   },
@@ -57,9 +57,9 @@
    "end": 1.0,
    "dur": 0.5,
    "luma": 0.182,
-   "sharpness": 163.2,
+   "sharpness": 159.2,
    "overexposed_frac": 0.008,
-   "hue": 90.8
+   "hue": 90.6
   },
   {
    "index": 2,
@@ -67,9 +67,9 @@
    "end": 1.5,
    "dur": 0.5,
    "luma": 0.129,
-   "sharpness": 118.6,
+   "sharpness": 132.1,
    "overexposed_frac": 0.008,
-   "hue": 94.0
+   "hue": 94.4
   },
   {
    "index": 3,
@@ -77,19 +77,19 @@
    "end": 2.0,
    "dur": 0.5,
    "luma": 0.353,
-   "sharpness": 82.0,
+   "sharpness": 57.1,
    "overexposed_frac": 0.008,
-   "hue": 65.8
+   "hue": 65.5
   },
   {
    "index": 4,
    "start": 2.0,
    "end": 2.5,
    "dur": 0.5,
-   "luma": 0.135,
-   "sharpness": 116.1,
+   "luma": 0.136,
+   "sharpness": 121.2,
    "overexposed_frac": 0.0,
-   "hue": 92.8
+   "hue": 92.6
   },
   {
    "index": 5,
@@ -97,7 +97,7 @@
    "end": 3.0,
    "dur": 0.5,
    "luma": 0.415,
-   "sharpness": 161.2,
+   "sharpness": 157.7,
    "overexposed_frac": 0.0,
    "hue": 101.4
   },
@@ -107,9 +107,9 @@
    "end": 3.5,
    "dur": 0.5,
    "luma": 0.34,
-   "sharpness": 153.9,
+   "sharpness": 147.5,
    "overexposed_frac": 0.0,
-   "hue": 41.5
+   "hue": 40.2
   },
   {
    "index": 7,
@@ -117,9 +117,9 @@
    "end": 4.0,
    "dur": 0.5,
    "luma": 0.135,
-   "sharpness": 90.6,
+   "sharpness": 84.0,
    "overexposed_frac": 0.0,
-   "hue": 71.0
+   "hue": 71.1
   },
   {
    "index": 8,
@@ -127,7 +127,7 @@
    "end": 4.5,
    "dur": 0.5,
    "luma": 0.287,
-   "sharpness": 119.3,
+   "sharpness": 100.6,
    "overexposed_frac": 0.001,
    "hue": 100.3
   },
@@ -136,38 +136,38 @@
    "start": 4.5,
    "end": 5.0,
    "dur": 0.5,
-   "luma": 0.184,
-   "sharpness": 59.7,
+   "luma": 0.186,
+   "sharpness": 60.7,
    "overexposed_frac": 0.002,
-   "hue": 93.7
+   "hue": 93.5
   },
   {
    "index": 10,
    "start": 5.0,
    "end": 5.5,
    "dur": 0.5,
-   "luma": 0.19,
-   "sharpness": 366.8,
+   "luma": 0.191,
+   "sharpness": 348.1,
    "overexposed_frac": 0.002,
-   "hue": 53.0
+   "hue": 52.9
   },
   {
    "index": 11,
    "start": 5.5,
    "end": 6.0,
    "dur": 0.5,
-   "luma": 0.136,
-   "sharpness": 80.3,
+   "luma": 0.139,
+   "sharpness": 102.2,
    "overexposed_frac": 0.002,
-   "hue": 53.4
+   "hue": 53.9
   },
   {
    "index": 12,
    "start": 6.0,
    "end": 6.5,
    "dur": 0.5,
-   "luma": 0.361,
-   "sharpness": 180.9,
+   "luma": 0.363,
+   "sharpness": 190.1,
    "overexposed_frac": 0.002,
    "hue": 102.8
   },
@@ -176,20 +176,20 @@
    "start": 6.5,
    "end": 7.0,
    "dur": 0.5,
-   "luma": 0.282,
-   "sharpness": 284.0,
+   "luma": 0.284,
+   "sharpness": 284.7,
    "overexposed_frac": 0.002,
-   "hue": 102.9
+   "hue": 103.0
   },
   {
    "index": 14,
    "start": 7.0,
    "end": 7.5,
    "dur": 0.5,
-   "luma": 0.124,
-   "sharpness": 92.7,
+   "luma": 0.126,
+   "sharpness": 82.5,
    "overexposed_frac": 0.002,
-   "hue": 100.3
+   "hue": 100.2
   }
  ],
  "cuts": [
@@ -212,23 +212,23 @@
  "continuity": [
   {
    "t": 0.5,
-   "luma_jump": 0.069,
-   "hue_jump": 18.0
+   "luma_jump": 0.07,
+   "hue_jump": 18.5
   },
   {
    "t": 1.0,
    "luma_jump": 0.058,
-   "hue_jump": 3.6
+   "hue_jump": 4.1
   },
   {
    "t": 1.5,
    "luma_jump": 0.227,
-   "hue_jump": 28.6
+   "hue_jump": 29.4
   },
   {
    "t": 2.0,
-   "luma_jump": 0.223,
-   "hue_jump": 28.7
+   "luma_jump": 0.222,
+   "hue_jump": 27.7
   },
   {
    "t": 2.5,
@@ -238,54 +238,54 @@
   {
    "t": 3.0,
    "luma_jump": 0.074,
-   "hue_jump": 56.3
+   "hue_jump": 58.4
   },
   {
    "t": 3.5,
    "luma_jump": 0.202,
-   "hue_jump": 31.8
+   "hue_jump": 32.9
   },
   {
    "t": 4.0,
    "luma_jump": 0.151,
-   "hue_jump": 29.1
+   "hue_jump": 28.7
   },
   {
    "t": 4.5,
-   "luma_jump": 0.104,
-   "hue_jump": 6.4
+   "luma_jump": 0.102,
+   "hue_jump": 6.7
   },
   {
    "t": 5.0,
-   "luma_jump": 0.008,
-   "hue_jump": 40.3
+   "luma_jump": 0.007,
+   "hue_jump": 40.6
   },
   {
    "t": 5.5,
-   "luma_jump": 0.054,
-   "hue_jump": 1.5
+   "luma_jump": 0.052,
+   "hue_jump": 0.1
   },
   {
    "t": 6.0,
-   "luma_jump": 0.223,
-   "hue_jump": 47.3
+   "luma_jump": 0.222,
+   "hue_jump": 47.6
   },
   {
    "t": 6.5,
-   "luma_jump": 0.075,
+   "luma_jump": 0.076,
    "hue_jump": 0.4
   },
   {
    "t": 7.0,
-   "luma_jump": 0.148,
+   "luma_jump": 0.147,
    "hue_jump": 4.3
   }
  ],
  "loop_seam": {
-  "seam_diff": 8.34,
+  "seam_diff": 8.58,
   "median_neighbor_diff": 3.25,
   "ok": true,
-  "seam_diff_no_text": 3.16
+  "seam_diff_no_text": 3.15
  },
  "text_timing": {
   "detected": [
@@ -322,23 +322,6 @@
   "studio/inspections/stoic_edit_10/sheet_time.jpg",
   "studio/inspections/stoic_edit_10/sheet_cuts.jpg"
  ],
- "history": [
-  {
-   "at": "2026-11-19T14:56:41",
-   "approved": false,
-   "issues": 2
-  }
- ],
- "approval": {
-  "technical_pass": true,
-  "vision_reviewed": true,
-  "weak_scenes": 0,
-  "creative_score": 85,
-  "approved": false,
-  "blocking": [
-   "kreativna ocena 85 < 90"
-  ]
- },
  "vision_review": {
   "reviewer": "Claude (vision) — kontakt-listovi 0.5 s + frejmovi oko rezova i loop spoja; video NIJE gledan u pokretu",
   "summary": "Penjanje, povreda članka, patike na žici, pustinja, sneg. Hook kadar (zid) taman.",
@@ -362,6 +345,33 @@
   },
   "recommendations": [
    "Uporediti sa klipovima 1-5 posle 48 h (pregledi, % do kraja)"
+  ]
+ },
+ "history": [
+  {
+   "at": "2026-11-19T14:56:41",
+   "approved": false,
+   "issues": 2
+  },
+  {
+   "at": "2026-11-19T15:03:00",
+   "approved": false,
+   "issues": 1
+  },
+  {
+   "at": "2026-11-19T15:54:06",
+   "approved": false,
+   "issues": 2
+  }
+ ],
+ "approval": {
+  "technical_pass": true,
+  "vision_reviewed": true,
+  "weak_scenes": 0,
+  "creative_score": 85,
+  "approved": false,
+  "blocking": [
+   "kreativna ocena 85 < 90"
   ]
  }
 }

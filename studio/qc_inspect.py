@@ -201,7 +201,7 @@ def inspect(path, vid=None, expect_silent=None):
         for y in range(x + 1, len(shots)):
             d = ham(shots[x]["hash"], shots[y]["hash"])
             loop_pair = exp.get("loop") and x == 0 and y == len(shots) - 1
-            if d <= 40 and not loop_pair:
+            if d <= 32 and not loop_pair:  # 40 davalo lažna poklapanja (svetlo nebo nad tlom)
                 reps.append((x, y, d)); issue("major", "repeat_in_video", shots[y]["start"], f"kadar {y} skoro isti kao kadar {x} (dHash {d})")
     # 4 ponavljanje prema ranijim videima
     db = json.load(open(HASHES)) if os.path.exists(HASHES) else {}

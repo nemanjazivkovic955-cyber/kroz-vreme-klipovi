@@ -1,6 +1,6 @@
 # Inspekcija stoic_edit_06 — NIJE ODOBRENO
 
-Fajl: `videos/stoic/stoic_edit_06.mp4` · 2026-11-19T15:04:42
+Fajl: `videos/stoic/stoic_edit_06.mp4` · 2026-11-19T15:53:52
 
 _Metod:_ Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.
 
@@ -11,26 +11,26 @@ _Metod:_ Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na
 | # | od–do s | osvetljenost | oštrina | vizuelna ocena | napomena |
 |---|---|---|---|---|---|
 | 0 | 0.0–0.5 | 0.261 | 415.0 | good | hook rečenica čitljiva |
-| 1 | 0.5–1.5 | 0.202 | 60.7 | — |  |
-| 2 | 1.5–2.0 | 0.141 | 63.9 | — |  |
-| 3 | 2.0–2.5 | 0.206 | 90.5 | — |  |
-| 4 | 2.5–3.0 | 0.308 | 94.7 | — |  |
-| 5 | 3.0–3.5 | 0.174 | 123.8 | — |  |
-| 6 | 3.5–4.0 | 0.136 | 78.9 | — |  |
-| 7 | 4.0–4.5 | 0.252 | 52.8 | — |  |
-| 8 | 4.5–5.0 | 0.131 | 36.3 | — |  |
-| 9 | 5.0–5.5 | 0.304 | 169.6 | — |  |
-| 10 | 5.5–6.0 | 0.205 | 68.7 | — |  |
-| 11 | 6.0–6.5 | 0.337 | 419.5 | — |  |
-| 12 | 6.5–7.0 | 0.086 | 674.4 | — |  |
-| 13 | 7.0–7.5 | 0.278 | 309.5 | — |  |
+| 1 | 0.5–1.5 | 0.202 | 59.2 | — |  |
+| 2 | 1.5–2.0 | 0.141 | 68.0 | — |  |
+| 3 | 2.0–2.5 | 0.206 | 76.9 | — |  |
+| 4 | 2.5–3.0 | 0.308 | 125.5 | — |  |
+| 5 | 3.0–3.5 | 0.174 | 120.1 | — |  |
+| 6 | 3.5–4.0 | 0.136 | 72.8 | — |  |
+| 7 | 4.0–4.5 | 0.252 | 72.7 | — |  |
+| 8 | 4.5–5.0 | 0.134 | 49.0 | — |  |
+| 9 | 5.0–5.5 | 0.305 | 147.8 | — |  |
+| 10 | 5.5–6.0 | 0.208 | 58.1 | — |  |
+| 11 | 6.0–6.5 | 0.338 | 412.5 | — |  |
+| 12 | 6.5–7.0 | 0.089 | 661.2 | — |  |
+| 13 | 7.0–7.5 | 0.279 | 320.1 | — |  |
 
 ## Kontinuitet i loop
 Rezovi: [0.5, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0, 6.5, 7.0]
-Loop spoj: {'seam_diff': 9.98, 'median_neighbor_diff': 3.53, 'ok': True, 'seam_diff_no_text': 4.12}
+Loop spoj: {'seam_diff': 9.96, 'median_neighbor_diff': 3.53, 'ok': True, 'seam_diff_no_text': 3.84}
 
 ## Tekst / titlovi
-{'detected': [2.0, 2.533, 2.967, 3.4, 4.0, 5.9], 'expected': [2.0, 4.0], 'offset_s': [0.0, 0.0], 'on_beat_120bpm': True}
+{'detected': [2.0, 2.533, 2.967, 3.4, 4.0, 4.433], 'expected': [2.0, 4.0], 'offset_s': [0.0, 0.0], 'on_beat_120bpm': True}
 
 ## Zvuk
 {'streams': 0, 'note': 'bez zvučnog zapisa — po pravilu korisnika (muziku dodaje u TikTok-u)'}

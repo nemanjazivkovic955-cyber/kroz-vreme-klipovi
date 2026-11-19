@@ -1,6 +1,6 @@
 # Inspekcija stoic_edit_02 — NIJE ODOBRENO
 
-Fajl: `videos/stoic/stoic_edit_02.mp4` · 2026-11-19T13:32:52
+Fajl: `videos/stoic/stoic_edit_02.mp4` · 2026-11-19T15:53:37
 
 _Metod:_ Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.
 
@@ -10,25 +10,25 @@ _Metod:_ Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na
 ## Scene (merenja)
 | # | od–do s | osvetljenost | oštrina | vizuelna ocena | napomena |
 |---|---|---|---|---|---|
-| 0 | 0.0–0.5 | 0.156 | 115.7 | good | hook kadar sa subjektom |
-| 1 | 0.5–1.0 | 0.11 | 34.2 | — |  |
-| 2 | 1.0–1.5 | 0.105 | 57.9 | — |  |
-| 3 | 1.5–2.0 | 0.151 | 86.0 | — |  |
-| 4 | 2.0–2.5 | 0.124 | 32.1 | — |  |
-| 5 | 2.5–3.0 | 0.115 | 79.1 | — |  |
-| 6 | 3.0–3.5 | 0.219 | 87.5 | — |  |
-| 7 | 3.5–4.0 | 0.192 | 84.0 | — |  |
-| 8 | 4.0–4.5 | 0.155 | 97.5 | — |  |
-| 9 | 4.5–5.0 | 0.146 | 104.3 | — |  |
-| 10 | 5.0–5.5 | 0.167 | 75.7 | — |  |
-| 11 | 5.5–6.0 | 0.132 | 83.8 | — |  |
-| 12 | 6.0–6.5 | 0.201 | 118.2 | — |  |
-| 13 | 6.5–7.0 | 0.235 | 84.9 | — |  |
-| 14 | 7.0–7.5 | 0.146 | 85.4 | — |  |
+| 0 | 0.0–0.5 | 0.154 | 116.3 | good | hook kadar sa subjektom |
+| 1 | 0.5–1.0 | 0.108 | 32.3 | — |  |
+| 2 | 1.0–1.5 | 0.103 | 56.1 | — |  |
+| 3 | 1.5–2.0 | 0.149 | 71.3 | — |  |
+| 4 | 2.0–2.5 | 0.121 | 76.4 | — |  |
+| 5 | 2.5–3.0 | 0.114 | 85.3 | — |  |
+| 6 | 3.0–3.5 | 0.216 | 55.0 | — |  |
+| 7 | 3.5–4.0 | 0.189 | 98.2 | — |  |
+| 8 | 4.0–4.5 | 0.154 | 84.4 | — |  |
+| 9 | 4.5–5.0 | 0.146 | 110.8 | — |  |
+| 10 | 5.0–5.5 | 0.167 | 72.7 | — |  |
+| 11 | 5.5–6.0 | 0.132 | 72.1 | — |  |
+| 12 | 6.0–6.5 | 0.203 | 122.3 | — |  |
+| 13 | 6.5–7.0 | 0.233 | 96.2 | — |  |
+| 14 | 7.0–7.5 | 0.147 | 74.1 | — |  |
 
 ## Kontinuitet i loop
 Rezovi: [0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0, 6.5, 7.0]
-Loop spoj: {'seam_diff': 3.03, 'median_neighbor_diff': 2.47, 'ok': True, 'seam_diff_no_text': 1.98}
+Loop spoj: {'seam_diff': 3.67, 'median_neighbor_diff': 2.44, 'ok': True, 'seam_diff_no_text': 1.98}
 
 ## Tekst / titlovi
 {'detected': [4.0], 'expected': [4.0], 'offset_s': [0.0], 'on_beat_120bpm': True}

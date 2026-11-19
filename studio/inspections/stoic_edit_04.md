@@ -1,6 +1,6 @@
 # Inspekcija stoic_edit_04 — NIJE ODOBRENO
 
-Fajl: `videos/stoic/stoic_edit_04.mp4` · 2026-11-19T13:33:00
+Fajl: `videos/stoic/stoic_edit_04.mp4` · 2026-11-19T15:54:22
 
 _Metod:_ Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.
 
@@ -10,27 +10,26 @@ _Metod:_ Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na
 ## Scene (merenja)
 | # | od–do s | osvetljenost | oštrina | vizuelna ocena | napomena |
 |---|---|---|---|---|---|
-| 0 | 0.0–0.5 | 0.217 | 134.6 | good | hook kadar sa subjektom |
-| 1 | 0.5–1.0 | 0.244 | 60.0 | — |  |
-| 2 | 1.0–1.5 | 0.111 | 71.2 | — |  |
-| 3 | 1.5–2.0 | 0.336 | 87.7 | — |  |
-| 4 | 2.0–2.5 | 0.39 | 125.9 | — |  |
-| 5 | 2.5–3.0 | 0.189 | 42.5 | — |  |
-| 6 | 3.0–3.5 | 0.168 | 79.6 | — |  |
-| 7 | 3.5–4.0 | 0.331 | 132.4 | — |  |
-| 8 | 4.0–4.5 | 0.277 | 116.3 | — |  |
-| 9 | 4.5–5.0 | 0.205 | 113.5 | — |  |
-| 10 | 5.0–5.5 | 0.231 | 56.0 | — |  |
-| 11 | 5.5–6.0 | 0.188 | 221.9 | — |  |
-| 12 | 6.0–6.5 | 0.238 | 104.2 | — |  |
-| 13 | 6.5–7.0 | 0.316 | 290.7 | — |  |
-| 14 | 7.0–7.5 | 0.26 | 115.9 | — |  |
-| 15 | 7.5–8.0 | 0.262 | 123.0 | — |  |
-| 16 | 8.0–8.5 | 0.219 | 125.2 | — |  |
+| 0 | 0.0–0.5 | 0.212 | 135.4 | good | hook kadar sa subjektom |
+| 1 | 0.5–1.0 | 0.239 | 64.4 | — |  |
+| 2 | 1.0–1.5 | 0.109 | 71.1 | — |  |
+| 3 | 1.5–2.0 | 0.331 | 85.0 | — |  |
+| 4 | 2.0–2.5 | 0.385 | 120.6 | — |  |
+| 5 | 2.5–3.0 | 0.187 | 40.2 | — |  |
+| 6 | 3.0–3.5 | 0.165 | 93.0 | — |  |
+| 7 | 3.5–4.0 | 0.327 | 120.6 | — |  |
+| 8 | 4.0–4.5 | 0.272 | 119.1 | — |  |
+| 9 | 4.5–5.0 | 0.201 | 103.8 | — |  |
+| 10 | 5.0–5.5 | 0.231 | 69.8 | — |  |
+| 11 | 5.5–6.0 | 0.186 | 190.1 | — |  |
+| 12 | 6.0–6.5 | 0.237 | 114.7 | — |  |
+| 13 | 6.5–7.0 | 0.313 | 300.7 | — |  |
+| 14 | 7.0–8.0 | 0.259 | 126.3 | — |  |
+| 15 | 8.0–8.5 | 0.215 | 107.4 | — |  |
 
 ## Kontinuitet i loop
-Rezovi: [0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0, 6.5, 7.0, 7.5, 8.0]
-Loop spoj: {'seam_diff': 2.99, 'median_neighbor_diff': 2.05, 'ok': True, 'seam_diff_no_text': 2.03}
+Rezovi: [0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0, 6.5, 7.0, 8.0]
+Loop spoj: {'seam_diff': 3.1, 'median_neighbor_diff': 2.05, 'ok': True, 'seam_diff_no_text': 1.57}
 
 ## Tekst / titlovi
 {'detected': [4.0], 'expected': [4.0], 'offset_s': [0.0], 'on_beat_120bpm': True}

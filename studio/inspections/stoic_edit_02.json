@@ -1,7 +1,7 @@
 {
  "id": "stoic_edit_02",
  "file": "videos/stoic/stoic_edit_02.mp4",
- "inspected_at": "2026-11-19T13:32:52",
+ "inspected_at": "2026-11-19T15:53:37",
  "method": "Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.",
  "meta": {
   "width": 1080,
@@ -13,7 +13,7 @@
   "video_streams": 1,
   "audio_streams": 0,
   "acodec": null,
-  "bitrate_kbps": 24108
+  "bitrate_kbps": 23834
  },
  "expected": {
   "texts": [],
@@ -45,38 +45,38 @@
    "start": 0.0,
    "end": 0.5,
    "dur": 0.5,
-   "luma": 0.156,
-   "sharpness": 115.7,
+   "luma": 0.154,
+   "sharpness": 116.3,
    "overexposed_frac": 0.0,
-   "hue": 82.4
+   "hue": 82.7
   },
   {
    "index": 1,
    "start": 0.5,
    "end": 1.0,
    "dur": 0.5,
-   "luma": 0.11,
-   "sharpness": 34.2,
+   "luma": 0.108,
+   "sharpness": 32.3,
    "overexposed_frac": 0.0,
-   "hue": 114.1
+   "hue": 114.2
   },
   {
    "index": 2,
    "start": 1.0,
    "end": 1.5,
    "dur": 0.5,
-   "luma": 0.105,
-   "sharpness": 57.9,
+   "luma": 0.103,
+   "sharpness": 56.1,
    "overexposed_frac": 0.0,
-   "hue": 79.6
+   "hue": 80.7
   },
   {
    "index": 3,
    "start": 1.5,
    "end": 2.0,
    "dur": 0.5,
-   "luma": 0.151,
-   "sharpness": 86.0,
+   "luma": 0.149,
+   "sharpness": 71.3,
    "overexposed_frac": 0.0,
    "hue": 96.0
   },
@@ -85,50 +85,50 @@
    "start": 2.0,
    "end": 2.5,
    "dur": 0.5,
-   "luma": 0.124,
-   "sharpness": 32.1,
+   "luma": 0.121,
+   "sharpness": 76.4,
    "overexposed_frac": 0.0,
-   "hue": 107.3
+   "hue": 107.0
   },
   {
    "index": 5,
    "start": 2.5,
    "end": 3.0,
    "dur": 0.5,
-   "luma": 0.115,
-   "sharpness": 79.1,
+   "luma": 0.114,
+   "sharpness": 85.3,
    "overexposed_frac": 0.0,
-   "hue": 94.7
+   "hue": 94.6
   },
   {
    "index": 6,
    "start": 3.0,
    "end": 3.5,
    "dur": 0.5,
-   "luma": 0.219,
-   "sharpness": 87.5,
+   "luma": 0.216,
+   "sharpness": 55.0,
    "overexposed_frac": 0.0,
-   "hue": 105.4
+   "hue": 105.7
   },
   {
    "index": 7,
    "start": 3.5,
    "end": 4.0,
    "dur": 0.5,
-   "luma": 0.192,
-   "sharpness": 84.0,
+   "luma": 0.189,
+   "sharpness": 98.2,
    "overexposed_frac": 0.0,
-   "hue": 73.5
+   "hue": 73.4
   },
   {
    "index": 8,
    "start": 4.0,
    "end": 4.5,
    "dur": 0.5,
-   "luma": 0.155,
-   "sharpness": 97.5,
+   "luma": 0.154,
+   "sharpness": 84.4,
    "overexposed_frac": 0.001,
-   "hue": 72.2
+   "hue": 71.9
   },
   {
    "index": 9,
@@ -136,7 +136,7 @@
    "end": 5.0,
    "dur": 0.5,
    "luma": 0.146,
-   "sharpness": 104.3,
+   "sharpness": 110.8,
    "overexposed_frac": 0.001,
    "hue": 83.3
   },
@@ -146,9 +146,9 @@
    "end": 5.5,
    "dur": 0.5,
    "luma": 0.167,
-   "sharpness": 75.7,
+   "sharpness": 72.7,
    "overexposed_frac": 0.001,
-   "hue": 103.9
+   "hue": 104.0
   },
   {
    "index": 11,
@@ -156,39 +156,39 @@
    "end": 6.0,
    "dur": 0.5,
    "luma": 0.132,
-   "sharpness": 83.8,
+   "sharpness": 72.1,
    "overexposed_frac": 0.001,
-   "hue": 106.4
+   "hue": 106.5
   },
   {
    "index": 12,
    "start": 6.0,
    "end": 6.5,
    "dur": 0.5,
-   "luma": 0.201,
-   "sharpness": 118.2,
+   "luma": 0.203,
+   "sharpness": 122.3,
    "overexposed_frac": 0.001,
-   "hue": 96.0
+   "hue": 95.7
   },
   {
    "index": 13,
    "start": 6.5,
    "end": 7.0,
    "dur": 0.5,
-   "luma": 0.235,
-   "sharpness": 84.9,
+   "luma": 0.233,
+   "sharpness": 96.2,
    "overexposed_frac": 0.001,
-   "hue": 71.5
+   "hue": 72.1
   },
   {
    "index": 14,
    "start": 7.0,
    "end": 7.5,
    "dur": 0.5,
-   "luma": 0.146,
-   "sharpness": 85.4,
+   "luma": 0.147,
+   "sharpness": 74.1,
    "overexposed_frac": 0.001,
-   "hue": 88.8
+   "hue": 88.3
   }
  ],
  "cuts": [
@@ -211,78 +211,78 @@
  "continuity": [
   {
    "t": 0.5,
-   "luma_jump": 0.057,
-   "hue_jump": 37.6
+   "luma_jump": 0.058,
+   "hue_jump": 37.4
   },
   {
    "t": 1.0,
    "luma_jump": 0.019,
-   "hue_jump": 33.4
+   "hue_jump": 33.2
   },
   {
    "t": 1.5,
-   "luma_jump": 0.068,
-   "hue_jump": 15.5
+   "luma_jump": 0.067,
+   "hue_jump": 14.2
   },
   {
    "t": 2.0,
    "luma_jump": 0.035,
-   "hue_jump": 13.5
+   "hue_jump": 13.4
   },
   {
    "t": 2.5,
-   "luma_jump": 0.009,
+   "luma_jump": 0.007,
    "hue_jump": 12.5
   },
   {
    "t": 3.0,
-   "luma_jump": 0.109,
-   "hue_jump": 11.3
+   "luma_jump": 0.107,
+   "hue_jump": 12.3
   },
   {
    "t": 3.5,
    "luma_jump": 0.028,
-   "hue_jump": 32.3
+   "hue_jump": 31.2
   },
   {
    "t": 4.0,
-   "luma_jump": 0.04,
-   "hue_jump": 0.7
+   "luma_jump": 0.039,
+   "hue_jump": 0.2
   },
   {
    "t": 4.5,
-   "luma_jump": 0.011,
+   "luma_jump": 0.012,
    "hue_jump": 12.4
   },
   {
    "t": 5.0,
    "luma_jump": 0.024,
-   "hue_jump": 19.4
+   "hue_jump": 19.5
   },
   {
    "t": 5.5,
-   "luma_jump": 0.034,
-   "hue_jump": 1.1
+   "luma_jump": 0.036,
+   "hue_jump": 1.3
   },
   {
    "t": 6.0,
-   "luma_jump": 0.067,
-   "hue_jump": 11.5
+   "luma_jump": 0.07,
+   "hue_jump": 11.1
   },
   {
    "t": 6.5,
-   "luma_jump": 0.04,
-   "hue_jump": 28.8
+   "luma_jump": 0.036,
+   "hue_jump": 26.8
   },
   {
    "t": 7.0,
-   "luma_jump": 0.099,
-   "hue_jump": 20.0
+   "luma_jump": 0.096,
+   "hue_jump": 18.8
   }
  ],
  "loop_seam": {
-  "seam_diff": 3.03,
-  "median_neighbor_diff": 2.47,
+  "seam_diff": 3.67,
+  "median_neighbor_diff": 2.44,
   "ok": true,
   "seam_diff_no_text": 1.98
  },
@@ -311,6 +311,31 @@
   "studio/inspections/stoic_edit_02/sheet_time.jpg",
   "studio/inspections/stoic_edit_02/sheet_cuts.jpg"
  ],
+ "vision_review": {
+  "reviewer": "Claude (vision) — kontakt-listovi 0.5 s + frejmovi oko rezova i loop spoja; video NIJE gledan u pokretu",
+  "summary": "Boks, znoj, teretana, skok na kutiju, silueta - jaka emocija; zavijanje ruku taman.",
+  "scenes": [
+   {
+    "index": 0,
+    "verdict": "good",
+    "note": "hook kadar sa subjektom"
+   }
+  ],
+  "storytelling": "Edit format kao referenca: proređena reč pa kratak red.",
+  "creative_score": 87,
+  "breakdown": {
+   "storytelling": 16,
+   "visual": 18,
+   "hook": 14,
+   "cinematography": 13,
+   "sound": 9,
+   "editing": 10,
+   "originality": 7
+  },
+  "recommendations": [
+   "Noćni POV luksuz (Pexels) bi podigao vizuel"
+  ]
+ },
  "history": [
   {
    "at": "2026-11-19T12:47:37",
@@ -356,6 +381,11 @@
    "at": "2026-11-19T13:30:33",
    "approved": false,
    "issues": 0
+  },
+  {
+   "at": "2026-11-19T13:32:52",
+   "approved": false,
+   "issues": 0
   }
  ],
  "approval": {
@@ -366,31 +396,6 @@
   "approved": false,
   "blocking": [
    "kreativna ocena 87 < 90"
-  ]
- },
- "vision_review": {
-  "reviewer": "Claude (vision) — kontakt-listovi 0.5 s + frejmovi oko rezova i loop spoja; video NIJE gledan u pokretu",
-  "summary": "Boks, znoj, teretana, skok na kutiju, silueta - jaka emocija; zavijanje ruku taman.",
-  "scenes": [
-   {
-    "index": 0,
-    "verdict": "good",
-    "note": "hook kadar sa subjektom"
-   }
-  ],
-  "storytelling": "Edit format kao referenca: proređena reč pa kratak red.",
-  "creative_score": 87,
-  "breakdown": {
-   "storytelling": 16,
-   "visual": 18,
-   "hook": 14,
-   "cinematography": 13,
-   "sound": 9,
-   "editing": 10,
-   "originality": 7
-  },
-  "recommendations": [
-   "Noćni POV luksuz (Pexels) bi podigao vizuel"
   ]
  }
 }
