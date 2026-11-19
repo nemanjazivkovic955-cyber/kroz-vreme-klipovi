@@ -41,7 +41,8 @@ def render_para(out, name, start, d, zin):
     slow = max(1.0, d / avail)  # prekratak izvor -> usporeno
     if slow > 1.0 and sd - 0.2 > avail: start = 0.1; avail = sd - 0.2; slow = max(1.0, d / avail)
     z0, z1 = (1.0, 1.07) if zin else (1.07, 1.0)
-    zoom = f"scale=w='{W}*({z0}+({z1}-{z0})*t/{d:.3f})':h=-2:eval=frame:flags=bicubic,crop={W}:{H},setsar=1"
+    # max(...): pri odzumiranju zaokruživanje je davalo širinu < 1920 -> crop je rušio ffmpeg (SIGABRT)
+    zoom = f"scale=w='max({W + 4},trunc({W}*({z0}+({z1}-{z0})*t/{d:.3f})/2)*2)':h=-2:eval=frame:flags=bicubic,crop={W}:{H},setsar=1"
     pre = f"setpts={slow:.4f}*(PTS-STARTPTS),"
     if sw >= sh:
         vf = f"{pre}scale={W}:{H}:force_original_aspect_ratio=increase:flags=lanczos,crop={W}:{H},fps={FPS},{GRADE},{zoom},vignette=PI/5,format=yuv420p"
