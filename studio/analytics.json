@@ -41,5 +41,35 @@
    }
   ],
   "nedostaje": "prosečno vreme gledanja, % do kraja, izvor saobraćaja (For You vs pratioci) - TikTok Studio"
+ },
+ "2026-11-19_windsor": {
+  "izvor": "Windsor.ai tiktok_organic (automatski)",
+  "period": "17-19.11.",
+  "klipova": 34,
+  "zakljucak": "prosek gledanja 1.5-4.5 s, do kraja 0-9%, komentari 0, deljenja 0; ~11 objava dnevno u naletima; opisi samo hashtagovi",
+  "najbolji": [
+   {
+    "id": "7709860468961185045",
+    "traj": 10,
+    "pregledi": 240,
+    "prosek_s": 4.65,
+    "do_kraja": 0.094
+   },
+   {
+    "id": "7709068582088494356",
+    "traj": 24,
+    "pregledi": 316,
+    "prosek_s": 5.83,
+    "do_kraja": 0.063,
+    "lajkovi": 17
+   },
+   {
+    "id": "7709546994800397588",
+    "traj": 10,
+    "pregledi": 210,
+    "lajkovi": 21,
+    "cuvanja": 4
+   }
+  ]
  }
 }

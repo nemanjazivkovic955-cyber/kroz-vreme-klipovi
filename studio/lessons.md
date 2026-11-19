@@ -54,3 +54,9 @@
 28. Inspektor dobija PLAN rezova (planned_cuts) — brzi rezovi i udarci zuma nisu treperenje; flicker se traži samo van plana.
 29. Koncertni snimci često imaju bljesak scenskog svetla (gitara 483) i reklame na sportskim terenima (43499) — proveravati kadar po kadar.
 30. Test sledećeg kruga: v4 (živo) protiv v3 (tamno) po % gledanja do kraja.
+
+## Podaci Windsor.ai (34 klipa, 17-19.11.)
+31. Ljudi odlaze posle 1.5-4.5 s; do kraja 0-9%; 0 komentara i 0 deljenja. -> PRVI FREJM i hook čitljiv za <1 s su prioritet broj 1.
+32. Previše objava (do 11/dan, u naletima) -> 1-2 dnevno u isto vreme.
+33. Opisi bez pitanja = 0 komentara -> uvek koristiti opis sa pitanjem iz _opis.txt.
+34. Kraći klipovi (7-10 s) imaju ~2x veći % gledanja do kraja od 27 s klipova.
