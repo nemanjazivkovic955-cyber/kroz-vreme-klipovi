@@ -4,6 +4,13 @@
 2. Scene: nijedan snimak dvaput; najviše 2 kadra iste vrste u klipu; vrsta scene ne sme biti u 3+ od prethodnih 5 klipova.
 3. Posle svakog kruga: TikTok brojevi -> nova lekcija ovde -> promena šablona u sledećem krugu. Isti format bez promene se ne pravi.
 
+
+# KONCEPT SERIJE (zaključano 19.11. — korisnik: "izgubili smo poentu priče sa slikama; isti koncept i kvalitet, svaki put bolje")
+- **Jedan klip = jedna mini-priča sa jednim junakom/svetom**: problem -> okret -> rezultat. Slika doslovno prikazuje rečenicu koja je na ekranu.
+- Format ostaje: krupna hook rečenica 0-2 s, reč, kratak red, CTA "SHARE • LIKE • COMMENT FOR MORE", loop, bez zvuka, rezovi na udarac.
+- Raznovrsnost važi IZMEĐU klipova (drugi svet/tema), NE unutar klipa (nema nasumičnog mešanja sportova).
+- Lekcija v4: energija bez poente = gubitak suštine. Brzi rezovi samo na vrhuncu priče.
+
 # Lekcije (obavezne za svaku sledeću produkciju) — ažurira se posle svakog ciklusa
 
 ## Iz ciklusa 0 (ocena postojećih produkcija, 19.11.)

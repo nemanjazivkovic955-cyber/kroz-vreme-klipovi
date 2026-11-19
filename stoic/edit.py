@@ -301,6 +301,21 @@ EDITS = {
         "caption": "Doing a lot is not the same as doing what matters. What's your ONE thing right now? \U0001F447",
         "tags": "#stoicism #discipline #mindset #focus #purpose",
         "sound": "dark-to-hype phonk / beat drop (trending ↗) - udarac na 0.5 s, završnica na 0.25 s"},
+    # ---- v5 PRIČA (zaključan koncept 19.11.): jedan junak, problem -> okret -> rezultat; slika = rečenica
+    16: {"mode": "story", "hook": "Everyone gets knocked down.", "word": "RISE", "line": "get back up.",
+        "loop": ("mk_40962", 0.43, 3.5, "eq=gamma=1.2", "boks-meč"),          # krvav bokser sedi u uglu
+        "shots": [("mk_40969", 0.28, 1.6, "", "boks-meč", 1.0),                # udarac u lice (pad)
+                  ("mk_40961", 0.50, 2.0, "", "boks-meč", 0.5),                # protivnik misli da je gotovo
+                  ("mk_40958", 0.50, 1.8, "", "boks-meč", 1.0),                # RISE: odlučno lice (oštro)
+                  ("mk_40970", 0.50, None, "", "boks-meč", 0.5),               # gard gore
+                  ("mk_40972", 0.50, None, "", "boks-meč", 0.5),               # pod pritiskom, i dalje stoji
+                  ("mk_40967", 0.45, None, "", "boks-meč", 0.5),               # get back up: vraća se u razmenu
+                  ("mk_40954", 0.55, None, "", "boks-meč", 0.5),               # ide napred
+                  ("mk_40968", 0.45, 7.5, "", "boks-meč", 0.5),                # rukavica bez logoa (7.5 s)
+                  ("mk_40974", 0.50, 6.8, "", "boks-meč", 1.0)],               # udarac pogađa (rezultat), bez logoa
+        "caption": "Getting knocked down isn't the end. Staying down is. When did you last get back up? \U0001F447",
+        "tags": "#stoicism #discipline #mindset #resilience #boxing",
+        "sound": "emotional cinematic phonk / slow build to drop (trending ↗) - drop na 4.0 s (get back up)"},
 }
 
 
@@ -312,6 +327,7 @@ def check_variety(n):
     srcs = [x[0] for x in e["shots"]] + [e["loop"][0]]
     other = {x[0] for m, o in EDITS.items() if m != n for x in o["shots"] + [o["loop"]]}
     rep = [x for x in srcs if srcs.count(x) > 1 or x in other]
+    if e.get("mode") == "story": bad = {}  # KONCEPT: jedan svet/junak unutar klipa; raznovrsnost proverava 'stale' između klipova
     assert not bad and not rep, f"edit {n}: previše iste vrste {bad} / ponovljen izvor {rep}"
     # STALNO PRAVILO KORISNIKA: svaki put nova tema i nove scene
     words = [o["word"] for m, o in EDITS.items() if m != n]

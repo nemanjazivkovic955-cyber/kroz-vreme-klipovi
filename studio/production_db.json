@@ -4154,6 +4154,63 @@
   }
  },
  {
+  "id": "stoic_edit_16",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "rise",
+  "hook": "R I S E",
+  "text": [
+   "R I S E",
+   "get back up."
+  ],
+  "ending": "get back up.",
+  "footage": [
+   "mk_40962",
+   "mk_40969",
+   "mk_40961",
+   "mk_40958",
+   "mk_40970",
+   "mk_40972",
+   "mk_40967",
+   "mk_40954",
+   "mk_40968",
+   "mk_40974"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_16.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_16.md",
+   "inspected_at": "2026-11-19T16:36:50",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 88,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 88 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    0.5,
+    2.0,
+    3.0,
+    4.0,
+    4.5,
+    6.5
+   ],
+   "loop_seam": {
+    "seam_diff": 7.67,
+    "median_neighbor_diff": 4.49,
+    "ok": true,
+    "seam_diff_no_text": 2.17
+   }
+  }
+ },
+ {
   "id": "talk_city",
   "family": "talk_v1",
   "format": "TikTok 9:16 ~30 s, glas + muzika",
