@@ -150,9 +150,10 @@ def make(n):
     r = RULES[n]; BOXES.clear()
     lname, lx, a = r["loop"]
     full = os.path.join(TMP, f"r{n}_loop.mp4")
-    render_shot(full, lname, a - 1.0, 3.0, lx, 1.00, 1.06, r.get("loop_extra", ""))            # kontinualno [a-1, a+2]
+    hd, tl = SEG[0][1] - SEG[0][0], SEG[-1][1] - SEG[-1][0]  # glava (hook) i rep (CTA) iz istog snimka
+    render_shot(full, lname, a - tl, tl + hd, lx, 1.00, 1.06, r.get("loop_extra", ""))       # kontinualno [a-tl, a+hd]
     head, tail = os.path.join(TMP, f"r{n}_head.mp4"), os.path.join(TMP, f"r{n}_tail.mp4")
-    cut(full, head, 1.0, 2.0); cut(full, tail, 0.0, 1.0)
+    cut(full, head, tl, hd); cut(full, tail, 0.0, tl)
     parts = [head]
     for k, sh in enumerate(r["shots"], 1):
         nm, xc, st = sh[:3]; extra = sh[3] if len(sh) > 3 else ""

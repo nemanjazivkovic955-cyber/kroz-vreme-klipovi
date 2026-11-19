@@ -4,11 +4,12 @@ Razlike prema TikTok verziji:
   - ZVUK je ugrađen: sopstvena generisana tamna klavirska podloga (bez autorskih prava),
     jer se trending zvuk ne može dodati Shortu objavljenom preko Metricool-a.
     Podloga se vrti u krug bez šava (kraj prelazi u početak), udarac na 2.0 s (hook -> pravilo), 120 BPM.
+  - GLAS: Kokoro TTS (am_onyx), svaki red se izgovara; trajanje segmenata prati govor (~13-15 s)
   - opis: YouTube naslov + opis (+ #shorts) u <ime>_opis.txt
 Izlaz: videos/stoic_youtube/stoic_rule_yt_NN.mp4
 Upotreba: python3 stoic/youtube.py 1 [2 3 ...]
 """
-import os, sys, subprocess, wave
+import os, sys, math, subprocess, wave
 import numpy as np
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
@@ -54,7 +55,7 @@ def music(path, n, dur):
             m = ch[2 + (k + int(rng.integers(0, 2))) % 3] + 12
             add(piano(hz(m), 2.4, 0.11 if k == 0 else 0.07), t0 + pos * beat)
     # "udarac" na 2.0 s: duboki sub (hook -> pravilo) + na 9.0 s tiši (prelaz na CTA)
-    for at, g in ((2.0, 0.55), (9.0, 0.3)):
+    for at, g in ((M.SEG[1][0], 0.55), (M.SEG[-1][0], 0.3)):
         tt = np.arange(int(1.2 * SR)) / SR
         f = 55 * np.exp(-tt * 3) + 38
         add(np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-tt * 3.2) * g, at)
@@ -70,17 +71,79 @@ def music(path, n, dur):
         w.writeframes((st * 32767).astype(np.int16).tobytes())
 
 
-def make(n):
+TTS_DIR = os.path.join(HERE, "tts")  # Kokoro-82M (Apache 2.0, besplatno i za komercijalnu upotrebu), u .gitignore
+TTS_URL = "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/main/"
+VOICE, SPEED = "am_onyx", 0.92  # dubok, miran muški glas
+LEAD, PAD, BEAT = 0.12, 0.45, 0.5
+
+
+def tts():
+    import glob
+    from kokoro_onnx import Kokoro
+    os.makedirs(TTS_DIR, exist_ok=True)
+    mp, vp = os.path.join(TTS_DIR, "model.onnx"), os.path.join(TTS_DIR, "voices.bin")
+    if not os.path.exists(mp):
+        subprocess.run(["curl", "-sSfLo", mp, TTS_URL + "onnx/model_quantized.onnx"], check=True)
+    if not os.path.exists(vp):
+        vs = {}
+        for v in (VOICE,):
+            f = os.path.join(TTS_DIR, v + ".bin")
+            subprocess.run(["curl", "-sSfLo", f, TTS_URL + f"voices/{v}.bin"], check=True)
+            vs[v] = np.fromfile(f, dtype=np.float32).reshape(-1, 1, 256)
+        np.savez(vp + ".npz", **vs); os.replace(vp + ".npz", vp)
+    return Kokoro(mp, vp)
+
+
+def voice_lines(r, n):
+    k = tts()
+    lines = [r["hook"]] + r["rule"] + [f"Subscribe for rule number {n + 1}."]
+    clips = []
+    for ln in lines:
+        a, sr = k.create(ln, voice=VOICE, speed=SPEED, lang="en-us")
+        assert sr == 24000
+        nz = np.where(np.abs(a) > 0.01)[0]  # odseci tišinu na krajevima
+        a = a[max(0, nz[0] - 240): nz[-1] + 1200]
+        clips.append(a)
+    return clips
+
+
+def make(n, voice=True):
     r = RULES[n]
     os.makedirs(OUT, exist_ok=True)
     M.CTA = "Subscribe for rule #{n}"
     M.OUT = M.TMP  # tihu međuverziju drži u stoic/out
+    vtrack = None
+    if voice:
+        clips = voice_lines(r, n)
+        segs, t = [], 0.0
+        for i, a in enumerate(clips):  # segment = govor + predah, zaokruženo na udarac (120 BPM)
+            d = max(2.0 if i == 0 else 1.5, math.ceil((LEAD + len(a) / 24000 + PAD) / BEAT) * BEAT)
+            segs.append((t, t + d)); t += d
+        M.SEG, M.TOTAL = segs, t
+        M.WORD = 0.22
+        vtrack = np.zeros(int(t * 24000) + 24000)
+        for (s0, _), a in zip(segs, clips):
+            i0 = int((s0 + LEAD) * 24000); vtrack[i0:i0 + len(a)] += a
+        vtrack = vtrack[:int(t * 24000)]
     silent = M.make(n)
     wav = os.path.join(M.TMP, f"yt{n}.wav"); music(wav, n, M.TOTAL)
     out = os.path.join(OUT, f"stoic_rule_yt_{n:02d}.mp4")
-    subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-i", silent, "-i", wav,
-                    "-af", "loudnorm=I=-14:TP=-1.5:LRA=7", "-map", "0:v", "-map", "1:a", "-c:v", "copy",
-                    "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-shortest", "-movflags", "+faststart", out], check=True)
+    if vtrack is not None:
+        vw = os.path.join(M.TMP, f"yt{n}_voice.wav")
+        with wave.open(vw, "w") as w:
+            w.setnchannels(1); w.setsampwidth(2); w.setframerate(24000)
+            w.writeframes((vtrack / (np.abs(vtrack).max() + 1e-9) * 0.9 * 32767).astype(np.int16).tobytes())
+        fc = ("[2:a]aresample=44100,highpass=f=70,acompressor=threshold=-20dB:ratio=3:attack=5:release=120,"
+              "aecho=0.8:0.5:40|75:0.12|0.07,volume=1.0,asplit[v1][v2];"
+              "[1:a]volume=0.55[m];[m][v1]sidechaincompress=threshold=0.04:ratio=6:attack=20:release=300[md];"
+              "[md][v2]amix=inputs=2:weights='1 1.6':normalize=0,loudnorm=I=-14:TP=-1.5:LRA=7[a]")
+        subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-i", silent, "-i", wav, "-i", vw,
+                        "-filter_complex", fc, "-map", "0:v", "-map", "[a]", "-c:v", "copy",
+                        "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-t", f"{M.TOTAL}", "-movflags", "+faststart", out], check=True)
+    else:
+        subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-i", silent, "-i", wav,
+                        "-af", "loudnorm=I=-14:TP=-1.5:LRA=7", "-map", "0:v", "-map", "1:a", "-c:v", "copy",
+                        "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-shortest", "-movflags", "+faststart", out], check=True)
     title = f"Stoic Rule #{n}: {r['hook'].rstrip('.')} #shorts"
     desc = (f"{r['caption']}\n\nStoic rule #{n}: {' '.join(r['rule'])}\n\n"
             f"Subscribe for rule #{n + 1} — one stoic rule every day.\n\n{r['tags']} #shorts\n")
