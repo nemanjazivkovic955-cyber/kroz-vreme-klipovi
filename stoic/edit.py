@@ -276,6 +276,12 @@ def overlay(e, n, total, path):
             s_ = e["line"]; tw = c.text_extents(s_).x_advance; x = M.CX - tw / 2
             M.BOXES.append((x, cy - 55, x + tw, cy + 15))
             M.shadow_text(c, x, cy, s_, a)
+            # STALNO PRAVILO KORISNIKA: CTA ispod završne poruke na svakom klipu
+            ca = min(1.0, max(0.0, (t - split - 0.25) / 0.2))
+            M.face(c, 34, cairo.FONT_WEIGHT_BOLD)
+            cta = "SHARE  •  LIKE  •  COMMENT FOR MORE"; cw = c.text_extents(cta).x_advance; cx_ = M.CX - cw / 2
+            M.BOXES.append((cx_, cy + 60, cx_ + cw, cy + 100))
+            M.shadow_text(c, cx_, cy + 92, cta, ca)
         s.flush(); p.stdin.write(bytes(s.get_data()))
     p.stdin.close(); p.wait()
 
@@ -305,7 +311,7 @@ def make(n):
                     "-tune", "grain", "-maxrate", "22M", "-bufsize", "44M", "-t", f"{total}", "-c:v", "libx264",
                     "-preset", "slow", "-crf", "19", "-pix_fmt", "yuv420p", "-movflags", "+faststart", part], check=True)
     os.replace(part, out)
-    open(out.replace(".mp4", "_opis.txt"), "w").write(f"{e['caption']}\n\n{e['tags']}\n\nZvuk (dodaješ u TikTok-u): {e['sound']}\n")
+    open(out.replace(".mp4", "_opis.txt"), "w").write(f"{e['caption']}\n\nShare, like & comment for more \u2694\ufe0f\n\n{e['tags']}\n\nZvuk (dodaješ u TikTok-u): {e['sound']}\n")
     safe = all(x0 >= 0 and y0 >= 0 and x1 <= M.SAFE_R and y1 <= M.SAFE_B for x0, y0, x1, y1 in M.BOXES)
     print(out, total, "s", len(parts), "kadrova, tekst u sigurnoj zoni:", safe)
 
