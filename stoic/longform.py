@@ -195,6 +195,9 @@ def fmt(t):
 def build(ep):
     E = importlib.import_module(ep)
     tmp = os.path.join(M.TMP, ep); os.makedirs(tmp, exist_ok=True); os.makedirs(OUTD, exist_ok=True)
+    import footage as FG
+    shots = [p[0] for sec in E.SECTIONS for p in sec["paras"]]
+    FG.check(ep, shots)
     k = YT.tts()
     # 1) TTS + vremenska linija
     timeline, voice, t, chapters = [], [], 0.0, []
@@ -270,6 +273,7 @@ def build(ep):
         f"NASLOV: {E.TITLE}\n\nOPIS:\n{desc}\nTAGOVI: {', '.join(E.TAGS)}\n\nTRAJANJE: {fmt(total)}\n")
     json.dump({"total": total, "chapters": chapters, "shots": [p["shot"] for p in timeline]},
               open(os.path.join(OUTD, f"{ep}_plan.json"), "w"), indent=1)
+    FG.register(ep, shots)
     print(out, fmt(total))
     return out
 

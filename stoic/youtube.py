@@ -107,8 +107,37 @@ def voice_lines(r, n):
     return clips
 
 
+# YouTube verzije imaju SVOJE snimke (pravilo: snimak se nikad ne ponavlja, pa ni TikTok snimci).
+YT_FOOTAGE = {
+    1: {"loop": ("mk_1966", 0.50, 5.0), "loop_extra": "eq=gamma=1.1",          # dim (crno-belo) - energija koja se troši
+        "shots": [("mk_4000", 0.55, 2.0),                                       # raskrsnica odozgo - svet koji ne kontrolišeš
+                  ("mk_4893", 0.50, 0.5),                                       # koraci - tvoj odgovor
+                  ("mk_3458", 0.50, 2.0, "eq=gamma=1.3")]},                    # sveća se pali u mraku - tvoja moć
+    2: {"loop": ("mk_151", 0.42, 5.0),                                          # silueta čoveka kraj prozora - tiha snaga
+        "shots": [("mk_4185", 0.50, 0.5),                                       # gomila na festivalu - "svima"
+                  ("mk_3350", 0.62, 2.0),                                       # mesec nad šumom - tišina
+                  ("mk_3438", 0.50, 2.0)]},                                    # sveće izbliza - kontrola
+    3: {"loop": ("mk_4231", 0.50, 5.0),                                         # gomila pod kišobranima - tuđa mišljenja
+        "shots": [("mk_4154", 0.50, 1.0),                                       # pokretne stepenice, prolaznici
+                  ("mk_1038", 0.50, 1.0, "eq=gamma=1.1"),                      # čovek u snopu svetla - karakter
+                  ("mk_3463", 0.50, 2.0)]},                                    # varnice - fokus
+    4: {"loop": ("mk_1967", 0.50, 5.0), "loop_extra": "eq=gamma=1.2",          # dim se uvija - iluzija motivacije
+        "shots": [("mk_3465", 0.50, 2.0),                                       # žar pada i gasi se - motivacija bledi
+                  ("mk_3352", 0.50, 1.0),                                       # sneg pada u šumi - uslovi loši, ipak
+                  ("mk_719", 0.45, 3.0)]},                                     # trkač dolazi kroz šumu - budi taj koji se pojavi
+}
+
+
+def footage(r):
+    return [r["loop"][0]] + [s[0] for s in r["shots"]]
+
+
 def make(n, voice=True):
-    r = RULES[n]
+    r = dict(RULES[n]); r.update(YT_FOOTAGE.get(n, {}))
+    if n in YT_FOOTAGE and "loop_extra" not in YT_FOOTAGE[n]: r.pop("loop_extra", None)
+    M.RULES[n] = r  # make.py čita M.RULES
+    import footage as FG
+    FG.check(f"yt_short_{n:02d}", footage(r))
     os.makedirs(OUT, exist_ok=True)
     M.CTA = "Subscribe for the next rule"
     M.SHOW_TEXT = True  # tekst preko ekrana i uz glas (odluka korisnika 19.11.)
@@ -160,6 +189,7 @@ def make(n, voice=True):
     desc = (f"{r['caption']}\n\nStoic rule: {' '.join(r['rule'])}\n\n"
             f"Subscribe for the next rule — one stoic rule every day.\n\n{r['tags']} #shorts\n")
     open(out.replace(".mp4", "_opis.txt"), "w").write(f"NASLOV: {title}\n\nOPIS:\n{desc}")
+    FG.register(f"yt_short_{n:02d}", footage(r))
     print(out)
     return out, title, desc
 
