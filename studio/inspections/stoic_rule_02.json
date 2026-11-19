@@ -1,0 +1,239 @@
+{
+ "id": "stoic_rule_02",
+ "file": "videos/stoic/stoic_rule_02.mp4",
+ "inspected_at": "2026-11-19T11:06:55",
+ "method": "Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.",
+ "meta": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "duration": 10.0,
+  "vcodec": "h264",
+  "pix_fmt": "yuv420p",
+  "video_streams": 1,
+  "audio_streams": 0,
+  "acodec": null,
+  "bitrate_kbps": 23480
+ },
+ "expected": {
+  "texts": [
+   "The strongest people do this quietly.",
+   "Don't explain yourself to everyone.",
+   "Silence is not weakness.",
+   "It's control.",
+   "Follow for rule #3"
+  ],
+  "text_changes": [
+   2.0,
+   4.5,
+   7.0,
+   9.0
+  ],
+  "silent": true,
+  "loop": true,
+  "kind": "stoic",
+  "dur": [
+   9,
+   11
+  ],
+  "min_luma": 0.07
+ },
+ "technical": {
+  "resolution_ok": true,
+  "aspect": "1080:1920",
+  "fps_ok": true,
+  "duration_ok": true,
+  "audio_rule_ok": true,
+  "frames_decoded": 300,
+  "frames_expected": 300
+ },
+ "shots": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 2.0,
+   "dur": 2.0,
+   "luma": 0.229,
+   "sharpness": 127.5,
+   "overexposed_frac": 0.012,
+   "hue": 70.7
+  },
+  {
+   "index": 1,
+   "start": 2.0,
+   "end": 4.5,
+   "dur": 2.5,
+   "luma": 0.235,
+   "sharpness": 144.5,
+   "overexposed_frac": 0.004,
+   "hue": 103.1
+  },
+  {
+   "index": 2,
+   "start": 4.5,
+   "end": 7.0,
+   "dur": 2.5,
+   "luma": 0.185,
+   "sharpness": 356.1,
+   "overexposed_frac": 0.003,
+   "hue": 74.8
+  },
+  {
+   "index": 3,
+   "start": 7.0,
+   "end": 9.0,
+   "dur": 2.0,
+   "luma": 0.161,
+   "sharpness": 164.6,
+   "overexposed_frac": 0.001,
+   "hue": 106.1
+  },
+  {
+   "index": 4,
+   "start": 9.0,
+   "end": 10.0,
+   "dur": 1.0,
+   "luma": 0.222,
+   "sharpness": 136.0,
+   "overexposed_frac": 0.003,
+   "hue": 72.4
+  }
+ ],
+ "cuts": [
+  2.0,
+  4.5,
+  7.0,
+  9.0
+ ],
+ "dissolves": [],
+ "continuity": [
+  {
+   "t": 2.0,
+   "luma_jump": 0.002,
+   "hue_jump": 33.0
+  },
+  {
+   "t": 4.5,
+   "luma_jump": 0.061,
+   "hue_jump": 23.0
+  },
+  {
+   "t": 7.0,
+   "luma_jump": 0.026,
+   "hue_jump": 31.6
+  },
+  {
+   "t": 9.0,
+   "luma_jump": 0.06,
+   "hue_jump": 33.9
+  }
+ ],
+ "loop_seam": {
+  "seam_diff": 5.43,
+  "median_neighbor_diff": 1.13,
+  "ok": true,
+  "seam_diff_no_text": 1.56
+ },
+ "text_timing": {
+  "detected": [
+   2.0,
+   4.5,
+   7.0,
+   9.0
+  ],
+  "expected": [
+   2.0,
+   4.5,
+   7.0,
+   9.0
+  ],
+  "offset_s": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "on_beat_120bpm": true
+ },
+ "audio": {
+  "streams": 0,
+  "note": "bez zvučnog zapisa — po pravilu korisnika (muziku dodaje u TikTok-u)"
+ },
+ "repetition": {
+  "in_video": [],
+  "across_videos": []
+ },
+ "issues": [],
+ "sheets": [
+  "studio/inspections/stoic_rule_02/sheet_time.jpg",
+  "studio/inspections/stoic_rule_02/sheet_cuts.jpg"
+ ],
+ "history": [
+  {
+   "at": "2026-11-19T10:54:59",
+   "approved": false,
+   "issues": 1
+  },
+  {
+   "at": "2026-11-19T10:59:56",
+   "approved": false,
+   "issues": 0
+  }
+ ],
+ "approval": {
+  "technical_pass": true,
+  "vision_reviewed": true,
+  "weak_scenes": 0,
+  "creative_score": 85,
+  "approved": false,
+  "blocking": [
+   "kreativna ocena 85 < 90"
+  ]
+ },
+ "vision_review": {
+  "reviewer": "Claude (vision) — kontakt-listovi 0.5 s + frejmovi oko rezova/loop spoja; video NIJE gledan u pokretu",
+  "summary": "Silueta u senci (hook, subjekat) -> kiša na prozoru -> statua na steni u oblacima -> šahovski kralj. Svaki kadar ilustruje rečenicu; stil serije dosledan.",
+  "scenes": [
+   {
+    "index": 0,
+    "verdict": "good",
+    "note": "Silueta čoveka u senci - subjekat u hook-u."
+   },
+   {
+    "index": 1,
+    "verdict": "ok",
+    "note": "Kiša na prozoru; topla crveno-žuta mrlja svetla odstupa od hladne palete."
+   },
+   {
+    "index": 2,
+    "verdict": "good",
+    "note": "Statua na steni - tiha snaga."
+   },
+   {
+    "index": 3,
+    "verdict": "good",
+    "note": "Šahovski kralj - kontrola (posvetljeno gamma 1.75)."
+   },
+   {
+    "index": 4,
+    "verdict": "ok",
+    "note": "Silueta, CTA, loop bez šava."
+   }
+  ],
+  "storytelling": "Hook obećava tajnu ('do this quietly'), pravilo je otkriva, kratka završna rečenica 'It's control.' udara.",
+  "creative_score": 85,
+  "breakdown": {
+   "storytelling": 18,
+   "visual": 17,
+   "hook": 13,
+   "cinematography": 12,
+   "sound": 8,
+   "editing": 9,
+   "originality": 8
+  },
+  "recommendations": [
+   "Hladnije ugasiti toplu mrlju u kadru kiše",
+   "Ocena zvuka = ritam-mreža (klip je bez zvuka po pravilu)"
+  ]
+ }
+}

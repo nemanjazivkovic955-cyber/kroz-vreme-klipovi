@@ -17,4 +17,41 @@ RULES = {
         "caption": "Most people waste their whole day fighting this. Which part do you struggle to let go of?",
         "tags": "#stoicism #mindset #discipline #motivation #selfcontrol",
         "sound": "dark piano / slowed cinematic strings (trending ↗)"},
+    2: {"theme": "tišina",
+        "hook": "The strongest people do this quietly.",
+        "rule": ["Don't explain yourself to everyone.",
+                 "Silence is not weakness.",
+                 "It's control."],
+        "loop": ("mk_402", 0.31, 6.0),            # čovek u senci, silueta
+        "shots": [("mk_2846", 0.31, 5.0),         # kiša na prozoru - buka sveta
+                  ("mk_4063", 0.43, 4.0),         # statua na steni u oblacima - tiha snaga
+                  ("mk_49736", 0.50, 3.0, "eq=gamma=1.75")],       # šahovski kralj se okreće - kontrola
+        "caption": "Not everyone deserves an explanation. When did staying silent win for you?",
+        "tags": "#stoicism #mindset #discipline #motivation #silence",
+        "sound": "slowed dark phonk / deep ambient bass (trending ↗)"},
+    3: {"theme": "mišljenje drugih",
+        "hook": "This is why people don't respect you.",
+        "rule": ["Their opinion of you is not your business.",
+                 "Your character is.",
+                 "Focus on that."],
+        "loop": ("mk_434", 0.67, 7.0),            # silueta čoveka u dimu
+        "loop_extra": "eq=contrast=1.45:gamma=1.1:saturation=0.6",  # izvući siluetu iz dima
+        "shots": [("mk_2716", 0.95, 4.0, "eq=gamma=1.5"),         # kiša kaplje sa krova - tuđa buka
+                  ("mk_1759", 0.43, 3.0),         # kamene statue - karakter
+                  ("mk_41744", 0.50, 4.0)],       # plamen sveće izbliza - fokus
+        "caption": "Their opinion doesn't pay your bills. Whose opinion are you still carrying?",
+        "tags": "#stoicism #mindset #discipline #motivation #selfrespect",
+        "sound": "dark cello / sad cinematic piano (trending ↗)"},
+    4: {"theme": "disciplina",
+        "hook": "Motivation is lying to you.",
+        "rule": ["Motivation fades by noon.",
+                 "Discipline shows up anyway.",
+                 "Be the one who shows up."],
+        "loop": ("mk_50957", 0.50, 3.0),          # dim se uvija na tamnoj površini - iluzija
+        "shots": [("mk_41741", 0.50, 4.0, "eq=gamma=1.55"),        # sveće dogorevaju - motivacija se gasi
+                  ("mk_22729", 0.50, 4.0),        # kišna mračna šuma - uslovi su loši, ipak
+                  ("mk_2752", 0.64, 5.0, "eq=brightness=-0.07:gamma=0.85")],  # čovek sam stoji na steni - budi taj (49725 odbačen: isti kao kralj u #2)
+        "caption": "Motivation is a feeling. Discipline is a decision. What do you show up for when you don't feel like it?",
+        "tags": "#stoicism #mindset #discipline #motivation #selfdiscipline",
+        "sound": "hard dark phonk / epic war drums (trending ↗)"},
 }

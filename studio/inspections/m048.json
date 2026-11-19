@@ -1,7 +1,7 @@
 {
  "id": "m048",
  "file": "videos/tiktok_loops/m048.mp4",
- "inspected_at": "2026-11-19T10:34:39",
+ "inspected_at": "2026-11-19T11:06:48",
  "method": "Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.",
  "meta": {
   "width": 1080,
@@ -218,6 +218,11 @@
   },
   {
    "at": "2026-11-19T10:23:45",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-19T10:34:39",
    "approved": false,
    "issues": 0
   }

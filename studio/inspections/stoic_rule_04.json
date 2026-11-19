@@ -1,0 +1,243 @@
+{
+ "id": "stoic_rule_04",
+ "file": "videos/stoic/stoic_rule_04.mp4",
+ "inspected_at": "2026-11-19T11:08:56",
+ "method": "Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.",
+ "meta": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "duration": 10.0,
+  "vcodec": "h264",
+  "pix_fmt": "yuv420p",
+  "video_streams": 1,
+  "audio_streams": 0,
+  "acodec": null,
+  "bitrate_kbps": 23466
+ },
+ "expected": {
+  "texts": [
+   "Motivation is lying to you.",
+   "Motivation fades by noon.",
+   "Discipline shows up anyway.",
+   "Be the one who shows up.",
+   "Follow for rule #5"
+  ],
+  "text_changes": [
+   2.0,
+   4.5,
+   7.0,
+   9.0
+  ],
+  "silent": true,
+  "loop": true,
+  "kind": "stoic",
+  "dur": [
+   9,
+   11
+  ],
+  "min_luma": 0.07
+ },
+ "technical": {
+  "resolution_ok": true,
+  "aspect": "1080:1920",
+  "fps_ok": true,
+  "duration_ok": true,
+  "audio_rule_ok": true,
+  "frames_decoded": 300,
+  "frames_expected": 300
+ },
+ "shots": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 2.0,
+   "dur": 2.0,
+   "luma": 0.186,
+   "sharpness": 145.9,
+   "overexposed_frac": 0.013,
+   "hue": 107.4
+  },
+  {
+   "index": 1,
+   "start": 2.0,
+   "end": 4.5,
+   "dur": 2.5,
+   "luma": 0.152,
+   "sharpness": 137.3,
+   "overexposed_frac": 0.006,
+   "hue": 113.7
+  },
+  {
+   "index": 2,
+   "start": 4.5,
+   "end": 7.0,
+   "dur": 2.5,
+   "luma": 0.103,
+   "sharpness": 331.5,
+   "overexposed_frac": 0.007,
+   "hue": 106.7
+  },
+  {
+   "index": 3,
+   "start": 7.0,
+   "end": 9.0,
+   "dur": 2.0,
+   "luma": 0.156,
+   "sharpness": 431.1,
+   "overexposed_frac": 0.004,
+   "hue": 88.7
+  },
+  {
+   "index": 4,
+   "start": 9.0,
+   "end": 10.0,
+   "dur": 1.0,
+   "luma": 0.303,
+   "sharpness": 164.2,
+   "overexposed_frac": 0.003,
+   "hue": 106.3
+  }
+ ],
+ "cuts": [
+  2.0,
+  4.5,
+  7.0,
+  9.0
+ ],
+ "dissolves": [],
+ "continuity": [
+  {
+   "t": 2.0,
+   "luma_jump": 0.001,
+   "hue_jump": 4.4
+  },
+  {
+   "t": 4.5,
+   "luma_jump": 0.062,
+   "hue_jump": 6.5
+  },
+  {
+   "t": 7.0,
+   "luma_jump": 0.043,
+   "hue_jump": 19.6
+  },
+  {
+   "t": 9.0,
+   "luma_jump": 0.156,
+   "hue_jump": 18.3
+  }
+ ],
+ "loop_seam": {
+  "seam_diff": 8.99,
+  "median_neighbor_diff": 1.36,
+  "ok": true,
+  "seam_diff_no_text": 2.9
+ },
+ "text_timing": {
+  "detected": [
+   2.0,
+   4.5,
+   7.0,
+   9.0
+  ],
+  "expected": [
+   2.0,
+   4.5,
+   7.0,
+   9.0
+  ],
+  "offset_s": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "on_beat_120bpm": true
+ },
+ "audio": {
+  "streams": 0,
+  "note": "bez zvučnog zapisa — po pravilu korisnika (muziku dodaje u TikTok-u)"
+ },
+ "repetition": {
+  "in_video": [],
+  "across_videos": []
+ },
+ "issues": [],
+ "sheets": [
+  "studio/inspections/stoic_rule_04/sheet_time.jpg",
+  "studio/inspections/stoic_rule_04/sheet_cuts.jpg"
+ ],
+ "history": [
+  {
+   "at": "2026-11-19T10:55:07",
+   "approved": false,
+   "issues": 3
+  },
+  {
+   "at": "2026-11-19T11:00:04",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-19T11:07:03",
+   "approved": false,
+   "issues": 1
+  }
+ ],
+ "approval": {
+  "technical_pass": true,
+  "vision_reviewed": true,
+  "weak_scenes": 0,
+  "creative_score": 84,
+  "approved": false,
+  "blocking": [
+   "kreativna ocena 84 < 90"
+  ]
+ },
+ "vision_review": {
+  "reviewer": "Claude (vision) — kontakt-listovi 0.5 s + frejmovi oko rezova/loop spoja; video NIJE gledan u pokretu",
+  "summary": "Dim se uvija na tami (motivacija = iluzija) -> sveće dogorevaju -> kišna mračna šuma -> čovek sam na steni. Šahovska dama odbačena (inspektor: isti kadar kao kralj u #2).",
+  "scenes": [
+   {
+    "index": 0,
+    "verdict": "good",
+    "note": "Dim/magla na crnom - vizuelna metafora iluzije."
+   },
+   {
+    "index": 1,
+    "verdict": "good",
+    "note": "Mnogo sveća - 'fades'."
+   },
+   {
+    "index": 2,
+    "verdict": "ok",
+    "note": "Mračna kišna šuma - loši uslovi, bez osobe."
+   },
+   {
+    "index": 3,
+    "verdict": "ok",
+    "note": "Čovek na steni - mali u kadru, dnevni izvor potamnjen."
+   },
+   {
+    "index": 4,
+    "verdict": "ok",
+    "note": "Svetla magla iza CTA; čitljivo uz traku."
+   }
+  ],
+  "storytelling": "Kontra-hook ('Motivation is lying'), jasan kontrast motivacija/disciplina, poziv na identitet.",
+  "creative_score": 84,
+  "breakdown": {
+   "storytelling": 18,
+   "visual": 16,
+   "hook": 13,
+   "cinematography": 12,
+   "sound": 8,
+   "editing": 9,
+   "originality": 8
+  },
+  "recommendations": [
+   "Za 'shows up anyway' bolji bi bio čovek koji hoda po kiši (nema u 1080p na Mixkit-u)"
+  ]
+ }
+}

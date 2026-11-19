@@ -2391,7 +2391,7 @@
   },
   "inspection": {
    "report": "studio/inspections/m045.md",
-   "inspected_at": "2026-11-19T10:34:24",
+   "inspected_at": "2026-11-19T11:06:33",
    "approval": {
     "technical_pass": true,
     "vision_reviewed": false,
@@ -2463,7 +2463,7 @@
   },
   "inspection": {
    "report": "studio/inspections/m046.md",
-   "inspected_at": "2026-11-19T10:34:29",
+   "inspected_at": "2026-11-19T11:06:38",
    "approval": {
     "technical_pass": true,
     "vision_reviewed": false,
@@ -2535,7 +2535,7 @@
   },
   "inspection": {
    "report": "studio/inspections/m047.md",
-   "inspected_at": "2026-11-19T10:34:34",
+   "inspected_at": "2026-11-19T11:06:43",
    "approval": {
     "technical_pass": true,
     "vision_reviewed": false,
@@ -2607,7 +2607,7 @@
   },
   "inspection": {
    "report": "studio/inspections/m048.md",
-   "inspected_at": "2026-11-19T10:34:39",
+   "inspected_at": "2026-11-19T11:06:48",
    "approval": {
     "technical_pass": true,
     "vision_reviewed": false,
@@ -3138,7 +3138,7 @@
   "output": "videos/stoic/stoic_rule_01.mp4",
   "inspection": {
    "report": "studio/inspections/stoic_rule_01.md",
-   "inspected_at": "2026-11-19T10:43:41",
+   "inspected_at": "2026-11-19T11:06:52",
    "approval": {
     "technical_pass": true,
     "vision_reviewed": true,
@@ -3157,10 +3157,163 @@
     9.0
    ],
    "loop_seam": {
-    "seam_diff": 7.94,
-    "median_neighbor_diff": 1.07,
+    "seam_diff": 8.01,
+    "median_neighbor_diff": 1.08,
     "ok": true,
-    "seam_diff_no_text": 1.31
+    "seam_diff_no_text": 1.4
+   }
+  }
+ },
+ {
+  "id": "stoic_rule_02",
+  "family": "stoic_rules",
+  "format": "TikTok 9:16 10 s loop, bez zvuka",
+  "topic": "tišina",
+  "hook": "The strongest people do this quietly.",
+  "text": [
+   "The strongest people do this quietly.",
+   "Don't explain yourself to everyone.",
+   "Silence is not weakness.",
+   "It's control."
+  ],
+  "ending": "Follow for rule #3",
+  "footage": [
+   "mk_402",
+   "mk_2846",
+   "mk_4063",
+   "mk_49736"
+  ],
+  "visual_style": "tamno-hladni filmski, zrno, beli Poppins Bold",
+  "music": "nema (korisnik dodaje)",
+  "editing": "2/2.5/2.5/2/1 s, reči na 1/8 @120 BPM",
+  "output": "videos/stoic/stoic_rule_02.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_rule_02.md",
+   "inspected_at": "2026-11-19T11:06:55",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 85,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 85 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    2.0,
+    4.5,
+    7.0,
+    9.0
+   ],
+   "loop_seam": {
+    "seam_diff": 5.43,
+    "median_neighbor_diff": 1.13,
+    "ok": true,
+    "seam_diff_no_text": 1.56
+   }
+  }
+ },
+ {
+  "id": "stoic_rule_03",
+  "family": "stoic_rules",
+  "format": "TikTok 9:16 10 s loop, bez zvuka",
+  "topic": "mišljenje drugih",
+  "hook": "This is why people don't respect you.",
+  "text": [
+   "This is why people don't respect you.",
+   "Their opinion of you is not your business.",
+   "Your character is.",
+   "Focus on that."
+  ],
+  "ending": "Follow for rule #4",
+  "footage": [
+   "mk_434",
+   "mk_2716",
+   "mk_1759",
+   "mk_41744"
+  ],
+  "visual_style": "tamno-hladni filmski, zrno, beli Poppins Bold",
+  "music": "nema (korisnik dodaje)",
+  "editing": "2/2.5/2.5/2/1 s, reči na 1/8 @120 BPM",
+  "output": "videos/stoic/stoic_rule_03.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_rule_03.md",
+   "inspected_at": "2026-11-19T11:10:46",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 83,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 83 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    2.0,
+    4.5,
+    7.0,
+    9.0
+   ],
+   "loop_seam": {
+    "seam_diff": 5.6,
+    "median_neighbor_diff": 1.87,
+    "ok": true,
+    "seam_diff_no_text": 1.1
+   }
+  }
+ },
+ {
+  "id": "stoic_rule_04",
+  "family": "stoic_rules",
+  "format": "TikTok 9:16 10 s loop, bez zvuka",
+  "topic": "disciplina",
+  "hook": "Motivation is lying to you.",
+  "text": [
+   "Motivation is lying to you.",
+   "Motivation fades by noon.",
+   "Discipline shows up anyway.",
+   "Be the one who shows up."
+  ],
+  "ending": "Follow for rule #5",
+  "footage": [
+   "mk_50957",
+   "mk_41741",
+   "mk_22729",
+   "mk_2752"
+  ],
+  "visual_style": "tamno-hladni filmski, zrno, beli Poppins Bold",
+  "music": "nema (korisnik dodaje)",
+  "editing": "2/2.5/2.5/2/1 s, reči na 1/8 @120 BPM",
+  "output": "videos/stoic/stoic_rule_04.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_rule_04.md",
+   "inspected_at": "2026-11-19T11:08:56",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 84,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 84 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    2.0,
+    4.5,
+    7.0,
+    9.0
+   ],
+   "loop_seam": {
+    "seam_diff": 8.99,
+    "median_neighbor_diff": 1.36,
+    "ok": true,
+    "seam_diff_no_text": 2.9
    }
   }
  }

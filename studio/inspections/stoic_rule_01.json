@@ -1,7 +1,7 @@
 {
  "id": "stoic_rule_01",
  "file": "videos/stoic/stoic_rule_01.mp4",
- "inspected_at": "2026-11-19T10:43:41",
+ "inspected_at": "2026-11-19T11:06:52",
  "method": "Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.",
  "meta": {
   "width": 1080,
@@ -13,7 +13,7 @@
   "video_streams": 1,
   "audio_streams": 0,
   "acodec": null,
-  "bitrate_kbps": 23748
+  "bitrate_kbps": 23506
  },
  "expected": {
   "texts": [
@@ -54,9 +54,9 @@
    "end": 2.0,
    "dur": 2.0,
    "luma": 0.146,
-   "sharpness": 131.2,
+   "sharpness": 129.4,
    "overexposed_frac": 0.015,
-   "hue": 72.2
+   "hue": 72.1
   },
   {
    "index": 1,
@@ -64,7 +64,7 @@
    "end": 4.5,
    "dur": 2.5,
    "luma": 0.243,
-   "sharpness": 189.9,
+   "sharpness": 192.2,
    "overexposed_frac": 0.003,
    "hue": 108.7
   },
@@ -74,7 +74,7 @@
    "end": 7.0,
    "dur": 2.5,
    "luma": 0.112,
-   "sharpness": 114.9,
+   "sharpness": 110.2,
    "overexposed_frac": 0.003,
    "hue": 101.0
   },
@@ -84,7 +84,7 @@
    "end": 9.0,
    "dur": 2.0,
    "luma": 0.16,
-   "sharpness": 134.6,
+   "sharpness": 128.6,
    "overexposed_frac": 0.003,
    "hue": 104.6
   },
@@ -94,9 +94,9 @@
    "end": 10.0,
    "dur": 1.0,
    "luma": 0.13,
-   "sharpness": 142.3,
+   "sharpness": 138.4,
    "overexposed_frac": 0.003,
-   "hue": 70.6
+   "hue": 70.1
   }
  ],
  "cuts": [
@@ -110,29 +110,29 @@
   {
    "t": 2.0,
    "luma_jump": 0.104,
-   "hue_jump": 39.1
+   "hue_jump": 35.6
   },
   {
    "t": 4.5,
    "luma_jump": 0.138,
-   "hue_jump": 8.9
+   "hue_jump": 8.8
   },
   {
    "t": 7.0,
    "luma_jump": 0.035,
-   "hue_jump": 5.8
+   "hue_jump": 6.0
   },
   {
    "t": 9.0,
    "luma_jump": 0.033,
-   "hue_jump": 32.9
+   "hue_jump": 31.6
   }
  ],
  "loop_seam": {
-  "seam_diff": 7.94,
-  "median_neighbor_diff": 1.07,
+  "seam_diff": 8.01,
+  "median_neighbor_diff": 1.08,
   "ok": true,
-  "seam_diff_no_text": 1.31
+  "seam_diff_no_text": 1.4
  },
  "text_timing": {
   "detected": [
@@ -253,6 +253,11 @@
   },
   {
    "at": "2026-11-19T10:34:46",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-19T10:43:41",
    "approved": false,
    "issues": 0
   }

@@ -36,11 +36,11 @@ def render_shot(out, name, start, d, xc, z0, z1, extra=""):
           f"scale=w='{W}*({z0}+({z1}-{z0})*t/{d})':h=-2:eval=frame:flags=bicubic,crop={W}:{H},setsar=1,"
           f"vignette=PI/4.5,format=yuv420p")
     subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-ss", f"{start:.3f}", "-t", f"{d:.3f}", "-i", src(name),
-                    "-vf", vf, "-an", "-r", str(FPS), "-c:v", "libx264", "-preset", "fast", "-crf", "14", out], check=True)
+                    "-vf", vf, "-an", "-r", str(FPS), "-frames:v", str(int(round(d * FPS))), "-c:v", "libx264", "-preset", "fast", "-crf", "14", out], check=True)
 
 
 def cut(src_, out, ss, d):
-    subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-i", src_, "-ss", f"{ss}", "-t", f"{d}", "-an",
+    subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-i", src_, "-ss", f"{ss}", "-frames:v", str(int(round(d * FPS))), "-an",
                     "-c:v", "libx264", "-preset", "fast", "-crf", "14", out], check=True)
 
 

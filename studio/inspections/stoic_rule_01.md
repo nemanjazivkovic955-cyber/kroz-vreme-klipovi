@@ -1,6 +1,6 @@
 # Inspekcija stoic_rule_01 — NIJE ODOBRENO
 
-Fajl: `videos/stoic/stoic_rule_01.mp4` · 2026-11-19T10:43:41
+Fajl: `videos/stoic/stoic_rule_01.mp4` · 2026-11-19T11:06:52
 
 _Metod:_ Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.
 
@@ -10,15 +10,15 @@ _Metod:_ Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na
 ## Scene (merenja)
 | # | od–do s | osvetljenost | oštrina | vizuelna ocena | napomena |
 |---|---|---|---|---|---|
-| 0 | 0.0–2.0 | 0.146 | 131.2 | ok | Hook: oluja nad okeanom, hladna; tekst krupan i jasan. SLABOST: kadar nema subjekat/pokret - vizuelno najslabiji deo hook-a. |
-| 1 | 2.0–4.5 | 0.243 | 189.9 | good | Gomila prolaznika u sumrak = svet koji ne kontrolišeš; ilustruje rečenicu 1. |
-| 2 | 4.5–7.0 | 0.112 | 114.9 | good | Čovek s leđa, miran, dok se iza njega kreće grad - 'how you respond'. Najjači kadar. |
-| 3 | 7.0–9.0 | 0.16 | 134.6 | good | Ruke drže sveću - 'your power'; topli plamen kao jedini akcenat. Taman (luma 0.13) ali tekst čitljiv. |
-| 4 | 9.0–10.0 | 0.13 | 142.3 | ok | Nastavak oluje, CTA 'Follow for rule #2', teče u početak. |
+| 0 | 0.0–2.0 | 0.146 | 129.4 | ok | Hook: oluja nad okeanom, hladna; tekst krupan i jasan. SLABOST: kadar nema subjekat/pokret - vizuelno najslabiji deo hook-a. |
+| 1 | 2.0–4.5 | 0.243 | 192.2 | good | Gomila prolaznika u sumrak = svet koji ne kontrolišeš; ilustruje rečenicu 1. |
+| 2 | 4.5–7.0 | 0.112 | 110.2 | good | Čovek s leđa, miran, dok se iza njega kreće grad - 'how you respond'. Najjači kadar. |
+| 3 | 7.0–9.0 | 0.16 | 128.6 | good | Ruke drže sveću - 'your power'; topli plamen kao jedini akcenat. Taman (luma 0.13) ali tekst čitljiv. |
+| 4 | 9.0–10.0 | 0.13 | 138.4 | ok | Nastavak oluje, CTA 'Follow for rule #2', teče u početak. |
 
 ## Kontinuitet i loop
 Rezovi: [2.0, 4.5, 7.0, 9.0]
-Loop spoj: {'seam_diff': 7.94, 'median_neighbor_diff': 1.07, 'ok': True, 'seam_diff_no_text': 1.31}
+Loop spoj: {'seam_diff': 8.01, 'median_neighbor_diff': 1.08, 'ok': True, 'seam_diff_no_text': 1.4}
 
 ## Tekst / titlovi
 {'detected': [2.0, 4.5, 7.0, 9.0], 'expected': [2.0, 4.5, 7.0, 9.0], 'offset_s': [0.0, 0.0, 0.0, 0.0], 'on_beat_120bpm': True}
