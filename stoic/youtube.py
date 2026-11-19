@@ -77,6 +77,7 @@ VOICE, LANG, SPEED = "bm_george", "en-gb", 1.0  # izbor korisnika 19.11.: George
 LEAD, PAD, BEAT = 0.05, 0.30, 0.25
 # Šablon po klipu koji je "uhvatio" (Stoic rule #1, 200 pregleda na YouTube-u, 19.11.): ~10 s, BEZ muzike, samo glas.
 MUSIC = False
+CTA_VOICE = "Share, like, and comment. And subscribe for the next rule."  # kraj svakog videa (odluka korisnika 19.11.)
 
 
 def tts():
@@ -98,7 +99,7 @@ def tts():
 
 def voice_lines(r, n):
     k = tts()
-    lines = [r["hook"]] + r["rule"] + ["Subscribe for the next rule."]
+    lines = [r["hook"]] + r["rule"] + [CTA_VOICE]
     clips = []
     for ln in lines:
         a, sr = k.create(ln, voice=VOICE, speed=SPEED, lang=LANG)
@@ -159,6 +160,7 @@ def make(n, voice=True):
     FG.check(f"yt_short_{n:02d}", footage(r))
     os.makedirs(OUT, exist_ok=True)
     M.CTA = "Subscribe for the next rule"
+    M.CTA2 = "SHARE  \u2022  LIKE  \u2022  COMMENT"
     M.SHOW_TEXT = True  # tekst preko ekrana i uz glas (odluka korisnika 19.11.)
     M.SHOW_TAG = False  # bez broja dela gore: Shorts se ubacuju bilo kojim redom
     M.OUT = M.TMP  # tihu međuverziju drži u stoic/out
@@ -183,7 +185,7 @@ def make(n, voice=True):
     else:
       try:  # muzički inspektor: Mixkit numera po scenama i temi; ako ne uspe -> generisana podloga
         import music_inspector as MI
-        txts = [r["hook"]] + r["rule"] + ["Subscribe for the next rule."]
+        txts = [r["hook"]] + r["rule"] + [CTA_VOICE]
         pick = MI.choose(f"short_{n:02d}", [(a, b, t) for (a, b), t in zip(M.SEG, txts)], silent, voice=voice)
         if pick: MI.cut(pick, wav, M.TOTAL, fade_in=0.15, fade_out=0.8)
       except Exception as e:
@@ -219,7 +221,7 @@ def make(n, voice=True):
                         "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-shortest", "-movflags", "+faststart", out], check=True)
     title = f"Stoic Rule: {r['hook'].rstrip('.')} #shorts"
     desc = (f"{r['caption']}\n\nStoic rule: {' '.join(r['rule'])}\n\n"
-            f"Subscribe for the next rule — one stoic rule every day.\n\n{r['tags']} #shorts\n")
+            f"Share, like and comment — and subscribe for the next rule. One stoic rule every day.\n\n{r['tags']} #shorts\n")
     open(out.replace(".mp4", "_opis.txt"), "w").write(f"NASLOV: {title}\n\nOPIS:\n{desc}")
     FG.register(f"yt_short_{n:02d}", footage(r))
     print(out)
