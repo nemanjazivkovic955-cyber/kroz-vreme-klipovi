@@ -1,0 +1,89 @@
+{
+ "trajanje_s": 12.0,
+ "rezolucija": "1080x1920",
+ "audio_zapisi": 0,
+ "max_reci_po_kadru": 8,
+ "tekst_u_sigurnoj_zoni": true,
+ "hook": "This boat is perfectly safe. That's the problem.",
+ "sve_ok": true,
+ "osvetljenost_po_tekstu": [
+  0.45,
+  0.354,
+  0.288,
+  0.404,
+  0.32,
+  0.437
+ ],
+ "min_osvetljenost": 0.288,
+ "prosek_osvetljenosti": 0.376,
+ "loop_spoj_razlika_255": 11.83,
+ "izvora": 6,
+ "izvori": [
+  "mk_34583",
+  "mk_40080",
+  "mk_4280",
+  "mk_4491",
+  "mk_4680",
+  "mk_51478"
+ ],
+ "kadrova": 7,
+ "plan": [
+  {
+   "src": "mk_4280",
+   "start": 6.0,
+   "d": 2.0,
+   "palette": "neutral",
+   "src_luma": 0.623,
+   "gamma": 1.0
+  },
+  {
+   "src": "mk_4491",
+   "start": 7.48,
+   "d": 2.0,
+   "palette": "neutral",
+   "src_luma": 0.489,
+   "gamma": 1.0
+  },
+  {
+   "src": "mk_51478",
+   "start": 2.82,
+   "d": 2.0,
+   "palette": "teal",
+   "src_luma": 0.402,
+   "gamma": 1.0
+  },
+  {
+   "src": "mk_34583",
+   "start": 3.45,
+   "d": 2.0,
+   "palette": "warm",
+   "src_luma": 0.592,
+   "gamma": 1.0
+  },
+  {
+   "src": "mk_40080",
+   "start": 6.97,
+   "d": 1.0,
+   "palette": "gold",
+   "src_luma": 0.408,
+   "gamma": 1.0
+  },
+  {
+   "src": "mk_4680",
+   "start": 6.34,
+   "d": 1.0,
+   "palette": "teal",
+   "src_luma": 0.455,
+   "gamma": 1.0
+  },
+  {
+   "src": "mk_4280",
+   "start": 4.0,
+   "d": 2.0,
+   "palette": "neutral",
+   "src_luma": 0.623,
+   "gamma": 1.0
+  }
+ ],
+ "sve_ok_v2": true
+}

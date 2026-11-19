@@ -48,6 +48,7 @@ Plus stalna pravila: crno-zlatno, SHARE • LIKE • COMMENT FOR MORE ispod zavr
 | 18.11. 18:00 | m025 (nevidljiv rast / koren) | m026 (bol prolazi, odustajanje ostaje) | m027 (izgledati bogato vs biti bogat) | m028 (putuj sam / ne cekaj druge) |
 | 19.11. 10:00 | m029 (odmor nije odustajanje) | m030 (ne pregovaraj sa sobom) | m031 (bogatstvo = ono sto zadrzis) | m032 (svet kao ucionica) |
 | 19.11. 18:00 | m033 (rad koji nadzivi tebe / zvezde) | m034 (izgovori ne grade misice / odgovornost) | m035 (prvo vestine pa kola) | m036 (perspektiva iz aviona) |
+| 19.11. 18:00 TikTok loop v2 (preporuka) | m045 (4,000 nedelja) | m046 (sore ili sorry) | m047 (bogati kupuju vreme) | m048 (brod u luci) |
 | 20.11. 10:00 | m037 (fleksibilan put, cvrst cilj) | m038 (tvoje drustvo odredjuje koliko ces daleko) | m039 (uspeh preko noci traje godinama) | m040 (pogled se zasluzi) |
 | 20.11. 18:00 | m041 (veruj svom tempu) | m042 (ne gubis, ucis) | m043 (bogatstvo = odluka godinama) | m044 (put te oblikuje) |
 

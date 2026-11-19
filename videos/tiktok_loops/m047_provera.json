@@ -1,0 +1,89 @@
+{
+ "trajanje_s": 12.0,
+ "rezolucija": "1080x1920",
+ "audio_zapisi": 0,
+ "max_reci_po_kadru": 8,
+ "tekst_u_sigurnoj_zoni": true,
+ "hook": "Broke people sell this. Rich people buy it.",
+ "sve_ok": true,
+ "osvetljenost_po_tekstu": [
+  0.304,
+  0.397,
+  0.292,
+  0.33,
+  0.319,
+  0.297
+ ],
+ "min_osvetljenost": 0.292,
+ "prosek_osvetljenosti": 0.323,
+ "loop_spoj_razlika_255": 13.23,
+ "izvora": 6,
+ "izvori": [
+  "mk_2167",
+  "mk_3672",
+  "mk_4079",
+  "mk_4087",
+  "mk_4477",
+  "mk_918"
+ ],
+ "kadrova": 7,
+ "plan": [
+  {
+   "src": "mk_3672",
+   "start": 4.0,
+   "d": 2.0,
+   "palette": "neutral",
+   "src_luma": 0.332,
+   "gamma": 1.31
+  },
+  {
+   "src": "mk_4079",
+   "start": 3.1,
+   "d": 2.0,
+   "palette": "warm",
+   "src_luma": 0.564,
+   "gamma": 1.0
+  },
+  {
+   "src": "mk_918",
+   "start": 3.55,
+   "d": 2.0,
+   "palette": "cool",
+   "src_luma": 0.414,
+   "gamma": 1.0
+  },
+  {
+   "src": "mk_4087",
+   "start": 4.71,
+   "d": 2.0,
+   "palette": "night",
+   "src_luma": 0.363,
+   "gamma": 1.2
+  },
+  {
+   "src": "mk_4477",
+   "start": 5.29,
+   "d": 1.0,
+   "palette": "gold",
+   "src_luma": 0.385,
+   "gamma": 1.13
+  },
+  {
+   "src": "mk_2167",
+   "start": 6.46,
+   "d": 1.0,
+   "palette": "gold",
+   "src_luma": 0.321,
+   "gamma": 1.35
+  },
+  {
+   "src": "mk_3672",
+   "start": 2.0,
+   "d": 2.0,
+   "palette": "neutral",
+   "src_luma": 0.332,
+   "gamma": 1.31
+  }
+ ],
+ "sve_ok_v2": true
+}
