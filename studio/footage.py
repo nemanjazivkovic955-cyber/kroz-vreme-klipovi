@@ -21,12 +21,13 @@ def used():
         for k, v in json.load(open(vh)).items(): u.setdefault(norm(k), set()).update(v)
     sys.path.insert(0, os.path.join(ROOT, "stoic"))
     try:
-        from rules import RULES
+        import runpy  # čita se sam fajl (ne učitan modul koji youtube.py menja u memoriji)
+        RULES = runpy.run_path(os.path.join(ROOT, "stoic", "rules.py"))["RULES"]
         for n, r in RULES.items():
             if n in TIKTOK_RULES:  # samo pravila koja su stvarno objavljena na TikTok-u
                 for s in [r["loop"]] + r["shots"]: u.setdefault(norm(s[0]), set()).add(f"tiktok_stoic_rule_{n:02d}")
-        import edit
-        for n, e in edit.EDITS.items():
+        EDITS = runpy.run_path(os.path.join(ROOT, "stoic", "edit.py"), run_name="registar")["EDITS"]
+        for n, e in EDITS.items():
             for s in [e["loop"]] + e["shots"]: u.setdefault(norm(s[0]), set()).add(f"tiktok_stoic_edit_{n:02d}")
     except Exception as e:
         print("upozorenje registra:", e)
