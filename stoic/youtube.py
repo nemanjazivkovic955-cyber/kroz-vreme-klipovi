@@ -73,8 +73,10 @@ def music(path, n, dur):
 
 TTS_DIR = os.path.join(HERE, "tts")  # Kokoro-82M (Apache 2.0, besplatno i za komercijalnu upotrebu), u .gitignore
 TTS_URL = "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/main/"
-VOICE, LANG, SPEED = "bm_george", "en-gb", 0.92  # izbor korisnika 19.11.: George (britanski, dubok)
-LEAD, PAD, BEAT = 0.12, 0.45, 0.5
+VOICE, LANG, SPEED = "bm_george", "en-gb", 1.0  # izbor korisnika 19.11.: George (britanski, dubok)
+LEAD, PAD, BEAT = 0.05, 0.30, 0.25
+# Šablon po klipu koji je "uhvatio" (Stoic rule #1, 200 pregleda na YouTube-u, 19.11.): ~10 s, BEZ muzike, samo glas.
+MUSIC = False
 
 
 def tts():
@@ -148,7 +150,7 @@ def make(n, voice=True):
         clips = voice_lines(r, n)
         segs, t = [], 0.0
         for i, a in enumerate(clips):  # segment = govor + predah, zaokruženo na udarac (120 BPM)
-            d = max(2.0 if i == 0 else 1.5, math.ceil((LEAD + len(a) / 24000 + PAD) / BEAT) * BEAT)
+            d = max(2.0 if i == 0 else 1.25, math.ceil((LEAD + len(a) / 24000 + PAD) / BEAT) * BEAT)
             segs.append((t, t + d)); t += d
         M.SEG, M.TOTAL = segs, t
         M.WORD = 0.22
@@ -159,17 +161,30 @@ def make(n, voice=True):
     silent = M.make(n)
     wav = os.path.join(M.TMP, f"yt{n}.wav")
     pick = None
-    try:  # muzički inspektor: Mixkit numera po scenama i temi; ako ne uspe -> generisana podloga
+    if voice and not MUSIC:
+        pass
+    else:
+      try:  # muzički inspektor: Mixkit numera po scenama i temi; ako ne uspe -> generisana podloga
         import music_inspector as MI
         txts = [r["hook"]] + r["rule"] + ["Subscribe for the next rule."]
         pick = MI.choose(f"short_{n:02d}", [(a, b, t) for (a, b), t in zip(M.SEG, txts)], silent, voice=voice)
         if pick: MI.cut(pick, wav, M.TOTAL, fade_in=0.15, fade_out=0.8)
-    except Exception as e:
+      except Exception as e:
         print("muzički inspektor nije uspeo:", e); pick = None
-    if not pick: music(wav, n, M.TOTAL)
-    else: print(f"muzika: {pick['title']} (mixkit {pick['id']}) od {pick['offset']:.1f}s")
+      if not pick: music(wav, n, M.TOTAL)
+      else: print(f"muzika: {pick['title']} (mixkit {pick['id']}) od {pick['offset']:.1f}s")
     out = os.path.join(OUT, f"stoic_rule_yt_{n:02d}.mp4")
-    if vtrack is not None:
+    if vtrack is not None and not MUSIC:  # samo glas
+        vw = os.path.join(M.TMP, f"yt{n}_voice.wav")
+        with wave.open(vw, "w") as w:
+            w.setnchannels(1); w.setsampwidth(2); w.setframerate(24000)
+            w.writeframes((vtrack / (np.abs(vtrack).max() + 1e-9) * 0.9 * 32767).astype(np.int16).tobytes())
+        subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-i", silent, "-i", vw, "-af",
+                        "aresample=48000,highpass=f=70,acompressor=threshold=-20dB:ratio=3:attack=5:release=120,"
+                        "aecho=0.8:0.5:40|75:0.12|0.07,pan=stereo|c0=c0|c1=c0,loudnorm=I=-14:TP=-1.5:LRA=7",
+                        "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-ar", "48000",
+                        "-t", f"{M.TOTAL}", "-movflags", "+faststart", out], check=True)
+    elif vtrack is not None:
         vw = os.path.join(M.TMP, f"yt{n}_voice.wav")
         with wave.open(vw, "w") as w:
             w.setnchannels(1); w.setsampwidth(2); w.setframerate(24000)
