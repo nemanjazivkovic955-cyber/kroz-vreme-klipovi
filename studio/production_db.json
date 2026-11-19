@@ -2388,6 +2388,35 @@
    },
    "evidence": "Hook sa brojem (4,000 weeks) + lista + obrt 'Spend this one on purpose'; kraj se gramatički vraća u hook. 6 izvora, svaki ilustruje rečenicu (sat, zalazak, čovek sa telefonom, žena kod prozora, sunce kroz drveće, silueta). Slabo: hook kadar statičan detalj bez čoveka; kadar 'waiting' je potiljak. Luma 0.30-0.42, spoj loop-a 1.8/255 (= susedni frejmovi 0.9).",
    "verdict": "ISPOD PRAGA (86) - isporučeno uz napomenu"
+  },
+  "inspection": {
+   "report": "studio/inspections/m045.md",
+   "inspected_at": "2026-11-19T10:34:24",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": false,
+    "weak_scenes": 0,
+    "creative_score": null,
+    "approved": false,
+    "blocking": [
+     "nema vizuelnog pregleda"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    2.0,
+    4.0,
+    6.033,
+    8.033,
+    9.033,
+    10.033
+   ],
+   "loop_seam": {
+    "seam_diff": 11.51,
+    "median_neighbor_diff": 1.37,
+    "ok": true,
+    "seam_diff_no_text": 2.98
+   }
   }
  },
  {
@@ -2411,7 +2440,7 @@
    "mk_4573",
    "mk_50756",
    "mk_52089",
-   "mk_50972"
+   "mk_52099"
   ],
   "visual_style": "paleta po kadru, auto-ekspozicija, kadar po rečenici",
   "music": "nema (korisnik dodaje)",
@@ -2431,6 +2460,35 @@
    },
    "evidence": "Kontrast sore/sorry kao igra reči, obrt 'future self is watching' sa čovekom ispred ogledala; lica u 4/6 kadrova; total teretana, krupno lice, srednji ogledalo. Slabo: hook kadar teretana tamnija (luma 0.33), čovek delom van centra. Spoj 3.8 (= susedni 3.2).",
    "verdict": "ISPOD PRAGA (88)"
+  },
+  "inspection": {
+   "report": "studio/inspections/m046.md",
+   "inspected_at": "2026-11-19T10:34:29",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": false,
+    "weak_scenes": 0,
+    "creative_score": null,
+    "approved": false,
+    "blocking": [
+     "nema vizuelnog pregleda"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    2.0,
+    4.0,
+    6.0,
+    8.0,
+    9.0,
+    10.0
+   ],
+   "loop_seam": {
+    "seam_diff": 11.73,
+    "median_neighbor_diff": 3.42,
+    "ok": true,
+    "seam_diff_no_text": 3.16
+   }
   }
  },
  {
@@ -2452,7 +2510,7 @@
    "mk_3672",
    "mk_4079",
    "mk_918",
-   "mk_4087",
+   "mk_3162",
    "mk_4477",
    "mk_2167"
   ],
@@ -2474,6 +2532,35 @@
    },
    "evidence": "Obrnuta logika sa otkrićem 'Time.' u 2. sekundi; match-cut sat -> Big Ben; kancelarija -> grad noću -> jedrilica na zalasku = luk rad->sloboda. Slabo: luma 0.29-0.30 na 3 kadra (granično), kadar grada nije vezan za 'assets'. Spoj 5.3 (= susedni 6.7).",
    "verdict": "ISPOD PRAGA (88)"
+  },
+  "inspection": {
+   "report": "studio/inspections/m047.md",
+   "inspected_at": "2026-11-19T10:34:34",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": false,
+    "weak_scenes": 0,
+    "creative_score": null,
+    "approved": false,
+    "blocking": [
+     "nema vizuelnog pregleda"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    2.0,
+    4.0,
+    6.0,
+    8.0,
+    9.0,
+    10.0
+   ],
+   "loop_seam": {
+    "seam_diff": 12.49,
+    "median_neighbor_diff": 4.12,
+    "ok": true,
+    "seam_diff_no_text": 4.86
+   }
   }
  },
  {
@@ -2517,6 +2604,35 @@
    },
    "evidence": "Metafora brod/luka, svoje rečenice (prvobitni Shedd citat zamenjen). Svaki kadar ilustruje: privezana jahta, jarboli u marini, jedrilica na pučini, čovek na vrhu gleda horizont, brod izlazi iz luke, katamaran. Slabo: hook kadar bez pokreta/čoveka; 'Neither are you' je planinar, ne pomorski motiv. Spoj 3.1.",
    "verdict": "ISPOD PRAGA (87)"
+  },
+  "inspection": {
+   "report": "studio/inspections/m048.md",
+   "inspected_at": "2026-11-19T10:34:39",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": false,
+    "weak_scenes": 0,
+    "creative_score": null,
+    "approved": false,
+    "blocking": [
+     "nema vizuelnog pregleda"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    2.0,
+    4.0,
+    6.0,
+    8.0,
+    9.0,
+    10.0
+   ],
+   "loop_seam": {
+    "seam_diff": 11.15,
+    "median_neighbor_diff": 2.28,
+    "ok": true,
+    "seam_diff_no_text": 3.85
+   }
   }
  },
  {
@@ -2569,6 +2685,33 @@
    },
    "evidence": "Pravi luk govora i više snimaka po temi; ali spor početak (1.5 s tišine + mirna rečenica), TTS glas neproveren uhom, isti xfade 0.7 s svuda, snimci ponovljeni iz QOTD serije.",
    "verdict": "ISPOD PRAGA - najbolja osnova za dalji razvoj"
+  },
+  "inspection": {
+   "report": "studio/inspections/talk_city.md",
+   "inspected_at": "2026-11-19T10:00:31",
+   "approval": {
+    "technical_pass": false,
+    "vision_reviewed": false,
+    "weak_scenes": 0,
+    "creative_score": null,
+    "approved": false,
+    "blocking": [
+     "1 kritičnih",
+     "10 većih problema",
+     "nema vizuelnog pregleda"
+    ]
+   },
+   "issues": 14,
+   "cuts": [
+    5.833,
+    13.8,
+    21.9,
+    22.667,
+    22.833,
+    23.1,
+    24.2
+   ],
+   "loop_seam": null
   }
  },
  {
@@ -2968,6 +3111,57 @@
    },
    "evidence": "Kompilacija tvrdih rezova po 4 s, tekst po kadru, otvara karticom; nema luka ni ritma.",
    "verdict": "ISPOD PRAGA"
+  }
+ },
+ {
+  "id": "stoic_rule_01",
+  "family": "stoic_rules",
+  "format": "TikTok 9:16 10 s loop, bez zvuka",
+  "topic": "kontrola",
+  "hook": "Stop wasting energy on this.",
+  "text": [
+   "Stop wasting energy on this.",
+   "You can't control what happens to you.",
+   "You can only control how you respond.",
+   "That's where your power is."
+  ],
+  "ending": "Follow for rule #2",
+  "footage": [
+   "mk_4059",
+   "mk_3428",
+   "mk_4832",
+   "mk_41739"
+  ],
+  "visual_style": "tamno-hladni filmski, zrno, beli Poppins Bold",
+  "music": "nema (korisnik dodaje)",
+  "editing": "2/2.5/2.5/2/1 s, reči na 1/8 @120 BPM",
+  "output": "videos/stoic/stoic_rule_01.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_rule_01.md",
+   "inspected_at": "2026-11-19T10:43:41",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 82,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 82 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    2.0,
+    4.5,
+    7.0,
+    9.0
+   ],
+   "loop_seam": {
+    "seam_diff": 7.94,
+    "median_neighbor_diff": 1.07,
+    "ok": true,
+    "seam_diff_no_text": 1.31
+   }
   }
  }
 ]

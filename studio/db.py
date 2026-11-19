@@ -109,12 +109,29 @@ try:
 except Exception as e:
     print("youtube:", e)
 
+# 6) Stoic Rules serija
+try:
+    sys.path.insert(0, os.path.join(ROOT, "stoic"))
+    from rules import RULES
+    for n, r in RULES.items():
+        add(id=f"stoic_rule_{n:02d}", family="stoic_rules", format="TikTok 9:16 10 s loop, bez zvuka", topic=r["theme"],
+            hook=r["hook"], text=[r["hook"]] + r["rule"], ending=f"Follow for rule #{n + 1}",
+            footage=[r["loop"][0]] + [s_[0] for s_ in r["shots"]], visual_style="tamno-hladni filmski, zrno, beli Poppins Bold",
+            music="nema (korisnik dodaje)", editing="2/2.5/2.5/2/1 s, reči na 1/8 @120 BPM", output=f"videos/stoic/stoic_rule_{n:02d}.mp4")
+except Exception as e:
+    print("stoic:", e)
+
 # ocene
 ev_path = os.path.join(OUT, "evaluations.json")
 ev = json.load(open(ev_path)) if os.path.exists(ev_path) else {}
 for p in prods:
     e = ev.get(p["id"]) or ev.get(p["family"])
     if e: p["evaluation"] = e
+    ip = os.path.join(OUT, "inspections", f"{p['id']}.json")
+    if os.path.exists(ip):  # izveštaj inspekcije STVARNOG rendera
+        r = json.load(open(ip))
+        p["inspection"] = {"report": f"studio/inspections/{p['id']}.md", "inspected_at": r["inspected_at"], "approval": r["approval"],
+                           "issues": len(r["issues"]), "cuts": r["cuts"], "loop_seam": r.get("loop_seam")}
 
 # vizuelna istorija
 vh = {}

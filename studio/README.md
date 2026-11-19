@@ -25,3 +25,7 @@ Trajna memorija studija je u ovom folderu (ne u "pamćenju" modela). Pre SVAKE n
 - Model ne može da gleda video u pokretu ni da čuje zvuk: ocena se zasniva na izvučenim kadrovima + merenjima.
 - AI generisanje videa troši kredite (vidIQ); glavni izvor je stok materijal → originalnost se postiže režijom, izborom i montažom, ne izvorom.
 - Ocena "Sound design" za klipove bez zvuka (pravilo korisnika) = kvalitet ritam-mreže i sinhronizacije, jasno označeno.
+
+## Inspekcija stvarnog rendera (obavezno pre isporuke)
+`python3 studio/qc_inspect.py <mp4>` — dekodira svaki frejm (OpenCV): metapodaci, rezovi/pretapanja, treperenje, crni/zamrznuti frejmovi, ekspozicija, oštrina, ponavljanje (256-bit dHash unutar videa i prema svim ranijim), kontinuitet, loop spoj, tajming teksta, zvuk (EBU R128, peak), transkript (faster-whisper) vs scenario + sinhronizacija titlova. Kontakt-listovi u `studio/inspections/<id>/`.
+Vizuelni pregled (vision model nad listovima) se upisuje sa `--review <id> review.json`. ODOBRENO samo ako: nema kritičnih/većih problema + postoji vizuelni pregled + nema slabih scena + kreativna ocena >= 90.

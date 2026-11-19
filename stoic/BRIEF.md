@@ -1,6 +1,7 @@
 # STOIC RULES — TikTok serija (brief korisnika, 19.11.2026) — VAŽI ZA OVU SERIJU
 
-Status: SAMO ZAPISANO. Ništa se ne generiše dok korisnik ne kaže. Postupak počinje klipom #1 na pregled.
+Status (ažurirano 19.11.): korisnik je poslao potpuni brief -> radi se klip #1 i šalje na pregled pre svega ostalog.
+Odluke korisnika za seriju: BELI bold font + blaga senka (ne crno-zlatno), CTA = "Follow for rule #N+1" (opšti 'SHARE • LIKE • COMMENT' se ovde ne dodaje osim ako korisnik traži), tamni hladni filmski izgled + zrno (pravilo osvetljenosti >=0.30 iz studio/lessons.md NE važi za ovu seriju; važi čitljivost teksta).
 
 ## Uloga i cilj
 Faceless serija stoičkih pravila na engleskom za SAD/UK, 18–34. Cilj: probiti ~200 pregleda, gledanje do kraja, pratioci.
@@ -44,3 +45,20 @@ Opis (kratka rečenica + pitanje za komentare, npr. "Which rule do you need toda
 ## Provera pre isporuke (za svaki klip)
 Dužina, hook u prve 2 s, loop radi, tekst van zabranjenih zona, nema muzike, nema vodenih žigova, opis i hashtagovi spremni.
 Plus `python3 studio/qc_inspect.py <mp4>` (inspekcija stvarnog rendera) + vizuelni pregled kadrova.
+
+## Cilj i algoritam (dopuna 19.11.)
+- Probiti 200 pregleda, prvi klip > 10.000. Po klipu: odgledano do kraja > 70%, lajkovi > 5% pregleda, što više deljenja/čuvanja/komentara.
+- Test grupa ~200–300 ljudi; dalje samo uz gledanje do kraja, ponovna puštanja, deljenja, čuvanja, komentare -> svaka odluka u klipu služi tim signalima.
+- Serija mora biti prepoznatljiva i dosledna (isti font, isti raspored, ista boja), ne generička/"AI".
+
+## Uz svako zakazivanje podsetiti korisnika
+- dodaj trending zvuk (u biblioteci strelica ↗ = zvuk u usponu)
+- prvih 30–60 min odgovaraj na svaki komentar
+- skroluj i komentariši klipove u stoičkoj niši
+- ne briši klipove koji su loše prošli
+
+## Praćenje i popravke
+- 48 h posle objave iz Metricool-a: pregledi, prosečno vreme gledanja, % do kraja, lajkovi, deljenja, komentari, novi pratioci.
+- Posle svakih 5 klipova izveštaj: najbolji hook, gde ljudi odlaze, šta menjamo + predlog sledećih 5 pravila sa hook-ovima.
+- Klip probije (5x prosek) -> 3 nova sa istim tipom hook-a, drugo pravilo.
+- 5 zaredom na ~200 -> menjati FORMAT (kadrovi, tempo, tip hook-a), ne samo tekst.
