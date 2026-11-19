@@ -77,7 +77,7 @@ VOICE, LANG, SPEED = "bm_george", "en-gb", 1.0  # izbor korisnika 19.11.: George
 LEAD, PAD, BEAT = 0.05, 0.30, 0.25
 # Šablon po klipu koji je "uhvatio" (Stoic rule #1, 200 pregleda na YouTube-u, 19.11.): ~10 s, BEZ muzike, samo glas.
 MUSIC = False
-CTA_VOICE = "Share, like, and comment. And subscribe for the next rule."  # kraj svakog videa (odluka korisnika 19.11.)
+CTA_VOICE = "Share, like, and comment."  # kraj svakog videa (odluka korisnika 19.11.)
 
 
 def tts():
@@ -159,8 +159,8 @@ def make(n, voice=True):
     import footage as FG
     FG.check(f"yt_short_{n:02d}", footage(r))
     os.makedirs(OUT, exist_ok=True)
-    M.CTA = "Subscribe for the next rule"
-    M.CTA2 = "SHARE  \u2022  LIKE  \u2022  COMMENT"
+    M.CTA = "Share, like & comment"  # bez "subscribe" (odluka korisnika 19.11.)
+    M.CTA2 = ""
     M.SHOW_TEXT = True  # tekst preko ekrana i uz glas (odluka korisnika 19.11.)
     M.SHOW_TAG = False  # bez broja dela gore: Shorts se ubacuju bilo kojim redom
     M.OUT = M.TMP  # tihu međuverziju drži u stoic/out
@@ -221,7 +221,7 @@ def make(n, voice=True):
                         "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-shortest", "-movflags", "+faststart", out], check=True)
     title = f"Stoic Rule: {r['hook'].rstrip('.')} #shorts"
     desc = (f"{r['caption']}\n\nStoic rule: {' '.join(r['rule'])}\n\n"
-            f"Share, like and comment — and subscribe for the next rule. One stoic rule every day.\n\n{r['tags']} #shorts\n")
+            f"Share, like and comment. One stoic rule every day.\n\n{r['tags']} #shorts\n")
     open(out.replace(".mp4", "_opis.txt"), "w").write(f"NASLOV: {title}\n\nOPIS:\n{desc}")
     FG.register(f"yt_short_{n:02d}", footage(r))
     print(out)

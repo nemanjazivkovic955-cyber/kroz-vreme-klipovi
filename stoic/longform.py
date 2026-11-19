@@ -267,7 +267,7 @@ def build(ep):
     desc = (f"Ten stoic rules to help you stay calm, disciplined and in control, no matter what life throws at you.\n\n"
             f"CHAPTERS\n{chap}\n\n"
             f"Which rule do you need most right now? Tell me in the comments.\n"
-            f"Subscribe for a new stoic rule every day and a video like this every week.\n\n"
+            f"Share, like and comment. A new stoic rule every day, and a video like this every week.\n\n"
             f"#stoicism #stoic #selfimprovement\n")
     open(os.path.join(OUTD, f"{ep}_opis.txt"), "w").write(
         f"NASLOV: {E.TITLE}\n\nOPIS:\n{desc}\nTAGOVI: {', '.join(E.TAGS)}\n\nTRAJANJE: {fmt(total)}\n")

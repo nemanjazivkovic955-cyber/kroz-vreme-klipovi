@@ -86,7 +86,7 @@ SECTIONS = [
     ]},
     {"card": None, "chapter": "Which rule do you need?", "paras": [
         ("mk_4013", 1.0, "Those are ten stoic rules. You don't need to master all of them. Pick one, and live it this week."),
-        ("mk_3453", 1.0, "If this helped, share it with someone who needs it, like the video, and subscribe. There's a new stoic rule here every day, and a video like this one every week."),
+        ("mk_3453", 1.0, "If this helped, share it with someone who needs it, like the video, and leave a comment. There's a new stoic rule here every day, and a video like this one every week."),
         ("mk_1704", 1.0, "Which rule do you need most right now? Tell me in the comments."),
     ]},
 ]
