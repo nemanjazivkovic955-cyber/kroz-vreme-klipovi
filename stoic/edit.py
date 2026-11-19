@@ -222,6 +222,14 @@ def check_variety(n):
     pk = [{o["loop"][4]} | {x[4] for x in o["shots"]} for o in prev]
     stale = [k for k in kinds if sum(k in q for q in pk) >= 3]
     assert not stale, f"edit {n}: scene previše korišćene u prethodnih 5 klipova: {stale}"
+    # snimak ne sme postojati u istoriji SVIH ranijih serija (studio/visual_history.json, samo raste)
+    import json as _j, re as _re
+    _vh = _j.load(open(os.path.join(HERE, "..", "studio", "visual_history.json")))
+    def _fid(x):
+        m = _re.match(r"^(?:px|money|power_flight|power_jet|power_man|power_phone|lux_woman|car|city|nature|travel|workout|snow)_(\d+)$", x)
+        return f"pexels_{m.group(1)}" if m else x
+    old = [x for x in srcs if [p for p in _vh.get(_fid(x), []) if p != f"stoic_edit_{n:02d}"]]
+    assert not old, f"edit {n}: snimci već korišćeni u ranijim klipovima: {old}"
 
 
 def dur(p):
