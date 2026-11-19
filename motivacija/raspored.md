@@ -13,6 +13,21 @@ Format svakog klipa: gore stalno **QUOTE OF THE DAY**, 4 recenice citata, posled
 (polja `lines` (4) i `lesson` u `quotes.py`, `category`, caption sa `CAT_TAGS[...]`).
 Klipovi bez muzike: `videos/motivacija/bez_muzike/`, opisi: `opisi.txt`.
 
+## TIKTOK STANDARD (korisnik, obavezno za SVAKI TikTok klip) - format LOOP
+Klipovi za TikTok se prave sa `python3 the_price/shortloop.py <id>` iz `motivacija/tiktok_loops.py`, izlaz u `videos/tiktok_loops/<id>.mp4`
+(+ `<id>_opis.txt` i `<id>_provera.json`). 10 pravila:
+1. HOOK 0-2 s: prvi tekst zaustavlja skrol (pitanje / sok / obecanje), vidljiv od 1. kadra, bez uvoda/logoa/praznih kadrova.
+2. DUZINA 7-15 s (standard: 6 tekstova x 2 s = 12 s).
+3. LOOP: poslednji tekst vodi nazad na hook; prvi i poslednji kadar su uzastopni delovi istog snimka.
+4. TEKST: krupan, centriran u sigurnoj zoni, max 8 reci/kadru, menja se na 2 s; nista u donjih 20% i desnih 15%.
+5. ORIGINALNOST: sopstveni tekst, rez na 1 s, zoom, kolor, zrno; bez tudjih zigova/logoa.
+6. JEDNA PORUKA po klipu.
+7. BEZ ZVUKA (nema audio zapisa); rezovi u ritmu 120 BPM (tekst 4 udarca, slika 2 udarca).
+8. 1080x1920 MP4.
+9. OPIS: pitanje za komentare + 3-5 hashtagova (mesavina velikih i nisnih) - polja caption/tags.
+10. PROVERA: `_provera.json` mora imati "sve_ok": true; u poruci korisniku navedi hook i trajanje.
+Plus stalna pravila: crno-zlatno, SHARE • LIKE • COMMENT FOR MORE ispod zavrsne poruke, check_unique.py OK, snimci se ne ponavljaju.
+
 ## Pravila
 - ORIGINALNOST TEKSTA (obavezno): teme biraj iz `teme_banka.md` (redom, precrtaj iskorisceno), menjaj FORMU teksta
   (metafora, pitanje, kontrast, lista, mini-prica, pismo sebi, brojka, obrnuta logika) i u istom paketu nikad dve iste forme.
