@@ -4211,6 +4211,96 @@
   }
  },
  {
+  "id": "stoic_edit_17",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "sacrifice",
+  "hook": "S A C R I F I C E",
+  "text": [
+   "S A C R I F I C E",
+   "pay now. live later."
+  ],
+  "ending": "pay now. live later.",
+  "footage": [
+   "mk_75",
+   "mk_18302",
+   "mk_51571",
+   "mk_66",
+   "mk_4317",
+   "mk_18297",
+   "mk_18305",
+   "mk_50753",
+   "mk_52079",
+   "mk_39834",
+   "mk_52087",
+   "mk_241",
+   "mk_4830",
+   "mk_52080",
+   "mk_4758",
+   "mk_52091",
+   "mk_4813",
+   "mk_51553",
+   "mk_30013",
+   "mk_4351",
+   "mk_52415",
+   "mk_40077",
+   "mk_51631",
+   "mk_4045",
+   "mk_50"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_17.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_17.md",
+   "inspected_at": "2026-11-19T20:01:05",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 85,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 85 < 90"
+    ]
+   },
+   "issues": 2,
+   "cuts": [
+    0.5,
+    0.733,
+    1.0,
+    1.233,
+    1.5,
+    1.733,
+    2.0,
+    2.233,
+    2.5,
+    2.733,
+    3.0,
+    3.233,
+    3.5,
+    3.733,
+    4.0,
+    4.233,
+    4.5,
+    4.733,
+    5.0,
+    5.233,
+    5.5,
+    5.733,
+    6.0,
+    6.233
+   ],
+   "loop_seam": {
+    "seam_diff": 7.6,
+    "median_neighbor_diff": 4.38,
+    "ok": true,
+    "seam_diff_no_text": 1.25
+   }
+  }
+ },
+ {
   "id": "talk_city",
   "family": "talk_v1",
   "format": "TikTok 9:16 ~30 s, glas + muzika",

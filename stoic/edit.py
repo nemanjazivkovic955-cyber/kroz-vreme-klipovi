@@ -316,6 +316,38 @@ EDITS = {
         "caption": "Getting knocked down isn't the end. Staying down is. When did you last get back up? \U0001F447",
         "tags": "#stoicism #discipline #mindset #resilience #boxing",
         "sound": "emotional cinematic phonk / slow build to drop (trending ↗) - drop na 4.0 s (get back up)"},
+    # ---- v5 PRIČA u stilu LUXE NOIR (korisnik: "u njegovom stilu montiranja"): rez na ~0.25 s (7/8 frejmova = 1/8 @120 BPM)
+    17: {"mode": "story", "hook": "They see the car. Not the 5AM alarms.", "word": "SACRIFICE", "line": "pay now. live later.",
+        "loop": ("mk_75", 0.5, 7.0, "eq=gamma=1.5", "luks-noir"),            # kabriolet (ono što vide / rezultat); 74 odbačen: vidi se samo točak
+        "shots": [
+                  ("mk_18302", 0.5, None, "", "luks-noir", 0.2333),  # novac na stolu
+                  ("mk_51571", 0.5, None, "", "luks-noir", 0.2667),  # šampanjac
+                  ("mk_66", 0.68, None, "eq=gamma=1.7", "luks-noir", 0.2333),  # crveni auto u garaži
+                  ("mk_4317", 0.5, None, "", "luks-noir", 0.2667),  # luka u zalasku
+                  ("mk_18297", 0.5, None, "", "luks-noir", 0.2333),  # novčanik pun para
+                  ("mk_18305", 0.85, None, "", "luks-noir", 0.2667),  # novčanice padaju
+                  ("mk_50753", 0.55, None, "", "luks-noir", 0.2333),  # gasi budilnik u zoru
+                  ("mk_52079", 0.5, None, "eq=gamma=1.3", "luks-noir", 0.2667),  # teretana
+                  ("mk_39834", 0.5, None, "", "luks-noir", 0.2333),  # budilnik
+                  ("mk_52087", 0.45, None, "eq=gamma=1.3", "luks-noir", 0.2667),  # konopci
+                  ("mk_241", 0.4, None, "", "luks-noir", 0.2333),  # potpisuje
+                  ("mk_4830", 0.55, None, "", "luks-noir", 0.2667),  # radi u odelu
+                  ("mk_52080", 0.5, None, "eq=gamma=1.3", "luks-noir", 0.2333),  # šipka
+                  ("mk_4758", 0.55, None, "", "luks-noir", 0.2667),  # utišava budilnik
+                  ("mk_52091", 0.5, None, "eq=gamma=1.3", "luks-noir", 0.2333),  # trening
+                  ("mk_4813", 0.5, None, "", "luks-noir", 0.2667),  # sastanak
+                  ("mk_51553", 0.5, None, "", "luks-noir", 0.2333),  # čaše šampanjca
+                  ("mk_30013", 0.5, None, "", "luks-noir", 0.2667),  # dogovor
+                  ("mk_4351", 0.5, None, "", "luks-noir", 0.2333),  # marina
+                  ("mk_52415", 0.5, None, "", "luks-noir", 0.2667),  # šampanjac izbliza
+                  ("mk_40077", 0.5, None, "", "luks-noir", 0.2333),  # luka odozgo
+                  ("mk_51631", 0.5, None, "", "luks-noir", 0.2667),  # puni čašu
+                  ("mk_4045", 0.5, None, "", "luks-noir", 0.2333),  # luksuzni bazen
+                  ("mk_50", 0.15, None, "eq=gamma=1.35", "luks-noir", 0.2667),  # crveni auto - rezultat
+                  ],
+        "caption": "Everyone wants the lifestyle. Nobody wants the 5AM part. Would you trade 5 years for it? \U0001F447",
+        "tags": "#stoicism #discipline #mindset #sacrifice #luxurylifestyle",
+        "sound": "dark luxury phonk / fast trap (trending ↗) - rez na svaku osminu (0.25 s)"},
 }
 
 
