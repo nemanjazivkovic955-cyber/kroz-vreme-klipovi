@@ -11,109 +11,119 @@ import make as M
 
 W, H, FPS, BEAT = M.W, M.H, M.FPS, 0.5
 
+# (izvor, x-centar, start ili None=40%, dodatni filter, VRSTA kadra) - najviše 2 kadra iste vrste po klipu (pravilo korisnika:
+# bez ponavljanja istih ili sličnih slika); snimci se ne ponavljaju ni između klipova ni sa ranijim serijama (studio/visual_history.json)
 EDITS = {
     1: {"word": "PATIENCE", "line": "patience pays.",
-        "loop": ("mk_28888", 0.42, 6.0, "eq=gamma=1.35"),     # čovek u odelu gleda sat
-        "shots": [("mk_64", 0.5, 6.0, "eq=gamma=1.5"),         # instrument tabla noću
-                  ("mk_18296", 0.5, 4.0, ""),                  # brojanje novčanica
-                  ("mk_4446", 0.45, 5.0, "eq=gamma=1.3"),      # jahta noću u luci
-                  ("mk_231", 0.62, 8.0, ""),                   # čovek na krovu u sumrak
-                  ("mk_53", 0.5, 4.0, ""),                    # sportski auto, sunce na haubi (63 odbačen: samo crvena površina)
-                  ("mk_18304", 0.5, 5.0, ""),                  # prelistavanje dolara
-                  ("mk_3673", 0.5, 4.0, "eq=gamma=1.3"),       # mehanizam sata
-                  ("mk_4076", 0.62, 5.0, "eq=gamma=1.2"),      # restoran nad gradom noću
-                  ("mk_4805", 0.5, 5.0, ""),                   # poslovni čovek u odelu (151 odbačen: sivo bez detalja)
-                  ("mk_4067", 0.5, 5.0, ""),                   # noćni tunel (65 odbačen: tamna mrlja)
-                  ("mk_18303", 0.5, 4.0, ""),                  # novac gori
-                  ("mk_4087", 0.55, 6.0, ""),                  # grad noću
-                  ("mk_30016", 0.5, 3.0, "eq=gamma=1.2"),     # stisak ruke u odelu (49 odbačen: bela mrlja)
-                  ("px_6700180", 0.5, 6.0, "eq=gamma=1.4"),    # čovek u privatnom avionu
-                  ("mk_18249", 0.5, 4.0, ""),                  # novčanice od 100$
-                  ("px_30351567", 0.5, 6.0, "")],              # jahta u zalasku
-        "caption": "My mind 24/7 \U0001F9E0⚔️",
+        "loop": ("mk_28888", 0.42, 6.0, "eq=gamma=1.35", "sat"),
+        "shots": [("mk_64", 0.5, 6.0, "eq=gamma=1.5", "auto-unutra"),
+                  ("mk_18296", 0.5, 4.0, "", "novac"),
+                  ("mk_4446", 0.45, 5.0, "eq=gamma=1.3", "jahta"),
+                  ("mk_231", 0.62, 8.0, "", "čovek-odelo"),
+                  ("mk_53", 0.5, 4.0, "", "auto"),
+                  ("mk_22739", 0.5, None, "eq=gamma=1.6", "šampanjac"),
+                  ("mk_3673", 0.5, 4.0, "eq=gamma=1.3", "sat"),
+                  ("mk_4076", 0.62, 5.0, "eq=gamma=1.2", "restoran"),
+                  ("mk_43770", 0.62, None, "", "klavir"),
+                  ("mk_4067", 0.5, 5.0, "", "tunel"),
+                  ("mk_18303", 0.5, 4.0, "", "novac"),
+                  ("mk_4087", 0.55, 6.0, "", "grad-noć"),
+                  ("mk_51559", 0.50, None, "", "šampanjac"),  # čaša se puni (40502 pretamno, 51549 etiketa sa tekstom)
+                  ("mk_4805", 0.5, 5.0, "", "čovek-odelo"),
+                  ("mk_4196", 0.5, None, "", "hotel"),
+                  ("mk_30016", 0.5, 3.0, "eq=gamma=1.2", "dogovor")],
+        "caption": "My mind 24/7 \U0001F9E0\u2694\ufe0f",
         "tags": "#stoicism #discipline #success #mindset #wealthylifestyle",
         "sound": "slowed phonk / dark luxury trap (trending ↗) - udarac na svakih 0.5 s"},
     2: {"word": "HUNGER", "line": "stay hungry.",
-        "loop": ("mk_40964", 0.50, 5.0, "eq=gamma=1.2"),      # bokser pognute glave u uglu ringa
-        "shots": [("mk_4596", 0.42, None, "eq=gamma=1.4"),     # zavija ruke
-                  ("mk_40948", 0.35, None, ""),                # bokser u gardu
-                  ("mk_52084", 0.62, None, "eq=gamma=1.3"),    # fokusiran pogled
-                  ("mk_52088", 0.55, None, "eq=gamma=1.3"),    # konopci
-                  ("mk_40276", 0.50, None, "eq=gamma=1.6"),    # udarci u džak (vertikalno)
-                  ("mk_40988", 0.45, None, ""),                # iscrpljen borac (50979 odbačen: skriveni rez u izvoru)
-                  ("mk_52094", 0.43, None, "eq=gamma=1.3"),    # teška šipka
-                  ("mk_731", 0.62, None, "eq=gamma=1.2"),      # sklekovi
-                  ("mk_44439", 0.50, None, ""),                # znojavo lice
-                  ("mk_735", 0.50, None, "eq=gamma=1.2"),      # zgibovi
-                  ("mk_40971", 0.50, None, "eq=gamma=1.4"),    # mladi bokser (vertikalno)
-                  ("mk_597", 0.70, None, ""),                  # silueta pije vodu
-                  ("mk_40788", 0.50, None, "eq=gamma=1.6"),    # bučica (vertikalno)
-                  ("mk_608", 0.55, None, ""),                  # silueta trkača u gradu
-                  ("mk_40978", 0.45, None, "")],               # iscrpljena borkinja
+        "loop": ("mk_40964", 0.50, 5.0, "eq=gamma=1.2", "boks"),
+        "shots": [("mk_4596", 0.42, None, "eq=gamma=1.4", "zavoji"),
+                  ("mk_40948", 0.35, None, "", "boks"),
+                  ("mk_52084", 0.62, None, "eq=gamma=1.3", "lice"),
+                  ("mk_52088", 0.55, None, "eq=gamma=1.3", "sprava"),
+                  ("mk_731", 0.62, None, "eq=gamma=1.2", "sopstvena-težina"),
+                  ("mk_40276", 0.50, None, "eq=gamma=1.6", "džak"),
+                  ("mk_44439", 0.50, None, "", "lice"),
+                  ("mk_597", 0.70, None, "", "silueta"),
+                  ("mk_735", 0.50, None, "eq=gamma=1.2", "sopstvena-težina"),
+                  ("mk_40246", 0.50, None, "eq=gamma=1.6", "skok"),
+                  ("mk_52094", 0.43, None, "eq=gamma=1.3", "sprava"),
+                  ("mk_608", 0.55, None, "", "trčanje"),
+                  ("mk_40275", 0.50, None, "eq=gamma=1.3", "odmor")],
         "caption": "4AM club. No days off. \U0001F94A\U0001F525",
         "tags": "#stoicism #discipline #mindset #gymmotivation #stayhungry",
         "sound": "hard phonk / aggressive drift phonk (trending ↗) - udarac na svakih 0.5 s"},
     3: {"word": "SILENCE", "line": "move in silence.",
-        "loop": ("mk_42039", 0.50, 8.0, "eq=gamma=1.5"),                  # pogled iz auta, noćni saobraćaj
-        "shots": [("mk_2026", 0.50, None, "eq=gamma=1.4"),     # mračan tunel
-                  ("mk_42037", 0.45, None, "eq=gamma=1.7"),                # prozor auta, svetla
-                  ("mk_40746", 0.50, None, "eq=gamma=1.9"),    # noćna šetnja (vertikalno)
-                  ("mk_4383", 0.30, None, "eq=gamma=1.3"),     # most noću
-                  ("mk_49876", 0.50, None, "eq=gamma=2.0"),    # avenija odozgo (vertikalno)
-                  ("mk_50998", 0.50, None, "eq=gamma=1.6"),                # kružni tok noću
-                  ("mk_40640", 0.50, None, "eq=gamma=1.8"),    # grad noću
-                  ("mk_42343", 0.50, None, "eq=gamma=1.7"),    # grad noću iz vazduha (4136 odbačen: treperenje svetala u tunelu)
-                  ("mk_34562", 0.50, None, "eq=gamma=1.9"),    # dve avenije (vertikalno)
-                  ("mk_49846", 0.45, None, "eq=gamma=1.3"),    # grad iz vazduha
-                  ("mk_3361", 0.55, None, ""),                 # krilo aviona nad gradom
-                  ("mk_41161", 0.55, None, "eq=gamma=1.5"),    # avenija noću
-                  ("mk_4646", 0.50, None, "eq=gamma=1.2"),     # kanal noću
-                  ("mk_49878", 0.50, None, "eq=gamma=2.0"),    # grad noću (vertikalno)
-                  ("mk_4433", 0.50, None, "")],                # pun mesec
+        "loop": ("mk_42039", 0.50, 8.0, "eq=gamma=1.5", "auto-noć"),
+        "shots": [("mk_2026", 0.50, None, "eq=gamma=1.4", "tunel"),
+                  ("mk_42037", 0.45, None, "eq=gamma=1.7", "auto-noć"),
+                  ("mk_40746", 0.50, None, "eq=gamma=1.9", "ulica-noć"),
+                  ("mk_2709", 0.50, None, "", "vatra"),
+                  ("mk_4383", 0.30, None, "eq=gamma=1.3", "most"),
+                  ("mk_4431", 0.50, None, "eq=gamma=1.2", "metro"),
+                  ("mk_50998", 0.50, None, "eq=gamma=1.6", "grad-odozgo"),
+                  ("mk_1724", 0.60, None, "eq=gamma=1.2", "knjiga"),
+                  ("mk_4646", 0.50, None, "eq=gamma=1.2", "kanal"),
+                  ("mk_42782", 0.50, None, "", "vatra"),  # moderni kamin (32631 odbačen: van fokusa)
+                  ("mk_3361", 0.55, None, "", "avion"),
+                  ("mk_40672", 0.50, None, "", "metro"),
+                  ("mk_41161", 0.55, None, "eq=gamma=1.5", "ulica-noć"),
+                  ("mk_42343", 0.50, None, "eq=gamma=1.7", "grad-odozgo"),
+                  ("mk_4433", 0.50, None, "", "mesec")],
         "caption": "Let them wonder. \U0001F92B\U0001F303",
         "tags": "#stoicism #discipline #mindset #moveinsilence #nightdrive",
         "sound": "slowed dark phonk / night drive (trending ↗) - udarac na svakih 0.5 s"},
     4: {"word": "FREEDOM", "line": "earn your freedom.",
-        "loop": ("mk_2385", 0.50, 10.0, ""),                  # čovek raširenih ruku na vrhu
-        "shots": [("mk_44651", 0.45, None, ""),                # put, POV
-                  ("mk_39912", 0.55, None, ""),                # motor na praznom putu
-                  ("mk_4204", 0.60, None, ""),                 # krilo aviona, ružičasto nebo
-                  ("mk_52427", 0.35, None, ""),                # sportski auto na krivini
-                  ("mk_2049", 0.40, None, ""),                 # ruka na kormilu čamca
-                  ("mk_43114", 0.55, None, ""),                # motor kroz pustinju
-                  ("mk_5008", 0.50, None, ""),                 # tirkizni zaliv odozgo (40102 odbačen: treći kadar krila aviona)
-                  ("mk_52454", 0.55, None, ""),                # vozač, sunce na putu
-                  ("mk_5363", 0.62, None, ""),                 # gliser iz vazduha
-                  ("mk_3298", 0.40, None, ""),                 # poletanje
-                  ("mk_41545", 0.50, None, ""),                # planine iz vazduha (44370 odbačen: drugi zalazak nad morem)
-                  ("mk_4839", 0.18, None, ""),                 # čovek i pas gledaju zalazak
-                  ("mk_51689", 0.50, None, ""),                # snežni vrh
-                  ("mk_4281", 0.55, None, ""),                 # planina pod zvezdama
-                  ("mk_38948", 0.50, None, "")],               # sunce nad morem
+        "loop": ("mk_2385", 0.50, 10.0, "", "čovek-priroda"),
+        "shots": [("mk_44651", 0.45, None, "", "put"),
+                  ("mk_39912", 0.55, None, "", "motor"),
+                  ("mk_4204", 0.60, None, "", "avion"),
+                  ("mk_1076", 0.55, None, "", "gliser"),
+                  ("mk_52427", 0.35, None, "", "put"),
+                  ("mk_2049", 0.40, None, "", "kormilo"),
+                  ("mk_43114", 0.55, None, "", "motor"),
+                  ("mk_5008", 0.50, None, "", "more-odozgo"),
+                  ("mk_40901", 0.50, None, "", "bicikl"),
+                  ("mk_3298", 0.40, None, "", "avion"),
+                  ("mk_5363", 0.62, None, "", "more-odozgo"),
+                  ("mk_4839", 0.18, None, "", "čovek-priroda"),
+                  ("mk_51689", 0.50, None, "", "planina"),
+                  ("mk_4281", 0.55, None, "", "planina"),
+                  ("mk_38948", 0.50, None, "", "zalazak")],
         "caption": "One day this will be normal. \u2708\ufe0f\U0001F305",
         "tags": "#stoicism #discipline #mindset #freedom #travel",
         "sound": "emotional phonk / cinematic trap (trending ↗) - udarac na svakih 0.5 s"},
     5: {"word": "FOCUS", "line": "no distractions.",
-        "loop": ("mk_609", 0.40, 9.0, ""),                    # noge trkača na stazi
-        "shots": [("mk_32809", 0.50, None, ""),                # trkač prolazi (vertikalno)
-                  ("mk_40765", 0.45, None, ""),                # koraci, crno-belo
-                  ("mk_39825", 0.50, None, ""),                # semafor odbrojava do nule
-                  ("mk_40766", 0.50, None, ""),                # trkač na mostu
-                  ("mk_41943", 0.62, None, "eq=gamma=1.3"),    # brzinomer
-                  ("mk_722", 0.50, None, ""),                  # trkač u šumi
-                  ("mk_4827", 0.35, None, ""),                 # ruke na tastaturi
-                  ("mk_32792", 0.50, None, ""),                # sprint (vertikalno)
-                  ("mk_39779", 0.55, None, ""),                # pogled na sat
-                  ("mk_606", 0.45, None, ""),                  # trkač na mostu, grad
-                  ("mk_52451", 0.50, None, ""),                # prazan put u zoru
-                  ("mk_32799", 0.50, None, ""),                # trkač na stazi
-                  ("mk_4852", 0.50, None, ""),                 # put kroz drveće
-                  ("mk_719", 0.50, None, ""),                  # trkač na stazi u parku
-                  ("mk_52452", 0.50, None, "")],               # put u zoru
+        "loop": ("mk_609", 0.40, 9.0, "", "trčanje"),
+        "shots": [("mk_39825", 0.50, None, "", "odbrojavanje"),
+                  ("mk_44147", 0.50, None, "", "klavir"),
+                  ("mk_40765", 0.45, None, "", "trčanje"),
+                  ("mk_50695", 0.60, None, "", "pisanje"),
+                  ("mk_41943", 0.62, None, "eq=gamma=1.3", "brzinomer"),
+                  ("mk_13807", 0.55, None, "", "knjiga"),
+                  ("mk_4827", 0.35, None, "", "tastatura"),
+                  ("mk_43798", 0.50, None, "", "meditacija"),
+                  ("mk_39779", 0.55, None, "", "sat"),
+                  ("mk_43446", 0.50, 11.4, "eq=gamma=1.2", "slikanje"),
+                  ("mk_52451", 0.50, None, "", "put"),
+                  ("mk_40891", 0.60, None, "", "bicikl"),
+                  ("mk_39855", 0.50, None, "eq=gamma=1.3", "pisanje"),
+                  ("mk_4852", 0.50, None, "", "put")],
         "caption": "Locked in. \U0001F512\U0001F3AF",
-        "tags": "#stoicism #discipline #mindset #focus #runningmotivation",
+        "tags": "#stoicism #discipline #mindset #focus #productivity",
         "sound": "slowed phonk / dark motivational beat (trending ↗) - udarac na svakih 0.5 s"},
 }
+
+
+def check_variety(n):
+    """Najviše 2 kadra iste vrste u klipu; nijedan izvor dvaput u klipu ni u dva klipa serije."""
+    e = EDITS[n]; from collections import Counter
+    kinds = Counter([e["loop"][4]] + [x[4] for x in e["shots"]])
+    bad = {k: v for k, v in kinds.items() if v > 2}
+    srcs = [x[0] for x in e["shots"]] + [e["loop"][0]]
+    other = {x[0] for m, o in EDITS.items() if m != n for x in o["shots"] + [o["loop"]]}
+    rep = [x for x in srcs if srcs.count(x) > 1 or x in other]
+    assert not bad and not rep, f"edit {n}: previše iste vrste {bad} / ponovljen izvor {rep}"
 
 
 def dur(p):
@@ -155,13 +165,14 @@ def overlay(e, n, total, path):
 def make(n):
     e = EDITS[n]; M.BOXES.clear()
     shots = e["shots"]; total = BEAT * (len(shots) + 2)
-    lname, lx, a, lex = e["loop"]
+    check_variety(n)
+    lname, lx, a, lex = e["loop"][:4]
     full = os.path.join(M.TMP, f"e{n}_loop.mp4")
     M.render_shot(full, lname, a - BEAT, 2 * BEAT, lx, 1.00, 1.04, lex)
     head, tail = os.path.join(M.TMP, f"e{n}_head.mp4"), os.path.join(M.TMP, f"e{n}_tail.mp4")
     M.cut(full, head, BEAT, BEAT); M.cut(full, tail, 0.0, BEAT)
     parts = [head]
-    for k, (nm, xc, st, ex) in enumerate(shots, 1):
+    for k, (nm, xc, st, ex, _kind) in enumerate(shots, 1):
         if st is None: st = round(dur(M.src(nm)) * 0.4, 2)
         o = os.path.join(M.TMP, f"e{n}_{k:02d}.mp4")
         M.render_shot(o, nm, st, BEAT, xc, 1.00, 1.04, ex); parts.append(o)

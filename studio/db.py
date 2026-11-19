@@ -15,7 +15,10 @@ def clean(s): return s.replace("*", "")
 def fid(x):  # normalizuj identitet snimka
     x = x.split(":")[-1]
     x = os.path.splitext(os.path.basename(x))[0]
-    return x[2:] if x.startswith("p_") else x
+    x = x[2:] if x.startswith("p_") else x
+    import re as _re
+    m = _re.match(r"^(?:px|money|power_flight|power_jet|power_man|power_phone|lux_woman|car|city|nature|travel|workout|snow)_(\d+)$", x)
+    return f"pexels_{m.group(1)}" if m else x
 
 
 prods = []
@@ -108,6 +111,18 @@ try:
         visual_style="Pexels lux", music="cinematic_piano", editing="tvrdi rezovi 4 s", output="videos/youtube/rich_life_youtube.mp4")
 except Exception as e:
     print("youtube:", e)
+
+# 5b) Shorts "rich edit" (42 kratka klipa bez teksta) - snimci iz kataloga; ranije NIJE praćeno -> lažno "neiskorišćeno"
+try:
+    import ast
+    src = open(os.path.join(ROOT, "motivacija", "cut_edit.py")).read()
+    G = next(ast.literal_eval(n.value) for n in ast.parse(src).body
+             if isinstance(n, ast.Assign) and getattr(n.targets[0], "id", "") == "GROUPS")
+    add(id="shorts_rich_edit", family="shorts_rich_edit", format="kratki isečci bez teksta (sync to beat)", topic="rich life",
+        hook="-", text=[], ending="-", footage=[f for v in G.values() for f in v], visual_style="luksuz, topli zlatni kolor",
+        music="nema", editing="isečci po 4 s", output="videos/shorts/rich_edit/")
+except Exception as e:
+    print("rich_edit:", e)
 
 # 6) Stoic Rules serija
 try:

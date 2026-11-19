@@ -19,3 +19,10 @@
 14. **Hook kadar sa čovekom ili pokretom** - statični predmeti (peščani sat, sat, privezana jahta) drže hook na 13/15. Sledeći ciklus: hook = lice/akcija + broj/kontradikcija.
 15. **Ne koristiti poznate tuđe citate** kao rečenice (Shedd "ships are safe in harbor") - originalnost pada.
 16. **Ekspozicija:** cilj 0.43 posle grade-a; tamne teretane (luma 0.15-0.2) traže gamma 1.6-1.9 -> granično 0.28-0.33 posle trake za tekst. Birati svetlije izvore umesto dizanja gamma.
+
+## Iz Stoic edit serije (19.11.) — zahtev korisnika: bez ponavljanja istih ili sličnih slika
+17. **Nula ponovljenih snimaka**, uključujući SVE ranije serije. `db.py` sada prati i `shorts/rich_edit` (cut_edit.py) i normalizuje Pexels id (px_/money_/power_… -> pexels_ID). Pre svakog klipa proveriti `visual_history.json`.
+18. **Najviše 2 kadra iste VRSTE po klipu** (novac, trkač, put, grad odozgo…). Svaki kadar u `stoic/edit.py` ima oznaku vrste; `check_variety()` odbija klip.
+19. Odbaciti kadrove sa natpisima/brendom (etikete, logo na opremi, "Globus" balon, mehanizmi satova sa imenom proizvođača).
+20. Tanak proređeni tekst na svetlom kadru se gubi -> blaga tamna traka iza teksta; inspektor analizira tekst na 360x640.
+21. Treperenje izvora (timelapse, tunel sa svetlima, skriven rez) inspektor hvata kao "flicker" — zameniti kadar, ne posvetljavati.
