@@ -109,21 +109,38 @@ def voice_lines(r, n):
     return clips
 
 
-# YouTube verzije imaju SVOJE snimke (pravilo: snimak se nikad ne ponavlja, pa ni TikTok snimci).
+# YouTube Shorts imaju SVOJ tekst i SVOJE snimke (odluka korisnika 19.11.: drugi tekst i druge scene, isti princip + glas;
+# snimak se nikad ne ponavlja, pa ni TikTok snimci).
 YT_FOOTAGE = {
-    1: {"loop": ("mk_1966", 0.50, 5.0), "loop_extra": "eq=gamma=1.1",          # dim (crno-belo) - energija koja se troši
+    1: {"hook": "Your whole life is decided here.",
+        "rule": ["Every day you stand at a crossroads.", "Small steps decide where you end up.", "One light is enough to start."],
+        "caption": "Every big change started with one small step. What step are you taking today?",
+        "tags": "#stoicism #mindset #discipline #motivation #decisions",
+        "loop": ("mk_1966", 0.50, 5.0), "loop_extra": "eq=gamma=1.1",          # dim (crno-belo) - energija koja se troši
         "shots": [("mk_4000", 0.55, 2.0),                                       # raskrsnica odozgo - svet koji ne kontrolišeš
                   ("mk_4893", 0.50, 0.5),                                       # koraci - tvoj odgovor
                   ("mk_3458", 0.50, 2.0, "eq=gamma=1.3")]},                    # sveća se pali u mraku - tvoja moć
-    2: {"loop": ("mk_151", 0.42, 5.0),                                          # silueta čoveka kraj prozora - tiha snaga
+    2: {"hook": "Strong people need this more than friends.",
+        "rule": ["The crowd will always be loud.", "Real peace is found alone.", "Learn to enjoy your own company."],
+        "caption": "Being alone is not the same as being lonely. When do you feel most at peace?",
+        "tags": "#stoicism #mindset #discipline #motivation #solitude",
+        "loop": ("mk_151", 0.42, 5.0),                                          # silueta čoveka kraj prozora - tiha snaga
         "shots": [("mk_4185", 0.50, 0.5),                                       # gomila na festivalu - "svima"
                   ("mk_3350", 0.62, 2.0),                                       # mesec nad šumom - tišina
                   ("mk_3438", 0.50, 2.0)]},                                    # sveće izbliza - kontrola
-    3: {"loop": ("mk_4231", 0.50, 5.0),                                         # gomila pod kišobranima - tuđa mišljenja
+    3: {"hook": "This is quietly stealing your happiness.",
+        "rule": ["Everyone is running their own race.", "Comparing yourself makes you a copy.", "Shine in your own light."],
+        "caption": "Your only competition is who you were yesterday. Who do you catch yourself comparing to?",
+        "tags": "#stoicism #mindset #discipline #motivation #selfworth",
+        "loop": ("mk_4231", 0.50, 5.0),                                         # gomila pod kišobranima - tuđa mišljenja
         "shots": [("mk_4154", 0.50, 1.0),                                       # pokretne stepenice, prolaznici
                   ("mk_1038", 0.50, 1.0, "eq=gamma=1.1"),                      # čovek u snopu svetla - karakter
                   ("mk_3463", 0.50, 2.0)]},                                    # varnice - fokus
-    4: {"loop": ("mk_1967", 0.50, 5.0), "loop_extra": "eq=gamma=1.2",          # dim se uvija - iluzija motivacije
+    4: {"hook": "Comfort is slowly ruining you.",
+        "rule": ["Easy days build weak minds.", "Cold, hard roads build strength.", "Keep moving when it hurts."],
+        "caption": "Growth lives on the other side of comfort. What hard thing are you avoiding?",
+        "tags": "#stoicism #mindset #discipline #motivation #mentaltoughness",
+        "loop": ("mk_1967", 0.50, 5.0), "loop_extra": "eq=gamma=1.2",          # dim se uvija - iluzija motivacije
         "shots": [("mk_3465", 0.50, 2.0),                                       # žar pada i gasi se - motivacija bledi
                   ("mk_3352", 0.50, 1.0),                                       # sneg pada u šumi - uslovi loši, ipak
                   ("mk_719", 0.45, 3.0)]},                                     # trkač dolazi kroz šumu - budi taj koji se pojavi
