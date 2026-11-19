@@ -86,7 +86,9 @@ def expected_for(vid):
                 "text_changes": [2.0, 4.5, 7.0, 9.0], "silent": True, "loop": True, "kind": "stoic", "dur": (9, 11), "min_luma": 0.07}
     m_ = re.match(r"stoic_edit_(\d+)$", vid)
     if m_:
-        return {"texts": [], "text_changes": [4.0], "silent": True, "loop": True, "kind": "stoic_edit", "dur": (7, 11),
+        sys.path.insert(0, os.path.join(ROOT, "stoic")); import edit as _E
+        _e = _E.EDITS.get(int(m_.group(1)), {})
+        return {"texts": [], "text_changes": [2.0, 4.0] if _e.get("hook") else [4.0], "silent": True, "loop": True, "kind": "stoic_edit", "dur": (7, 11),
                 "min_luma": 0.07, "min_shot": 0.45}
     try:
         import talks

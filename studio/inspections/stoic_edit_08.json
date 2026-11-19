@@ -1,0 +1,351 @@
+{
+ "id": "stoic_edit_08",
+ "file": "videos/stoic/stoic_edit_08.mp4",
+ "inspected_at": "2026-11-19T15:02:52",
+ "method": "Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.",
+ "meta": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "duration": 7.0,
+  "vcodec": "h264",
+  "pix_fmt": "yuv420p",
+  "video_streams": 1,
+  "audio_streams": 0,
+  "acodec": null,
+  "bitrate_kbps": 24341
+ },
+ "expected": {
+  "texts": [],
+  "text_changes": [
+   2.0,
+   4.0
+  ],
+  "silent": true,
+  "loop": true,
+  "kind": "stoic_edit",
+  "dur": [
+   7,
+   11
+  ],
+  "min_luma": 0.07,
+  "min_shot": 0.45
+ },
+ "technical": {
+  "resolution_ok": true,
+  "aspect": "1080:1920",
+  "fps_ok": true,
+  "duration_ok": true,
+  "audio_rule_ok": true,
+  "frames_decoded": 210,
+  "frames_expected": 210
+ },
+ "shots": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.5,
+   "dur": 0.5,
+   "luma": 0.169,
+   "sharpness": 168.0,
+   "overexposed_frac": 0.009,
+   "hue": 81.3
+  },
+  {
+   "index": 1,
+   "start": 0.5,
+   "end": 1.0,
+   "dur": 0.5,
+   "luma": 0.136,
+   "sharpness": 207.0,
+   "overexposed_frac": 0.009,
+   "hue": 92.2
+  },
+  {
+   "index": 2,
+   "start": 1.0,
+   "end": 1.5,
+   "dur": 0.5,
+   "luma": 0.177,
+   "sharpness": 63.0,
+   "overexposed_frac": 0.009,
+   "hue": 108.9
+  },
+  {
+   "index": 3,
+   "start": 1.5,
+   "end": 2.0,
+   "dur": 0.5,
+   "luma": 0.303,
+   "sharpness": 135.6,
+   "overexposed_frac": 0.009,
+   "hue": 64.7
+  },
+  {
+   "index": 4,
+   "start": 2.0,
+   "end": 2.5,
+   "dur": 0.5,
+   "luma": 0.172,
+   "sharpness": 77.2,
+   "overexposed_frac": 0.0,
+   "hue": 77.4
+  },
+  {
+   "index": 5,
+   "start": 2.5,
+   "end": 3.0,
+   "dur": 0.5,
+   "luma": 0.338,
+   "sharpness": 105.4,
+   "overexposed_frac": 0.0,
+   "hue": 41.0
+  },
+  {
+   "index": 6,
+   "start": 3.0,
+   "end": 3.5,
+   "dur": 0.5,
+   "luma": 0.301,
+   "sharpness": 420.0,
+   "overexposed_frac": 0.0,
+   "hue": 82.7
+  },
+  {
+   "index": 7,
+   "start": 3.5,
+   "end": 4.0,
+   "dur": 0.5,
+   "luma": 0.102,
+   "sharpness": 295.2,
+   "overexposed_frac": 0.0,
+   "hue": 109.3
+  },
+  {
+   "index": 8,
+   "start": 4.0,
+   "end": 4.5,
+   "dur": 0.5,
+   "luma": 0.345,
+   "sharpness": 155.7,
+   "overexposed_frac": 0.001,
+   "hue": 44.4
+  },
+  {
+   "index": 9,
+   "start": 4.5,
+   "end": 5.0,
+   "dur": 0.5,
+   "luma": 0.316,
+   "sharpness": 110.2,
+   "overexposed_frac": 0.001,
+   "hue": 104.5
+  },
+  {
+   "index": 10,
+   "start": 5.0,
+   "end": 5.5,
+   "dur": 0.5,
+   "luma": 0.439,
+   "sharpness": 118.3,
+   "overexposed_frac": 0.001,
+   "hue": 99.2
+  },
+  {
+   "index": 11,
+   "start": 5.5,
+   "end": 6.0,
+   "dur": 0.5,
+   "luma": 0.404,
+   "sharpness": 194.8,
+   "overexposed_frac": 0.001,
+   "hue": 109.8
+  },
+  {
+   "index": 12,
+   "start": 6.0,
+   "end": 6.5,
+   "dur": 0.5,
+   "luma": 0.307,
+   "sharpness": 443.5,
+   "overexposed_frac": 0.001,
+   "hue": 101.9
+  },
+  {
+   "index": 13,
+   "start": 6.5,
+   "end": 7.0,
+   "dur": 0.5,
+   "luma": 0.163,
+   "sharpness": 149.2,
+   "overexposed_frac": 0.001,
+   "hue": 81.0
+  }
+ ],
+ "cuts": [
+  0.5,
+  1.0,
+  1.5,
+  2.0,
+  2.5,
+  3.0,
+  3.5,
+  4.0,
+  4.5,
+  5.0,
+  5.5,
+  6.0,
+  6.5
+ ],
+ "dissolves": [],
+ "continuity": [
+  {
+   "t": 0.5,
+   "luma_jump": 0.035,
+   "hue_jump": 12.0
+  },
+  {
+   "t": 1.0,
+   "luma_jump": 0.039,
+   "hue_jump": 17.1
+  },
+  {
+   "t": 1.5,
+   "luma_jump": 0.126,
+   "hue_jump": 44.7
+  },
+  {
+   "t": 2.0,
+   "luma_jump": 0.14,
+   "hue_jump": 18.6
+  },
+  {
+   "t": 2.5,
+   "luma_jump": 0.166,
+   "hue_jump": 35.6
+  },
+  {
+   "t": 3.0,
+   "luma_jump": 0.035,
+   "hue_jump": 40.6
+  },
+  {
+   "t": 3.5,
+   "luma_jump": 0.18,
+   "hue_jump": 22.5
+  },
+  {
+   "t": 4.0,
+   "luma_jump": 0.257,
+   "hue_jump": 66.1
+  },
+  {
+   "t": 4.5,
+   "luma_jump": 0.03,
+   "hue_jump": 61.6
+  },
+  {
+   "t": 5.0,
+   "luma_jump": 0.117,
+   "hue_jump": 5.7
+  },
+  {
+   "t": 5.5,
+   "luma_jump": 0.036,
+   "hue_jump": 10.1
+  },
+  {
+   "t": 6.0,
+   "luma_jump": 0.099,
+   "hue_jump": 7.8
+  },
+  {
+   "t": 6.5,
+   "luma_jump": 0.147,
+   "hue_jump": 21.2
+  }
+ ],
+ "loop_seam": {
+  "seam_diff": 7.45,
+  "median_neighbor_diff": 3.33,
+  "ok": true,
+  "seam_diff_no_text": 1.41
+ },
+ "text_timing": {
+  "detected": [
+   2.0,
+   4.0
+  ],
+  "expected": [
+   2.0,
+   4.0
+  ],
+  "offset_s": [
+   0.0,
+   0.0
+  ],
+  "on_beat_120bpm": true
+ },
+ "audio": {
+  "streams": 0,
+  "note": "bez zvučnog zapisa — po pravilu korisnika (muziku dodaje u TikTok-u)"
+ },
+ "repetition": {
+  "in_video": [],
+  "across_videos": []
+ },
+ "issues": [
+  {
+   "severity": "minor",
+   "type": "continuity",
+   "t": 4.0,
+   "msg": "nagli skok osvetljenosti na rezu (0.26)"
+  }
+ ],
+ "sheets": [
+  "studio/inspections/stoic_edit_08/sheet_time.jpg",
+  "studio/inspections/stoic_edit_08/sheet_cuts.jpg"
+ ],
+ "history": [
+  {
+   "at": "2026-11-19T14:56:34",
+   "approved": false,
+   "issues": 2
+  }
+ ],
+ "approval": {
+  "technical_pass": true,
+  "vision_reviewed": true,
+  "weak_scenes": 0,
+  "creative_score": 86,
+  "approved": false,
+  "blocking": [
+   "kreativna ocena 86 < 90"
+  ]
+ },
+ "vision_review": {
+  "reviewer": "Claude (vision) — kontakt-listovi 0.5 s + frejmovi oko rezova i loop spoja; video NIJE gledan u pokretu",
+  "summary": "Katanac, šupa, ruševina, penjanje, čovek u šumi, vrh u oblacima. Orao zamenjen (nestajao na nebu).",
+  "scenes": [
+   {
+    "index": 0,
+    "verdict": "good",
+    "note": "hook rečenica čitljiva"
+   }
+  ],
+  "storytelling": "v3: krupna hook rečenica (lekcija 22) + brzi edit + reč + red.",
+  "creative_score": 86,
+  "breakdown": {
+   "storytelling": 16,
+   "visual": 17,
+   "hook": 14,
+   "cinematography": 13,
+   "sound": 9,
+   "editing": 10,
+   "originality": 8
+  },
+  "recommendations": [
+   "Uporediti sa klipovima 1-5 posle 48 h (pregledi, % do kraja)"
+  ]
+ }
+}

@@ -112,6 +112,94 @@ EDITS = {
         "caption": "Locked in. \U0001F512\U0001F3AF",
         "tags": "#stoicism #discipline #mindset #focus #productivity",
         "sound": "slowed phonk / dark motivational beat (trending ↗) - udarac na svakih 0.5 s"},
+    # ---- v3 (lekcija 22-23): krupna hook rečenica 0-2 s + brzi edit; 2 od 5 sa tipom hook-a "This is why..."
+    6: {"hook": "This is why you're always tired.", "word": "ENERGY", "line": "guard it.",
+        "loop": ("mk_39786", 0.22, 5.0, "", "krevet"),
+        "shots": [("mk_31413", 0.50, None, "eq=gamma=1.7", "telefon"),
+                  ("mk_51399", 0.50, None, "eq=gamma=2.0", "krevet"),
+                  ("mk_372", 0.28, None, "", "hrana"),
+                  ("mk_31412", 0.57, None, "eq=gamma=1.7", "telefon"),
+                  ("mk_3533", 0.50, None, "", "hrana"),
+                  ("mk_28883", 0.50, None, "eq=gamma=1.5", "sat"),
+                  ("mk_50755", 0.35, None, "", "tuš"),
+                  ("mk_10342", 0.50, None, "", "voda"),
+                  ("mk_4985", 0.21, None, "", "kafa"),
+                  ("mk_4851", 0.50, None, "", "hodanje"),
+                  ("mk_3572", 0.43, None, "", "kafa"),
+                  ("mk_51106", 0.72, None, "", "sunce"),
+                  ("mk_2002", 0.50, None, "", "park")],
+        "caption": "Your phone is stealing your mornings. What's the first thing you do when you wake up? \U0001F447",
+        "tags": "#stoicism #discipline #mindset #morningroutine #energy",
+        "sound": "slowed phonk / dark ambient beat (trending ↗) - udarac na svakih 0.5 s"},
+    7: {"hook": "This is why you're still broke.", "word": "WEALTH", "line": "build, don't spend.",
+        "loop": ("mk_18264", 0.43, 5.0, "", "kartica"),
+        "shots": [("mk_42136", 0.50, None, "", "telefon-kupovina"),
+                  ("mk_992", 0.43, None, "", "kupovina"),
+                  ("mk_42123", 0.72, None, "", "telefon-kupovina"),
+                  ("mk_4147", 0.50, None, "", "kupovina"),
+                  ("mk_3671", 0.87, None, "eq=gamma=1.5", "odbrojavanje"),
+                  ("mk_4893", 0.65, None, "", "hodanje"),
+                  ("mk_1439", 0.35, None, "", "plan"),
+                  ("mk_4010", 0.50, None, "", "gradnja"),
+                  ("mk_4648", 0.14, None, "", "posao"),
+                  ("mk_42333", 0.50, None, "", "gradnja"),
+                  ("mk_39828", 0.57, None, "", "sat"),
+                  ("mk_4997", 0.50, None, "", "nagrada")],
+        "caption": "Everyone wants to look rich. Few want to build it. Be honest - spender or builder? \U0001F447",
+        "tags": "#stoicism #discipline #mindset #moneymindset #wealth",
+        "sound": "dark luxury trap / slowed phonk (trending ↗) - udarac na svakih 0.5 s"},
+    8: {"hook": "Stop telling people your plans.", "word": "SECRET", "line": "let results talk.",
+        "loop": ("mk_2501", 0.65, 5.0, "", "brava"),
+        "shots": [("mk_2514", 0.21, None, "", "kuća"),
+                  ("mk_2490", 0.72, None, "eq=gamma=1.3", "ruševina"),
+                  ("mk_41043", 0.50, None, "eq=gamma=1.4", "kreda"),
+                  ("mk_18312", 0.50, None, "", "voda"),
+                  ("mk_43300", 0.79, None, "", "penjanje"),
+                  ("mk_1202", 0.50, None, "eq=gamma=1.4", "drvo"),
+                  ("mk_87", 0.35, None, "eq=gamma=1.2", "čovek-šuma"),  # 1706 orao odbačen: nestaje na nebu
+                  ("mk_43322", 0.50, None, "eq=gamma=1.4", "penjanje"),
+                  ("mk_3308", 0.50, None, "eq=gamma=1.3", "planina"),
+                  ("mk_51110", 0.50, None, "", "sunce"),
+                  ("mk_3335", 0.50, None, "", "vrh"),
+                  ("mk_4396", 0.50, None, "", "planina")],
+        "caption": "Work in silence. Let the results do the talking. Do you share your goals or keep them quiet? \U0001F447",
+        "tags": "#stoicism #discipline #mindset #workinsilence #goals",
+        "sound": "slowed dark phonk / mysterious beat (trending ↗) - udarac na svakih 0.5 s"},
+    9: {"hook": "The calm ones are the dangerous ones.", "word": "CALM", "line": "stay unshaken.",
+        "loop": ("mk_5002", 0.50, 6.0, "", "jezero"),
+        "shots": [("mk_4149", 0.50, None, "", "pustinja"),
+                  ("mk_51506", 0.50, None, "eq=gamma=1.3", "talasi"),
+                  ("mk_41864", 0.50, None, "eq=gamma=1.5", "čaj"),
+                  ("mk_4285", 0.43, None, "", "pustinja"),
+                  ("mk_3352", 0.50, None, "eq=gamma=1.4", "sneg"),
+                  ("mk_34363", 0.50, None, "", "more"),
+                  ("mk_1954", 0.50, None, "", "talasi"),
+                  ("mk_3317", 0.43, None, "", "sneg"),
+                  ("mk_43605", 0.0, None, "", "reka"),  # levo: drveće + voda (sredina je prazna voda)
+                  ("mk_51104", 0.50, None, "", "šuma"),
+                  ("mk_4048", 0.50, None, "", "nebo"),
+                  ("mk_5030", 0.50, None, "", "jezero")],
+        "caption": "Loud people react. Calm people respond. Which one are you? \U0001F447",
+        "tags": "#stoicism #discipline #mindset #calm #selfcontrol",
+        "sound": "deep ambient / slowed cinematic phonk (trending ↗) - udarac na svakih 0.5 s"},
+    10: {"hook": "Read this before you quit.", "word": "ENDURE", "line": "quit later. not today.",
+        "loop": ("mk_50922", 0.14, 8.0, "eq=gamma=1.3", "zid-penjanje"),
+        "shots": [("mk_4755", 0.50, None, "", "povreda"),
+                  ("mk_41054", 0.57, None, "", "penjanje"),
+                  ("mk_44621", 0.35, None, "", "pustinja"),
+                  ("mk_50925", 0.35, None, "", "zid-penjanje"),
+                  ("mk_26110", 0.50, None, "", "patike"),
+                  ("mk_43298", 0.50, None, "", "penjanje"),
+                  ("mk_345", 0.50, None, "", "ravnoteža"),
+                  ("mk_50199", 0.50, None, "", "pustinja"),
+                  ("mk_41091", 0.65, None, "", "zid-trening"),
+                  ("mk_51793", 0.50, None, "", "pustinja-odozgo"),
+                  ("mk_41045", 0.50, None, "", "stena"),
+                  ("mk_3371", 0.50, None, "", "sneg-planina"),
+                  ("mk_3370", 0.50, None, "", "sneg-planina")],
+        "caption": "The hardest part is the part right before it works. Who needs to hear this today? \U0001F447",
+        "tags": "#stoicism #discipline #mindset #neverquit #resilience",
+        "sound": "emotional phonk / epic slowed beat (trending ↗) - udarac na svakih 0.5 s"},
 }
 
 
@@ -141,10 +229,22 @@ def overlay(e, n, total, path):
         c = cairo.Context(s); c.set_operator(cairo.OPERATOR_CLEAR); c.paint(); c.set_operator(cairo.OPERATOR_OVER)
         cy = H * 0.44
         # blaga tamna traka iza teksta - čitljivost na svetlim kadrovima (nebo, staza)
-        g = cairo.LinearGradient(0, cy - 170, 0, cy + 120)
-        for st, al in ((0, 0), (0.4, 0.38), (0.6, 0.38), (1, 0)): g.add_color_stop_rgba(st, 0, 0, 0, al)
-        c.rectangle(0, cy - 170, W, 290); c.set_source(g); c.fill()
-        if t < split:
+        bt, bb = (cy - 260, cy + 230) if (e.get("hook") and t < 2.0) else (cy - 170, cy + 120)
+        g = cairo.LinearGradient(0, bt, 0, bb)
+        for st, al in ((0, 0), (0.3, 0.42), (0.7, 0.42), (1, 0)): g.add_color_stop_rgba(st, 0, 0, 0, al)
+        c.rectangle(0, bt, W, bb - bt); c.set_source(g); c.fill()
+        hook = e.get("hook")  # v3 (lekcija 22): krupna hook rečenica 0-2 s, čita se i na sličici profila
+        if hook and t < 2.0:
+            M.face(c, 84, cairo.FONT_WEIGHT_BOLD)
+            words = hook.split(); lines = M.wrap(c, words, M.MAXW)
+            if len(lines) > 2: lines = M.balance3(c, words, M.MAXW)
+            lh = 84 * 1.18
+            for li, ln in enumerate(lines):
+                s_ = " ".join(ln); tw = c.text_extents(s_).x_advance; x = M.CX - tw / 2
+                y = cy + (li - (len(lines) - 1) / 2) * lh + 30
+                M.BOXES.append((x, y - 70, x + tw, y + 20))
+                M.shadow_text(c, x, y, s_, 1.0)
+        elif t < split:
             M.face(c, 54, cairo.FONT_WEIGHT_NORMAL)
             letters = list(e["word"]); gap = 34
             ws = [c.text_extents(L).x_advance for L in letters]; tw = sum(ws) + gap * (len(ws) - 1)

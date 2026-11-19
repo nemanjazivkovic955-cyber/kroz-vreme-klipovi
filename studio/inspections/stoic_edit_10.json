@@ -1,0 +1,367 @@
+{
+ "id": "stoic_edit_10",
+ "file": "videos/stoic/stoic_edit_10.mp4",
+ "inspected_at": "2026-11-19T15:03:00",
+ "method": "Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.",
+ "meta": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "duration": 7.5,
+  "vcodec": "h264",
+  "pix_fmt": "yuv420p",
+  "video_streams": 1,
+  "audio_streams": 0,
+  "acodec": null,
+  "bitrate_kbps": 23729
+ },
+ "expected": {
+  "texts": [],
+  "text_changes": [
+   2.0,
+   4.0
+  ],
+  "silent": true,
+  "loop": true,
+  "kind": "stoic_edit",
+  "dur": [
+   7,
+   11
+  ],
+  "min_luma": 0.07,
+  "min_shot": 0.45
+ },
+ "technical": {
+  "resolution_ok": true,
+  "aspect": "1080:1920",
+  "fps_ok": true,
+  "duration_ok": true,
+  "audio_rule_ok": true,
+  "frames_decoded": 225,
+  "frames_expected": 225
+ },
+ "shots": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.5,
+   "dur": 0.5,
+   "luma": 0.115,
+   "sharpness": 101.3,
+   "overexposed_frac": 0.008,
+   "hue": 106.2
+  },
+  {
+   "index": 1,
+   "start": 0.5,
+   "end": 1.0,
+   "dur": 0.5,
+   "luma": 0.182,
+   "sharpness": 163.2,
+   "overexposed_frac": 0.008,
+   "hue": 90.8
+  },
+  {
+   "index": 2,
+   "start": 1.0,
+   "end": 1.5,
+   "dur": 0.5,
+   "luma": 0.129,
+   "sharpness": 118.6,
+   "overexposed_frac": 0.008,
+   "hue": 94.0
+  },
+  {
+   "index": 3,
+   "start": 1.5,
+   "end": 2.0,
+   "dur": 0.5,
+   "luma": 0.353,
+   "sharpness": 82.0,
+   "overexposed_frac": 0.008,
+   "hue": 65.8
+  },
+  {
+   "index": 4,
+   "start": 2.0,
+   "end": 2.5,
+   "dur": 0.5,
+   "luma": 0.135,
+   "sharpness": 116.1,
+   "overexposed_frac": 0.0,
+   "hue": 92.8
+  },
+  {
+   "index": 5,
+   "start": 2.5,
+   "end": 3.0,
+   "dur": 0.5,
+   "luma": 0.415,
+   "sharpness": 161.2,
+   "overexposed_frac": 0.0,
+   "hue": 101.4
+  },
+  {
+   "index": 6,
+   "start": 3.0,
+   "end": 3.5,
+   "dur": 0.5,
+   "luma": 0.34,
+   "sharpness": 153.9,
+   "overexposed_frac": 0.0,
+   "hue": 41.5
+  },
+  {
+   "index": 7,
+   "start": 3.5,
+   "end": 4.0,
+   "dur": 0.5,
+   "luma": 0.135,
+   "sharpness": 90.6,
+   "overexposed_frac": 0.0,
+   "hue": 71.0
+  },
+  {
+   "index": 8,
+   "start": 4.0,
+   "end": 4.5,
+   "dur": 0.5,
+   "luma": 0.287,
+   "sharpness": 119.3,
+   "overexposed_frac": 0.001,
+   "hue": 100.3
+  },
+  {
+   "index": 9,
+   "start": 4.5,
+   "end": 5.0,
+   "dur": 0.5,
+   "luma": 0.184,
+   "sharpness": 59.7,
+   "overexposed_frac": 0.002,
+   "hue": 93.7
+  },
+  {
+   "index": 10,
+   "start": 5.0,
+   "end": 5.5,
+   "dur": 0.5,
+   "luma": 0.19,
+   "sharpness": 366.8,
+   "overexposed_frac": 0.002,
+   "hue": 53.0
+  },
+  {
+   "index": 11,
+   "start": 5.5,
+   "end": 6.0,
+   "dur": 0.5,
+   "luma": 0.136,
+   "sharpness": 80.3,
+   "overexposed_frac": 0.002,
+   "hue": 53.4
+  },
+  {
+   "index": 12,
+   "start": 6.0,
+   "end": 6.5,
+   "dur": 0.5,
+   "luma": 0.361,
+   "sharpness": 180.9,
+   "overexposed_frac": 0.002,
+   "hue": 102.8
+  },
+  {
+   "index": 13,
+   "start": 6.5,
+   "end": 7.0,
+   "dur": 0.5,
+   "luma": 0.282,
+   "sharpness": 284.0,
+   "overexposed_frac": 0.002,
+   "hue": 102.9
+  },
+  {
+   "index": 14,
+   "start": 7.0,
+   "end": 7.5,
+   "dur": 0.5,
+   "luma": 0.124,
+   "sharpness": 92.7,
+   "overexposed_frac": 0.002,
+   "hue": 100.3
+  }
+ ],
+ "cuts": [
+  0.5,
+  1.0,
+  1.5,
+  2.0,
+  2.5,
+  3.0,
+  3.5,
+  4.0,
+  4.5,
+  5.0,
+  5.5,
+  6.0,
+  6.5,
+  7.0
+ ],
+ "dissolves": [],
+ "continuity": [
+  {
+   "t": 0.5,
+   "luma_jump": 0.069,
+   "hue_jump": 18.0
+  },
+  {
+   "t": 1.0,
+   "luma_jump": 0.058,
+   "hue_jump": 3.6
+  },
+  {
+   "t": 1.5,
+   "luma_jump": 0.227,
+   "hue_jump": 28.6
+  },
+  {
+   "t": 2.0,
+   "luma_jump": 0.223,
+   "hue_jump": 28.7
+  },
+  {
+   "t": 2.5,
+   "luma_jump": 0.274,
+   "hue_jump": 8.6
+  },
+  {
+   "t": 3.0,
+   "luma_jump": 0.074,
+   "hue_jump": 56.3
+  },
+  {
+   "t": 3.5,
+   "luma_jump": 0.202,
+   "hue_jump": 31.8
+  },
+  {
+   "t": 4.0,
+   "luma_jump": 0.151,
+   "hue_jump": 29.1
+  },
+  {
+   "t": 4.5,
+   "luma_jump": 0.104,
+   "hue_jump": 6.4
+  },
+  {
+   "t": 5.0,
+   "luma_jump": 0.008,
+   "hue_jump": 40.3
+  },
+  {
+   "t": 5.5,
+   "luma_jump": 0.054,
+   "hue_jump": 1.5
+  },
+  {
+   "t": 6.0,
+   "luma_jump": 0.223,
+   "hue_jump": 47.3
+  },
+  {
+   "t": 6.5,
+   "luma_jump": 0.075,
+   "hue_jump": 0.4
+  },
+  {
+   "t": 7.0,
+   "luma_jump": 0.148,
+   "hue_jump": 4.3
+  }
+ ],
+ "loop_seam": {
+  "seam_diff": 8.34,
+  "median_neighbor_diff": 3.25,
+  "ok": true,
+  "seam_diff_no_text": 3.16
+ },
+ "text_timing": {
+  "detected": [
+   2.0,
+   4.0
+  ],
+  "expected": [
+   2.0,
+   4.0
+  ],
+  "offset_s": [
+   0.0,
+   0.0
+  ],
+  "on_beat_120bpm": true
+ },
+ "audio": {
+  "streams": 0,
+  "note": "bez zvučnog zapisa — po pravilu korisnika (muziku dodaje u TikTok-u)"
+ },
+ "repetition": {
+  "in_video": [],
+  "across_videos": []
+ },
+ "issues": [
+  {
+   "severity": "minor",
+   "type": "continuity",
+   "t": 2.5,
+   "msg": "nagli skok osvetljenosti na rezu (0.27)"
+  }
+ ],
+ "sheets": [
+  "studio/inspections/stoic_edit_10/sheet_time.jpg",
+  "studio/inspections/stoic_edit_10/sheet_cuts.jpg"
+ ],
+ "history": [
+  {
+   "at": "2026-11-19T14:56:41",
+   "approved": false,
+   "issues": 2
+  }
+ ],
+ "approval": {
+  "technical_pass": true,
+  "vision_reviewed": true,
+  "weak_scenes": 0,
+  "creative_score": 85,
+  "approved": false,
+  "blocking": [
+   "kreativna ocena 85 < 90"
+  ]
+ },
+ "vision_review": {
+  "reviewer": "Claude (vision) — kontakt-listovi 0.5 s + frejmovi oko rezova i loop spoja; video NIJE gledan u pokretu",
+  "summary": "Penjanje, povreda članka, patike na žici, pustinja, sneg. Hook kadar (zid) taman.",
+  "scenes": [
+   {
+    "index": 0,
+    "verdict": "good",
+    "note": "hook rečenica čitljiva"
+   }
+  ],
+  "storytelling": "v3: krupna hook rečenica (lekcija 22) + brzi edit + reč + red.",
+  "creative_score": 85,
+  "breakdown": {
+   "storytelling": 17,
+   "visual": 16,
+   "hook": 14,
+   "cinematography": 13,
+   "sound": 9,
+   "editing": 10,
+   "originality": 8
+  },
+  "recommendations": [
+   "Uporediti sa klipovima 1-5 posle 48 h (pregledi, % do kraja)"
+  ]
+ }
+}

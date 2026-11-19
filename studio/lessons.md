@@ -26,3 +26,9 @@
 19. Odbaciti kadrove sa natpisima/brendom (etikete, logo na opremi, "Globus" balon, mehanizmi satova sa imenom proizvođača).
 20. Tanak proređeni tekst na svetlom kadru se gubi -> blaga tamna traka iza teksta; inspektor analizira tekst na 360x640.
 21. Treperenje izvora (timelapse, tunel sa svetlima, skriven rez) inspektor hvata kao "flicker" — zameniti kadar, ne posvetljavati.
+
+## Ciklus H/I — prvi TikTok podaci (19.11., @n722062)
+22. **Krupna hook REČENICA > sitna proređena reč.** Stoic #3 "This is why people don't respect you." 90, #2 85 pregleda; edit klipovi sa sitnom rečju 47-73. Hook rečenica se čita i na sličici profila. -> format v3: 0-1.5 s krupna hook rečenica, pa brzi edit (0.5 s) + reč + red.
+23. **Tip hook-a "This is why…" (radoznalost + prozivka) je za sada najbolji** -> testirati ga u 2 od 5 sledećih klipova sa novom temom.
+24. Pratioci (936) ne gledaju (≤90 pregleda): follow-za-follow publika kvari signal. Profil bez bio-a, srpsko ime, mešan sadržaj -> preporuke korisniku (ime/bio/privatni stari klipovi).
+25. Posle svakog kruga: brojevi -> lekcija ovde -> promena šablona u sledećem krugu (ne ponavljati isti format bez promene).
