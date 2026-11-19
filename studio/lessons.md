@@ -1,3 +1,9 @@
+# STALNO PRAVILO KORISNIKA (važi uvek, pre svega ostalog)
+**Svaki krug: nove teme, nove scene, i studio se popravlja.**
+1. Tema/reč i hook se nikad ne ponavljaju (`stoic/edit.py` -> `check_variety` odbija).
+2. Scene: nijedan snimak dvaput; najviše 2 kadra iste vrste u klipu; vrsta scene ne sme biti u 3+ od prethodnih 5 klipova.
+3. Posle svakog kruga: TikTok brojevi -> nova lekcija ovde -> promena šablona u sledećem krugu. Isti format bez promene se ne pravi.
+
 # Lekcije (obavezne za svaku sledeću produkciju) — ažurira se posle svakog ciklusa
 
 ## Iz ciklusa 0 (ocena postojećih produkcija, 19.11.)

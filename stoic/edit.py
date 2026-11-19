@@ -212,6 +212,16 @@ def check_variety(n):
     other = {x[0] for m, o in EDITS.items() if m != n for x in o["shots"] + [o["loop"]]}
     rep = [x for x in srcs if srcs.count(x) > 1 or x in other]
     assert not bad and not rep, f"edit {n}: previše iste vrste {bad} / ponovljen izvor {rep}"
+    # STALNO PRAVILO KORISNIKA: svaki put nova tema i nove scene
+    words = [o["word"] for m, o in EDITS.items() if m != n]
+    hooks = [o.get("hook") for m, o in EDITS.items() if m != n and o.get("hook")]
+    assert e["word"] not in words, f"edit {n}: tema/reč '{e['word']}' već korišćena"
+    assert not e.get("hook") or e["hook"] not in hooks, f"edit {n}: hook već korišćen"
+    # vrsta scene ne sme biti u 3+ od prethodnih 5 klipova (tera nove scene iz kruga u krug)
+    prev = [EDITS[m] for m in sorted(EDITS) if m < n][-5:]
+    pk = [{o["loop"][4]} | {x[4] for x in o["shots"]} for o in prev]
+    stale = [k for k in kinds if sum(k in q for q in pk) >= 3]
+    assert not stale, f"edit {n}: scene previše korišćene u prethodnih 5 klipova: {stale}"
 
 
 def dur(p):

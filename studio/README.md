@@ -3,6 +3,9 @@
 Trajna memorija studija je u ovom folderu (ne u "pamćenju" modela). Pre SVAKE nove produkcije pročitaj:
 `lessons.md` → `qc_rubric.md` → `production_db.json` (generiše `db.py`) → `visual_history.json`.
 
+## STALNO PRAVILO
+Svaki krug: nove teme + nove scene + unapređenje šablona iz brojeva (vidi vrh `lessons.md`).
+
 ## Ciklus produkcije (A–I)
 | Ciklus | Šta | Izlaz |
 |---|---|---|
