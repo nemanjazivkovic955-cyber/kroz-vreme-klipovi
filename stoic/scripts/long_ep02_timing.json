@@ -1,0 +1,1236 @@
+{
+ "total": 536.082,
+ "chapters": [
+  {
+   "chapter": "HOOK",
+   "scene": "noć, vojnički logor u snegu, jedan šator svetli. Kamera polako ulazi kroz otvor šatora: čovek u ogrtaču piše pri lampi.",
+   "t0": 0.0,
+   "t1": 36.292,
+   "paras": [
+    {
+     "t0": 0.0,
+     "t1": 7.513,
+     "sentences": [
+      {
+       "t0": 0.0,
+       "t1": 6.783,
+       "text": "Two thousand years ago, the most powerful man on Earth sat alone in a freezing tent, and wrote a diary."
+      }
+     ]
+    },
+    {
+     "t0": 7.513,
+     "t1": 13.916,
+     "sentences": [
+      {
+       "t0": 7.513,
+       "t1": 8.97,
+       "text": "Not to be famous."
+      },
+      {
+       "t0": 9.35,
+       "t1": 10.638,
+       "text": "Not for history."
+      },
+      {
+       "t0": 11.018,
+       "t1": 13.186,
+       "text": "He wrote it only for himself."
+      }
+     ]
+    },
+    {
+     "t0": 13.916,
+     "t1": 23.158,
+     "sentences": [
+      {
+       "t0": 13.916,
+       "t1": 17.249,
+       "text": "He ruled an empire of seventy million people."
+      },
+      {
+       "t0": 17.629,
+       "t1": 22.428,
+       "text": "He fought a plague, a war that never ended, and a friend who betrayed him."
+      }
+     ]
+    },
+    {
+     "t0": 23.158,
+     "t1": 30.885,
+     "sentences": [
+      {
+       "t0": 23.158,
+       "t1": 25.729,
+       "text": "And every night, he wrote down one thing:"
+      },
+      {
+       "t0": 26.109,
+       "t1": 30.155,
+       "text": "how to stay a good man, when everything around you falls apart."
+      }
+     ]
+    },
+    {
+     "t0": 30.885,
+     "t1": 35.092,
+     "sentences": [
+      {
+       "t0": 30.885,
+       "t1": 34.362,
+       "text": "This is the entire life of Marcus Aurelius."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "chapter": "POGLAVLJE 1: The boy who told the truth",
+   "scene": "Rim, sunčano jutro, uske ulice. Mali dečak trči pored dede u togi.",
+   "t0": 36.292,
+   "t1": 74.182,
+   "paras": [
+    {
+     "t0": 36.292,
+     "t1": 41.206,
+     "sentences": [
+      {
+       "t0": 36.292,
+       "t1": 40.476,
+       "text": "He was born in Rome in the year one hundred and twenty one."
+      }
+     ]
+    },
+    {
+     "t0": 41.206,
+     "t1": 48.199,
+     "sentences": [
+      {
+       "t0": 41.206,
+       "t1": 47.469,
+       "text": "His father died when he was about three years old, so he was raised by his mother and his grandfather."
+      }
+     ]
+    },
+    {
+     "t0": 48.199,
+     "t1": 58.472,
+     "sentences": [
+      {
+       "t0": 48.199,
+       "t1": 50.412,
+       "text": "He was a quiet, serious boy."
+      },
+      {
+       "t0": 50.792,
+       "t1": 57.742,
+       "text": "While other rich children chased luxury, he chose to sleep on a simple mat, and he asked for less, not more."
+      }
+     ]
+    },
+    {
+     "t0": 58.472,
+     "t1": 64.341,
+     "sentences": [
+      {
+       "t0": 58.472,
+       "t1": 61.561,
+       "text": "And he had a strange habit for someone so young."
+      },
+      {
+       "t0": 61.941,
+       "t1": 63.611,
+       "text": "He always told the truth."
+      }
+     ]
+    },
+    {
+     "t0": 64.341,
+     "t1": 72.982,
+     "sentences": [
+      {
+       "t0": 64.341,
+       "t1": 66.797,
+       "text": "The emperor Hadrian noticed him."
+      },
+      {
+       "t0": 67.177,
+       "t1": 69.249,
+       "text": "He gave the boy a nickname:"
+      },
+      {
+       "t0": 69.629,
+       "t1": 70.681,
+       "text": "Verissimus."
+      },
+      {
+       "t0": 71.061,
+       "t1": 72.252,
+       "text": "The truest one."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "chapter": "POGLAVLJE 2: The heir who didn't want the throne",
+   "scene": "palata, mermerni stubovi. Stari car Hadrijan pokazuje na mladića. Mladić gleda u pod.",
+   "t0": 74.182,
+   "t1": 166.922,
+   "paras": [
+    {
+     "t0": 74.182,
+     "t1": 79.465,
+     "sentences": [
+      {
+       "t0": 74.182,
+       "t1": 77.049,
+       "text": "Hadrian was old, sick, and had no son."
+      },
+      {
+       "t0": 77.429,
+       "t1": 78.735,
+       "text": "So he made a plan."
+      }
+     ]
+    },
+    {
+     "t0": 79.465,
+     "t1": 89.621,
+     "sentences": [
+      {
+       "t0": 79.465,
+       "t1": 84.305,
+       "text": "He adopted a calm, honest senator named Antoninus, on one condition:"
+      },
+      {
+       "t0": 84.685,
+       "t1": 88.891,
+       "text": "Antoninus had to adopt young Marcus, and prepare him to rule."
+      }
+     ]
+    },
+    {
+     "t0": 89.621,
+     "t1": 98.821,
+     "sentences": [
+      {
+       "t0": 89.621,
+       "t1": 91.881,
+       "text": "Marcus was only seventeen."
+      },
+      {
+       "t0": 92.261,
+       "t1": 96.479,
+       "text": "The ancient sources say that when he heard the news, he was not happy."
+      },
+      {
+       "t0": 96.859,
+       "t1": 98.091,
+       "text": "He was afraid."
+      }
+     ]
+    },
+    {
+     "t0": 98.821,
+     "t1": 103.247,
+     "sentences": [
+      {
+       "t0": 98.821,
+       "t1": 101.052,
+       "text": "He knew what power does to people."
+      },
+      {
+       "t0": 101.432,
+       "t1": 102.517,
+       "text": "He had seen it."
+      }
+     ]
+    },
+    {
+     "t0": 103.247,
+     "t1": 115.483,
+     "sentences": [
+      {
+       "t0": 103.247,
+       "t1": 108.269,
+       "text": "So instead of celebrating, he moved into the palace and began to study."
+      },
+      {
+       "t0": 108.649,
+       "t1": 109.343,
+       "text": "Law."
+      },
+      {
+       "t0": 109.723,
+       "t1": 110.429,
+       "text": "Speech."
+      },
+      {
+       "t0": 110.809,
+       "t1": 113.33,
+       "text": "And then, the thing that changed his life:"
+      },
+      {
+       "t0": 113.71,
+       "t1": 114.753,
+       "text": "philosophy."
+      }
+     ]
+    },
+    {
+     "t0": 115.483,
+     "t1": 126.377,
+     "sentences": [
+      {
+       "t0": 115.483,
+       "t1": 123.952,
+       "text": "A teacher named Rusticus handed him the lessons of Epictetus, a former slave who taught that we control only one thing:"
+      },
+      {
+       "t0": 124.332,
+       "t1": 125.647,
+       "text": "how we respond."
+      }
+     ]
+    },
+    {
+     "t0": 126.377,
+     "t1": 133.157,
+     "sentences": [
+      {
+       "t0": 126.377,
+       "t1": 128.968,
+       "text": "Marcus read them again and again."
+      },
+      {
+       "t0": 129.348,
+       "t1": 132.427,
+       "text": "The future emperor was learning from a slave."
+      }
+     ]
+    },
+    {
+     "t0": 133.157,
+     "t1": 141.484,
+     "sentences": [
+      {
+       "t0": 133.157,
+       "t1": 137.01,
+       "text": "Years later, he began his journal with a strange list."
+      },
+      {
+       "t0": 137.39,
+       "t1": 138.846,
+       "text": "Not his victories."
+      },
+      {
+       "t0": 139.226,
+       "t1": 140.754,
+       "text": "A list of thank-yous."
+      }
+     ]
+    },
+    {
+     "t0": 141.484,
+     "t1": 158.85,
+     "sentences": [
+      {
+       "t0": 141.484,
+       "t1": 146.197,
+       "text": "From his grandfather, he wrote, he learned good manners and a calm temper."
+      },
+      {
+       "t0": 146.577,
+       "t1": 151.657,
+       "text": "From his mother, to be generous, and to live simply, far from the habits of the rich."
+      },
+      {
+       "t0": 152.037,
+       "t1": 158.12,
+       "text": "From his teachers, to read carefully, and not to be satisfied with a quick, shallow understanding."
+      }
+     ]
+    },
+    {
+     "t0": 158.85,
+     "t1": 165.722,
+     "sentences": [
+      {
+       "t0": 158.85,
+       "t1": 164.992,
+       "text": "The most powerful man in the world started his private diary by thanking the people who made him."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "chapter": "POGLAVLJE 3: Emperor at forty, and a plague",
+   "scene": "krunisanje, ali dva prestola. Zatim mapa carstva koja tamni, tačke bolesti se šire.",
+   "t0": 166.922,
+   "t1": 246.958,
+   "paras": [
+    {
+     "t0": 166.922,
+     "t1": 172.23,
+     "sentences": [
+      {
+       "t0": 166.922,
+       "t1": 171.5,
+       "text": "For twenty three years, Marcus waited and worked beside Antoninus."
+      }
+     ]
+    },
+    {
+     "t0": 172.23,
+     "t1": 180.449,
+     "sentences": [
+      {
+       "t0": 172.23,
+       "t1": 174.642,
+       "text": "Antoninus was not a conqueror."
+      },
+      {
+       "t0": 175.022,
+       "t1": 179.719,
+       "text": "He was patient, fair, and he worked from morning to night without complaining."
+      }
+     ]
+    },
+    {
+     "t0": 180.449,
+     "t1": 193.383,
+     "sentences": [
+      {
+       "t0": 180.449,
+       "t1": 182.391,
+       "text": "Marcus watched him closely."
+      },
+      {
+       "t0": 182.771,
+       "t1": 192.653,
+       "text": "He saw how Antoninus listened before he spoke, how he never rushed a decision, and how he treated a poor man and a senator with the same respect."
+      }
+     ]
+    },
+    {
+     "t0": 193.383,
+     "t1": 199.212,
+     "sentences": [
+      {
+       "t0": 193.383,
+       "t1": 198.482,
+       "text": "He later wrote that he wanted to be, in everything, a student of Antoninus."
+      }
+     ]
+    },
+    {
+     "t0": 199.212,
+     "t1": 205.864,
+     "sentences": [
+      {
+       "t0": 199.212,
+       "t1": 205.134,
+       "text": "When Antoninus died in the year one sixty one, the Senate offered Marcus the throne."
+      }
+     ]
+    },
+    {
+     "t0": 205.864,
+     "t1": 216.698,
+     "sentences": [
+      {
+       "t0": 205.864,
+       "t1": 209.048,
+       "text": "And he did something no Roman had ever done."
+      },
+      {
+       "t0": 209.428,
+       "t1": 211.552,
+       "text": "He refused to rule alone."
+      },
+      {
+       "t0": 211.932,
+       "t1": 215.968,
+       "text": "He made his adoptive brother, Lucius, emperor beside him."
+      }
+     ]
+    },
+    {
+     "t0": 216.698,
+     "t1": 220.899,
+     "sentences": [
+      {
+       "t0": 216.698,
+       "t1": 220.169,
+       "text": "Two emperors, for the first time in Roman history."
+      }
+     ]
+    },
+    {
+     "t0": 220.899,
+     "t1": 230.14,
+     "sentences": [
+      {
+       "t0": 220.899,
+       "t1": 223.215,
+       "text": "But the good times ended fast."
+      },
+      {
+       "t0": 223.595,
+       "t1": 228.085,
+       "text": "Soldiers returning from a war in the East brought something back with them."
+      },
+      {
+       "t0": 228.465,
+       "t1": 229.41,
+       "text": "A plague."
+      }
+     ]
+    },
+    {
+     "t0": 230.14,
+     "t1": 238.105,
+     "sentences": [
+      {
+       "t0": 230.14,
+       "t1": 233.9,
+       "text": "It spread through cities, through the army, through Rome itself."
+      },
+      {
+       "t0": 234.28,
+       "t1": 237.375,
+       "text": "Historians believe it killed millions of people."
+      }
+     ]
+    },
+    {
+     "t0": 238.105,
+     "t1": 245.758,
+     "sentences": [
+      {
+       "t0": 238.105,
+       "t1": 239.904,
+       "text": "Marcus could not stop it."
+      },
+      {
+       "t0": 240.284,
+       "t1": 241.491,
+       "text": "No one could."
+      },
+      {
+       "t0": 241.871,
+       "t1": 245.028,
+       "text": "All he could control was how he led through it."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "chapter": "POGLAVLJE 4: The emperor who sold his palace",
+   "scene": "forum pun ljudi. Stolovi sa zlatnim peharima, svilenim haljinama, statuama. Car stoji sa strane.",
+   "t0": 246.958,
+   "t1": 294.007,
+   "paras": [
+    {
+     "t0": 246.958,
+     "t1": 255.0,
+     "sentences": [
+      {
+       "t0": 246.958,
+       "t1": 249.806,
+       "text": "Then came war on the northern border."
+      },
+      {
+       "t0": 250.186,
+       "t1": 254.27,
+       "text": "Germanic tribes crossed the Danube and pushed into the empire."
+      }
+     ]
+    },
+    {
+     "t0": 255.0,
+     "t1": 262.491,
+     "sentences": [
+      {
+       "t0": 255.0,
+       "t1": 256.916,
+       "text": "Rome needed soldiers."
+      },
+      {
+       "t0": 257.296,
+       "t1": 259.255,
+       "text": "Soldiers needed money."
+      },
+      {
+       "t0": 259.635,
+       "t1": 261.761,
+       "text": "And the treasury was empty."
+      }
+     ]
+    },
+    {
+     "t0": 262.491,
+     "t1": 266.812,
+     "sentences": [
+      {
+       "t0": 262.491,
+       "t1": 266.082,
+       "text": "Any other emperor would have raised taxes on his people."
+      }
+     ]
+    },
+    {
+     "t0": 266.812,
+     "t1": 281.864,
+     "sentences": [
+      {
+       "t0": 266.812,
+       "t1": 268.714,
+       "text": "Marcus did something else."
+      },
+      {
+       "t0": 269.094,
+       "t1": 281.134,
+       "text": "The ancient sources say he took the treasures of the palace, gold cups, statues, paintings, even his wife's silk dresses, and sold them at a public auction in the middle of Rome."
+      }
+     ]
+    },
+    {
+     "t0": 281.864,
+     "t1": 286.937,
+     "sentences": [
+      {
+       "t0": 281.864,
+       "t1": 286.207,
+       "text": "For two months, ordinary Romans could buy the emperor's furniture."
+      }
+     ]
+    },
+    {
+     "t0": 286.937,
+     "t1": 292.807,
+     "sentences": [
+      {
+       "t0": 286.937,
+       "t1": 288.931,
+       "text": "He did not need those things."
+      },
+      {
+       "t0": 289.311,
+       "t1": 292.077,
+       "text": "The empire needed what they were worth."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "chapter": "POGLAVLJE 5: The war that never ended",
+   "scene": "zima na Dunavu, reka zaleđena, logor. Car sa vojnicima kraj vatre. Zatim šator, lampa, pisanje.",
+   "t0": 294.007,
+   "t1": 358.972,
+   "paras": [
+    {
+     "t0": 294.007,
+     "t1": 304.552,
+     "sentences": [
+      {
+       "t0": 294.007,
+       "t1": 296.158,
+       "text": "Marcus went north himself."
+      },
+      {
+       "t0": 296.538,
+       "t1": 298.494,
+       "text": "He was not a young soldier."
+      },
+      {
+       "t0": 298.874,
+       "t1": 303.822,
+       "text": "He was in his late forties, often sick, with a weak stomach and little sleep."
+      }
+     ]
+    },
+    {
+     "t0": 304.552,
+     "t1": 311.868,
+     "sentences": [
+      {
+       "t0": 304.552,
+       "t1": 311.138,
+       "text": "He spent most of his last twelve years in army camps along the Danube, in the cold, far from Rome."
+      }
+     ]
+    },
+    {
+     "t0": 311.868,
+     "t1": 321.167,
+     "sentences": [
+      {
+       "t0": 311.868,
+       "t1": 315.873,
+       "text": "Some of those camps stood near cities that still exist today:"
+      },
+      {
+       "t0": 316.253,
+       "t1": 320.437,
+       "text": "Vienna, and Sirmium, now Sremska Mitrovica in Serbia."
+      }
+     ]
+    },
+    {
+     "t0": 321.167,
+     "t1": 327.457,
+     "sentences": [
+      {
+       "t0": 321.167,
+       "t1": 326.727,
+       "text": "And it was there, at night, after the meetings and the funerals, that he wrote his journal."
+      }
+     ]
+    },
+    {
+     "t0": 327.457,
+     "t1": 333.875,
+     "sentences": [
+      {
+       "t0": 327.457,
+       "t1": 328.896,
+       "text": "He called it simply:"
+      },
+      {
+       "t0": 329.276,
+       "t1": 330.42,
+       "text": "To Himself."
+      },
+      {
+       "t0": 330.8,
+       "t1": 333.145,
+       "text": "Today we call it Meditations."
+      }
+     ]
+    },
+    {
+     "t0": 333.875,
+     "t1": 339.814,
+     "sentences": [
+      {
+       "t0": 333.875,
+       "t1": 336.193,
+       "text": "It is not a book of victories."
+      },
+      {
+       "t0": 336.573,
+       "t1": 339.084,
+       "text": "It is a man arguing with himself."
+      }
+     ]
+    },
+    {
+     "t0": 339.814,
+     "t1": 349.491,
+     "sentences": [
+      {
+       "t0": 339.814,
+       "t1": 341.051,
+       "text": "Don't complain."
+      },
+      {
+       "t0": 341.431,
+       "t1": 342.77,
+       "text": "Do your duty."
+      },
+      {
+       "t0": 343.15,
+       "t1": 345.939,
+       "text": "Be kind to people who are not kind to you."
+      },
+      {
+       "t0": 346.319,
+       "t1": 348.761,
+       "text": "Remember that every pain passes."
+      }
+     ]
+    },
+    {
+     "t0": 349.491,
+     "t1": 357.772,
+     "sentences": [
+      {
+       "t0": 349.491,
+       "t1": 353.284,
+       "text": "He wrote it the way you would write a note on your bathroom mirror."
+      },
+      {
+       "t0": 353.664,
+       "t1": 357.042,
+       "text": "Because he needed the reminder, every single day."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "chapter": "POGLAVLJE 6: The friend who betrayed him",
+   "scene": "istočna provincija, general podiže mač pred vojskom. Zatim car čita pismo, lice mirno.",
+   "t0": 358.972,
+   "t1": 412.988,
+   "paras": [
+    {
+     "t0": 358.972,
+     "t1": 364.631,
+     "sentences": [
+      {
+       "t0": 358.972,
+       "t1": 363.901,
+       "text": "In the year one seventy five, a false rumor spread that Marcus had died."
+      }
+     ]
+    },
+    {
+     "t0": 364.631,
+     "t1": 373.655,
+     "sentences": [
+      {
+       "t0": 364.631,
+       "t1": 372.925,
+       "text": "His most trusted general in the East, Avidius Cassius, believed it, or wanted to believe it, and declared himself emperor."
+      }
+     ]
+    },
+    {
+     "t0": 373.655,
+     "t1": 377.916,
+     "sentences": [
+      {
+       "t0": 373.655,
+       "t1": 377.186,
+       "text": "Half the empire waited to see what Marcus would do."
+      }
+     ]
+    },
+    {
+     "t0": 377.916,
+     "t1": 385.288,
+     "sentences": [
+      {
+       "t0": 377.916,
+       "t1": 379.371,
+       "text": "He did not curse him."
+      },
+      {
+       "t0": 379.751,
+       "t1": 384.558,
+       "text": "He told his soldiers he only hoped to forgive Cassius, face to face."
+      }
+     ]
+    },
+    {
+     "t0": 385.288,
+     "t1": 391.861,
+     "sentences": [
+      {
+       "t0": 385.288,
+       "t1": 387.138,
+       "text": "He never got the chance."
+      },
+      {
+       "t0": 387.518,
+       "t1": 391.131,
+       "text": "Within three months, Cassius was killed by his own men."
+      }
+     ]
+    },
+    {
+     "t0": 391.861,
+     "t1": 400.935,
+     "sentences": [
+      {
+       "t0": 391.861,
+       "t1": 400.205,
+       "text": "And then, the ancient sources say, Marcus was handed the traitor's letters, the names of everyone who had secretly supported him."
+      }
+     ]
+    },
+    {
+     "t0": 400.935,
+     "t1": 405.272,
+     "sentences": [
+      {
+       "t0": 400.935,
+       "t1": 402.024,
+       "text": "He burned them."
+      },
+      {
+       "t0": 402.404,
+       "t1": 404.542,
+       "text": "Without reading a single one."
+      }
+     ]
+    },
+    {
+     "t0": 405.272,
+     "t1": 411.788,
+     "sentences": [
+      {
+       "t0": 405.272,
+       "t1": 407.967,
+       "text": "He did not want to know who his enemies were."
+      },
+      {
+       "t0": 408.347,
+       "t1": 411.058,
+       "text": "He wanted to keep living without hatred."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "chapter": "POGLAVLJE 7: The setting sun",
+   "scene": "zalazak sunca nad logorom. Stari car leži, mladi oficir na vratima šatora. Svetlo polako gasne.",
+   "t0": 412.988,
+   "t1": 459.572,
+   "paras": [
+    {
+     "t0": 412.988,
+     "t1": 423.017,
+     "sentences": [
+      {
+       "t0": 412.988,
+       "t1": 415.922,
+       "text": "The same year, his wife Faustina died."
+      },
+      {
+       "t0": 416.302,
+       "t1": 418.94,
+       "text": "He had already buried many of his children."
+      },
+      {
+       "t0": 419.32,
+       "t1": 422.287,
+       "text": "Most of them did not live to be adults."
+      }
+     ]
+    },
+    {
+     "t0": 423.017,
+     "t1": 428.42,
+     "sentences": [
+      {
+       "t0": 423.017,
+       "t1": 424.181,
+       "text": "He kept going."
+      },
+      {
+       "t0": 424.561,
+       "t1": 426.067,
+       "text": "Back to the frontier."
+      },
+      {
+       "t0": 426.447,
+       "t1": 427.69,
+       "text": "Back to the work."
+      }
+     ]
+    },
+    {
+     "t0": 428.42,
+     "t1": 435.788,
+     "sentences": [
+      {
+       "t0": 428.42,
+       "t1": 433.304,
+       "text": "In March of the year one eighty, he fell ill in a camp on the Danube."
+      },
+      {
+       "t0": 433.684,
+       "t1": 435.058,
+       "text": "He was fifty eight."
+      }
+     ]
+    },
+    {
+     "t0": 435.788,
+     "t1": 443.309,
+     "sentences": [
+      {
+       "t0": 435.788,
+       "t1": 442.579,
+       "text": "The ancient sources say that when an officer came to ask him for the day's password, the dying emperor said:"
+      }
+     ]
+    },
+    {
+     "t0": 443.309,
+     "t1": 447.735,
+     "sentences": [
+      {
+       "t0": 443.309,
+       "t1": 444.985,
+       "text": "Go to the rising sun."
+      },
+      {
+       "t0": 445.365,
+       "t1": 447.005,
+       "text": "I am already setting."
+      }
+     ]
+    },
+    {
+     "t0": 447.735,
+     "t1": 451.907,
+     "sentences": [
+      {
+       "t0": 447.735,
+       "t1": 451.177,
+       "text": "He stopped eating, and a few days later, he was gone."
+      }
+     ]
+    },
+    {
+     "t0": 451.907,
+     "t1": 458.372,
+     "sentences": [
+      {
+       "t0": 451.907,
+       "t1": 457.642,
+       "text": "Rome had lost the last of what historians would later call the Five Good Emperors."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "chapter": "POGLAVLJE 8: What he left us",
+   "scene": "moderni grad noću, mladić na krevetu sa telefonom, zatim ista knjiga Meditations u njegovim rukama, svetlo lampe kao u šatoru.",
+   "t0": 459.572,
+   "t1": 521.972,
+   "paras": [
+    {
+     "t0": 459.572,
+     "t1": 470.496,
+     "sentences": [
+      {
+       "t0": 459.572,
+       "t1": 462.548,
+       "text": "He never meant for anyone to read his journal."
+      },
+      {
+       "t0": 462.928,
+       "t1": 464.427,
+       "text": "But someone saved it."
+      },
+      {
+       "t0": 464.807,
+       "t1": 469.766,
+       "text": "And two thousand years later, it is still sold in every bookstore in the world."
+      }
+     ]
+    },
+    {
+     "t0": 470.496,
+     "t1": 474.383,
+     "sentences": [
+      {
+       "t0": 470.496,
+       "t1": 473.653,
+       "text": "Because the problems he wrote about are our problems."
+      }
+     ]
+    },
+    {
+     "t0": 474.383,
+     "t1": 480.544,
+     "sentences": [
+      {
+       "t0": 474.383,
+       "t1": 475.149,
+       "text": "Stress."
+      },
+      {
+       "t0": 475.529,
+       "t1": 476.71,
+       "text": "Angry people."
+      },
+      {
+       "t0": 477.09,
+       "t1": 477.791,
+       "text": "Loss."
+      },
+      {
+       "t0": 478.171,
+       "t1": 479.814,
+       "text": "Fear of the future."
+      }
+     ]
+    },
+    {
+     "t0": 480.544,
+     "t1": 483.247,
+     "sentences": [
+      {
+       "t0": 480.544,
+       "t1": 482.517,
+       "text": "And his answers still work."
+      }
+     ]
+    },
+    {
+     "t0": 483.247,
+     "t1": 489.547,
+     "sentences": [
+      {
+       "t0": 483.247,
+       "t1": 483.904,
+       "text": "One."
+      },
+      {
+       "t0": 484.284,
+       "t1": 486.655,
+       "text": "You cannot control what happens."
+      },
+      {
+       "t0": 487.035,
+       "t1": 488.817,
+       "text": "Only how you respond."
+      }
+     ]
+    },
+    {
+     "t0": 489.547,
+     "t1": 495.808,
+     "sentences": [
+      {
+       "t0": 489.547,
+       "t1": 490.23,
+       "text": "Two."
+      },
+      {
+       "t0": 490.61,
+       "t1": 493.672,
+       "text": "Don't waste your energy on people who wrong you."
+      },
+      {
+       "t0": 494.052,
+       "t1": 495.078,
+       "text": "Do your work."
+      }
+     ]
+    },
+    {
+     "t0": 495.808,
+     "t1": 500.716,
+     "sentences": [
+      {
+       "t0": 495.808,
+       "t1": 496.531,
+       "text": "Three."
+      },
+      {
+       "t0": 496.911,
+       "t1": 498.661,
+       "text": "Every hard day ends."
+      },
+      {
+       "t0": 499.041,
+       "t1": 499.986,
+       "text": "Every one."
+      }
+     ]
+    },
+    {
+     "t0": 500.716,
+     "t1": 507.422,
+     "sentences": [
+      {
+       "t0": 500.716,
+       "t1": 501.417,
+       "text": "Four."
+      },
+      {
+       "t0": 501.797,
+       "t1": 504.171,
+       "text": "Be grateful for the people who shaped you."
+      },
+      {
+       "t0": 504.551,
+       "t1": 506.692,
+       "text": "Nobody becomes strong alone."
+      }
+     ]
+    },
+    {
+     "t0": 507.422,
+     "t1": 513.72,
+     "sentences": [
+      {
+       "t0": 507.422,
+       "t1": 508.196,
+       "text": "Five."
+      },
+      {
+       "t0": 508.576,
+       "t1": 511.383,
+       "text": "Live as if your time is limited."
+      },
+      {
+       "t0": 511.763,
+       "t1": 512.99,
+       "text": "Because it is."
+      }
+     ]
+    },
+    {
+     "t0": 513.72,
+     "t1": 520.772,
+     "sentences": [
+      {
+       "t0": 513.72,
+       "t1": 516.375,
+       "text": "He had more power than any man alive."
+      },
+      {
+       "t0": 516.755,
+       "t1": 520.042,
+       "text": "And he chose to spend it becoming a better person."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "chapter": "KRAJ",
+   "scene": "povratak u šator sa početka; lampa, pero spušteno na papir. Kamera se povlači u sneg i noć.",
+   "t0": 521.972,
+   "t1": 534.582,
+   "paras": [
+    {
+     "t0": 521.972,
+     "t1": 529.663,
+     "sentences": [
+      {
+       "t0": 521.972,
+       "t1": 528.933,
+       "text": "If this story meant something to you, share it with someone who needs it, like the video, and tell me in the comments:"
+      }
+     ]
+    },
+    {
+     "t0": 529.663,
+     "t1": 533.382,
+     "sentences": [
+      {
+       "t0": 529.663,
+       "t1": 532.652,
+       "text": "which of his lessons do you need most right now?"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
