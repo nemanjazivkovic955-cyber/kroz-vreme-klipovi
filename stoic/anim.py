@@ -61,7 +61,8 @@ def limb(c, x0, y0, ang, l1, ang2, l2, w, color):
     return x2, y2
 
 
-def stoic(c, x, y, s, t, pose="stand", walk=0.0, lean=0.0, look=0.0, hood=True, glow=None, wind=0.0, blink_seed=1):
+def stoic(c, x, y, s, t, pose="stand", walk=0.0, lean=0.0, look=0.0, hood=True, glow=None, wind=0.0, blink_seed=1,
+          beard=BEARD, cloak=None, laurel=False, hair=None, arms=None):
     """x,y = tačka između stopala. pose: stand | walk | sit | lie | climb"""
     c.save(); c.translate(x, y); c.scale(s, s)
     if pose == "lie":
@@ -86,7 +87,8 @@ def stoic(c, x, y, s, t, pose="stand", walk=0.0, lean=0.0, look=0.0, hood=True, 
     flap = math.sin(t * 5.0) * 10 * wind + wind * 25
     c.move_to(-70, -470); c.curve_to(-95, -380, -100, -280, -92 - flap * 0.5, hip_y + 40)
     c.line_to(92 - flap, hip_y + 40 + flap * 0.3); c.curve_to(100, -280, 95, -380, 70, -470); c.close_path()
-    g = cairo.LinearGradient(-90, 0, 90, 0); g.add_color_stop_rgb(0, *hexc(CLOAK)[:3]); g.add_color_stop_rgb(1, *hexc(CLOAK2)[:3])
+    c1, c2 = cloak or (CLOAK, CLOAK2)
+    g = cairo.LinearGradient(-90, 0, 90, 0); g.add_color_stop_rgb(0, *hexc(c1)[:3]); g.add_color_stop_rgb(1, *hexc(c2)[:3])
     c.set_source(g); c.fill_preserve(); ink(c, 8); c.stroke()
     # pojas
     c.move_to(-88, -300); c.line_to(88, -300); ink(c, 10); c.stroke()
@@ -99,15 +101,19 @@ def stoic(c, x, y, s, t, pose="stand", walk=0.0, lean=0.0, look=0.0, hood=True, 
         arm = [(0.2, 0.1), (-0.2, -0.1)]
     else:
         arm = [(-0.35 * sw + 0.1, -0.3), (0.35 * sw - 0.1, 0.3)]
+    if arms: arm = arms(t) if callable(arms) else arms
     for side, (a, b) in zip((-1, 1), arm):
-        hx, hy = limb(c, side * 72, -440, a * side if pose != "climb" else a, 105, b, 95, 30, CLOAK)
+        hx, hy = limb(c, side * 72, -440, a * side if pose != "climb" else a, 105, b, 95, 30, (cloak or (CLOAK,))[0])
         c.arc(hx, hy, 17, 0, 2 * math.pi); shape(c, SKIN, 6)
     # glava
     hx, hy = 0, -535
     c.arc(hx, hy, 72, 0, 2 * math.pi); shape(c, SKIN, 8)
-    # brada
-    c.move_to(hx - 62, hy + 5); c.curve_to(hx - 55, hy + 85, hx + 55, hy + 85, hx + 62, hy + 5)
-    c.curve_to(hx + 35, hy + 30, hx - 35, hy + 30, hx - 62, hy + 5); shape(c, BEARD, 6)
+    if hair:  # kosa (kad nema kapuljače)
+        c.move_to(hx - 72, hy - 5); c.curve_to(hx - 80, hy - 95, hx + 80, hy - 95, hx + 72, hy - 5)
+        c.curve_to(hx + 50, hy - 50, hx - 50, hy - 50, hx - 72, hy - 5); shape(c, hair, 6)
+    if beard:  # brada
+        c.move_to(hx - 62, hy + 5); c.curve_to(hx - 55, hy + 85, hx + 55, hy + 85, hx + 62, hy + 5)
+        c.curve_to(hx + 35, hy + 30, hx - 35, hy + 30, hx - 62, hy + 5); shape(c, beard, 6)
     # oči (treptanje)
     rnd = random.Random(blink_seed); bl = (t * 0.6 + rnd.random()) % 3.2 < 0.12
     ex = look * 10
@@ -124,6 +130,13 @@ def stoic(c, x, y, s, t, pose="stand", walk=0.0, lean=0.0, look=0.0, hood=True, 
         c.curve_to(hx + 50, hy - 118, hx + 110, hy - 70, hx + 92, hy + 40)
         c.curve_to(hx + 80, hy - 40, hx + 55, hy - 88, hx, hy - 90)
         c.curve_to(hx - 55, hy - 88, hx - 80, hy - 40, hx - 92, hy + 40); c.close_path(); shape(c, CLOAK2, 8)
+    if laurel:  # lovorov venac (car)
+        for side in (-1, 1):
+            for k in range(6):
+                ang = math.pi * (0.95 + side * 0.0) + side * (0.25 + k * 0.17)
+                lx, ly = hx + math.cos(ang) * 74 * side * -1, hy - 30 + math.sin(ang) * -40 - k * 6
+                c.save(); c.translate(hx + side * (40 + k * 7), hy - 58 + k * 9); c.rotate(side * (0.9 - k * 0.12))
+                c.scale(1, 0.45); c.arc(0, 0, 17, 0, 2 * math.pi); c.restore(); shape(c, "#7a9a3a", 4)
     if glow:  # plavi sjaj ekrana na licu
         g = cairo.RadialGradient(hx, hy + 40, 10, hx, hy + 40, 160); g.add_color_stop_rgba(0, *hexc(glow, 0.45)); g.add_color_stop_rgba(1, *hexc(glow, 0))
         c.arc(hx, hy, 150, 0, 2 * math.pi); c.set_source(g); c.fill()
