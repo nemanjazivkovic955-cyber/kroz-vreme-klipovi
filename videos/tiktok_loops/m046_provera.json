@@ -11,18 +11,19 @@
   0.28,
   0.294,
   0.318,
-  0.281,
+  0.36,
   0.321
  ],
  "min_osvetljenost": 0.28,
- "prosek_osvetljenosti": 0.304,
+ "prosek_osvetljenosti": 0.317,
  "loop_spoj_razlika_255": 12.41,
- "izvora": 5,
+ "izvora": 6,
  "izvori": [
   "mk_4573",
   "mk_50756",
   "mk_50972",
   "mk_52089",
+  "mk_52099",
   "mk_52317"
  ],
  "kadrova": 7,
@@ -68,12 +69,12 @@
    "gamma": 2.1
   },
   {
-   "src": "mk_50972",
-   "start": 11.12,
+   "src": "mk_52099",
+   "start": 6.17,
    "d": 1.0,
-   "palette": "mono",
-   "src_luma": 0.205,
-   "gamma": 1.88
+   "palette": "steel",
+   "src_luma": 0.207,
+   "gamma": 1.86
   },
   {
    "src": "mk_52317",

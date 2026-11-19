@@ -1,0 +1,225 @@
+{
+ "id": "m047",
+ "file": "videos/tiktok_loops/m047.mp4",
+ "inspected_at": "2026-11-19T10:08:57",
+ "method": "Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.",
+ "meta": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "duration": 12.0,
+  "vcodec": "h264",
+  "pix_fmt": "yuv420p",
+  "video_streams": 1,
+  "audio_streams": 0,
+  "acodec": null,
+  "bitrate_kbps": 33514
+ },
+ "expected": {
+  "texts": [
+   "Broke people sell this. Rich people buy it.",
+   "Time.",
+   "Selling hours has a ceiling.",
+   "Assets work while you rest.",
+   "Start buying your time back.",
+   "That's what broke people sell."
+  ],
+  "text_changes": [
+   2.0,
+   4.0,
+   6.0,
+   8.0,
+   10.0
+  ],
+  "silent": true,
+  "loop": true,
+  "kind": "tiktok_loop_v2"
+ },
+ "technical": {
+  "resolution_ok": true,
+  "aspect": "1080:1920",
+  "fps_ok": true,
+  "duration_ok": true,
+  "audio_rule_ok": true,
+  "frames_decoded": 360,
+  "frames_expected": 360
+ },
+ "shots": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 2.0,
+   "dur": 2.0,
+   "luma": 0.302,
+   "sharpness": 74.1,
+   "overexposed_frac": 0.0,
+   "hue": 81.7
+  },
+  {
+   "index": 1,
+   "start": 2.0,
+   "end": 4.0,
+   "dur": 2.0,
+   "luma": 0.389,
+   "sharpness": 374.5,
+   "overexposed_frac": 0.0,
+   "hue": 78.0
+  },
+  {
+   "index": 2,
+   "start": 4.0,
+   "end": 6.0,
+   "dur": 2.0,
+   "luma": 0.286,
+   "sharpness": 438.6,
+   "overexposed_frac": 0.0,
+   "hue": 68.2
+  },
+  {
+   "index": 3,
+   "start": 6.0,
+   "end": 8.0,
+   "dur": 2.0,
+   "luma": 0.313,
+   "sharpness": 160.5,
+   "overexposed_frac": 0.0,
+   "hue": 68.6
+  },
+  {
+   "index": 4,
+   "start": 8.0,
+   "end": 9.0,
+   "dur": 1.0,
+   "luma": 0.308,
+   "sharpness": 74.2,
+   "overexposed_frac": 0.0,
+   "hue": 9.1
+  },
+  {
+   "index": 5,
+   "start": 9.0,
+   "end": 10.0,
+   "dur": 1.0,
+   "luma": 0.31,
+   "sharpness": 97.7,
+   "overexposed_frac": 0.0,
+   "hue": 79.3
+  },
+  {
+   "index": 6,
+   "start": 10.0,
+   "end": 12.0,
+   "dur": 2.0,
+   "luma": 0.293,
+   "sharpness": 116.8,
+   "overexposed_frac": 0.0,
+   "hue": 81.2
+  }
+ ],
+ "cuts": [
+  2.0,
+  4.0,
+  6.0,
+  8.0,
+  9.0,
+  10.0
+ ],
+ "dissolves": [],
+ "continuity": [
+  {
+   "t": 2.0,
+   "luma_jump": 0.14,
+   "hue_jump": 5.3
+  },
+  {
+   "t": 4.0,
+   "luma_jump": 0.087,
+   "hue_jump": 10.0
+  },
+  {
+   "t": 6.0,
+   "luma_jump": 0.029,
+   "hue_jump": 4.5
+  },
+  {
+   "t": 8.0,
+   "luma_jump": 0.013,
+   "hue_jump": 58.8
+  },
+  {
+   "t": 9.0,
+   "luma_jump": 0.003,
+   "hue_jump": 72.3
+  },
+  {
+   "t": 10.0,
+   "luma_jump": 0.027,
+   "hue_jump": 7.1
+  }
+ ],
+ "loop_seam": {
+  "seam_diff": 12.49,
+  "median_neighbor_diff": 4.12,
+  "ok": true,
+  "seam_diff_no_text": 4.86
+ },
+ "text_timing": {
+  "detected": [
+   2.0,
+   4.0,
+   6.0,
+   8.0,
+   10.0
+  ],
+  "expected": [
+   2.0,
+   4.0,
+   6.0,
+   8.0,
+   10.0
+  ],
+  "offset_s": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "on_beat_120bpm": true
+ },
+ "audio": {
+  "streams": 0,
+  "note": "bez zvučnog zapisa — po pravilu korisnika (muziku dodaje u TikTok-u)"
+ },
+ "repetition": {
+  "in_video": [],
+  "across_videos": []
+ },
+ "issues": [],
+ "sheets": [
+  "studio/inspections/m047/sheet_time.jpg",
+  "studio/inspections/m047/sheet_cuts.jpg"
+ ],
+ "history": [
+  {
+   "at": "2026-11-19T09:53:59",
+   "approved": false,
+   "issues": 1
+  },
+  {
+   "at": "2026-11-19T09:54:36",
+   "approved": false,
+   "issues": 0
+  }
+ ],
+ "approval": {
+  "technical_pass": true,
+  "vision_reviewed": false,
+  "weak_scenes": 0,
+  "creative_score": null,
+  "approved": false,
+  "blocking": [
+   "nema vizuelnog pregleda"
+  ]
+ }
+}

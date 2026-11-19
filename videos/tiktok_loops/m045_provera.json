@@ -10,12 +10,12 @@
   0.391,
   0.362,
   0.299,
-  0.417,
+  0.484,
   0.401,
   0.376
  ],
  "min_osvetljenost": 0.299,
- "prosek_osvetljenosti": 0.374,
+ "prosek_osvetljenosti": 0.386,
  "loop_spoj_razlika_255": 12.06,
  "izvora": 6,
  "izvori": [
@@ -57,7 +57,7 @@
    "start": 1.82,
    "d": 2.0,
    "palette": "cool",
-   "src_luma": 0.577,
+   "src_luma": 0.679,
    "gamma": 1.0
   },
   {
