@@ -116,7 +116,7 @@ def inspect(path, vid=None, expect_silent=None):
         over.append(float((g > 250).mean()))
         med = cv2.resize(fr, (540, 960), interpolation=cv2.INTER_AREA)
         sharp.append(float(cv2.Laplacian(cv2.cvtColor(no_band(med), cv2.COLOR_BGR2GRAY), cv2.CV_64F).var()))
-        gm.append(gold_mask(sm))
+        gm.append(gold_mask(cv2.resize(fr, (360, 640), interpolation=cv2.INTER_AREA)))  # 360x640: tanka slova vidljiva
         hsv = cv2.cvtColor(no_band(sm), cv2.COLOR_BGR2HSV); hue.append(float(hsv[..., 0].mean()))
         hh = cv2.calcHist([hsv], [0, 1, 2], None, [12, 6, 6], [0, 180, 0, 256, 0, 256]); cv2.normalize(hh, hh); hist.append(hh)
         full_keep[i] = cv2.resize(fr, (270, 480), interpolation=cv2.INTER_AREA)
@@ -231,7 +231,8 @@ def inspect(path, vid=None, expect_silent=None):
     # 6 smena teksta vs plan
     def _chg(a, b):
         u = (a | b).sum()
-        return u >= 20 and (a ^ b).sum() / u > 0.45
+        gone = (a.sum() >= 8 and b.sum() < 0.3 * a.sum()) or (b.sum() >= 8 and a.sum() < 0.3 * b.sum())  # tanak tekst nestaje/pojavljuje se
+        return (u >= 20 and (a ^ b).sum() / u > 0.45) or gone
     tc = [k for k in range(1, n) if _chg(gm[k], gm[k - 1])]
     # spoji bliske detekcije (animacija pop traje nekoliko frejmova)
     merged = []

@@ -1,6 +1,6 @@
 # Inspekcija stoic_rule_01 — NIJE ODOBRENO
 
-Fajl: `videos/stoic/stoic_rule_01.mp4` · 2026-11-19T11:06:52
+Fajl: `videos/stoic/stoic_rule_01.mp4` · 2026-11-19T13:04:02
 
 _Metod:_ Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.
 
@@ -21,7 +21,7 @@ Rezovi: [2.0, 4.5, 7.0, 9.0]
 Loop spoj: {'seam_diff': 8.01, 'median_neighbor_diff': 1.08, 'ok': True, 'seam_diff_no_text': 1.4}
 
 ## Tekst / titlovi
-{'detected': [2.0, 4.5, 7.0, 9.0], 'expected': [2.0, 4.5, 7.0, 9.0], 'offset_s': [0.0, 0.0, 0.0, 0.0], 'on_beat_120bpm': True}
+{'detected': [2.0, 2.633, 4.5, 7.0, 9.0], 'expected': [2.0, 4.5, 7.0, 9.0], 'offset_s': [0.0, 0.0, 0.0, 0.0], 'on_beat_120bpm': True}
 
 ## Zvuk
 {'streams': 0, 'note': 'bez zvučnog zapisa — po pravilu korisnika (muziku dodaje u TikTok-u)'}

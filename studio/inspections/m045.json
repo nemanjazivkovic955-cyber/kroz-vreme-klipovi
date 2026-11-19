@@ -1,7 +1,7 @@
 {
  "id": "m045",
  "file": "videos/tiktok_loops/m045.mp4",
- "inspected_at": "2026-11-19T11:06:33",
+ "inspected_at": "2026-11-19T13:03:39",
  "method": "Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.",
  "meta": {
   "width": 1080,
@@ -223,6 +223,16 @@
   },
   {
    "at": "2026-11-19T10:34:24",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-19T11:06:33",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-19T13:01:45",
    "approved": false,
    "issues": 0
   }

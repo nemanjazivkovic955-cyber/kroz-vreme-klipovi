@@ -1,0 +1,324 @@
+{
+ "id": "stoic_edit_03",
+ "file": "videos/stoic/stoic_edit_03.mp4",
+ "inspected_at": "2026-11-19T13:06:32",
+ "method": "Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.",
+ "meta": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "duration": 8.5,
+  "vcodec": "h264",
+  "pix_fmt": "yuv420p",
+  "video_streams": 1,
+  "audio_streams": 0,
+  "acodec": null,
+  "bitrate_kbps": 23803
+ },
+ "expected": {
+  "texts": [],
+  "text_changes": [
+   4.0
+  ],
+  "silent": true,
+  "loop": true,
+  "kind": "stoic_edit",
+  "dur": [
+   7,
+   11
+  ],
+  "min_luma": 0.07,
+  "min_shot": 0.45
+ },
+ "technical": {
+  "resolution_ok": true,
+  "aspect": "1080:1920",
+  "fps_ok": true,
+  "duration_ok": true,
+  "audio_rule_ok": true,
+  "frames_decoded": 255,
+  "frames_expected": 255
+ },
+ "shots": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 1.0,
+   "dur": 1.0,
+   "luma": 0.157,
+   "sharpness": 106.0,
+   "overexposed_frac": 0.0,
+   "hue": 109.6
+  },
+  {
+   "index": 1,
+   "start": 1.0,
+   "end": 2.0,
+   "dur": 1.0,
+   "luma": 0.205,
+   "sharpness": 101.2,
+   "overexposed_frac": 0.0,
+   "hue": 98.4
+  },
+  {
+   "index": 2,
+   "start": 2.0,
+   "end": 2.5,
+   "dur": 0.5,
+   "luma": 0.117,
+   "sharpness": 237.7,
+   "overexposed_frac": 0.0,
+   "hue": 105.0
+  },
+  {
+   "index": 3,
+   "start": 2.5,
+   "end": 3.0,
+   "dur": 0.5,
+   "luma": 0.19,
+   "sharpness": 136.2,
+   "overexposed_frac": 0.0,
+   "hue": 117.1
+  },
+  {
+   "index": 4,
+   "start": 3.0,
+   "end": 5.0,
+   "dur": 2.0,
+   "luma": 0.175,
+   "sharpness": 141.2,
+   "overexposed_frac": 0.001,
+   "hue": 106.7
+  },
+  {
+   "index": 5,
+   "start": 5.0,
+   "end": 6.0,
+   "dur": 1.0,
+   "luma": 0.116,
+   "sharpness": 307.7,
+   "overexposed_frac": 0.001,
+   "hue": 102.0
+  },
+  {
+   "index": 6,
+   "start": 6.0,
+   "end": 6.5,
+   "dur": 0.5,
+   "luma": 0.129,
+   "sharpness": 102.0,
+   "overexposed_frac": 0.001,
+   "hue": 111.2
+  },
+  {
+   "index": 7,
+   "start": 6.5,
+   "end": 7.0,
+   "dur": 0.5,
+   "luma": 0.198,
+   "sharpness": 814.0,
+   "overexposed_frac": 0.001,
+   "hue": 81.4
+  },
+  {
+   "index": 8,
+   "start": 7.0,
+   "end": 7.5,
+   "dur": 0.5,
+   "luma": 0.2,
+   "sharpness": 247.5,
+   "overexposed_frac": 0.001,
+   "hue": 115.6
+  },
+  {
+   "index": 9,
+   "start": 7.5,
+   "end": 8.0,
+   "dur": 0.5,
+   "luma": 0.216,
+   "sharpness": 53.5,
+   "overexposed_frac": 0.001,
+   "hue": 87.8
+  },
+  {
+   "index": 10,
+   "start": 8.0,
+   "end": 8.5,
+   "dur": 0.5,
+   "luma": 0.158,
+   "sharpness": 84.2,
+   "overexposed_frac": 0.001,
+   "hue": 112.0
+  }
+ ],
+ "cuts": [
+  1.0,
+  2.0,
+  2.5,
+  3.0,
+  5.0,
+  6.0,
+  6.5,
+  7.0,
+  7.5,
+  8.0
+ ],
+ "dissolves": [],
+ "continuity": [
+  {
+   "t": 1.0,
+   "luma_jump": 0.057,
+   "hue_jump": 35.6
+  },
+  {
+   "t": 2.0,
+   "luma_jump": 0.088,
+   "hue_jump": 1.3
+  },
+  {
+   "t": 2.5,
+   "luma_jump": 0.072,
+   "hue_jump": 12.6
+  },
+  {
+   "t": 3.0,
+   "luma_jump": 0.006,
+   "hue_jump": 29.4
+  },
+  {
+   "t": 5.0,
+   "luma_jump": 0.092,
+   "hue_jump": 7.7
+  },
+  {
+   "t": 6.0,
+   "luma_jump": 0.02,
+   "hue_jump": 3.3
+  },
+  {
+   "t": 6.5,
+   "luma_jump": 0.067,
+   "hue_jump": 30.5
+  },
+  {
+   "t": 7.0,
+   "luma_jump": 0.0,
+   "hue_jump": 35.8
+  },
+  {
+   "t": 7.5,
+   "luma_jump": 0.012,
+   "hue_jump": 24.1
+  },
+  {
+   "t": 8.0,
+   "luma_jump": 0.041,
+   "hue_jump": 24.7
+  }
+ ],
+ "loop_seam": {
+  "seam_diff": 3.57,
+  "median_neighbor_diff": 2.56,
+  "ok": true,
+  "seam_diff_no_text": 1.47
+ },
+ "text_timing": {
+  "detected": [
+   0.4,
+   1.0,
+   2.0,
+   2.5,
+   4.0,
+   6.5,
+   6.933
+  ],
+  "expected": [
+   4.0
+  ],
+  "offset_s": [
+   0.0
+  ],
+  "on_beat_120bpm": true
+ },
+ "audio": {
+  "streams": 0,
+  "note": "bez zvučnog zapisa — po pravilu korisnika (muziku dodaje u TikTok-u)"
+ },
+ "repetition": {
+  "in_video": [],
+  "across_videos": []
+ },
+ "issues": [],
+ "sheets": [
+  "studio/inspections/stoic_edit_03/sheet_time.jpg",
+  "studio/inspections/stoic_edit_03/sheet_cuts.jpg"
+ ],
+ "history": [
+  {
+   "at": "2026-11-19T12:47:40",
+   "approved": false,
+   "issues": 4
+  },
+  {
+   "at": "2026-11-19T12:53:13",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-19T13:02:10",
+   "approved": false,
+   "issues": 2
+  },
+  {
+   "at": "2026-11-19T13:02:39",
+   "approved": false,
+   "issues": 2
+  },
+  {
+   "at": "2026-11-19T13:03:14",
+   "approved": false,
+   "issues": 2
+  },
+  {
+   "at": "2026-11-19T13:04:29",
+   "approved": false,
+   "issues": 1
+  }
+ ],
+ "approval": {
+  "technical_pass": true,
+  "vision_reviewed": true,
+  "weak_scenes": 0,
+  "creative_score": 83,
+  "approved": false,
+  "blocking": [
+   "kreativna ocena 83 < 90"
+  ]
+ },
+ "vision_review": {
+  "reviewer": "Claude (vision) — kontakt-listovi 0.5 s + frejmovi oko rezova i loop spoja; video NIJE gledan u pokretu",
+  "summary": "Noćna vožnja i grad - atmosfera dosledna; nekoliko vertikalnih kadrova iz vazduha tamno-sivo, pun mesec dobar kraj.",
+  "scenes": [
+   {
+    "index": 0,
+    "verdict": "good",
+    "note": "hook kadar sa subjektom"
+   }
+  ],
+  "storytelling": "Edit format kao referenca: proređena reč (vrlina) pa kratak red; bez priče, gradi osećaj.",
+  "creative_score": 83,
+  "breakdown": {
+   "storytelling": 15,
+   "visual": 16,
+   "hook": 13,
+   "cinematography": 13,
+   "sound": 9,
+   "editing": 10,
+   "originality": 8
+  },
+  "recommendations": [
+   "POV luksuz/noćni kadrovi iz Pexels-a bi podigli vizuel",
+   "Uporediti sa Stoic #1-#4 posle 48 h"
+  ]
+ }
+}

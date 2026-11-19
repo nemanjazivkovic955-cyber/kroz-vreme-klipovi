@@ -1,6 +1,6 @@
 # Inspekcija stoic_rule_03 — NIJE ODOBRENO
 
-Fajl: `videos/stoic/stoic_rule_03.mp4` · 2026-11-19T11:10:46
+Fajl: `videos/stoic/stoic_rule_03.mp4` · 2026-11-19T13:04:11
 
 _Metod:_ Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.
 

@@ -1,7 +1,7 @@
 {
  "id": "stoic_rule_03",
  "file": "videos/stoic/stoic_rule_03.mp4",
- "inspected_at": "2026-11-19T11:10:46",
+ "inspected_at": "2026-11-19T13:04:11",
  "method": "Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.",
  "meta": {
   "width": 1080,
@@ -169,33 +169,6 @@
   "studio/inspections/stoic_rule_03/sheet_time.jpg",
   "studio/inspections/stoic_rule_03/sheet_cuts.jpg"
  ],
- "history": [
-  {
-   "at": "2026-11-19T10:55:03",
-   "approved": false,
-   "issues": 1
-  },
-  {
-   "at": "2026-11-19T11:00:00",
-   "approved": false,
-   "issues": 0
-  },
-  {
-   "at": "2026-11-19T11:06:59",
-   "approved": false,
-   "issues": 0
-  }
- ],
- "approval": {
-  "technical_pass": true,
-  "vision_reviewed": true,
-  "weak_scenes": 0,
-  "creative_score": 83,
-  "approved": false,
-  "blocking": [
-   "kreativna ocena 83 < 90"
-  ]
- },
  "vision_review": {
   "reviewer": "Claude (vision) — kontakt-listovi 0.5 s + frejmovi oko rezova/loop spoja; video NIJE gledan u pokretu",
   "summary": "Silueta u dimu (kontrast pojačan posle prvog pregleda jer se nije videla) -> kapi kiše -> kamene statue -> plamen sveće.",
@@ -239,6 +212,43 @@
   },
   "recommendations": [
    "Jači hook kadar sa jasnijom siluetom (Pexels)"
+  ]
+ },
+ "history": [
+  {
+   "at": "2026-11-19T10:55:03",
+   "approved": false,
+   "issues": 1
+  },
+  {
+   "at": "2026-11-19T11:00:00",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-19T11:06:59",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-19T11:10:46",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-19T13:01:34",
+   "approved": false,
+   "issues": 0
+  }
+ ],
+ "approval": {
+  "technical_pass": true,
+  "vision_reviewed": true,
+  "weak_scenes": 0,
+  "creative_score": 83,
+  "approved": false,
+  "blocking": [
+   "kreativna ocena 83 < 90"
   ]
  }
 }

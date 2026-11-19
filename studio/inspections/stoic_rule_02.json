@@ -1,7 +1,7 @@
 {
  "id": "stoic_rule_02",
  "file": "videos/stoic/stoic_rule_02.mp4",
- "inspected_at": "2026-11-19T11:06:55",
+ "inspected_at": "2026-11-19T13:04:06",
  "method": "Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.",
  "meta": {
   "width": 1080,
@@ -168,28 +168,6 @@
   "studio/inspections/stoic_rule_02/sheet_time.jpg",
   "studio/inspections/stoic_rule_02/sheet_cuts.jpg"
  ],
- "history": [
-  {
-   "at": "2026-11-19T10:54:59",
-   "approved": false,
-   "issues": 1
-  },
-  {
-   "at": "2026-11-19T10:59:56",
-   "approved": false,
-   "issues": 0
-  }
- ],
- "approval": {
-  "technical_pass": true,
-  "vision_reviewed": true,
-  "weak_scenes": 0,
-  "creative_score": 85,
-  "approved": false,
-  "blocking": [
-   "kreativna ocena 85 < 90"
-  ]
- },
  "vision_review": {
   "reviewer": "Claude (vision) — kontakt-listovi 0.5 s + frejmovi oko rezova/loop spoja; video NIJE gledan u pokretu",
   "summary": "Silueta u senci (hook, subjekat) -> kiša na prozoru -> statua na steni u oblacima -> šahovski kralj. Svaki kadar ilustruje rečenicu; stil serije dosledan.",
@@ -234,6 +212,38 @@
   "recommendations": [
    "Hladnije ugasiti toplu mrlju u kadru kiše",
    "Ocena zvuka = ritam-mreža (klip je bez zvuka po pravilu)"
+  ]
+ },
+ "history": [
+  {
+   "at": "2026-11-19T10:54:59",
+   "approved": false,
+   "issues": 1
+  },
+  {
+   "at": "2026-11-19T10:59:56",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-19T11:06:55",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-19T13:01:30",
+   "approved": false,
+   "issues": 0
+  }
+ ],
+ "approval": {
+  "technical_pass": true,
+  "vision_reviewed": true,
+  "weak_scenes": 0,
+  "creative_score": 85,
+  "approved": false,
+  "blocking": [
+   "kreativna ocena 85 < 90"
   ]
  }
 }

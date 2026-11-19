@@ -2391,7 +2391,7 @@
   },
   "inspection": {
    "report": "studio/inspections/m045.md",
-   "inspected_at": "2026-11-19T11:06:33",
+   "inspected_at": "2026-11-19T13:03:39",
    "approval": {
     "technical_pass": true,
     "vision_reviewed": false,
@@ -2463,7 +2463,7 @@
   },
   "inspection": {
    "report": "studio/inspections/m046.md",
-   "inspected_at": "2026-11-19T11:06:38",
+   "inspected_at": "2026-11-19T13:03:45",
    "approval": {
     "technical_pass": true,
     "vision_reviewed": false,
@@ -2535,7 +2535,7 @@
   },
   "inspection": {
    "report": "studio/inspections/m047.md",
-   "inspected_at": "2026-11-19T11:06:43",
+   "inspected_at": "2026-11-19T13:03:51",
    "approval": {
     "technical_pass": true,
     "vision_reviewed": false,
@@ -2607,7 +2607,7 @@
   },
   "inspection": {
    "report": "studio/inspections/m048.md",
-   "inspected_at": "2026-11-19T11:06:48",
+   "inspected_at": "2026-11-19T13:03:57",
    "approval": {
     "technical_pass": true,
     "vision_reviewed": false,
@@ -3138,7 +3138,7 @@
   "output": "videos/stoic/stoic_rule_01.mp4",
   "inspection": {
    "report": "studio/inspections/stoic_rule_01.md",
-   "inspected_at": "2026-11-19T11:06:52",
+   "inspected_at": "2026-11-19T13:04:02",
    "approval": {
     "technical_pass": true,
     "vision_reviewed": true,
@@ -3189,7 +3189,7 @@
   "output": "videos/stoic/stoic_rule_02.mp4",
   "inspection": {
    "report": "studio/inspections/stoic_rule_02.md",
-   "inspected_at": "2026-11-19T11:06:55",
+   "inspected_at": "2026-11-19T13:04:06",
    "approval": {
     "technical_pass": true,
     "vision_reviewed": true,
@@ -3240,7 +3240,7 @@
   "output": "videos/stoic/stoic_rule_03.mp4",
   "inspection": {
    "report": "studio/inspections/stoic_rule_03.md",
-   "inspected_at": "2026-11-19T11:10:46",
+   "inspected_at": "2026-11-19T13:04:11",
    "approval": {
     "technical_pass": true,
     "vision_reviewed": true,
@@ -3291,7 +3291,7 @@
   "output": "videos/stoic/stoic_rule_04.mp4",
   "inspection": {
    "report": "studio/inspections/stoic_rule_04.md",
-   "inspected_at": "2026-11-19T11:08:56",
+   "inspected_at": "2026-11-19T13:04:16",
    "approval": {
     "technical_pass": true,
     "vision_reviewed": true,
@@ -3318,7 +3318,7 @@
   }
  },
  {
-  "id": "stoic_edit_05",
+  "id": "stoic_edit_01",
   "family": "stoic_edit",
   "format": "TikTok 9:16 9 s edit, bez zvuka",
   "topic": "patience",
@@ -3350,10 +3350,10 @@
   "visual_style": "noćni luksuz, rez na svaki udarac",
   "music": "nema (korisnik dodaje)",
   "editing": "18 x 0.5 s @120 BPM",
-  "output": "videos/stoic/stoic_edit_05.mp4",
+  "output": "videos/stoic/stoic_edit_01.mp4",
   "inspection": {
-   "report": "studio/inspections/stoic_edit_05.md",
-   "inspected_at": "2026-11-19T12:27:28",
+   "report": "studio/inspections/stoic_edit_01.md",
+   "inspected_at": "2026-11-19T13:04:21",
    "approval": {
     "technical_pass": true,
     "vision_reviewed": true,
@@ -3385,10 +3385,293 @@
     8.5
    ],
    "loop_seam": {
-    "seam_diff": 2.71,
-    "median_neighbor_diff": 3.39,
+    "seam_diff": 2.81,
+    "median_neighbor_diff": 3.27,
     "ok": true,
-    "seam_diff_no_text": 1.99
+    "seam_diff_no_text": 1.98
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_02",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "hunger",
+  "hook": "H U N G E R",
+  "text": [
+   "H U N G E R",
+   "stay hungry."
+  ],
+  "ending": "stay hungry.",
+  "footage": [
+   "mk_40964",
+   "mk_4596",
+   "mk_40948",
+   "mk_52084",
+   "mk_52088",
+   "mk_40276",
+   "mk_40988",
+   "mk_52094",
+   "mk_731",
+   "mk_44439",
+   "mk_735",
+   "mk_40971",
+   "mk_597",
+   "mk_40788",
+   "mk_608",
+   "mk_40978"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_02.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_02.md",
+   "inspected_at": "2026-11-19T13:04:25",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 87,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 87 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0,
+    6.5,
+    7.0,
+    7.5,
+    8.0
+   ],
+   "loop_seam": {
+    "seam_diff": 3.35,
+    "median_neighbor_diff": 2.62,
+    "ok": true,
+    "seam_diff_no_text": 2.29
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_03",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "silence",
+  "hook": "S I L E N C E",
+  "text": [
+   "S I L E N C E",
+   "move in silence."
+  ],
+  "ending": "move in silence.",
+  "footage": [
+   "mk_42039",
+   "mk_2026",
+   "mk_42037",
+   "mk_40746",
+   "mk_4383",
+   "mk_49876",
+   "mk_50998",
+   "mk_40640",
+   "mk_42343",
+   "mk_34562",
+   "mk_49846",
+   "mk_3361",
+   "mk_41161",
+   "mk_4646",
+   "mk_49878",
+   "mk_4433"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_03.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_03.md",
+   "inspected_at": "2026-11-19T13:06:32",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 83,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 83 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    1.0,
+    2.0,
+    2.5,
+    3.0,
+    5.0,
+    6.0,
+    6.5,
+    7.0,
+    7.5,
+    8.0
+   ],
+   "loop_seam": {
+    "seam_diff": 3.57,
+    "median_neighbor_diff": 2.56,
+    "ok": true,
+    "seam_diff_no_text": 1.47
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_04",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "freedom",
+  "hook": "F R E E D O M",
+  "text": [
+   "F R E E D O M",
+   "earn your freedom."
+  ],
+  "ending": "earn your freedom.",
+  "footage": [
+   "mk_2385",
+   "mk_44651",
+   "mk_39912",
+   "mk_4204",
+   "mk_52427",
+   "mk_2049",
+   "mk_43114",
+   "mk_5008",
+   "mk_52454",
+   "mk_5363",
+   "mk_3298",
+   "mk_41545",
+   "mk_4839",
+   "mk_51689",
+   "mk_4281",
+   "mk_38948"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_04.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_04.md",
+   "inspected_at": "2026-11-19T13:04:34",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 84,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 84 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.5,
+    5.0,
+    5.5,
+    6.0,
+    6.5,
+    7.0,
+    8.0
+   ],
+   "loop_seam": {
+    "seam_diff": 2.61,
+    "median_neighbor_diff": 1.98,
+    "ok": true,
+    "seam_diff_no_text": 1.63
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_05",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "focus",
+  "hook": "F O C U S",
+  "text": [
+   "F O C U S",
+   "no distractions."
+  ],
+  "ending": "no distractions.",
+  "footage": [
+   "mk_609",
+   "mk_32809",
+   "mk_40765",
+   "mk_39825",
+   "mk_40766",
+   "mk_41943",
+   "mk_722",
+   "mk_4827",
+   "mk_32792",
+   "mk_39779",
+   "mk_606",
+   "mk_52451",
+   "mk_32799",
+   "mk_4852",
+   "mk_719",
+   "mk_52452"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_05.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_05.md",
+   "inspected_at": "2026-11-19T13:04:38",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 84,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 84 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.5,
+    7.0,
+    7.5,
+    8.0
+   ],
+   "loop_seam": {
+    "seam_diff": 8.09,
+    "median_neighbor_diff": 4.18,
+    "ok": true,
+    "seam_diff_no_text": 7.58
    }
   }
  }
