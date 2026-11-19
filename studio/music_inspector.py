@@ -22,6 +22,7 @@ REPORTS = os.path.join(HERE, "music_reports")
 CACHE = os.path.join(ROOT, "stoic", "music")  # mp3 (u .gitignore)
 FEAT = os.path.join(HERE, "music_features.json")
 URL = "https://assets.mixkit.co/music/{i}/{i}.mp3"
+OFFGENRE = r"party|dance|club|trap|funk|disco|christmas|xmas|wedding|love|romantic|game|cheer|happy|fun|kids|cartoon|reggae|hip ?hop|type beat|floka|jazz|country|beach|summer|tropical|cat\b"
 
 DIMS = ["energy", "tension", "hope", "calm", "drive"]
 TAGV = {  # raspoloženje Mixkit oznake -> vektor (energija, napetost, nada, mir, odlučnost)
@@ -183,6 +184,12 @@ def choose(prod_id, segments, video=None, voice=True, top=8, avoid_last=6, exclu
         aen = min(1, f["loud"] * 6 + f["perc"] * 0.05)
         a_match = 1 - abs(aen - target[0]) - 0.3 * abs(min(1, f["bright"] / 2500) - (0.3 + 0.4 * target[2]))
         pen = (0.15 * max(0, f["perc"] - 6) / 6 + 0.1 * max(0, aen - 0.7)) if voice else 0
+        # žanr koji ne pristaje ozbiljnoj stoičkoj naraciji (po nazivu numere)
+        if re.search(OFFGENRE, t["title"].lower()): pen += 0.25
+        # prebrzo ispod glasa (miran govor ~120 BPM i sporije)
+        if voice and f["bpm"] > 135: pen += 0.08 * min(1, (f["bpm"] - 135) / 30)
+        # samo jedna oznaka raspoloženja = slabiji dokaz
+        if len(t["moods"]) == 1: pen += 0.04
         off, fit = best_offset(f, need, np.array(curve))
         score = 0.55 * (ts + 1) / 2 + 0.30 * a_match + 0.15 * fit - pen
         scored.append(dict(id=t["id"], title=t["title"], moods=t["moods"], tag=round(ts, 3), audio=round(a_match, 3),

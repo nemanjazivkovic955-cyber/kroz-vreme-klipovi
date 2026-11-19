@@ -1,6 +1,6 @@
 # Muzika za short_05
 
-Cilj (energija, napetost, nada, mir, odlučnost): {'energy': 0.61, 'tension': 0.59, 'hope': 0.24, 'calm': 0.27, 'drive': 0.36}
+Cilj (energija, napetost, nada, mir, odlučnost): {'energy': 0.51, 'tension': 0.59, 'hope': 0.24, 'calm': 0.27, 'drive': 0.36}
 
 | segment | osvetlj. | toplina | pokret | tekst |
 |---|---|---|---|---|
@@ -12,11 +12,11 @@ Cilj (energija, napetost, nada, mir, odlučnost): {'energy': 0.61, 'tension': 0.
 
 | # | numera | oznake | tagovi | zvuk | prati scenu | kazna | ukupno | BPM | od |
 |---|---|---|---|---|---|---|---|---|---|
-| 1 |  (mixkit 614) | dramatic, emotional, melancholic, sad | 0.959 | 0.971 | 0.916 | 0.0 | **0.956** | 143.6 | 121.5s |
-| 2 | Epical Drums 05 (mixkit 599) | dramatic, emotional | 0.984 | 0.664 | 0.976 | 0.024 | **0.862** | 172.3 | 142.0s |
-| 3 | Beautiful Dream (mixkit 871) | dramatic, mysterious | 0.979 | 0.794 | 0.586 | 0.011 | **0.854** | 92.3 | 86.0s |
-| 4 | The Journey (mixkit 594) | dramatic, sad | 0.978 | 0.574 | 0.992 | 0.03 | **0.829** | 123.0 | 146.0s |
-| 5 | Epical Drums 01 (mixkit 601) | dramatic, emotional, melancholic, sad | 0.959 | 0.598 | 0.963 | 0.03 | **0.822** | 83.4 | 189.0s |
-| 6 | Possible Dreams (mixkit 688) | dramatic, emotional, melancholic, sad | 0.959 | 0.561 | 0.983 | 0.03 | **0.813** | 60.1 | 107.0s |
+| 1 | Party (mixkit 573) | dark | 0.893 | 0.905 | 0.984 | 0.0 | **0.94** | 161.5 | 184.0s |
+| 2 | Trapanomics (mixkit 370) | dark | 0.893 | 0.972 | 0.808 | 0.0 | **0.934** | 60.1 | 88.0s |
+| 3 | Beautiful Dream (mixkit 871) | dramatic, mysterious | 0.969 | 0.69 | 0.679 | 0.011 | **0.84** | 92.3 | 85.0s |
+| 4 | The Journey (mixkit 594) | dramatic, sad | 0.901 | 0.47 | 0.997 | 0.03 | **0.783** | 123.0 | 235.0s |
+| 5 | Torn Threads (mixkit 399) | dark | 0.893 | 0.47 | 0.932 | 0.029 | **0.773** | 152.0 | 89.5s |
+| 6 | Billy the Kid (mixkit 420) | dark | 0.893 | 0.503 | 0.658 | 0.028 | **0.742** | 152.0 | 85.5s |
 
-**Izbor:  (mixkit 614), od 121.5 s.** Licenca: Mixkit Free License (besplatno, i za monetizovane videe).
+**Izbor: Party (mixkit 573), od 184.0 s.** Licenca: Mixkit Free License (besplatno, i za monetizovane videe).
