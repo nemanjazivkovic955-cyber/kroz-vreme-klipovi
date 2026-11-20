@@ -90,3 +90,8 @@
 44. **Hook tekst ne sme preko lica:** portretni izvori (Pexels 9:16) ne mogu da se pomere kropom - za hook kadar sa licem u sredini koristi `"hook_y": 0.25` (tekst iznad glave). Ostale kadrove 0-2 s birati sa licem u donjoj polovini. qc_inspect sada blokira tamni hook (`dark_hook`, luma < 0.28).
 45. **Pexels setovi:** fajl `https://videos.pexels.com/video-files/ID/ID-hd_1080_1920_24fps.mp4` (ili `uhd_1440_2560_24fps`); set autora ide i ispod i iznad prvog ID-ja (Mizuno K: 13801225-13801295). Proveri rezoluciju posle skidanja - "hd_1080" ime nije garancija (281 je bio 720p).
 46. **Isti snimak = dve radnje:** pre odbacivanja "ponovljene radnje" pogledaj ceo snimak na 0.5 s mreži - 280 ima sat (3.0 s) I šake na glavi (5.0 s), 281 ima glavu u šaci (5.8 s).
+
+## TERMINI (od 20.11.2026, odluka korisnika)
+- Objave po EVROPSKOM vremenu: 2 klipa u 19:00 i 2 u 21:00 (CET). Razlog: publika je ~100% evropska (DE/IT/PL/NL/GB), vrhunac aktivnosti 17-21 h; stari termin 18:00 NY = ponoć u Evropi = najslabija probna grupa.
+- Najviše 2 klipa po terminu, 4 dnevno, dok ne probijemo zid 250. Tekst ostaje na engleskom.
+- Amerika dolazi tek kad klip prođe evropsku probnu grupu — ne jurimo NY vreme.
