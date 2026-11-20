@@ -417,6 +417,92 @@ EDITS = {
         "caption": "Every building was a drawing first. What are you building right now? \U0001F447",
         "tags": "#stoicism #discipline #mindset #vision #builder",
         "sound": "cinematic build-up phonk (trending ↗) - rez na osminu u sredini"},
+    # ---- krug 20.11 (2): novi materijal, 4 nova sveta
+    22: {"mode": "story", "hook": "Waves don't stop. Learn to ride them.", "word": "ADAPT", "line": "ride it.",
+        "loop": ("mk_1065", 0.62, 5.0, "", "surf"),  # surfer gleda more
+        "shots": [
+                  ("mk_1071", 0.5, None, "", "surf", 0.5),  # talas se ruši odozgo
+                  ("mk_1070", 0.5, None, "", "surf", 0.5),  # bela pena
+                  ("mk_38933", 0.5, None, "", "surf", 0.5),  # talasi stižu
+                  ("mk_1042", 0.5, None, "", "surf", 0.2333),  # vesla kroz talas
+                  ("mk_1163", 0.6, None, "", "surf", 0.2667),  # surfer na talasu
+                  ("mk_1032", 0.55, None, "", "surf", 0.2333),  # trči sa daskom
+                  ("mk_1074", 0.5, None, "", "surf", 0.2667),  # talas odozgo
+                  ("mk_1127", 0.6, None, "", "surf", 0.2333),  # hvata talas
+                  ("mk_1075", 0.5, None, "", "surf", 0.2667),  # talas odozgo
+                  ("mk_1128", 0.62, None, "", "surf", 0.2333),  # vozi talas
+                  ("mk_38939", 0.5, None, "", "surf", 0.2667),  # surferi na moru
+                  ("mk_1045", 0.5, None, "", "surf", 0.5),  # silueta u zalasku
+                  ("mk_1002", 0.4, None, "", "surf", 0.5),  # ka moru
+                  ("mk_1220", 0.5, None, "", "surf", 0.5),  # silueta sa daskom
+                  ("mk_38901", 0.5, None, "", "surf", 0.5),  # zalazak nad talasima
+                  ("mk_1069", 0.6, None, "", "surf", 0.5),  # na obali
+                  ],
+        "caption": "Life won't calm down for you. Learn to move with it. What wave are you riding right now? \U0001F447",
+        "tags": "#stoicism #discipline #mindset #adapt #surfing",
+        "sound": "ocean phonk / cinematic slow build (trending ↗) - rez na osminu u sredini"},
+    23: {"mode": "story", "hook": "Think three moves ahead.", "word": "STRATEGY", "line": "play the long game.",
+        "loop": ("mk_49885", 0.45, 6.0, "", "šah"),  # čovek razmišlja nad šahom
+        "shots": [
+                  ("mk_5339", 0.55, None, "", "šah", 0.5),  # povlači figuru
+                  ("mk_49721", 0.5, None, "", "šah", 0.5),  # tabla
+                  ("mk_49731", 0.5, None, "", "šah", 0.5),  # figure pod svetlom
+                  ("mk_49714", 0.5, None, "eq=gamma=1.4", "šah", 0.2333),  # crne figure
+                  ("mk_49734", 0.5, None, "eq=gamma=1.4", "šah", 0.2667),  # izbliza
+                  ("mk_49723", 0.5, None, "", "šah", 0.2333),  # bočno
+                  ("mk_49710", 0.5, None, "eq=gamma=1.3", "šah", 0.2667),  # tabla izbliza
+                  ("mk_49716", 0.5, None, "eq=gamma=1.3", "šah", 0.2333),  # pogled na tablu
+                  ("mk_49733", 0.5, None, "eq=gamma=1.3", "šah", 0.2667),  # figure u poziciji
+                  ("mk_49909", 0.5, None, "", "šah", 0.2333),  # luksuzna tabla
+                  ("mk_49906", 0.5, None, "", "šah", 0.2667),  # mermer i sat
+                  ("mk_4762", 0.5, None, "", "šah", 1.0),  # deca igraju - učenje
+                  ("mk_49725", 0.5, None, "eq=gamma=1.5", "šah", 1.5),  # dama stoji sama - pobeda
+                  ],
+        "caption": "Most people play for today. Winners play for 5 years from now. What's your next move? \U0001F447",
+        "tags": "#stoicism #discipline #mindset #strategy #chess",
+        "sound": "dark chess phonk / slow piano trap (trending ↗) - rez na osminu u sredini"},
+    24: {"mode": "story", "hook": "How you start is how you finish.", "word": "RITUAL", "line": "own your mornings.",
+        "loop": ("mk_808", 0.4, 4.0, "", "jutro"),  # šolja na suncu
+        "shots": [
+                  ("mk_4984", 0.45, None, "", "jutro", 0.5),  # sipa kafu u filter
+                  ("mk_816", 0.5, None, "", "jutro", 0.5),  # voda kroz filter
+                  ("mk_4982", 0.5, None, "", "jutro", 0.5),  # zrna kafe
+                  ("mk_42906", 0.45, None, "", "jutro", 0.2333),  # razbija jaja
+                  ("mk_236", 0.5, None, "", "jutro", 0.2667),  # puni šolju
+                  ("mk_42909", 0.5, None, "", "jutro", 0.2333),  # jaje u tiganju
+                  ("mk_41859", 0.5, None, "", "jutro", 0.2667),  # kapućino
+                  ("mk_43925", 0.5, None, "", "jutro", 0.2333),  # seče voće
+                  ("mk_810", 0.6, None, "", "jutro", 0.2667),  # latte art
+                  ("mk_43912", 0.5, None, "", "jutro", 0.2333),  # zdrav doručak
+                  ("mk_10428", 0.5, None, "", "jutro", 0.2667),  # sok od pomorandže
+                  ("mk_4866", 0.5, None, "", "jutro", 0.5),  # doručak na stolu
+                  ("mk_43935", 0.5, None, "eq=gamma=1.5", "jutro", 1.0),  # šolja se puši
+                  ("mk_4992", 0.5, None, "", "jutro", 1.0),  # kafa na zrnima
+                  ],
+        "caption": "Win the morning, win the day. What's the first thing you do after you wake up? \U0001F447",
+        "tags": "#stoicism #discipline #mindset #morningroutine #habits",
+        "sound": "lo-fi morning phonk / chill trap (trending ↗) - rez na osminu u sredini"},
+    25: {"mode": "story", "hook": "Masters were beginners who didn't quit.", "word": "MASTERY", "line": "repeat until great.",
+        "loop": ("mk_43048", 0.55, 5.0, "", "kuhinja-zanat"),  # kuvar u kuhinji
+        "shots": [
+                  ("mk_42464", 0.5, None, "", "kuhinja-zanat", 0.5),  # meša brašno
+                  ("mk_1669", 0.5, None, "", "kuhinja-zanat", 0.5),  # testo
+                  ("mk_42467", 0.45, None, "", "kuhinja-zanat", 0.5),  # mesi
+                  ("mk_43055", 0.5, None, "", "kuhinja-zanat", 0.2333),  # seče beli luk
+                  ("mk_43021", 0.5, None, "", "kuhinja-zanat", 0.2667),  # seče na dasci
+                  ("mk_42469", 0.5, None, "", "kuhinja-zanat", 0.2333),  # oblikuje picu
+                  ("mk_43037", 0.5, None, "", "kuhinja-zanat", 0.2667),  # seče precizno
+                  ("mk_43063", 0.5, None, "", "kuhinja-zanat", 0.2333),  # prži
+                  ("mk_4678", 0.5, None, "eq=gamma=1.3", "kuhinja-zanat", 0.2667),  # roštilj
+                  ("mk_40534", 0.5, None, "", "kuhinja-zanat", 0.2333),  # seče paradajz
+                  ("mk_50052", 0.5, None, "", "kuhinja-zanat", 0.2667),  # puni tortu
+                  ("mk_50017", 0.5, None, "", "kuhinja-zanat", 0.5),  # glazira tortu
+                  ("mk_50015", 0.5, None, "", "kuhinja-zanat", 1.0),  # završava tortu
+                  ("mk_2430", 0.5, None, "", "kuhinja-zanat", 1.0),  # gurmansko jelo - rezultat
+                  ],
+        "caption": "Every expert was once terrible at it. What skill are you practicing every day? \U0001F447",
+        "tags": "#stoicism #discipline #mindset #mastery #craft",
+        "sound": "focused phonk / rhythmic kitchen beat (trending ↗) - rez na osminu u sredini"},
 }
 
 
