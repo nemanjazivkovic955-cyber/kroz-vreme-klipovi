@@ -4,12 +4,18 @@
   "datum": "2026-11-20",
   "ocene": [
    67,
-   79
+   79,
+   87
   ],
   "promene": [
    "krug 1: izbačeni aerodromi/natpis, jedan svet (poker), lice junaka na hook",
-   "krug 2: go all in = guranje žetona, gamma na tamne kadrove"
+   "krug 2: go all in = guranje žetona, gamma na tamne kadrove",
+   "krug 3 (unapređivač): upaljač izbačen -> 5231 (crvena kravata gura žetone) pod 'Bet on yourself'; RISK 6x0.333 s sa 4 nova Mixkit snimka (40501, 5238, 5234, 40510); 40500 (natpis stola) i 40498 (mutno) odbačeni",
+   "krug 3: mk_5230 start 3.7 s (best_moment je birao 6.83 s - žetoni miruju) -> ruke guraju sve žetone kroz ceo kadar",
+   "krug 3: nova opcija 'hits' u stoic/edit.py (punch-in 12% + beli blic 2 frejma) na 2.0 i 4.0 s; qc_inspect ne broji blic kao kadar",
+   "krug 3: gamma 1.4-2.0 na tamnim kadrovima -> luma 0.18-0.22 -> 0.22-0.31"
   ],
-  "najveci_skok": "jedan junak + slika pogađa tekst (+12)"
+  "najveci_skok": "jedan junak + slika pogađa tekst (+12); zatim tempo RISK 0.333 s + udarci na smeni teksta (+8)",
+  "preostalo": "luma 0.22-0.26 (izvori 40500-serije sirovo 0.10-0.15); kockice = drugi igrač; reč RISK sitna (format)"
  }
 ]

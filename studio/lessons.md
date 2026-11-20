@@ -73,3 +73,9 @@
 37. 6-7 s + savršen loop (prosečno gledanje >100%). Trending zvuk sa jakim početkom (korisnik dodaje) obavezan.
 38. Publika je evropska (DE/IT/PL/NL/GB) jer je nalog regionalno u Evropi; američko vreme objave pomaže samo delimično.
 39. Mnogo objava dnevno iz novog naloga deli test grupu; posle prvog proboja povećavati.
+
+## Unapređivač — stoic_edit_30 (20.11.)
+40. **best_moment ne zna radnju:** za kadar koji nosi glagol iz teksta ("go all in" = guranje) zadaj `start` ručno posle kontakt-lista (5230: best_moment 6.83 s = žetoni miruju; radnja je 3.7-4.8 s).
+41. **Mixkit serije su susedni ID-jevi:** isti set snimanja (40497-40512, 5230-5247) daje nove kadrove istog sveta; thumbnail `assets.mixkit.co/videos/ID/ID-thumb-360-0.jpg` radi i kad je pretraga blokirana (Cloudflare).
+42. **Luma u inspekciji uključuje traku za tekst + GRADE:** sirovi izvor 0.10-0.15 posle gamma 1.8-2.0 ostaje ~0.22-0.25 i postaje mlečan; za cilj ≥0.28 birati izvore sa sirovom lumom ≥0.20.
+43. **Udarci na smeni teksta:** polje `"hits": [2.0, 4.0]` u unosu klipa (punch-in + blic 2 frejma); podrazumevano isključeno.

@@ -585,19 +585,19 @@ EDITS = {
     # ---- ŽIVI snimci (korisnik: "žive snimke, ne AI"): poker/rizik/moć
     30: {"mode": "story", "best": True, "hook": "Everyone bets on something. Bet on yourself.", "word": "RISK", "line": "go all in.",
         "hits": [2.0, 4.0],  # punch-in + blic 2 frejma na smeni teksta (RISK, go all in)
-        "loop": ("mk_40603", 0.5, 6.2, "eq=gamma=1.3", "poker-moc"),   # JUNAK: čovek u odelu, gleda u kameru (hook = najjači kadar)
-        "shots": [("mk_40600", 0.4, None, "eq=gamma=1.15", "poker-moc", 0.5),   # njegove ruke, manžetne - sprema se
-                  ("mk_5231", 0.6, 0.0, "eq=gamma=1.3", "poker-moc", 0.5),  # BET ON YOURSELF: crvena kravata, gura žetone na sto
+        "loop": ("mk_40603", 0.5, 6.2, "eq=gamma=1.4", "poker-moc"),   # JUNAK: čovek u odelu, gleda u kameru (hook = najjači kadar)
+        "shots": [("mk_40600", 0.4, None, "eq=gamma=1.4", "poker-moc", 0.5),   # njegove ruke, manžetne - sprema se
+                  ("mk_5231", 0.6, 0.0, "eq=gamma=1.45", "poker-moc", 0.5),  # BET ON YOURSELF: crvena kravata, gura žetone na sto
                   ("mk_40512", 0.5, None, "eq=gamma=1.3", "poker-moc", 0.5),       # karte se dele - opklada
                   ("mk_5245", 0.5, None, "eq=gamma=1.35", "poker-moc", 0.3333),     # RISK: žetoni padaju (udarac 2.0)
-                  ("mk_40507", 0.5, None, "eq=gamma=1.5", "poker-moc", 0.3333),  # uzima žetone za ulog
-                  ("mk_40501", 0.42, 2.3, "eq=gamma=1.6", "poker-moc", 0.3333),  # ruka obara kulu žetona
-                  ("mk_5238", 0.42, 5.35, "eq=gamma=1.1", "poker-moc", 0.3333),  # baca kockice
-                  ("mk_5234", 0.6, 4.35, "eq=gamma=1.2", "poker-moc", 0.3333),  # viri u karte: dva keca
-                  ("mk_40500", 0.5, None, "eq=gamma=1.4", "poker-moc", 0.3333),    # baca karte
-                  ("mk_5230", 0.45, 3.7, "eq=gamma=1.5:contrast=1.1", "poker-moc", 1.0),  # GO ALL IN: gura sve žetone (ruke kroz ceo kadar)
+                  ("mk_40507", 0.5, None, "eq=gamma=1.8", "poker-moc", 0.3333),  # uzima žetone za ulog
+                  ("mk_40501", 0.42, 2.3, "eq=gamma=1.95", "poker-moc", 0.3333),  # ruka obara kulu žetona
+                  ("mk_5238", 0.42, 5.35, "eq=gamma=1.45", "poker-moc", 0.3333),  # baca kockice
+                  ("mk_5234", 0.6, 4.35, "eq=gamma=1.45", "poker-moc", 0.3333),  # viri u karte: dva keca
+                  ("mk_40510", 0.5, 1.35, "eq=gamma=2.0", "poker-moc", 0.3333),  # baca žeton uvis - opklada (40500: natpis na stolu; 40498: mutno)
+                  ("mk_5230", 0.45, 3.7, "eq=gamma=1.9:contrast=1.08", "poker-moc", 1.0),  # GO ALL IN: gura sve žetone (ruke kroz ceo kadar)
                   ("mk_5240", 0.5, None, "", "poker-moc", 0.75),       # kraljevska kenta
-                  ("mk_40511", 0.5, None, "eq=gamma=1.35", "poker-moc", 0.75)],     # skida kulu žetona - dobitak
+                  ("mk_40511", 0.5, None, "eq=gamma=1.45", "poker-moc", 0.75)],     # skida kulu žetona - dobitak
         "caption": "Nobody's going to bet on you until you do. What are you going all in on? \U0001F447",
         "tags": "#stoicism #discipline #mindset #betonyourself #success",
         "sound": "dark casino phonk / slow suspense trap (trending ↗) - drop na 4.0 s (go all in)"},
