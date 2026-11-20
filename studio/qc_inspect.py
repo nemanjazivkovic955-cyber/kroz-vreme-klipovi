@@ -91,7 +91,7 @@ def expected_for(vid):
         _t, _pc = 0.5, [0.5]
         for _x in _e.get("shots", []): _t += _E.sdur(_x); _pc.append(round(_t, 3))
         return {"texts": [], "text_changes": [2.0, 4.0] if _e.get("hook") else [4.0], "silent": True, "loop": True, "kind": "stoic_edit", "dur": (7, 11),
-                "planned_cuts": _pc,
+                "planned_cuts": _pc, "hits": _e.get("hits", []),
                 "min_luma": 0.07, "min_shot": 0.2 if any(len(x) > 5 for x in _e.get("shots", [])) else 0.45}
     try:
         import talks
@@ -149,6 +149,8 @@ def inspect(path, vid=None, expect_silent=None):
         if flicker_ranges and k - flicker_ranges[-1][1] <= fps * 0.4: flicker_ranges[-1][1] = k
         else: flicker_ranges.append([k, k])
     cuts = [c for c in cuts if c not in flick]
+    hfs = [round(x * fps) for x in exp.get("hits", [])]  # planirani blic 2 frejma posle reza nije novi kadar
+    cuts = [c for c in cuts if not any(0 < c - h_ <= 2 for h_ in hfs)]
     if pcs:  # kod poznatog plana, rezovi = planirani; ostali skokovi (udarac zuma) se ne broje kao novi kadrovi
         cuts = [c for c in cuts if any(abs(c - p_) <= 1 for p_ in pcs)]
     # munja/blic: 2 "reza" na <=0.2 s koji se vrate na istu sliku -> jedan dogadjaj, ne rez
