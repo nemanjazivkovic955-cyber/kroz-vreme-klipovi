@@ -602,11 +602,11 @@ EDITS = {
         "tags": "#stoicism #discipline #mindset #betonyourself #success",
         "sound": "dark casino phonk / slow suspense trap (trending ↗) - drop na 4.0 s (go all in)"},
     # ---- 20.11. 18:00 NY (hype recept #2, skaut: Pexels set Mizuno K + Mixkit satovi)
-    31: {"mode": "story", "hits": [2.0, 4.0], "hook": "The rich buy time, not things.", "word": "TIME", "line": "buy back your hours.",
+    31: {"mode": "story", "hits": [2.0, 4.0], "hook_y": 0.25, "hook": "The rich buy time, not things.", "word": "TIME", "line": "buy back your hours.",
         "loop": ("px_13801264", 0.5, 2.0, "eq=gamma=1.3", "preduzetnik-sat"),   # JUNAK: portret pred NYSE, gleda u kameru (hook + kraj, svetao)
         "shots": [("px_13801280", 0.5, 3.0, "eq=gamma=1.3", "preduzetnik-sat", 0.5),   # BUY TIME: gleda u sat
                   ("px_13801270", 0.5, 1.5, "", "preduzetnik-sat", 0.5),               # potpisuje - kupuje
-                  ("px_13801275", 0.5, 4.2, "", "preduzetnik-sat", 0.5),               # NOT THINGS: odlaže telefon
+                  ("px_13801275", 0.5, 4.4, "", "preduzetnik-sat", 0.5),               # NOT THINGS: spušta i odlaže telefon
                   ("mk_28887", 0.5, 4.4, "", "preduzetnik-sat", 0.3333),               # TIME: sekundara prelazi 12
                   ("px_13801281", 0.5, 5.8, "", "preduzetnik-sat", 0.3333),            # glava u šaci na klupi (1440p)
                   ("mk_28893", 0.0, 1.5, "", "preduzetnik-sat", 0.3333),               # osovina + obe kazaljke + broj 10
@@ -614,8 +614,8 @@ EDITS = {
                   ("mk_39824", 0.45, 2.0, "", "preduzetnik-sat", 0.3333),              # metalni sat, brze kazaljke
                   ("px_13801293", 0.5, 3.8, "eq=gamma=1.45", "preduzetnik-sat", 0.3334),# trlja oči - prodao vreme
                   ("px_13801288", 0.5, 4.1, "", "preduzetnik-sat", 0.5),               # BUY BACK: rukovanje
-                  ("px_13801269", 0.5, 2.0, "", "preduzetnik-sat", 0.5),               # predaje posao - ona radi na njegovom laptopu
                   ("px_13801268", 0.5, 1.0, "", "preduzetnik-sat", 0.5),               # radi mirno na suncu
+                  ("px_13801271", 0.5, 2.6, "eq=gamma=1.15", "preduzetnik-sat", 0.5),               # partnerka stiska pesnicu - dobra vest
                   ("px_13801273", 0.5, 3.6, "eq=gamma=1.3", "preduzetnik-sat", 1.0)],  # high five - kraj, pa loop na portret
         "caption": "Money comes back. Hours don't. What would you do with 10 free hours a week? \U0001F447",
         "tags": "#entrepreneur #mindset #success #timeismoney #businessmotivation",
@@ -747,6 +747,7 @@ def overlay(e, n, total, path):
         t = f / FPS
         c = cairo.Context(s); c.set_operator(cairo.OPERATOR_CLEAR); c.paint(); c.set_operator(cairo.OPERATOR_OVER)
         cy = H * 0.44
+        if e.get("hook") and t < 2.0 and e.get("hook_y"): cy = H * e["hook_y"]  # opciono: hook iznad lica (podrazumevano 0.44)
         # blaga tamna traka iza teksta - čitljivost na svetlim kadrovima (nebo, staza)
         bt, bb = (cy - 260, cy + 230) if (e.get("hook") and t < 2.0) else (cy - 170, cy + 120)
         g = cairo.LinearGradient(0, bt, 0, bb)

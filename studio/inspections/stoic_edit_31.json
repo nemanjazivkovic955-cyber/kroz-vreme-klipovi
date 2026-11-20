@@ -1,7 +1,7 @@
 {
  "id": "stoic_edit_31",
  "file": "videos/stoic/stoic_edit_31.mp4",
- "inspected_at": "2026-11-20T19:50:31",
+ "inspected_at": "2026-11-20T19:52:50",
  "method": "Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.",
  "meta": {
   "width": 1080,
@@ -13,7 +13,7 @@
   "video_streams": 1,
   "audio_streams": 0,
   "acodec": null,
-  "bitrate_kbps": 23954
+  "bitrate_kbps": 24049
  },
  "expected": {
   "texts": [],
@@ -66,30 +66,30 @@
    "start": 0.0,
    "end": 0.5,
    "dur": 0.5,
-   "luma": 0.321,
-   "sharpness": 129.0,
-   "overexposed_frac": 0.008,
-   "hue": 122.0
+   "luma": 0.32,
+   "sharpness": 353.2,
+   "overexposed_frac": 0.007,
+   "hue": 121.2
   },
   {
    "index": 1,
    "start": 0.5,
    "end": 1.0,
    "dur": 0.5,
-   "luma": 0.281,
-   "sharpness": 151.6,
-   "overexposed_frac": 0.008,
-   "hue": 110.4
+   "luma": 0.284,
+   "sharpness": 384.6,
+   "overexposed_frac": 0.007,
+   "hue": 110.1
   },
   {
    "index": 2,
    "start": 1.0,
    "end": 2.0,
    "dur": 1.0,
-   "luma": 0.268,
-   "sharpness": 212.8,
-   "overexposed_frac": 0.008,
-   "hue": 104.5
+   "luma": 0.273,
+   "sharpness": 426.5,
+   "overexposed_frac": 0.007,
+   "hue": 104.1
   },
   {
    "index": 3,
@@ -97,7 +97,7 @@
    "end": 3.0,
    "dur": 1.0,
    "luma": 0.318,
-   "sharpness": 130.2,
+   "sharpness": 120.1,
    "overexposed_frac": 0.0,
    "hue": 109.6
   },
@@ -106,10 +106,10 @@
    "start": 3.0,
    "end": 3.333,
    "dur": 0.333,
-   "luma": 0.171,
-   "sharpness": 108.7,
+   "luma": 0.172,
+   "sharpness": 77.4,
    "overexposed_frac": 0.0,
-   "hue": 113.7
+   "hue": 114.4
   },
   {
    "index": 5,
@@ -117,9 +117,9 @@
    "end": 3.667,
    "dur": 0.333,
    "luma": 0.362,
-   "sharpness": 123.8,
+   "sharpness": 97.7,
    "overexposed_frac": 0.0,
-   "hue": 105.2
+   "hue": 105.5
   },
   {
    "index": 6,
@@ -127,9 +127,9 @@
    "end": 4.0,
    "dur": 0.333,
    "luma": 0.235,
-   "sharpness": 202.7,
+   "sharpness": 236.2,
    "overexposed_frac": 0.0,
-   "hue": 108.8
+   "hue": 108.5
   },
   {
    "index": 7,
@@ -137,29 +137,29 @@
    "end": 4.5,
    "dur": 0.5,
    "luma": 0.31,
-   "sharpness": 87.2,
+   "sharpness": 26.8,
    "overexposed_frac": 0.001,
-   "hue": 109.2
+   "hue": 109.4
   },
   {
    "index": 8,
    "start": 4.5,
    "end": 5.0,
    "dur": 0.5,
-   "luma": 0.236,
-   "sharpness": 125.7,
+   "luma": 0.302,
+   "sharpness": 253.9,
    "overexposed_frac": 0.002,
-   "hue": 96.9
+   "hue": 112.1
   },
   {
    "index": 9,
    "start": 5.0,
    "end": 5.5,
    "dur": 0.5,
-   "luma": 0.303,
-   "sharpness": 278.8,
+   "luma": 0.196,
+   "sharpness": 97.7,
    "overexposed_frac": 0.002,
-   "hue": 111.8
+   "hue": 112.3
   },
   {
    "index": 10,
@@ -167,17 +167,17 @@
    "end": 6.5,
    "dur": 1.0,
    "luma": 0.285,
-   "sharpness": 125.1,
+   "sharpness": 131.5,
    "overexposed_frac": 0.002,
-   "hue": 104.6
+   "hue": 104.4
   },
   {
    "index": 11,
    "start": 6.5,
    "end": 7.0,
    "dur": 0.5,
-   "luma": 0.332,
-   "sharpness": 172.5,
+   "luma": 0.333,
+   "sharpness": 173.0,
    "overexposed_frac": 0.002,
    "hue": 121.8
   }
@@ -199,65 +199,65 @@
  "continuity": [
   {
    "t": 0.5,
-   "luma_jump": 0.036,
-   "hue_jump": 11.7
+   "luma_jump": 0.032,
+   "hue_jump": 11.4
   },
   {
    "t": 1.0,
    "luma_jump": 0.029,
-   "hue_jump": 8.1
+   "hue_jump": 8.2
   },
   {
    "t": 2.0,
-   "luma_jump": 0.283,
-   "hue_jump": 3.9
+   "luma_jump": 0.276,
+   "hue_jump": 4.5
   },
   {
    "t": 3.0,
-   "luma_jump": 0.152,
-   "hue_jump": 3.4
+   "luma_jump": 0.153,
+   "hue_jump": 4.0
   },
   {
    "t": 3.333,
    "luma_jump": 0.195,
-   "hue_jump": 8.8
+   "hue_jump": 8.9
   },
   {
    "t": 3.667,
-   "luma_jump": 0.123,
-   "hue_jump": 3.2
+   "luma_jump": 0.124,
+   "hue_jump": 2.8
   },
   {
    "t": 4.0,
    "luma_jump": 0.227,
-   "hue_jump": 0.1
+   "hue_jump": 0.6
   },
   {
    "t": 4.5,
-   "luma_jump": 0.042,
-   "hue_jump": 13.1
+   "luma_jump": 0.023,
+   "hue_jump": 2.1
   },
   {
    "t": 5.0,
-   "luma_jump": 0.062,
-   "hue_jump": 14.2
+   "luma_jump": 0.111,
+   "hue_jump": 0.2
   },
   {
    "t": 5.5,
-   "luma_jump": 0.026,
-   "hue_jump": 6.3
+   "luma_jump": 0.084,
+   "hue_jump": 6.9
   },
   {
    "t": 6.5,
    "luma_jump": 0.05,
-   "hue_jump": 15.6
+   "hue_jump": 15.4
   }
  ],
  "loop_seam": {
-  "seam_diff": 10.71,
-  "median_neighbor_diff": 3.14,
-  "ok": true,
-  "seam_diff_no_text": 4.3
+  "seam_diff": 17.32,
+  "median_neighbor_diff": 3.27,
+  "ok": false,
+  "seam_diff_no_text": 10.78
  },
  "text_timing": {
   "detected": [
@@ -288,6 +288,12 @@
    "type": "continuity",
    "t": 2.0,
    "msg": "nagli skok osvetljenosti na rezu (0.28)"
+  },
+  {
+   "severity": "major",
+   "type": "loop_seam",
+   "t": 7.0,
+   "msg": "loop spoj vidljiv (bez teksta 10.78 vs susedni 3.27)"
   }
  ],
  "sheets": [
@@ -299,15 +305,21 @@
    "at": "2026-11-20T19:42:28",
    "approved": false,
    "issues": 2
+  },
+  {
+   "at": "2026-11-20T19:50:31",
+   "approved": false,
+   "issues": 1
   }
  ],
  "approval": {
-  "technical_pass": true,
+  "technical_pass": false,
   "vision_reviewed": false,
   "weak_scenes": 0,
   "creative_score": null,
   "approved": false,
   "blocking": [
+   "1 većih problema",
    "nema vizuelnog pregleda"
   ]
  }
