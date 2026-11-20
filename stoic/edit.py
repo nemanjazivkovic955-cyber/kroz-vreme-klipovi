@@ -632,18 +632,17 @@ EDITS = {
         "sound": "euphoric build / celebratory trap (trending ↗) - tiho do 2 s, drop na 4.0 s (čep puca)"},
     33: {"mode": "story", "hits": [2.0, 4.0], "hook": "Fifty years ago, this was sand.", "word": "AMBITION", "line": "build from nothing.",
         "loop": ("mk_49833", 0.38, 3.0, "", "pesak-grad"),   # beli toranj, dron (prvi frejm svetao)
-        "shots": [("mk_52009", 0.5, 4.0, "", "pesak-grad", 0.5),                # WAS SAND: ravan pesak, sunce
-                  ("mk_2093", 0.5, 1.0, "", "pesak-grad", 0.5),                 # pesak odozgo
-                  ("mk_2786", 0.5, 3.0, "", "pesak-grad", 0.5),                 # prvi put kroz pesak
-                  ("mk_40718", 0.57, 0.4, "eq=gamma=1.15", "pesak-grad", 0.3333),  # AMBITION: kran na tornju
-                  ("mk_49870", 0.5, 0.4, "", "pesak-grad", 0.3333),             # toranj sa kranom raste
-                  ("mk_49822", 0.5, 20.0, "", "pesak-grad", 0.3333),            # neboderi sa kranovima
-                  ("mk_49860", 0.5, 0.3, "eq=gamma=1.2", "pesak-grad", 0.3333), # toranj u nebo
-                  ("mk_49826", 0.5, 4.2, "", "pesak-grad", 0.3333),             # stakleni tornjevi
-                  ("mk_49863", 0.5, 5.5, "eq=gamma=1.1", "pesak-grad", 0.3335), # grad nad rekom
-                  ("mk_1587", 0.15, 0.3, "", "pesak-grad", 0.75),               # BUILD: kostur zgrade u suncu
-                  ("mk_2010", 0.5, 3.7, "", "pesak-grad", 0.75),                # kran + avion
-                  ("mk_314", 0.5, 11.3, "", "pesak-grad", 1.0)],                # rezultat: par u odelima izlazi
+        "shots": [("mk_51785", 0.15, 8.0, "eq=gamma=1.3", "pesak-grad", 0.5),                # WAS SAND: prazna crvena pustinja do horizonta
+                  ("mk_2786", 0.5, 3.0, "", "pesak-grad", 0.5),                 # prvi trag kroz pesak
+                  ("mk_51794", 0.5, 19.0, "eq=gamma=1.35", "pesak-grad", 0.5),               # pustinja, tek par baraka
+                  ("mk_3970", 0.5, 11.0, "eq=contrast=1.2", "pesak-grad", 0.4),                 # AMBITION (hit 2.0): kran u suncu
+                  ("mk_40718", 0.57, 0.4, "eq=gamma=1.55", "pesak-grad", 0.4),  # kran na tornju
+                  ("mk_49870", 0.5, 0.4, "eq=gamma=1.4", "pesak-grad", 0.4),                # toranj sa kranom raste
+                  ("mk_1587", 0.15, 0.3, "eq=gamma=1.3", "pesak-grad", 0.4),                # kostur zgrade u suncu
+                  ("mk_2010", 0.5, 3.7, "", "pesak-grad", 0.4),                 # kran + avion
+                  ("mk_49872", 0.5, 3.0, "eq=gamma=1.45", "pesak-grad", 0.7667),             # BUILD (hit 4.0): osvetljen toranj u sumrak
+                  ("mk_49873", 0.5, 8.0, "eq=gamma=1.95:contrast=1.08", "pesak-grad", 0.7333), # noćni grad, svetla
+                  ("mk_49871", 0.5, 1.0, "eq=gamma=1.6", "pesak-grad", 1.0)],               # toranj nad gradom u plavom satu -> loop dnevni toranj
         "caption": "Every skyline started as empty sand. What are you building from nothing? \U0001F447",
         "tags": "#ambition #mindset #success #skyline #luxurylifestyle",
         "sound": "We could stay here or we could go up (trending ↗, rani trend) ili cinematic build-up phonk, drop na 4.0 s"},
