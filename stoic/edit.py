@@ -620,23 +620,16 @@ EDITS = {
         "caption": "Money comes back. Hours don't. What would you do with 10 free hours a week? \U0001F447",
         "tags": "#entrepreneur #mindset #success #timeismoney #businessmotivation",
         "sound": "smooth dark trap / ticking-clock intro (trending ↗) - drop na 4.0 s (buy back your hours). Pexels snimci: Mizuno K (pexels.com/@mizunokozuki)"},
-    32: {"mode": "story", "hits": [2.0, 4.0], "hook": "Six weeks left in this year.", "word": "SPRINT", "line": "finish it loud.",
-        "loop": ("mk_51537", 0.45, 4.6, "", "gala-sprint"),   # JUNAKINJA: čep puca, vrišti od smeha
-        "shots": [("mk_51534", 0.50, 1.2, "eq=gamma=1.15", "gala-sprint", 0.5),     # SIX WEEKS LEFT: gleda gore, razmišlja
-                  ("mk_51550", 0.35, 2.0, "", "gala-sprint", 0.5),                   # prazna čaša čeka da se napuni
-                  ("mk_51522", 0.45, 3.0, "eq=gamma=1.3", "gala-sprint", 0.5),       # vrata se otvaraju, društvo maše
-                  ("mk_51562", 0.45, 3.5, "", "gala-sprint", 0.3333),                # SPRINT: flaša juri u čašu
-                  ("mk_51529", 0.42, 2.9, "eq=gamma=1.1", "gala-sprint", 0.3333),    # ruke kucaju čašama
-                  ("mk_51569", 0.5, 12.5, "", "gala-sprint", 0.3333),                # pena juri do vrha
-                  ("mk_51535", 0.45, 4.9, "", "gala-sprint", 0.3333),                # ispija naiskap
-                  ("mk_51555", 0.55, 11.8, "", "gala-sprint", 0.3333),               # mlaz među punim čašama
-                  ("mk_51560", 0.5, 11.5, "", "gala-sprint", 0.3334),                # pena do ivice
-                  ("mk_51530", 0.72, 3.55, "", "gala-sprint", 0.75),                 # FINISH IT LOUD: glasno se smeje, kucanje
-                  ("mk_51536", 0.35, 3.0, "", "gala-sprint", 0.75),                  # zabacuje glavu od smeha
-                  ("mk_51539", 0.62, 10.8, "eq=gamma=1.3", "gala-sprint", 1.0)],     # prskalica, ruka gore
+    32: {"mode": "story", "hits": [2.0, 4.0], "flash": (0.22, 0.08), "hook": "Six weeks left in this year.", "word": "SPRINT", "line": "finish it loud.",
+        "loop": ("mk_51534", 0.50, 1.5, "eq=gamma=1.45", "gala-sprint"),   # JUNAKINJA: gleda gore, razmišlja (hook + kraj, šav loop-a 1.0-2.0)
+        "shots": [("mk_51562", 0.45, 3.0, "", "gala-sprint", 0.75),                  # SIX WEEKS LEFT: godina se puni kao čaša (jedino točenje)
+                  ("mk_51530", 0.72, 0.9, "eq=gamma=1.15", "gala-sprint", 0.75),     # ona podiže čašu, odlučuje
+                  ("mk_51529", 0.60, 2.9, "eq=gamma=1.25", "gala-sprint", 0.75),     # SPRINT: naginje se i kucne čašom (tamno pod reč)
+                  ("mk_51539", 0.60, 10.9, "eq=gamma=1.1:contrast=1.1", "gala-sprint", 0.75),  # noć, prskalice dižu (crna pozadina)
+                  ("mk_51537", 0.45, 4.3, "eq=contrast=1.1", "gala-sprint", 1.75)],                 # FINISH IT LOUD: čep puca tačno na 4.0, vrisak, flaša gore
         "caption": "Most people wait for January. Six weeks is enough to change your year. What will you finish before Dec 31? \U0001F447",
         "tags": "#newyeargoals #mindset #discipline #success #luxurylifestyle",
-        "sound": "euphoric build / celebratory trap (trending ↗) - tiho do 2 s, drop na 4.0 s uz prskalice"},
+        "sound": "euphoric build / celebratory trap (trending ↗) - tiho do 2 s, drop na 4.0 s (čep puca)"},
     33: {"mode": "story", "hits": [2.0, 4.0], "hook": "Fifty years ago, this was sand.", "word": "AMBITION", "line": "build from nothing.",
         "loop": ("mk_49833", 0.38, 3.0, "", "pesak-grad"),   # beli toranj, dron (prvi frejm svetao)
         "shots": [("mk_52009", 0.5, 4.0, "", "pesak-grad", 0.5),                # WAS SAND: ravan pesak, sunce
@@ -826,7 +819,7 @@ def make(n):
     ov = os.path.join(M.TMP, f"e{n}_ov.mov"); overlay(e, n, total, ov)
     # vizuelni udarac: beli blic 2 frejma (55% pa 25%) na trenucima iz "hits" (samo ako je zadato)
     flash = "".join(f",drawbox=t=fill:color=white@{a}:enable='eq(n,{int(round(h * FPS)) + i})'"
-                    for h in e.get("hits", []) for i, a in enumerate((0.55, 0.25)))
+                    for h in e.get("hits", []) for i, a in enumerate(e.get("flash", (0.55, 0.25))))  # opciono "flash": slabiji blic (npr. (0.22, 0.08)) da ne gasi lice
     out = os.path.join(M.OUT, f"stoic_edit_{n:02d}.mp4"); part = out.replace(".mp4", ".part.mp4")
     subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-i", base, "-i", ov, "-filter_complex",
                     f"[0:v][1:v]overlay=format=auto{flash},noise=alls={4 if live else 7}:allf=t,format=yuv420p[v]", "-map", "[v]", "-an",
