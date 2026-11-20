@@ -5075,17 +5075,19 @@
   ],
   "ending": "go all in.",
   "footage": [
-   "mk_5230",
    "mk_40603",
    "mk_40600",
-   "mk_4642",
+   "mk_5231",
    "mk_40512",
    "mk_5245",
    "mk_40507",
-   "mk_40500",
+   "mk_40501",
+   "mk_5238",
+   "mk_5234",
+   "mk_40510",
+   "mk_5230",
    "mk_5240",
-   "mk_40511",
-   "mk_4605"
+   "mk_40511"
   ],
   "visual_style": "noćni luksuz, rez na svaki udarac",
   "music": "nema (korisnik dodaje)",
@@ -5093,15 +5095,15 @@
   "output": "videos/stoic/stoic_edit_30.mp4",
   "inspection": {
    "report": "studio/inspections/stoic_edit_30.md",
-   "inspected_at": "2026-11-20T14:55:53",
+   "inspected_at": "2026-11-20T15:31:19",
    "approval": {
     "technical_pass": true,
     "vision_reviewed": true,
     "weak_scenes": 0,
-    "creative_score": 88,
+    "creative_score": 87,
     "approved": false,
     "blocking": [
-     "kreativna ocena 88 < 90"
+     "kreativna ocena 87 < 90"
     ]
    },
    "issues": 0,
@@ -5110,17 +5112,20 @@
     1.0,
     1.5,
     2.0,
+    2.333,
     3.0,
+    3.333,
+    3.667,
     4.0,
     5.0,
-    6.0,
-    6.5
+    5.733,
+    6.467
    ],
    "loop_seam": {
-    "seam_diff": 9.45,
-    "median_neighbor_diff": 3.49,
+    "seam_diff": 8.66,
+    "median_neighbor_diff": 4.13,
     "ok": true,
-    "seam_diff_no_text": 2.46
+    "seam_diff_no_text": 1.83
    }
   }
  },
