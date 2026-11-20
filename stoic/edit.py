@@ -603,19 +603,20 @@ EDITS = {
         "sound": "dark casino phonk / slow suspense trap (trending ↗) - drop na 4.0 s (go all in)"},
     # ---- 20.11. 18:00 NY (hype recept #2, skaut: Pexels set Mizuno K + Mixkit satovi)
     31: {"mode": "story", "hits": [2.0, 4.0], "hook": "The rich buy time, not things.", "word": "TIME", "line": "buy back your hours.",
-        "loop": ("px_13801273", 0.5, 4.0, "", "preduzetnik-sat"),   # junak se smeje, high five (prvi frejm, svetao, pokret)
-        "shots": [("px_13801280", 0.5, 3.0, "", "preduzetnik-sat", 0.5),               # gleda u sat
+        "loop": ("px_13801264", 0.5, 2.0, "eq=gamma=1.3", "preduzetnik-sat"),   # JUNAK: portret pred NYSE, gleda u kameru (hook + kraj, svetao)
+        "shots": [("px_13801280", 0.5, 3.0, "eq=gamma=1.3", "preduzetnik-sat", 0.5),   # BUY TIME: gleda u sat
                   ("px_13801270", 0.5, 1.5, "", "preduzetnik-sat", 0.5),               # potpisuje - kupuje
-                  ("px_13801255", 0.5, 2.0, "", "preduzetnik-sat", 0.5),               # silueta nad gradom, telefon
+                  ("px_13801275", 0.5, 4.2, "", "preduzetnik-sat", 0.5),               # NOT THINGS: odlaže telefon
                   ("mk_28887", 0.5, 4.4, "", "preduzetnik-sat", 0.3333),               # TIME: sekundara prelazi 12
-                  ("px_13801281", 0.5, 3.0, "", "preduzetnik-sat", 0.3333),            # na klupi gleda u sat
-                  ("mk_28893", 0.4, 3.0, "", "preduzetnik-sat", 0.3333),               # kazaljke jure
-                  ("px_13801289", 0.5, 2.6, "eq=gamma=1.2", "preduzetnik-sat", 0.3333),# čelo na zidu
+                  ("px_13801281", 0.5, 5.8, "", "preduzetnik-sat", 0.3333),            # glava u šaci na klupi (1440p)
+                  ("mk_28893", 0.0, 1.5, "", "preduzetnik-sat", 0.3333),               # osovina + obe kazaljke + broj 10
+                  ("px_13801276", 0.5, 0.2, "", "preduzetnik-sat", 0.3333),            # zabrinut nad laptopom u sumrak
                   ("mk_39824", 0.45, 2.0, "", "preduzetnik-sat", 0.3333),              # metalni sat, brze kazaljke
-                  ("px_13801293", 0.5, 3.8, "eq=gamma=1.3", "preduzetnik-sat", 0.3334),# trlja oči - prodao vreme
-                  ("px_13801288", 0.5, 3.8, "", "preduzetnik-sat", 0.75),              # BUY BACK: rukovanje
-                  ("px_13801268", 0.5, 1.0, "", "preduzetnik-sat", 0.75),              # radi mirno na suncu
-                  ("px_13801264", 0.5, 2.0, "", "preduzetnik-sat", 1.0)],              # vlasnik ispred NYSE
+                  ("px_13801293", 0.5, 3.8, "eq=gamma=1.45", "preduzetnik-sat", 0.3334),# trlja oči - prodao vreme
+                  ("px_13801288", 0.5, 4.1, "", "preduzetnik-sat", 0.5),               # BUY BACK: rukovanje
+                  ("px_13801269", 0.5, 2.0, "", "preduzetnik-sat", 0.5),               # predaje posao - ona radi na njegovom laptopu
+                  ("px_13801268", 0.5, 1.0, "", "preduzetnik-sat", 0.5),               # radi mirno na suncu
+                  ("px_13801273", 0.5, 3.6, "eq=gamma=1.3", "preduzetnik-sat", 1.0)],  # high five - kraj, pa loop na portret
         "caption": "Money comes back. Hours don't. What would you do with 10 free hours a week? \U0001F447",
         "tags": "#entrepreneur #mindset #success #timeismoney #businessmotivation",
         "sound": "smooth dark trap / ticking-clock intro (trending ↗) - drop na 4.0 s (buy back your hours). Pexels snimci: Mizuno K (pexels.com/@mizunokozuki)"},
@@ -636,6 +637,23 @@ EDITS = {
         "caption": "Most people wait for January. Six weeks is enough to change your year. What will you finish before Dec 31? \U0001F447",
         "tags": "#newyeargoals #mindset #discipline #success #luxurylifestyle",
         "sound": "euphoric build / celebratory trap (trending ↗) - tiho do 2 s, drop na 4.0 s uz prskalice"},
+    33: {"mode": "story", "hits": [2.0, 4.0], "hook": "Fifty years ago, this was sand.", "word": "AMBITION", "line": "build from nothing.",
+        "loop": ("mk_49833", 0.38, 3.0, "", "pesak-grad"),   # beli toranj, dron (prvi frejm svetao)
+        "shots": [("mk_52009", 0.5, 4.0, "", "pesak-grad", 0.5),                # WAS SAND: ravan pesak, sunce
+                  ("mk_2093", 0.5, 1.0, "", "pesak-grad", 0.5),                 # pesak odozgo
+                  ("mk_2786", 0.5, 3.0, "", "pesak-grad", 0.5),                 # prvi put kroz pesak
+                  ("mk_40718", 0.57, 0.4, "eq=gamma=1.15", "pesak-grad", 0.3333),  # AMBITION: kran na tornju
+                  ("mk_49870", 0.5, 0.4, "", "pesak-grad", 0.3333),             # toranj sa kranom raste
+                  ("mk_49822", 0.5, 20.0, "", "pesak-grad", 0.3333),            # neboderi sa kranovima
+                  ("mk_49860", 0.5, 0.3, "eq=gamma=1.2", "pesak-grad", 0.3333), # toranj u nebo
+                  ("mk_49826", 0.5, 4.2, "", "pesak-grad", 0.3333),             # stakleni tornjevi
+                  ("mk_49863", 0.5, 5.5, "eq=gamma=1.1", "pesak-grad", 0.3335), # grad nad rekom
+                  ("mk_1587", 0.15, 0.3, "", "pesak-grad", 0.75),               # BUILD: kostur zgrade u suncu
+                  ("mk_2010", 0.5, 3.7, "", "pesak-grad", 0.75),                # kran + avion
+                  ("mk_314", 0.5, 11.3, "", "pesak-grad", 1.0)],                # rezultat: par u odelima izlazi
+        "caption": "Every skyline started as empty sand. What are you building from nothing? \U0001F447",
+        "tags": "#ambition #mindset #success #skyline #luxurylifestyle",
+        "sound": "We could stay here or we could go up (trending ↗, rani trend) ili cinematic build-up phonk, drop na 4.0 s"},
 }
 
 
