@@ -4301,6 +4301,228 @@
   }
  },
  {
+  "id": "stoic_edit_18",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "solitude",
+  "hook": "S O L I T U D E",
+  "text": [
+   "S O L I T U D E",
+   "the quiet hours count."
+  ],
+  "ending": "the quiet hours count.",
+  "footage": [
+   "mk_50133",
+   "mk_1793",
+   "mk_52198",
+   "mk_308",
+   "mk_1728",
+   "mk_1781",
+   "mk_50111",
+   "mk_1730",
+   "mk_50109",
+   "mk_242",
+   "mk_50116",
+   "mk_29997",
+   "mk_3983",
+   "mk_4038",
+   "mk_42653",
+   "mk_4954"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_18.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_18.md",
+   "inspected_at": "2026-11-20T09:24:56",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 87,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 87 < 90"
+    ]
+   },
+   "issues": 1,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.233,
+    2.5,
+    2.733,
+    3.0,
+    3.233,
+    3.5,
+    3.733,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.5
+   ],
+   "loop_seam": {
+    "seam_diff": 8.82,
+    "median_neighbor_diff": 2.32,
+    "ok": true,
+    "seam_diff_no_text": 2.59
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_19",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "delay",
+  "hook": "D E L A Y",
+  "text": [
+   "D E L A Y",
+   "wait for it."
+  ],
+  "ending": "wait for it.",
+  "footage": [
+   "mk_44086",
+   "mk_52219",
+   "mk_4919",
+   "mk_52213",
+   "mk_4911",
+   "mk_52207",
+   "mk_42133",
+   "mk_4801",
+   "mk_18263",
+   "mk_18307",
+   "mk_43699",
+   "mk_43697",
+   "mk_43702",
+   "mk_4776",
+   "mk_43706",
+   "mk_4998",
+   "mk_4881"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_19.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_19.md",
+   "inspected_at": "2026-11-20T09:19:06",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 88,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 88 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.233,
+    2.5,
+    2.733,
+    3.0,
+    3.233,
+    3.5,
+    3.733,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0,
+    6.5
+   ],
+   "loop_seam": {
+    "seam_diff": 9.17,
+    "median_neighbor_diff": 3.75,
+    "ok": true,
+    "seam_diff_no_text": 2.26
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_21",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "vision",
+  "hook": "V I S I O N",
+  "text": [
+   "V I S I O N",
+   "then build it."
+  ],
+  "ending": "then build it.",
+  "footage": [
+   "mk_42182",
+   "mk_42196",
+   "mk_2858",
+   "mk_29984",
+   "mk_1437",
+   "mk_41602",
+   "mk_40310",
+   "mk_44708",
+   "mk_44644",
+   "mk_1440",
+   "mk_1457",
+   "mk_1442",
+   "mk_600",
+   "mk_581",
+   "mk_613",
+   "mk_2788",
+   "mk_4854"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_21.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_21.md",
+   "inspected_at": "2026-11-20T09:26:31",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 86,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 86 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.233,
+    2.5,
+    3.0,
+    3.233,
+    3.5,
+    3.733,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0,
+    6.5
+   ],
+   "loop_seam": {
+    "seam_diff": 6.91,
+    "median_neighbor_diff": 3.22,
+    "ok": true,
+    "seam_diff_no_text": 2.14
+   }
+  }
+ },
+ {
   "id": "talk_city",
   "family": "talk_v1",
   "format": "TikTok 9:16 ~30 s, glas + muzika",

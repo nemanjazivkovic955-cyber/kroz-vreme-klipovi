@@ -348,6 +348,75 @@ EDITS = {
         "caption": "Everyone wants the lifestyle. Nobody wants the 5AM part. Would you trade 5 years for it? \U0001F447",
         "tags": "#stoicism #discipline #mindset #sacrifice #luxurylifestyle",
         "sound": "dark luxury phonk / fast trap (trending ↗) - rez na svaku osminu (0.25 s)"},
+    # ---- krug: LUXE montaža + priča (20.11.); #20 preskočen: premalo zanatskih kadrova bez brenda
+    18: {"mode": "story", "hook": "They called it lonely. It was focus.", "word": "SOLITUDE", "line": "the quiet hours count.",
+        "loop": ("mk_50133", 0.15, 6.0, "eq=gamma=1.2", "noć-rad"),  # mladić uči noću
+        "shots": [
+                  ("mk_1793", 0.5, None, "eq=gamma=1.3", "noć-rad", 0.5),  # lampa nad stolom
+                  ("mk_52198", 0.4, None, "eq=gamma=1.2", "noć-rad", 0.5),  # tišina sobe
+                  ("mk_308", 0.55, None, "", "noć-rad", 0.5),  # laptop, grad kroz prozor
+                  ("mk_1728", 0.3, None, "eq=gamma=1.5", "noć-rad", 0.2333),  # kod na ekranu
+                  ("mk_1781", 0.5, None, "", "noć-rad", 0.2667),  # kucanje
+                  ("mk_50111", 0.5, None, "", "noć-rad", 0.2333),  # sto pun beleški
+                  ("mk_1730", 0.45, None, "", "noć-rad", 0.2667),  # kafa i laptop
+                  ("mk_50109", 0.5, None, "", "noć-rad", 0.2333),  # beleške
+                  ("mk_242", 0.6, None, "", "noć-rad", 0.2667),  # kucanje noću
+                  ("mk_50116", 0.55, None, "", "noć-rad", 0.2333),  # crta grafikon
+                  ("mk_29997", 0.5, None, "", "noć-rad", 0.2667),  # 3D model u radionici
+                  ("mk_3983", 0.5, None, "eq=gamma=1.2", "noć-rad", 0.5),  # mesec nad šumom
+                  ("mk_4038", 0.5, None, "", "noć-rad", 0.5),  # polarna svetlost
+                  ("mk_42653", 0.55, None, "", "noć-rad", 0.5),  # završava rad
+                  ("mk_4954", 0.5, None, "", "noć-rad", 1.0),  # zatvara laptop
+                  ],
+        "caption": "Some of your best work happens when nobody's watching. What do you work on when everyone's asleep? \U0001F447",
+        "tags": "#stoicism #discipline #mindset #solitude #nightwork",
+        "sound": "slowed lo-fi phonk / dark ambient (trending ↗) - rez na osminu u sredini"},
+    19: {"mode": "story", "hook": "You want it now. That's why you don't have it.", "word": "DELAY", "line": "wait for it.",
+        "loop": ("mk_44086", 0.45, 4.0, "", "odlaganje"),  # jede krofnu - odmah
+        "shots": [
+                  ("mk_52219", 0.5, None, "", "odlaganje", 0.5),  # žitarice padaju
+                  ("mk_4919", 0.55, None, "", "odlaganje", 0.5),  # kupovina telefonom
+                  ("mk_52213", 0.5, None, "", "odlaganje", 0.5),  # šarene žitarice
+                  ("mk_4911", 0.5, None, "", "odlaganje", 0.2333),  # skrolovanje u krevetu
+                  ("mk_52207", 0.5, None, "", "odlaganje", 0.2667),  # čokoladne kuglice
+                  ("mk_42133", 0.5, None, "", "odlaganje", 0.2333),  # skrol prodaje
+                  ("mk_4801", 0.4, None, "", "odlaganje", 0.2667),  # telefon za stolom
+                  ("mk_18263", 0.5, None, "", "odlaganje", 0.2333),  # broji novčiće - štednja
+                  ("mk_18307", 0.5, None, "eq=gamma=1.4", "odlaganje", 0.2667),  # baca novčić
+                  ("mk_43699", 0.5, None, "", "odlaganje", 0.2333),  # presađuje biljku
+                  ("mk_43697", 0.5, None, "", "odlaganje", 0.2667),  # listovi rastu
+                  ("mk_43702", 0.5, None, "", "odlaganje", 0.5),  # sadi
+                  ("mk_4776", 0.5, None, "", "odlaganje", 0.5),  # zaliva
+                  ("mk_43706", 0.5, None, "", "odlaganje", 0.5),  # cvet procvetao
+                  ("mk_4998", 0.5, None, "", "odlaganje", 0.5),  # jezero u zalasku - mir
+                  ("mk_4881", 0.5, None, "", "odlaganje", 0.5),  # polje suncokreta - žetva
+                  ],
+        "caption": "Everything good takes longer than you want. What are you willing to wait for? \U0001F447",
+        "tags": "#stoicism #discipline #mindset #patience #delayedgratification",
+        "sound": "calm-to-epic phonk (trending ↗) - rez na osminu u sredini"},
+    21: {"mode": "story", "hook": "See it before you build it.", "word": "VISION", "line": "then build it.",
+        "loop": ("mk_42182", 0.5, 4.0, "", "gradnja-vizija"),  # dete slaže lego
+        "shots": [
+                  ("mk_42196", 0.5, None, "", "gradnja-vizija", 0.5),  # devojčica gradi
+                  ("mk_2858", 0.45, None, "", "gradnja-vizija", 0.5),  # ruka crta
+                  ("mk_29984", 0.4, None, "", "gradnja-vizija", 0.5),  # beležnica i olovke
+                  ("mk_1437", 0.5, None, "", "gradnja-vizija", 0.2333),  # nacrt na gradilištu
+                  ("mk_41602", 0.45, None, "", "gradnja-vizija", 0.2667),  # akvarel
+                  ("mk_40310", 0.6, None, "", "gradnja-vizija", 0.2333),  # detalj slike
+                  ("mk_44708", 0.5, None, "eq=gamma=1.7", "gradnja-vizija", 0.2667),  # kontroler drona
+                  ("mk_44644", 0.5, None, "", "gradnja-vizija", 0.2333),  # dron na nebu (623 elise odbačene: crno)
+                  ("mk_1440", 0.5, None, "", "gradnja-vizija", 0.2667),  # stavlja šlem
+                  ("mk_1457", 0.5, None, "", "gradnja-vizija", 0.2333),  # cigle
+                  ("mk_1442", 0.55, None, "", "gradnja-vizija", 0.2667),  # gradilište
+                  ("mk_600", 0.5, None, "", "gradnja-vizija", 0.5),  # gleda zgradu
+                  ("mk_581", 0.6, None, "", "gradnja-vizija", 0.5),  # dron nad zgradom
+                  ("mk_613", 0.5, None, "eq=gamma=1.6", "gradnja-vizija", 0.5),  # dron nad šumom
+                  ("mk_2788", 0.5, None, "", "gradnja-vizija", 0.5),  # kuće u šumi odozgo
+                  ("mk_4854", 0.5, None, "", "gradnja-vizija", 0.5),  # silueta i grad u zalasku
+                  ],
+        "caption": "Every building was a drawing first. What are you building right now? \U0001F447",
+        "tags": "#stoicism #discipline #mindset #vision #builder",
+        "sound": "cinematic build-up phonk (trending ↗) - rez na osminu u sredini"},
 }
 
 
