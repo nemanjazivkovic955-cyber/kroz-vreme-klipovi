@@ -12,3 +12,4 @@ stoic/tts/
 videos/stoic_long/*.mp4
 stoic/music/
 stoic/sd/ep02/*.png
+stoic/sd/ep02/*.npy
