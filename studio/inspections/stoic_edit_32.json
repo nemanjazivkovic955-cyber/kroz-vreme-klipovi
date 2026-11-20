@@ -1,7 +1,7 @@
 {
  "id": "stoic_edit_32",
  "file": "videos/stoic/stoic_edit_32.mp4",
- "inspected_at": "2026-11-20T19:44:01",
+ "inspected_at": "2026-11-20T20:10:22",
  "method": "Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.",
  "meta": {
   "width": 1080,
@@ -13,7 +13,7 @@
   "video_streams": 1,
   "audio_streams": 0,
   "acodec": null,
-  "bitrate_kbps": 23973
+  "bitrate_kbps": 23837
  },
  "expected": {
   "texts": [],
@@ -30,23 +30,17 @@
   ],
   "planned_cuts": [
    0.5,
-   1.0,
-   1.5,
+   1.267,
    2.0,
-   2.333,
-   2.667,
-   3.0,
-   3.333,
-   3.666,
-   4.0,
-   4.75,
-   5.5,
+   2.767,
+   3.767,
    6.5
   ],
   "hits": [
    2.0,
    4.0
   ],
+  "hook_y": 0.62,
   "min_luma": 0.07,
   "min_shot": 0.2
  },
@@ -63,206 +57,127 @@
   {
    "index": 0,
    "start": 0.0,
-   "end": 1.0,
-   "dur": 1.0,
-   "luma": 0.194,
-   "sharpness": 73.8,
+   "end": 0.5,
+   "dur": 0.5,
+   "luma": 0.284,
+   "sharpness": 336.7,
    "overexposed_frac": 0.007,
-   "hue": 55.6
+   "hue": 55.9
   },
   {
    "index": 1,
-   "start": 1.0,
-   "end": 1.5,
-   "dur": 0.5,
-   "luma": 0.158,
-   "sharpness": 46.6,
+   "start": 0.5,
+   "end": 1.267,
+   "dur": 0.767,
+   "luma": 0.167,
+   "sharpness": 326.3,
    "overexposed_frac": 0.007,
-   "hue": 48.1
+   "hue": 47.0
   },
   {
    "index": 2,
-   "start": 1.5,
+   "start": 1.267,
    "end": 2.0,
-   "dur": 0.5,
-   "luma": 0.152,
-   "sharpness": 164.6,
+   "dur": 0.733,
+   "luma": 0.216,
+   "sharpness": 309.5,
    "overexposed_frac": 0.007,
-   "hue": 81.6
+   "hue": 48.5
   },
   {
    "index": 3,
    "start": 2.0,
-   "end": 2.333,
-   "dur": 0.333,
-   "luma": 0.237,
-   "sharpness": 119.4,
+   "end": 2.767,
+   "dur": 0.767,
+   "luma": 0.205,
+   "sharpness": 114.6,
    "overexposed_frac": 0.0,
-   "hue": 42.9
+   "hue": 76.0
   },
   {
    "index": 4,
-   "start": 2.333,
-   "end": 2.667,
-   "dur": 0.333,
-   "luma": 0.136,
-   "sharpness": 73.1,
+   "start": 2.767,
+   "end": 3.767,
+   "dur": 1.0,
+   "luma": 0.046,
+   "sharpness": 65.7,
    "overexposed_frac": 0.0,
-   "hue": 78.5
+   "hue": 99.6
   },
   {
    "index": 5,
-   "start": 2.667,
-   "end": 3.0,
-   "dur": 0.333,
-   "luma": 0.312,
-   "sharpness": 100.2,
-   "overexposed_frac": 0.0,
-   "hue": 29.7
+   "start": 3.767,
+   "end": 6.5,
+   "dur": 2.733,
+   "luma": 0.207,
+   "sharpness": 54.4,
+   "overexposed_frac": 0.001,
+   "hue": 51.2
   },
   {
    "index": 6,
-   "start": 3.0,
-   "end": 3.333,
-   "dur": 0.333,
-   "luma": 0.154,
-   "sharpness": 55.6,
-   "overexposed_frac": 0.0,
-   "hue": 61.3
-  },
-  {
-   "index": 7,
-   "start": 3.333,
-   "end": 4.0,
-   "dur": 0.667,
-   "luma": 0.247,
-   "sharpness": 79.6,
-   "overexposed_frac": 0.0,
-   "hue": 30.6
-  },
-  {
-   "index": 8,
-   "start": 4.0,
-   "end": 4.733,
-   "dur": 0.733,
-   "luma": 0.169,
-   "sharpness": 74.7,
-   "overexposed_frac": 0.001,
-   "hue": 83.5
-  },
-  {
-   "index": 9,
-   "start": 4.733,
-   "end": 5.467,
-   "dur": 0.733,
-   "luma": 0.171,
-   "sharpness": 48.9,
-   "overexposed_frac": 0.001,
-   "hue": 71.5
-  },
-  {
-   "index": 10,
-   "start": 5.467,
-   "end": 6.467,
-   "dur": 1.0,
-   "luma": 0.176,
-   "sharpness": 66.7,
-   "overexposed_frac": 0.001,
-   "hue": 79.6
-  },
-  {
-   "index": 11,
-   "start": 6.467,
+   "start": 6.5,
    "end": 7.0,
-   "dur": 0.533,
-   "luma": 0.223,
-   "sharpness": 76.4,
+   "dur": 0.5,
+   "luma": 0.281,
+   "sharpness": 59.3,
    "overexposed_frac": 0.001,
-   "hue": 52.8
+   "hue": 56.7
   }
  ],
  "cuts": [
-  1.0,
-  1.5,
+  0.5,
+  1.267,
   2.0,
-  2.333,
-  2.667,
-  3.0,
-  3.333,
-  4.0,
-  4.733,
-  5.467,
-  6.467
+  2.767,
+  3.767,
+  6.5
  ],
  "dissolves": [],
  "continuity": [
   {
-   "t": 1.0,
-   "luma_jump": 0.023,
-   "hue_jump": 6.2
+   "t": 0.5,
+   "luma_jump": 0.117,
+   "hue_jump": 12.0
   },
   {
-   "t": 1.5,
-   "luma_jump": 0.009,
-   "hue_jump": 35.8
+   "t": 1.267,
+   "luma_jump": 0.048,
+   "hue_jump": 0.7
   },
   {
    "t": 2.0,
-   "luma_jump": 0.234,
-   "hue_jump": 37.2
+   "luma_jump": 0.06,
+   "hue_jump": 29.2
   },
   {
-   "t": 2.333,
-   "luma_jump": 0.031,
-   "hue_jump": 33.4
+   "t": 2.767,
+   "luma_jump": 0.149,
+   "hue_jump": 32.0
   },
   {
-   "t": 2.667,
-   "luma_jump": 0.181,
-   "hue_jump": 49.3
+   "t": 3.767,
+   "luma_jump": 0.128,
+   "hue_jump": 43.5
   },
   {
-   "t": 3.0,
-   "luma_jump": 0.155,
-   "hue_jump": 30.5
-  },
-  {
-   "t": 3.333,
-   "luma_jump": 0.108,
-   "hue_jump": 36.5
-  },
-  {
-   "t": 4.0,
-   "luma_jump": 0.134,
-   "hue_jump": 47.5
-  },
-  {
-   "t": 4.733,
-   "luma_jump": 0.045,
-   "hue_jump": 0.9
-  },
-  {
-   "t": 5.467,
-   "luma_jump": 0.017,
-   "hue_jump": 10.0
-  },
-  {
-   "t": 6.467,
-   "luma_jump": 0.092,
-   "hue_jump": 34.7
+   "t": 6.5,
+   "luma_jump": 0.002,
+   "hue_jump": 10.8
   }
  ],
  "loop_seam": {
-  "seam_diff": 9.92,
-  "median_neighbor_diff": 5.6,
+  "seam_diff": 15.43,
+  "median_neighbor_diff": 5.64,
   "ok": true,
-  "seam_diff_no_text": 4.01
+  "seam_diff_no_text": 7.59
  },
  "text_timing": {
   "detected": [
    2.0,
-   3.333,
-   4.0
+   2.467,
+   3.7,
+   4.133
   ],
   "expected": [
    2.0,
@@ -282,18 +197,48 @@
   "in_video": [],
   "across_videos": []
  },
- "issues": [],
+ "issues": [
+  {
+   "severity": "major",
+   "type": "underexposed",
+   "t": 2.767,
+   "msg": "kadar 4: osvetljenost 0.046"
+  }
+ ],
  "sheets": [
   "studio/inspections/stoic_edit_32/sheet_time.jpg",
   "studio/inspections/stoic_edit_32/sheet_cuts.jpg"
  ],
+ "history": [
+  {
+   "at": "2026-11-20T19:44:01",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-20T20:06:34",
+   "approved": false,
+   "issues": 3
+  },
+  {
+   "at": "2026-11-20T20:07:50",
+   "approved": false,
+   "issues": 2
+  },
+  {
+   "at": "2026-11-20T20:08:53",
+   "approved": false,
+   "issues": 0
+  }
+ ],
  "approval": {
-  "technical_pass": true,
+  "technical_pass": false,
   "vision_reviewed": false,
   "weak_scenes": 0,
   "creative_score": null,
   "approved": false,
   "blocking": [
+   "1 većih problema",
    "nema vizuelnog pregleda"
   ]
  }

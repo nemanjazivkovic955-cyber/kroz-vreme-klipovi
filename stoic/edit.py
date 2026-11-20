@@ -620,13 +620,13 @@ EDITS = {
         "caption": "Money comes back. Hours don't. What would you do with 10 free hours a week? \U0001F447",
         "tags": "#entrepreneur #mindset #success #timeismoney #businessmotivation",
         "sound": "smooth dark trap / ticking-clock intro (trending ↗) - drop na 4.0 s (buy back your hours). Pexels snimci: Mizuno K (pexels.com/@mizunokozuki)"},
-    32: {"mode": "story", "hits": [2.0, 4.0], "flash": (0.22, 0.08), "hook": "Six weeks left in this year.", "word": "SPRINT", "line": "finish it loud.",
-        "loop": ("mk_51534", 0.50, 1.5, "eq=gamma=1.45", "gala-sprint"),   # JUNAKINJA: gleda gore, razmišlja (hook + kraj, šav loop-a 1.0-2.0)
-        "shots": [("mk_51562", 0.45, 3.0, "", "gala-sprint", 0.75),                  # SIX WEEKS LEFT: godina se puni kao čaša (jedino točenje)
-                  ("mk_51530", 0.72, 0.9, "eq=gamma=1.15", "gala-sprint", 0.75),     # ona podiže čašu, odlučuje
-                  ("mk_51529", 0.60, 2.9, "eq=gamma=1.25", "gala-sprint", 0.75),     # SPRINT: naginje se i kucne čašom (tamno pod reč)
-                  ("mk_51539", 0.60, 10.9, "eq=gamma=1.1:contrast=1.1", "gala-sprint", 0.75),  # noć, prskalice dižu (crna pozadina)
-                  ("mk_51537", 0.45, 4.3, "eq=contrast=1.1", "gala-sprint", 1.75)],                 # FINISH IT LOUD: čep puca tačno na 4.0, vrisak, flaša gore
+    32: {"mode": "story", "hits": [2.0, 4.0], "flash": (0.22, 0.08), "hook_y": 0.62, "hook": "Six weeks left in this year.", "word": "SPRINT", "line": "finish it loud.",
+        "loop": ("mk_51534", 0.50, 1.5, "eq=gamma=1.7", "gala-sprint"),   # JUNAKINJA: gleda gore, razmišlja (hook + kraj, šav loop-a 1.0-2.0)
+        "shots": [("mk_51562", 0.45, 3.0, "", "gala-sprint", 0.7667),                  # SIX WEEKS LEFT: godina se puni kao čaša (jedino točenje)
+                  ("mk_51530", 0.72, 0.4, "eq=gamma=1.15", "gala-sprint", 0.7333),     # ona podiže čašu, odlučuje
+                  ("mk_51529", 0.78, 3.6, "eq=gamma=1.2", "gala-sprint", 0.7667),     # SPRINT: naginje se i kucne čašom (tamno pod reč)
+                  ("mk_51539", 0.75, 6.8, "eq=gamma=1.15:contrast=1.1", "gala-sprint", 1.0),  # noć, muškarac u mraku pali prskalicu (crno pod reč SPRINT)
+                  ("mk_51537", 0.45, 4.5667, "eq=contrast=1.1", "gala-sprint", 2.7333)],                 # FINISH IT LOUD: čep puca tačno na 4.0, vrisak, flaša gore
         "caption": "Most people wait for January. Six weeks is enough to change your year. What will you finish before Dec 31? \U0001F447",
         "tags": "#newyeargoals #mindset #discipline #success #luxurylifestyle",
         "sound": "euphoric build / celebratory trap (trending ↗) - tiho do 2 s, drop na 4.0 s (čep puca)"},
