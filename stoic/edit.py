@@ -503,6 +503,70 @@ EDITS = {
         "caption": "Every expert was once terrible at it. What skill are you practicing every day? \U0001F447",
         "tags": "#stoicism #discipline #mindset #mastery #craft",
         "sound": "focused phonk / rhythmic kitchen beat (trending ↗) - rez na osminu u sredini"},
+    # ---- MOĆ/NOVAC/ŽENE/PUTOVANJA (zaključano 20.11.): svaka slika = moć, novac, luksuz
+    26: {"mode": "story", "hook": "Broke is a habit. So is rich.", "word": "RICH", "line": "build the habit.",
+        "loop": ("mk_4301", 0.5, 4.0, "", "novac-luks"),  # luka sa jahtama (miran, čist loop)
+        "shots": [
+                  ("mk_18304", 0.5, None, "", "novac-luks", 0.5),  # prelistava dolare
+                  ("mk_18249", 0.5, 2.0, "", "novac-luks", 0.5),  # novčanice od 100$ (18261 odbačen: unutrašnji rezovi)
+                  ("mk_22741", 0.6, None, "eq=gamma=1.3", "novac-luks", 0.5),  # žena pije vino (18247 odbačen: skriven rez)
+                  ("mk_42649", 0.4, None, "", "novac-luks", 0.2333),  # prezentuje prihode
+                  ("mk_40075", 0.5, None, "", "novac-luks", 0.2667),  # jahte kod plaže
+                  ("mk_2889", 0.5, None, "", "novac-luks", 0.2333),  # luksuzno ostrvo
+                  ("mk_44500", 0.5, None, "eq=gamma=1.3", "novac-luks", 0.2667),  # terasa
+                  ("mk_1270", 0.5, None, "", "novac-luks", 0.2333),  # žena na ivici bazena
+                  ("mk_4046", 0.5, None, "", "novac-luks", 0.2667),  # luksuzni hotel
+                  ("mk_4641", 0.5, None, "", "novac-luks", 0.2333),  # bazen sa pogledom
+                  ("mk_4198", 0.5, None, "", "novac-luks", 0.2667),  # hotelska soba
+                  ("mk_2883", 0.5, None, "", "novac-luks", 0.5),  # vile na vodi, hidroavion
+                  ("mk_5368", 0.5, None, "", "novac-luks", 1.0),  # jahta kod ostrva
+                  ("mk_4999", 0.5, None, "", "novac-luks", 1.0),  # zalazak nad zalivom
+                  ],
+        "caption": "Rich isn't a paycheck, it's a set of habits. Which habit are you building this year? \U0001F447",
+        "tags": "#stoicism #discipline #mindset #money #wealthylifestyle",
+        "sound": "dark luxury trap / money phonk (trending ↗) - rez na osminu u sredini"},
+    27: {"mode": "story", "hook": "Walk in like you own the room.", "word": "POWER", "line": "carry yourself.",
+        "loop": ("mk_309", 0.4, 8.0, "", "biznis-moc"),  # čovek u odelu, telefon, grad
+        "shots": [
+                  ("mk_317", 0.4, None, "", "biznis-moc", 0.5),  # biznismen telefonira noću
+                  ("mk_4169", 0.5, None, "", "biznis-moc", 0.5),  # ulaz u zgradu
+                  ("mk_4802", 0.5, None, "", "biznis-moc", 0.5),  # kraj sastanka
+                  ("mk_4809", 0.5, None, "", "biznis-moc", 0.2333),  # sastanak odozgo
+                  ("mk_42648", 0.3, None, "", "biznis-moc", 0.2667),  # prezentacija
+                  ("mk_30012", 0.5, None, "", "biznis-moc", 0.2333),  # dogovor
+                  ("mk_4144", 0.5, None, "eq=gamma=1.8", "biznis-moc", 0.2667),  # grad noću
+                  ("mk_40673", 0.5, None, "", "biznis-moc", 0.2333),  # neboderi odozdo
+                  ("mk_4007", 0.5, None, "", "biznis-moc", 0.2667),  # avion sleće
+                  ("mk_4368", 0.5, None, "", "biznis-moc", 0.2333),  # iznad oblaka
+                  ("mk_40099", 0.5, None, "", "biznis-moc", 0.2667),  # obala u zalasku
+                  ("mk_4840", 0.55, None, "", "biznis-moc", 0.5),  # silueta raširenih ruku
+                  ("mk_44391", 0.5, None, "", "biznis-moc", 1.0),  # ostrvo iz vazduha
+                  ("mk_10332", 0.5, None, "", "biznis-moc", 1.0),  # plaža odozgo
+                  ],
+        "caption": "Confidence is quiet. Presence is loud. Do you walk in like you belong there? \U0001F447",
+        "tags": "#stoicism #discipline #mindset #power #success",
+        "sound": "boss phonk / dark business trap (trending ↗) - rez na osminu u sredini"},
+    28: {"mode": "story", "hook": "Level up. They will notice.", "word": "STATUS", "line": "become the prize.",
+        "loop": ("mk_70", 0.62, 6.0, "", "žene-auta"),  # žena kod sportskog auta
+        "shots": [
+                  ("mk_44547", 0.45, None, "eq=gamma=1.5:contrast=1.2", "žene-auta", 0.5),  # žena u autu, naočare
+                  ("mk_44541", 0.55, None, "eq=gamma=1.5:contrast=1.2", "žene-auta", 0.5),  # žena u sportskom autu
+                  ("mk_44544", 0.55, None, "eq=gamma=1.5:contrast=1.2", "žene-auta", 0.5),  # žena kod sportskog auta
+                  ("mk_44542", 0.5, None, "eq=gamma=1.5:contrast=1.2", "žene-auta", 0.2333),  # sedi u autu
+                  ("mk_44555", 0.5, None, "eq=gamma=1.5:contrast=1.2", "žene-auta", 0.2667),  # na autu
+                  ("mk_44557", 0.5, None, "eq=gamma=1.5:contrast=1.2", "žene-auta", 0.2333),  # u autu
+                  ("mk_44556", 0.5, None, "eq=gamma=1.5:contrast=1.2", "žene-auta", 0.2667),  # naslonjena na auto
+                  ("mk_44545", 0.5, None, "eq=gamma=1.5:contrast=1.2", "žene-auta", 0.2333),  # na sportskom autu
+                  ("mk_71", 0.62, None, "", "žene-auta", 0.2667),  # naslonjena na auto
+                  ("mk_43192", 0.6, None, "", "žene-auta", 0.2333),  # kabriolet
+                  ("mk_4699", 0.5, None, "", "žene-auta", 0.2667),  # džet ski
+                  ("mk_44530", 0.5, None, "", "žene-auta", 0.5),  # ivica bazena
+                  ("mk_3159", 0.5, None, "", "žene-auta", 1.0),  # pored bazena
+                  ("mk_1272", 0.5, None, "", "žene-auta", 1.0),  # izlazi iz bazena
+                  ],
+        "caption": "Stop chasing. Start becoming. Who are you becoming this year? \U0001F447",
+        "tags": "#stoicism #discipline #mindset #levelup #luxurylifestyle",
+        "sound": "luxury phonk / smooth dark trap (trending ↗) - rez na osminu u sredini"},
 }
 
 

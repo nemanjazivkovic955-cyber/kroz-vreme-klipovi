@@ -4801,6 +4801,214 @@
   }
  },
  {
+  "id": "stoic_edit_26",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "rich",
+  "hook": "R I C H",
+  "text": [
+   "R I C H",
+   "build the habit."
+  ],
+  "ending": "build the habit.",
+  "footage": [
+   "mk_4301",
+   "mk_18304",
+   "mk_18249",
+   "mk_22741",
+   "mk_42649",
+   "mk_40075",
+   "mk_2889",
+   "mk_44500",
+   "mk_1270",
+   "mk_4046",
+   "mk_4641",
+   "mk_4198",
+   "mk_2883",
+   "mk_5368",
+   "mk_4999"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_26.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_26.md",
+   "inspected_at": "2026-11-20T10:09:11",
+   "approval": {
+    "technical_pass": false,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 86,
+    "approved": false,
+    "blocking": [
+     "6 većih problema",
+     "kreativna ocena 86 < 90"
+    ]
+   },
+   "issues": 7,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.233,
+    2.5,
+    2.733,
+    3.0,
+    3.233,
+    3.5,
+    3.733,
+    4.0,
+    4.5,
+    5.5,
+    6.5
+   ],
+   "loop_seam": {
+    "seam_diff": 9.17,
+    "median_neighbor_diff": 2.78,
+    "ok": true,
+    "seam_diff_no_text": 2.92
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_27",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "power",
+  "hook": "P O W E R",
+  "text": [
+   "P O W E R",
+   "carry yourself."
+  ],
+  "ending": "carry yourself.",
+  "footage": [
+   "mk_309",
+   "mk_317",
+   "mk_4169",
+   "mk_4802",
+   "mk_4809",
+   "mk_42648",
+   "mk_30012",
+   "mk_4144",
+   "mk_40673",
+   "mk_4007",
+   "mk_4368",
+   "mk_40099",
+   "mk_4840",
+   "mk_44391",
+   "mk_10332"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_27.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_27.md",
+   "inspected_at": "2026-11-20T10:05:57",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 85,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 85 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.233,
+    2.5,
+    2.733,
+    3.0,
+    3.233,
+    3.5,
+    3.733,
+    4.0,
+    4.5,
+    5.5,
+    6.5
+   ],
+   "loop_seam": {
+    "seam_diff": 7.07,
+    "median_neighbor_diff": 2.8,
+    "ok": true,
+    "seam_diff_no_text": 1.12
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_28",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "status",
+  "hook": "S T A T U S",
+  "text": [
+   "S T A T U S",
+   "become the prize."
+  ],
+  "ending": "become the prize.",
+  "footage": [
+   "mk_70",
+   "mk_44547",
+   "mk_44541",
+   "mk_44544",
+   "mk_44542",
+   "mk_44555",
+   "mk_44557",
+   "mk_44556",
+   "mk_44545",
+   "mk_71",
+   "mk_43192",
+   "mk_4699",
+   "mk_44530",
+   "mk_3159",
+   "mk_1272"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_28.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_28.md",
+   "inspected_at": "2026-11-20T10:09:14",
+   "approval": {
+    "technical_pass": false,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 84,
+    "approved": false,
+    "blocking": [
+     "1 većih problema",
+     "kreativna ocena 84 < 90"
+    ]
+   },
+   "issues": 2,
+   "cuts": [
+    0.5,
+    3.233,
+    3.5,
+    3.733,
+    4.0,
+    4.5,
+    5.5,
+    6.5
+   ],
+   "loop_seam": {
+    "seam_diff": 8.49,
+    "median_neighbor_diff": 2.26,
+    "ok": true,
+    "seam_diff_no_text": 2.53
+   }
+  }
+ },
+ {
   "id": "talk_city",
   "family": "talk_v1",
   "format": "TikTok 9:16 ~30 s, glas + muzika",

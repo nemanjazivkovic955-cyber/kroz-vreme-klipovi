@@ -5,6 +5,12 @@
 3. Posle svakog kruga: TikTok brojevi -> nova lekcija ovde -> promena šablona u sledećem krugu. Isti format bez promene se ne pravi.
 
 
+
+# SADRŽAJ SLIKA (zaključano 20.11. — korisnik: "ne želim nebulozne slike; svaka slika opisuje moć, novac")
+- DOZVOLJENO: novac, luksuzni automobili, jahte, privatni avioni, sat, odelo/biznis, elegantne žene uz luksuz, grad noću sa visine, luksuzni hoteli/bazeni, putovanja (ostrva, more, destinacije), fokus/trening kao put do uspeha.
+- ZABRANJENO: svakodnevne/kuhinjske scene (kafa, doručak, testo, brašno, kuvanje), dečje igre, nasumične prirode bez luksuza, apstraktni detalji.
+- Tekst kao i do sad: krupan hook, proređena reč, kratak red, CTA "SHARE • LIKE • COMMENT FOR MORE".
+
 # KONCEPT SERIJE (zaključano 19.11. — korisnik: "izgubili smo poentu priče sa slikama; isti koncept i kvalitet, svaki put bolje")
 - **Jedan klip = jedna mini-priča sa jednim junakom/svetom**: problem -> okret -> rezultat. Slika doslovno prikazuje rečenicu koja je na ekranu.
 - Format ostaje: krupna hook rečenica 0-2 s, reč, kratak red, CTA "SHARE • LIKE • COMMENT FOR MORE", loop, bez zvuka, rezovi na udarac.
