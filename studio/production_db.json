@@ -5009,6 +5009,61 @@
   }
  },
  {
+  "id": "stoic_edit_29",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "proof",
+  "hook": "P R O O F",
+  "text": [
+   "P R O O F",
+   "let them watch."
+  ],
+  "ending": "let them watch.",
+  "footage": [
+   "aic_full",
+   "aic_man",
+   "aic_tail",
+   "aic_city",
+   "aig_full",
+   "aig_face",
+   "aig_window",
+   "mk_4692",
+   "aic_wheel",
+   "aic_tower"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_29.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_29.md",
+   "inspected_at": "2026-11-20T14:48:00",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 89,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 89 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    1.5,
+    2.0,
+    3.5,
+    5.0
+   ],
+   "loop_seam": {
+    "seam_diff": 9.16,
+    "median_neighbor_diff": 1.99,
+    "ok": true,
+    "seam_diff_no_text": 2.2
+   }
+  }
+ },
+ {
   "id": "talk_city",
   "family": "talk_v1",
   "format": "TikTok 9:16 ~30 s, glas + muzika",

@@ -567,6 +567,21 @@ EDITS = {
         "caption": "Stop chasing. Start becoming. Who are you becoming this year? \U0001F447",
         "tags": "#stoicism #discipline #mindset #levelup #luxurylifestyle",
         "sound": "luxury phonk / smooth dark trap (trending ↗) - rez na osminu u sredini"},
+    # ---- NAJVIRALNIJI (20.11.): AI materijal iz Canve (originalan, bez logoa) + priča "smejali su se -> dokaz"
+    29: {"mode": "story", "hook": "At 25 they laughed. At 30 they asked how.", "word": "PROOF", "line": "let them watch.",
+        "loop": ("aic_full", 0.5, 1.5, "eq=gamma=1.45:contrast=1.08", "ai-luks"),                 # čovek ide ka svom autu ispred nebodera
+        "shots": [("aic_man", 0.5, 0.5, "eq=gamma=1.45:contrast=1.08", "ai-luks", 0.5),          # on, s leđa
+                  ("aic_tail", 0.5, 0.5, "eq=gamma=1.45:contrast=1.08", "ai-luks", 0.5),         # stop svetla i odraz
+                  ("aic_city", 0.5, 0.5, "eq=gamma=1.45:contrast=1.08", "ai-luks", 0.5),         # grad koji gleda
+                  ("aig_full", 0.5, 0.5, "eq=gamma=1.45:contrast=1.08", "ai-luks", 0.5),         # PROOF: 3 ujutru, sam
+                  ("aig_face", 0.5, 0.5, "eq=gamma=1.45:contrast=1.08", "ai-luks", 0.5),         # lice nad laptopom
+                  ("aig_window", 0.5, 0.5, "eq=gamma=1.45:contrast=1.08", "ai-luks", 0.5),       # kiša i grad kroz prozor
+                  ("mk_4692", 0.5, None, "", "ai-luks", 1.5),         # ostrvo
+                  ("aic_wheel", 0.5, 0.5, "eq=gamma=1.45:contrast=1.08", "ai-luks", 0.75),       # njegov auto
+                  ("aic_tower", 0.5, 0.5, "eq=gamma=1.45:contrast=1.08", "ai-luks", 0.75)],      # njegov grad
+        "caption": "They laughed at the plan. Now they ask for the plan. Who doubted you? \U0001F447",
+        "tags": "#stoicism #discipline #mindset #success #provethemwrong",
+        "sound": "slowed dark phonk / emotional trap (trending ↗) - drop na 4.0 s (let them watch)"},
 }
 
 
