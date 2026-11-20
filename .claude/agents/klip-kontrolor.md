@@ -20,6 +20,8 @@ Dobijaš ID klipa (npr. `stoic_edit_30`). NIKAD ne menjaš fajlove — samo preg
    - **Ponavljanje:** isti ili skoro isti kadar u klipu ili u ranijim klipovima (`studio/visual_history.json`).
 5. Proveri ceo klip: hook kadar je NAJJAČI kadar; luk priče problem → okret → rezultat; tempo (rez ~0.33–0.5 s, brže samo na vrhuncu); loop spoj; CTA "SHARE • LIKE • COMMENT FOR MORE" vidljiv.
 
+**TON:** kazni pitome kadrove (proslava, dan, porodica) — serija je KRIMI (vidi studio/lessons.md); oružje/droga/nasilje = odbij.
+
 ## Izveštaj (kratko, konkretno)
 - **Ocena /100** po rubrici `studio/qc_rubric.md`, bez naduvavanja.
 - **Tabela kadrova:** vreme | izvor | šta se vidi | pogađa tekst? (da/ne) | snaga (1–5) | problem.

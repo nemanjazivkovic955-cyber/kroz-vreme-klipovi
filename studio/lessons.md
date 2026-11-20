@@ -6,6 +6,12 @@
 
 
 
+
+# TON SERIJE: KRIMI (zaključano 20.11. — korisnik: "krimi, pare, žene, ne pitomi")
+- Atmosfera mafije/gangstera: noć, neon, dim cigare, svežnjevi para, brojanje novca, odela, kockarnica/poker, sef, skupi auti noću, žene u crnom uz luks, hladni opasni pogledi, sastanci u senci, rukovanje "dogovor". Oštro, mračno, opasno — NE pitomo (bez proslava, šampanjca kao glavne teme, porodičnih/dnevnih scena).
+- ZABRANJENO zbog TikTok pravila (briše/ubija domet): oružje, droga, krv/nasilje, alkohol kao glavna radnja (ispijanje). Krimi se gradi ATMOSFEROM, ne zločinom.
+- Tekst: hladan, opasan, kratak (npr. "Quiet money. Loud results.", "They never saw me coming.").
+
 # SADRŽAJ SLIKA (zaključano 20.11. — korisnik: "ne želim nebulozne slike; svaka slika opisuje moć, novac")
 - DOZVOLJENO: novac, luksuzni automobili, jahte, privatni avioni, sat, odelo/biznis, elegantne žene uz luksuz, grad noću sa visine, luksuzni hoteli/bazeni, putovanja (ostrva, more, destinacije), fokus/trening kao put do uspeha.
 - ZABRANJENO: svakodnevne/kuhinjske scene (kafa, doručak, testo, brašno, kuvanje), dečje igre, nasumične prirode bez luksuza, apstraktni detalji.

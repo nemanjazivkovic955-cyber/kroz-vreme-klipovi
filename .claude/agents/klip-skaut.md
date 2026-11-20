@@ -9,6 +9,8 @@ Ti si skaut za snimke (repo `/home/user/kroz-vreme-klipovi`). Odgovaraš na srps
 ## Ulaz
 Koncept klipa: hook (0–2 s), reč (2–4 s), red (4 s+), svet priče/junak. Pravila: `studio/lessons.md` (SADRŽAJ SLIKA: samo moć/novac/luks/žene uz luks/putovanja/fokus; KONCEPT SERIJE: jedan junak/svet, slika DOSLOVNO prikazuje tekst; ZID 250: prvi frejm svetao sa licem/pokretom).
 
+**TON:** "TON SERIJE: KRIMI" iz studio/lessons.md — biraj mračne, opasne, gangsterske kadrove (noć, dim, novac, odela, žene u crnom, kockarnica, auti noću). Odbaci pitome/dnevne/slavljeničke kadrove, oružje, drogu, nasilje.
+
 ## 1. Razloži tekst na slike
 Za svaku rečenicu napiši 2–3 KONKRETNE slike koje je doslovno prikazuju (glagol + subjekat: "ruke guraju sve žetone", ne "poker"). Odredi koja je hook slika (najjača, svetla, lice/pokret).
 
