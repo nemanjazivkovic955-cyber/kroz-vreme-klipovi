@@ -583,18 +583,17 @@ EDITS = {
         "tags": "#stoicism #discipline #mindset #success #provethemwrong",
         "sound": "slowed dark phonk / emotional trap (trending ↗) - drop na 4.0 s (let them watch)"},
     # ---- ŽIVI snimci (korisnik: "žive snimke, ne AI"): poker/rizik/moć
-    30: {"mode": "story", "hook": "Everyone bets on something. Bet on yourself.", "word": "RISK", "line": "go all in.",
-        "loop": ("mk_5230", 0.45, 4.0, "", "poker-moc"),                # čovek u odelu gura sve žetone
-        "shots": [("mk_40603", 0.5, None, "", "poker-moc", 0.5),       # nameše manžetne, spreman
-                  ("mk_40600", 0.4, None, "", "poker-moc", 0.5),       # ruke, dugmad za manžetne
-                  ("mk_4642", 0.45, None, "", "poker-moc", 0.5),       # aerodrom, putuje
-                  ("mk_40512", 0.5, None, "", "poker-moc", 0.5),       # RISK: karte se dele
-                  ("mk_5245", 0.5, None, "", "poker-moc", 0.5),        # žetoni padaju
-                  ("mk_40507", 0.5, None, "", "poker-moc", 0.5),       # uzima žetone za ulog
-                  ("mk_40500", 0.5, None, "", "poker-moc", 0.5),       # baca karte
-                  ("mk_5240", 0.5, None, "", "poker-moc", 1.0),        # go all in: kraljevska kenta
-                  ("mk_40511", 0.5, None, "", "poker-moc", 1.0),       # skida kulu žetona - dobitak
-                  ("mk_4605", 0.55, None, "", "poker-moc", 0.5)],      # ljudi u odelima - moć
+    30: {"mode": "story", "best": True, "hook": "Everyone bets on something. Bet on yourself.", "word": "RISK", "line": "go all in.",
+        "loop": ("mk_40603", 0.5, 6.2, "eq=gamma=1.15", "poker-moc"),   # JUNAK: čovek u odelu, gleda u kameru (hook = najjači kadar)
+        "shots": [("mk_40600", 0.4, None, "", "poker-moc", 0.5),       # njegove ruke, manžetne - sprema se
+                  ("mk_40502", 0.45, None, "eq=gamma=1.5", "poker-moc", 0.5),   # pali cigaru - hladnokrvno
+                  ("mk_40512", 0.5, None, "", "poker-moc", 0.5),       # karte se dele - opklada
+                  ("mk_5245", 0.5, None, "", "poker-moc", 0.6667),     # RISK: žetoni padaju
+                  ("mk_40507", 0.5, None, "eq=gamma=1.45", "poker-moc", 0.6667),  # uzima žetone za ulog
+                  ("mk_40500", 0.5, None, "", "poker-moc", 0.6667),    # baca karte
+                  ("mk_5230", 0.45, None, "eq=gamma=1.5:contrast=1.1", "poker-moc", 1.0),  # GO ALL IN: gura sve žetone
+                  ("mk_5240", 0.5, None, "", "poker-moc", 0.75),       # kraljevska kenta
+                  ("mk_40511", 0.5, None, "", "poker-moc", 0.75)],     # skida kulu žetona - dobitak
         "caption": "Nobody's going to bet on you until you do. What are you going all in on? \U0001F447",
         "tags": "#stoicism #discipline #mindset #betonyourself #success",
         "sound": "dark casino phonk / slow suspense trap (trending ↗) - drop na 4.0 s (go all in)"},
@@ -629,6 +628,52 @@ def check_variety(n):
         return f"pexels_{m.group(1)}" if m else x
     old = [x for x in srcs if [p for p in _vh.get(_fid(x), []) if p != f"stoic_edit_{n:02d}"]]
     assert not old, f"edit {n}: snimci već korišćeni u ranijim klipovima: {old}"
+
+
+_BEST = None
+
+
+def best_moment(name, d, xc):
+    """Najjači trenutak u snimku (zahtev korisnika: 'najbrutalnija slika iz snimka, ne bilo koja').
+    Boduje prozore dužine d po: oštrini (Laplacian), kontrastu, licu u kadru (Haar), umerenom pokretu,
+    kazna za izgoreno/pretamno. Gleda samo deo koji ostaje posle vertikalnog kropa (xc)."""
+    global _BEST
+    import json as _j, cv2, numpy as np
+    cache = os.path.join(HERE, "out", "best_moments.json")
+    if _BEST is None:
+        _BEST = _j.load(open(cache)) if os.path.exists(cache) else {}
+    key = f"{name}|{d:.3f}|{xc}"
+    if key in _BEST: return _BEST[key]
+    cap = cv2.VideoCapture(M.src(name)); fps = cap.get(5) or 30; n = int(cap.get(7))
+    face = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
+    step = max(1, int(fps / 6)); feats = []; prev = None
+    for k in range(0, n, step):
+        cap.set(1, k); ok, f = cap.read()
+        if not ok: break
+        h, w = f.shape[:2]
+        if w > h:
+            cw = int(h * 9 / 16); x0 = int((w - cw) * xc); f = f[:, x0:x0 + cw]
+        g = cv2.cvtColor(cv2.resize(f, (270, 480)), cv2.COLOR_BGR2GRAY)
+        sharp = cv2.Laplacian(g, cv2.CV_64F).var(); con = g.std(); lum = g.mean() / 255
+        nf = len(face.detectMultiScale(g, 1.2, 5, minSize=(30, 30)))
+        mot = 0.0 if prev is None else float(np.abs(g.astype(float) - prev).mean()); prev = g.astype(float)
+        feats.append((k / fps, sharp, con, lum, nf, mot))
+    cap.release()
+    if not feats: return 0.0
+    import numpy as np
+    A = np.array([[x[1], x[2], x[4], x[5]] for x in feats]); lum = np.array([x[3] for x in feats])
+    A = (A - A.min(0)) / (np.ptp(A, 0) + 1e-6)
+    mot = A[:, 3]; score = 0.35 * A[:, 0] + 0.30 * A[:, 1] + 0.25 * (A[:, 2] > 0) + 0.10 * (1 - np.abs(mot - 0.4))
+    score -= 0.6 * ((lum < 0.08) | (lum > 0.85))
+    t = np.array([x[0] for x in feats]); L = t[-1]
+    best, bs = 0.2, -9
+    for i, ti in enumerate(t):
+        if ti < 0.1 or ti + d > L - 0.1: continue
+        win = score[(t >= ti) & (t <= ti + d)].mean()
+        if win > bs: bs, best = win, float(ti)
+    _BEST[key] = round(best, 2); os.makedirs(os.path.dirname(cache), exist_ok=True)
+    _j.dump(_BEST, open(cache, "w"), indent=0)
+    return _BEST[key]
 
 
 def dur(p):
@@ -711,7 +756,7 @@ def make(n):
     parts = [head]
     for k, x in enumerate(shots, 1):
         nm, xc, st, ex = x[:4]; d = sdur(x)
-        if st is None: st = round(dur(M.src(nm)) * 0.4, 2)
+        if st is None: st = best_moment(nm, d, xc) if e.get("best") else round(dur(M.src(nm)) * 0.4, 2)
         o = os.path.join(M.TMP, f"e{n}_{k:02d}.mp4")
         M.render_shot(o, nm, st, d, xc, 1.00, 1.04, ex, hit=(0.07 if live else 0.0), **rk); parts.append(o)
     parts.append(tail)

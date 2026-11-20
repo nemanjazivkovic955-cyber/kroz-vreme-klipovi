@@ -1,7 +1,7 @@
 {
  "id": "stoic_edit_30",
  "file": "videos/stoic/stoic_edit_30.mp4",
- "inspected_at": "2026-11-20T14:55:53",
+ "inspected_at": "2026-11-20T15:14:29",
  "method": "Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.",
  "meta": {
   "width": 1080,
@@ -13,7 +13,7 @@
   "video_streams": 1,
   "audio_streams": 0,
   "acodec": null,
-  "bitrate_kbps": 24047
+  "bitrate_kbps": 24672
  },
  "expected": {
   "texts": [],
@@ -33,12 +33,11 @@
    1.0,
    1.5,
    2.0,
-   2.5,
-   3.0,
-   3.5,
+   2.667,
+   3.333,
    4.0,
    5.0,
-   6.0,
+   5.75,
    6.5
   ],
   "min_luma": 0.07,
@@ -59,100 +58,110 @@
    "start": 0.0,
    "end": 0.5,
    "dur": 0.5,
-   "luma": 0.113,
-   "sharpness": 129.7,
+   "luma": 0.224,
+   "sharpness": 176.0,
    "overexposed_frac": 0.012,
-   "hue": 102.3
+   "hue": 75.7
   },
   {
    "index": 1,
    "start": 0.5,
    "end": 1.0,
    "dur": 0.5,
-   "luma": 0.201,
-   "sharpness": 117.4,
+   "luma": 0.185,
+   "sharpness": 55.1,
    "overexposed_frac": 0.012,
-   "hue": 72.8
+   "hue": 65.3
   },
   {
    "index": 2,
    "start": 1.0,
    "end": 1.5,
    "dur": 0.5,
-   "luma": 0.138,
-   "sharpness": 43.1,
+   "luma": 0.192,
+   "sharpness": 71.5,
    "overexposed_frac": 0.012,
-   "hue": 91.1
+   "hue": 89.6
   },
   {
    "index": 3,
    "start": 1.5,
    "end": 2.0,
    "dur": 0.5,
-   "luma": 0.161,
-   "sharpness": 77.0,
+   "luma": 0.243,
+   "sharpness": 113.2,
    "overexposed_frac": 0.012,
-   "hue": 96.5
+   "hue": 96.0
   },
   {
    "index": 4,
    "start": 2.0,
-   "end": 3.0,
-   "dur": 1.0,
-   "luma": 0.133,
-   "sharpness": 140.4,
+   "end": 2.667,
+   "dur": 0.667,
+   "luma": 0.16,
+   "sharpness": 73.0,
    "overexposed_frac": 0.0,
-   "hue": 88.1
+   "hue": 66.6
   },
   {
    "index": 5,
-   "start": 3.0,
-   "end": 4.0,
-   "dur": 1.0,
-   "luma": 0.104,
-   "sharpness": 110.7,
+   "start": 2.667,
+   "end": 3.333,
+   "dur": 0.667,
+   "luma": 0.189,
+   "sharpness": 143.7,
    "overexposed_frac": 0.0,
-   "hue": 100.5
+   "hue": 98.7
   },
   {
    "index": 6,
-   "start": 4.0,
-   "end": 5.0,
-   "dur": 1.0,
-   "luma": 0.36,
-   "sharpness": 57.6,
-   "overexposed_frac": 0.001,
-   "hue": 126.2
+   "start": 3.333,
+   "end": 4.0,
+   "dur": 0.667,
+   "luma": 0.164,
+   "sharpness": 401.7,
+   "overexposed_frac": 0.0,
+   "hue": 96.4
   },
   {
    "index": 7,
-   "start": 5.0,
-   "end": 6.0,
+   "start": 4.0,
+   "end": 5.0,
    "dur": 1.0,
-   "luma": 0.213,
-   "sharpness": 170.9,
+   "luma": 0.23,
+   "sharpness": 162.7,
    "overexposed_frac": 0.001,
-   "hue": 77.5
+   "hue": 97.6
   },
   {
    "index": 8,
-   "start": 6.0,
-   "end": 6.5,
-   "dur": 0.5,
-   "luma": 0.226,
-   "sharpness": 112.9,
+   "start": 5.0,
+   "end": 5.733,
+   "dur": 0.733,
+   "luma": 0.395,
+   "sharpness": 59.8,
    "overexposed_frac": 0.001,
-   "hue": 102.1
+   "hue": 42.7
   },
   {
    "index": 9,
-   "start": 6.5,
-   "end": 7.0,
-   "dur": 0.5,
-   "luma": 0.083,
-   "sharpness": 69.3,
+   "start": 5.733,
+   "end": 6.467,
+   "dur": 0.733,
+   "luma": 0.194,
+   "sharpness": 204.8,
    "overexposed_frac": 0.001,
-   "hue": 103.1
+   "hue": 98.0
+  },
+  {
+   "index": 10,
+   "start": 6.467,
+   "end": 7.0,
+   "dur": 0.533,
+   "luma": 0.223,
+   "sharpness": 148.3,
+   "overexposed_frac": 0.001,
+   "hue": 75.2
   }
  ],
  "cuts": [
@@ -160,70 +169,77 @@
   1.0,
   1.5,
   2.0,
-  3.0,
+  2.667,
+  3.333,
   4.0,
   5.0,
-  6.0,
-  6.5
+  5.733,
+  6.467
  ],
  "dissolves": [],
  "continuity": [
   {
    "t": 0.5,
-   "luma_jump": 0.081,
-   "hue_jump": 25.8
+   "luma_jump": 0.04,
+   "hue_jump": 11.2
   },
   {
    "t": 1.0,
-   "luma_jump": 0.05,
-   "hue_jump": 4.5
+   "luma_jump": 0.003,
+   "hue_jump": 23.9
   },
   {
    "t": 1.5,
-   "luma_jump": 0.023,
-   "hue_jump": 0.5
+   "luma_jump": 0.032,
+   "hue_jump": 9.2
   },
   {
    "t": 2.0,
-   "luma_jump": 0.059,
-   "hue_jump": 12.0
+   "luma_jump": 0.104,
+   "hue_jump": 21.6
   },
   {
-   "t": 3.0,
-   "luma_jump": 0.083,
-   "hue_jump": 31.2
+   "t": 2.667,
+   "luma_jump": 0.027,
+   "hue_jump": 36.7
+  },
+  {
+   "t": 3.333,
+   "luma_jump": 0.017,
+   "hue_jump": 4.6
   },
   {
    "t": 4.0,
-   "luma_jump": 0.206,
-   "hue_jump": 14.8
+   "luma_jump": 0.072,
+   "hue_jump": 0.9
   },
   {
    "t": 5.0,
-   "luma_jump": 0.154,
-   "hue_jump": 42.7
+   "luma_jump": 0.183,
+   "hue_jump": 69.7
   },
   {
-   "t": 6.0,
-   "luma_jump": 0.009,
-   "hue_jump": 21.7
+   "t": 5.733,
+   "luma_jump": 0.183,
+   "hue_jump": 39.7
   },
   {
-   "t": 6.5,
-   "luma_jump": 0.151,
-   "hue_jump": 4.9
+   "t": 6.467,
+   "luma_jump": 0.033,
+   "hue_jump": 24.9
   }
  ],
  "loop_seam": {
-  "seam_diff": 9.45,
-  "median_neighbor_diff": 3.49,
+  "seam_diff": 8.56,
+  "median_neighbor_diff": 2.91,
   "ok": true,
-  "seam_diff_no_text": 2.46
+  "seam_diff_no_text": 1.78
  },
  "text_timing": {
   "detected": [
    2.0,
-   2.433,
+   2.667,
+   3.1,
    4.0,
    4.433
   ],
@@ -250,39 +266,26 @@
   "studio/inspections/stoic_edit_30/sheet_time.jpg",
   "studio/inspections/stoic_edit_30/sheet_cuts.jpg"
  ],
+ "history": [
+  {
+   "at": "2026-11-20T14:55:53",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-20T15:07:15",
+   "approved": false,
+   "issues": 0
+  }
+ ],
  "approval": {
   "technical_pass": true,
-  "vision_reviewed": true,
+  "vision_reviewed": false,
   "weak_scenes": 0,
-  "creative_score": 88,
+  "creative_score": null,
   "approved": false,
   "blocking": [
-   "kreativna ocena 88 < 90"
-  ]
- },
- "vision_review": {
-  "reviewer": "Claude (vision) — kontakt-list 0.5 s + frejmovi oko rezova i loop spoja; video NIJE gledan u pokretu",
-  "summary": "Živi snimci, jedan svet (poker/moć): čovek u odelu gura sve žetone (hook) -> nameše manžetne, aerodrom -> RISK: karte, žetoni, ulog -> go all in: kraljevska kenta, kula žetona, ljudi u odelima -> loop. Aerodrom sa logom aviokompanije izbačen.",
-  "scenes": [
-   {
-    "index": 0,
-    "verdict": "good",
-    "note": "ruke u odelu guraju sve žetone - jasna poenta"
-   }
-  ],
-  "storytelling": "Hook = ulog, reč = rizik, red = odluka; slika prati rečenicu.",
-  "creative_score": 88,
-  "breakdown": {
-   "storytelling": 19,
-   "visual": 17,
-   "hook": 14,
-   "cinematography": 13,
-   "sound": 9,
-   "editing": 8,
-   "originality": 8
-  },
-  "recommendations": [
-   "Kadar karata kod 4 s blago roze/svetao u odnosu na ostatak"
+   "nema vizuelnog pregleda"
   ]
  }
 }

@@ -11,3 +11,6 @@ fc-cache -f >/dev/null
 # Blender kao Python modul (renderovanje bez ekrana: Cycles na CPU)
 python3 -c "import bpy" 2>/dev/null || pip install -q bpy
 echo "setup ok"
+
+# studio: inspektor kvaliteta + izbor najjačeg trenutka
+pip install -q opencv-contrib-python-headless faster-whisper 2>/dev/null || true
