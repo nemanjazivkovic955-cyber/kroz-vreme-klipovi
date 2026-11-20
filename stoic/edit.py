@@ -641,7 +641,7 @@ EDITS = {
                   ("mk_1587", 0.15, 0.3, "eq=gamma=1.3", "pesak-grad", 0.4),                # kostur zgrade u suncu
                   ("mk_2010", 0.5, 3.7, "", "pesak-grad", 0.4),                 # kran + avion
                   ("mk_49872", 0.5, 3.0, "eq=gamma=1.45", "pesak-grad", 0.7667),             # BUILD (hit 4.0): osvetljen toranj u sumrak
-                  ("mk_49873", 0.5, 8.0, "eq=gamma=1.95:contrast=1.08", "pesak-grad", 0.7333), # noćni grad, svetla
+                  ("mk_49873", 0.5, 8.0, "eq=gamma=1.75", "pesak-grad", 0.7333), # noćni grad, svetla
                   ("mk_49871", 0.5, 1.0, "eq=gamma=1.6", "pesak-grad", 1.0)],               # toranj nad gradom u plavom satu -> loop dnevni toranj
         "caption": "Every skyline started as empty sand. What are you building from nothing? \U0001F447",
         "tags": "#ambition #mindset #success #skyline #luxurylifestyle",

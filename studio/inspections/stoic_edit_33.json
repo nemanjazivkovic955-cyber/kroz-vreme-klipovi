@@ -1,7 +1,7 @@
 {
  "id": "stoic_edit_33",
  "file": "videos/stoic/stoic_edit_33.mp4",
- "inspected_at": "2026-11-20T20:30:53",
+ "inspected_at": "2026-11-20T20:33:41",
  "method": "Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.",
  "meta": {
   "width": 1080,
@@ -13,7 +13,7 @@
   "video_streams": 1,
   "audio_streams": 0,
   "acodec": null,
-  "bitrate_kbps": 23968
+  "bitrate_kbps": 23759
  },
  "expected": {
   "texts": [],
@@ -66,7 +66,7 @@
    "end": 0.5,
    "dur": 0.5,
    "luma": 0.304,
-   "sharpness": 1041.9,
+   "sharpness": 1042.2,
    "overexposed_frac": 0.008,
    "hue": 72.4
   },
@@ -76,7 +76,7 @@
    "end": 1.0,
    "dur": 0.5,
    "luma": 0.274,
-   "sharpness": 195.5,
+   "sharpness": 183.3,
    "overexposed_frac": 0.008,
    "hue": 50.3
   },
@@ -86,9 +86,9 @@
    "end": 1.5,
    "dur": 0.5,
    "luma": 0.29,
-   "sharpness": 51.9,
+   "sharpness": 84.4,
    "overexposed_frac": 0.008,
-   "hue": 30.0
+   "hue": 33.2
   },
   {
    "index": 3,
@@ -96,9 +96,9 @@
    "end": 2.0,
    "dur": 0.5,
    "luma": 0.278,
-   "sharpness": 411.7,
+   "sharpness": 419.5,
    "overexposed_frac": 0.008,
-   "hue": 64.2
+   "hue": 63.9
   },
   {
    "index": 4,
@@ -106,9 +106,9 @@
    "end": 2.4,
    "dur": 0.4,
    "luma": 0.317,
-   "sharpness": 540.0,
+   "sharpness": 542.2,
    "overexposed_frac": 0.0,
-   "hue": 32.1
+   "hue": 31.2
   },
   {
    "index": 5,
@@ -116,9 +116,9 @@
    "end": 3.2,
    "dur": 0.8,
    "luma": 0.234,
-   "sharpness": 440.8,
+   "sharpness": 455.2,
    "overexposed_frac": 0.0,
-   "hue": 104.5
+   "hue": 104.4
   },
   {
    "index": 6,
@@ -126,7 +126,7 @@
    "end": 3.6,
    "dur": 0.4,
    "luma": 0.259,
-   "sharpness": 78.9,
+   "sharpness": 88.5,
    "overexposed_frac": 0.0,
    "hue": 80.6
   },
@@ -136,7 +136,7 @@
    "end": 4.0,
    "dur": 0.4,
    "luma": 0.315,
-   "sharpness": 199.4,
+   "sharpness": 187.5,
    "overexposed_frac": 0.0,
    "hue": 99.9
   },
@@ -146,9 +146,9 @@
    "end": 4.767,
    "dur": 0.767,
    "luma": 0.255,
-   "sharpness": 725.6,
+   "sharpness": 729.1,
    "overexposed_frac": 0.001,
-   "hue": 105.8
+   "hue": 105.7
   },
   {
    "index": 9,
@@ -156,7 +156,7 @@
    "end": 5.5,
    "dur": 0.733,
    "luma": 0.182,
-   "sharpness": 426.5,
+   "sharpness": 420.3,
    "overexposed_frac": 0.001,
    "hue": 106.7
   },
@@ -166,9 +166,9 @@
    "end": 6.5,
    "dur": 1.0,
    "luma": 0.238,
-   "sharpness": 298.5,
+   "sharpness": 320.9,
    "overexposed_frac": 0.001,
-   "hue": 106.2
+   "hue": 106.1
   },
   {
    "index": 11,
@@ -176,9 +176,9 @@
    "end": 7.0,
    "dur": 0.5,
    "luma": 0.307,
-   "sharpness": 1080.1,
+   "sharpness": 1077.4,
    "overexposed_frac": 0.001,
-   "hue": 73.5
+   "hue": 73.3
   }
  ],
  "cuts": [
@@ -199,27 +199,27 @@
   {
    "t": 0.5,
    "luma_jump": 0.033,
-   "hue_jump": 21.5
+   "hue_jump": 21.6
   },
   {
    "t": 1.0,
-   "luma_jump": 0.015,
-   "hue_jump": 22.1
+   "luma_jump": 0.016,
+   "hue_jump": 13.2
   },
   {
    "t": 1.5,
    "luma_jump": 0.013,
-   "hue_jump": 31.6
+   "hue_jump": 34.3
   },
   {
    "t": 2.0,
-   "luma_jump": 0.188,
-   "hue_jump": 30.5
+   "luma_jump": 0.189,
+   "hue_jump": 31.7
   },
   {
    "t": 2.4,
    "luma_jump": 0.049,
-   "hue_jump": 74.8
+   "hue_jump": 75.6
   },
   {
    "t": 3.2,
@@ -229,34 +229,34 @@
   {
    "t": 3.6,
    "luma_jump": 0.056,
-   "hue_jump": 20.1
+   "hue_jump": 20.2
   },
   {
    "t": 4.0,
-   "luma_jump": 0.113,
-   "hue_jump": 5.4
+   "luma_jump": 0.114,
+   "hue_jump": 5.6
   },
   {
    "t": 4.767,
    "luma_jump": 0.049,
-   "hue_jump": 2.1
+   "hue_jump": 1.9
   },
   {
    "t": 5.5,
-   "luma_jump": 0.054,
-   "hue_jump": 1.0
+   "luma_jump": 0.053,
+   "hue_jump": 0.4
   },
   {
    "t": 6.5,
    "luma_jump": 0.065,
-   "hue_jump": 31.2
+   "hue_jump": 31.7
   }
  ],
  "loop_seam": {
-  "seam_diff": 10.23,
-  "median_neighbor_diff": 3.67,
+  "seam_diff": 10.25,
+  "median_neighbor_diff": 3.65,
   "ok": true,
-  "seam_diff_no_text": 4.03
+  "seam_diff_no_text": 4.06
  },
  "text_timing": {
   "detected": [
@@ -306,16 +306,124 @@
    "at": "2026-11-20T20:29:42",
    "approved": false,
    "issues": 1
+  },
+  {
+   "at": "2026-11-20T20:30:53",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-20T20:32:16",
+   "approved": false,
+   "issues": 0
   }
  ],
  "approval": {
   "technical_pass": true,
-  "vision_reviewed": false,
+  "vision_reviewed": true,
   "weak_scenes": 0,
-  "creative_score": null,
+  "creative_score": 86,
   "approved": false,
   "blocking": [
-   "nema vizuelnog pregleda"
+   "kreativna ocena 86 < 90"
+  ]
+ },
+ "vision_review": {
+  "reviewer": "klip-unapredivac (krug 3)",
+  "summary": "Luk obrnut po kontroloru: 0.5-2.0 prazna pustinja (51785 crvena ravnica, 2786 trag kroz pesak, 51794 pustinja sa par baraka), 2.0-4.0 AMBITION = gradnja (hit 2.0 na silueti krana u suncu 3970, kran na tornju, toranj raste, kostur zgrade, kran+avion; 0.4 s rezovi), 4.0-6.5 'build from nothing' = noćni grad (osvetljen toranj u sumrak 49872 na hit 4.0, noćni skyline sa svetlima 49873, toranj nad gradom u plavom satu 49871), loop na dnevni isti toranj. Izbačeni 52009, 2093 (sneg), 314 (par), 49822/49826/49860/49863 (Kapitol/ponavljanje kula). Nema kupole Kapitola, nema brendova.",
+  "scenes": [
+   {
+    "t": "0.0-0.5",
+    "shot": "mk_49833 @3.0 (loop)",
+    "ok": true,
+    "note": "beli toranj, svetao (0.30), hook čitljiv",
+    "index": 0
+   },
+   {
+    "t": "0.5-1.0",
+    "shot": "mk_51785 @8.0",
+    "ok": true,
+    "note": "prazna crvena pustinja do horizonta; gornja polovina je nebo",
+    "index": 1
+   },
+   {
+    "t": "1.0-1.5",
+    "shot": "mk_2786 @3.0",
+    "ok": true,
+    "note": "trag kroz pesak odozgo",
+    "index": 2
+   },
+   {
+    "t": "1.5-2.0",
+    "shot": "mk_51794 @19.0",
+    "ok": true,
+    "note": "pustinja, put i par baraka - 'pre' stanje",
+    "index": 3
+   },
+   {
+    "t": "2.0-2.4",
+    "shot": "mk_3970 @11.0",
+    "ok": true,
+    "note": "AMBITION na hit: silueta krana u suncu, najjači udarac",
+    "index": 4
+   },
+   {
+    "t": "2.4-3.2",
+    "shot": "mk_40718 / mk_49870",
+    "ok": true,
+    "note": "kran na tornju, toranj raste; luma 0.23",
+    "index": 5
+   },
+   {
+    "t": "3.2-3.6",
+    "shot": "mk_1587 @0.3",
+    "ok": true,
+    "note": "kostur zgrade; odsjaj gore desno, ne ispod reda",
+    "index": 6
+   },
+   {
+    "t": "3.6-4.0",
+    "shot": "mk_2010 @3.7",
+    "ok": true,
+    "note": "kran + avion",
+    "index": 7
+   },
+   {
+    "t": "4.0-4.77",
+    "shot": "mk_49872 @3.0",
+    "ok": true,
+    "note": "osvetljen toranj u sumrak na hit 4.0 - moć/svetla",
+    "index": 8
+   },
+   {
+    "t": "4.77-5.5",
+    "shot": "mk_49873 @8.0",
+    "ok": true,
+    "note": "noćni skyline sa prozorima; luma 0.18 (izvor 0.10) - blago mlečan",
+    "index": 9
+   },
+   {
+    "t": "5.5-6.5",
+    "shot": "mk_49871 @1.0",
+    "ok": true,
+    "note": "toranj nad gradom, saobraćaj; isti toranj kao loop - motiv",
+    "index": 10
+   },
+   {
+    "t": "6.5-7.0",
+    "shot": "mk_49833 @2.5 (loop rep)",
+    "ok": true,
+    "note": "noć -> dan istog tornja, loop šav čist",
+    "index": 11
+   }
+  ],
+  "storytelling": "Jasan pre/posle luk: pesak -> kranovi -> grad koji svetli noću; reč AMBITION sada pada na gradnju, 'build from nothing' na rezultat. Isti toranj (noć u priči, dan u loopu) vezuje kraj i početak. Slabost: grad je Austin, ne Dubai - tvrdnja 'fifty years ago this was sand' je metafora, ne doslovna.",
+  "creative_score": 86,
+  "breakdown": "storytelling 17/20, vizuelna produkcija 17/20 (49873 tamniji/mlečan, 51785 pola neba), hook 13/15, kinematografija 13/15 (sve dron/total, nema detalja ni lica), zvuk 8/10 (bez zvuka, tekst na 0.5/2.0/4.0, hitovi), montaža 9/10 (0.5 -> 0.4 ubrzanje u AMBITION, smiren vrhunac), originalnost 9/10 (6 novih snimaka)",
+  "recommendations": [
+   "Pravi noćni Dubai/skyline 1080p svetliji od 0.15 sirovo (Mixkit Dubai 20109-39451 postoje samo u 720p) bi zamenio 49873 i podigao vizuelno na 19",
+   "Jedan detalj/lice u AMBITION bloku (ruka na nacrtu, šlem) za raznovrsnost planova",
+   "Zvuk sa dropom na 4.0 (korisnik dodaje)"
   ]
  }
 }

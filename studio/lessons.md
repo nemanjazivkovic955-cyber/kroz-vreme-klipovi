@@ -101,3 +101,9 @@
 48. **Pre izbora sveta prebroj snimke junaka:** pravilo "svaki izvor jednom" znači da 4 snimka junakinje = najviše 4 njena kadra (+ loop). Za 90+ treba ≥6 snimaka istog lika; ostatak Mixkit seta su često apstraktne čaše/pena (51540-51573 bez nje).
 49. **Radnja na drop:** postavi `start` tako da ključni trenutak (čep puca na 4.8 s izvora) padne tačno na 4.0 s klipa: start = trenutak − (4.0 − početak kadra). Jedan sinhronizovan udarac vredi više od tri kadra pene.
 50. **Hook preko krupnog lica:** `hook_y` radi i NADOLE (0.70 = ispod brade); 0.76 već izlazi iz sigurne zone. Opcija `"flash": (0.22, 0.08)` slabi beli blic kad gasi lice.
+
+## Unapređivač — stoic_edit_33 (20.11.)
+51. **Mixkit 1080p nije uvek dostupan:** stranice nude samo `-360/-720.mp4`; `ID-1080.mp4` vraća 403 za mnoge starije serije (svi Dubai noćni 20109-39451). Pre izbora proveri `curl -r 0-100` (206 = ima 1080p), tek onda planiraj kadar.
+52. **Noćni izvor ispod 0.15 sirove lume ne spasava gamma:** posle grade-a i trake teksta ostaje ~0.18 (49873: 0.10 -> 0.18 sa gamma 1.75; 1.95+contrast daje 0.175 i mlečno). Za noć birati sumrak/plavi sat (49871/49872: sirovo 0.24-0.27 -> ~0.24-0.26 u klipu).
+53. **Render spušta lumu ~40%** (51785: sirovo 0.46 -> 0.23 u klipu bez gamme). Cilj ≥0.22 u klipu znači sirovo ≥0.35 bez korekcije ili gamma 1.3+.
+54. **Lažni `repeat_across_videos` na ravnom horizontu** (pustinja/more, pola neba): pomeri `xc`/`start` ili biraj kadar odozgo bez neba.

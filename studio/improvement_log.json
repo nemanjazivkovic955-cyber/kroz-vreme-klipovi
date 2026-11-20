@@ -54,5 +54,22 @@
   ],
   "najveci_skok": "junakinja na prvom frejmu + čep tačno na drop 4.0 s; izbacivanje tri iste pene i muškarca iz 51536",
   "preostalo": "81 < 90: set ima samo 4 snimka junakinje (svaki sme jednom), nema hoda/vrata/hladnog pogleda; završni kadar 2.73 s; 2.77-3.77 nije ona; ton slavljenički. Pregledano i odbačeno 51540-51573 (čaše/apstraktno/drugi svet), 51532/51533 (drugi likovi)."
+ },
+ {
+  "klip": "stoic_edit_33",
+  "datum": "2026-11-20",
+  "ocene": [
+   71,
+   83,
+   85,
+   86
+  ],
+  "promene": [
+   "krug 1: luk obrnut - AMBITION = gradnja (3970 kran u suncu na hit 2.0, 40718, 49870, 1587, 2010; 0.4 s), 'build from nothing' = noćni grad (novi 49872 osvetljen toranj, 49873 noćni skyline, 49871 plavi sat); pesak = novi 51785 + 2786 + 51794@19; izbačeni 52009, 2093 (sneg), 314 (par), 49822/49826/49860/49863 (Kapitol, gomila kula); nova Mixkit serija 49871-49878 (Austin noću, portret 1080x1920)",
+   "krug 2: gamma na sve tamne kadrove (51785 1.3, 51794 1.35, 40718 1.55, 49870 1.4, 1587 1.3, 49872 1.45, 49873 1.75, 49871 1.6), 3970 start 11.0 + contrast 1.2 (kran jasan, nije mlečan), 49871 start 1.0 (širi plan); 51785 xc 0.15 @8.0 jer je qc javio lažni repeat_across_videos sa stoic_edit_26 (horizont nebo/tlo)",
+   "krug 3: proba 49873 gamma 1.95+contrast -> luma pala 0.182->0.175 i mlečno; vraćeno na 1.75"
+  ],
+  "najveci_skok": "obrnut luk (gradnja pod AMBITION, noćni grad pod 'build') + izbacivanje snega/para/Kapitola: 71 -> 83",
+  "preostalo": "86 < 90: 49873 noćni skyline 0.18 (izvor 0.10, gamma ne pomaže dalje); sve dron/total bez detalja/lica; Austin umesto Dubaija. Mixkit Dubai noćni snimci (20109, 20111, 30992, 39451...) postoje samo u 720p - pravilo 1080p ih isključuje."
  }
 ]
