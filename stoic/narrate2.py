@@ -21,26 +21,28 @@ def voices(names):
     return Kokoro(os.path.join(YT.TTS_DIR, "model.onnx"), p[:-4] + ".bin")
 
 
-def boundaries(a, sents):
-    """Granice rečenica = pauze u zvuku najbliže očekivanim mestima (po broju slova)."""
-    if len(sents) == 1: return [0.0, len(a) / SR]
+def boundaries(a, sents, est):
+    """Granice rečenica: dužine izmerene pojedinačnom sintezom (est), srazmerno raširene na ceo pasus,
+    pa privučene najbližoj stvarnoj pauzi (±0.6 s). Ivice pasusa se ne računaju kao pauze."""
+    tot = len(a) / SR
+    if len(sents) == 1: return [0.0, tot]
     win = int(0.02 * SR); env = np.sqrt(np.convolve(a ** 2, np.ones(win) / win, "same"))
-    quiet = env < max(0.008, 0.06 * np.percentile(env, 95))
-    gaps, i = [], 0  # tihi odsečci duži od 120 ms
+    quiet = env < max(0.006, 0.05 * np.percentile(env, 95))
+    gaps, i = [], 0
     while i < len(quiet):
         if quiet[i]:
             j = i
             while j < len(quiet) and quiet[j]: j += 1
-            if (j - i) / SR > 0.12: gaps.append(((i + j) / 2 / SR, (j - i) / SR))
+            mid = (i + j) / 2 / SR
+            if (j - i) / SR > 0.08 and 0.3 < mid < tot - 0.3: gaps.append(mid)
             i = j
         else: i += 1
-    tot = len(a) / SR; L = [len(s) for s in sents]; cum = np.cumsum(L)[:-1] / sum(L)
-    cuts, used = [], set()
-    for frac in cum:
-        exp = frac * tot
-        cand = [(abs(g - exp) - 0.3 * dur, g) for g, dur in gaps if g not in used and (not cuts or g > cuts[-1])]
-        g = min(cand)[1] if cand else exp
-        used.add(g); cuts.append(g)
+    scale = tot / sum(est); cuts = []; prev = 0.0
+    for k in range(len(sents) - 1):
+        exp = prev + est[k] * scale
+        near = [g for g in gaps if abs(g - exp) <= 0.6 and g > prev + 0.25]
+        c = min(near, key=lambda g: abs(g - exp)) if near else exp
+        cuts.append(c); prev = c
     return [0.0] + cuts + [tot]
 
 
@@ -53,7 +55,11 @@ def main(md, out, voice="bm_fable", speed=0.86):
             sents = [s.strip() for s in re.findall(r"[^.?!:]+[.?!:]+", p) if s.strip()] or [p]
             a, sr = k.create(" ".join(sents), voice=voice, speed=speed, lang="en-gb" if voice.startswith("b") else "en-us")
             nz = np.where(np.abs(a) > 0.002)[0]; a = a[max(0, nz[0] - 1200): nz[-1] + 4800]   # blago sečenje, rep ostaje
-            b = boundaries(a, sents)
+            est = []
+            for s_ in sents:
+                e, _ = k.create(s_, voice=voice, speed=speed, lang="en-gb" if voice.startswith("b") else "en-us")
+                nz = np.where(np.abs(e) > 0.002)[0]; est.append(max(0.2, (nz[-1] - nz[0]) / SR + 0.25) if len(nz) else 0.4)
+            b = boundaries(a, sents, est)
             ss = [{"t0": round(t + b[i], 3), "t1": round(t + b[i + 1], 3), "text": s} for i, s in enumerate(sents)]
             voice_parts.append((t, a)); t += len(a) / SR + PARA
             paras.append({"t0": ss[0]["t0"], "t1": round(t, 3), "sentences": ss})
