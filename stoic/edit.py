@@ -625,7 +625,7 @@ EDITS = {
         "shots": [("mk_51562", 0.45, 3.0, "", "gala-sprint", 0.7667),                  # SIX WEEKS LEFT: godina se puni kao čaša (jedino točenje)
                   ("mk_51530", 0.72, 0.4, "eq=gamma=1.15", "gala-sprint", 0.7333),     # ona podiže čašu, odlučuje
                   ("mk_51529", 0.78, 3.6, "eq=gamma=1.2", "gala-sprint", 0.7667),     # SPRINT: naginje se i kucne čašom (tamno pod reč)
-                  ("mk_51539", 0.75, 6.8, "eq=gamma=1.15:contrast=1.1", "gala-sprint", 1.0),  # noć, muškarac u mraku pali prskalicu (crno pod reč SPRINT)
+                  ("mk_51539", 0.75, 7.2, "eq=gamma=1.6", "gala-sprint", 1.0),  # noć, muškarac u mraku pali prskalicu (crno pod reč SPRINT)
                   ("mk_51537", 0.45, 4.5667, "eq=contrast=1.1", "gala-sprint", 2.7333)],                 # FINISH IT LOUD: čep puca tačno na 4.0, vrisak, flaša gore
         "caption": "Most people wait for January. Six weeks is enough to change your year. What will you finish before Dec 31? \U0001F447",
         "tags": "#newyeargoals #mindset #discipline #success #luxurylifestyle",
