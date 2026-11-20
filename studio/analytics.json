@@ -85,5 +85,35 @@
   "zemlje": "DE, IT, PL, NL, GB (Evropa) - nalog je regionalno evropski",
   "zakljucak": "~250 = test grupa For You; klipovi padaju na testu jer ljudi odlaze u 1-2 s; pratioci (follow-za-follow) ne gledaju",
   "aktivnost_pratilaca_vrhunac_sati": "17-21"
+ },
+ "2026-11-20_18h_dopuna": {
+  "izvor": "Windsor.ai tiktok_organic, 40 videa 17-20.11 + retencija po sekundi 19-20.11",
+  "klipovi_20_11": {
+   "broj": 5,
+   "pregledi": "162-241",
+   "ret_1s": "48-61%",
+   "ret_2s": "19-32%",
+   "ret_3s": "9-21%",
+   "do_kraja": "1-6%",
+   "komentari": 0,
+   "deljenja": 0
+  },
+  "najbolji_19_20": {
+   "video_id": "7709860468961185045",
+   "trajanje_s": 10.0,
+   "pregledi": 246,
+   "ret_1s": 0.58,
+   "ret_2s": 0.3,
+   "ret_3s": 0.21,
+   "do_kraja": 0.1,
+   "prosek_gledanja_s": 4.7
+  },
+  "novo": [
+   "Opisi na TikTok-u su SAMO hashtagovi - pitanje iz _opis.txt nije objavljeno ni na jednom od 40 klipova (lekcija 33 se ne primenjuje u praksi) -> 0 komentara",
+   "Hashtagovi nasumicni i neusaglaseni sa nisom (#1PictureTrend, #5KChallenge, #10MinutesChallenge, #makeup, #sleflove, #mony) - zbunjuju klasifikaciju publike",
+   "7 s story format (20.11) nije pomerio ret_1s (48-61%) - problem je i dalje prvi frejm/hook, ne duzina",
+   "Poster 20.11: 5 klipova u 5 sati (09:56-14:57) - test grupe se i dalje dele"
+  ],
+  "napomena": "uparivanje TikTok video_id <-> stoic_edit_NN nije pouzdano jer opisi ne sadrze tekst iz _opis.txt; potrebno: u opis staviti pitanje iz _opis.txt (jedinstveno po klipu)"
  }
 }

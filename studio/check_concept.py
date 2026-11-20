@@ -49,9 +49,11 @@ def main():
         if f in vh: probs.append(f"SNIMAK {f} već korišćen u {vh[f]}")
     tags_path = os.path.join(ROOT, "visual_tags.json")
     tags = json.load(open(tags_path)) if os.path.exists(tags_path) else []
+    if isinstance(tags, dict):  # {id: [tagovi]} (novi format)
+        tags = [{"id": k, "tags": v} for k, v in tags.items()]
     last = tags[-8:]
     for t in a.tags:
-        n = sum(1 for e in last if t in e.get("tags", []))
+        n = sum(1 for e in last if t in (e.get("tags", []) if isinstance(e, dict) else e))
         if n >= 3: probs.append(f"VIZUELNI TAG '{t}' u {n} od poslednjih 8 produkcija — promeni stil")
     print("\n".join(probs) if probs else "OK - koncept je nov")
     sys.exit(1 if probs else 0)
