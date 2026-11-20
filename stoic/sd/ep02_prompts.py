@@ -8,7 +8,7 @@ import anim_ep02 as E
 
 G.STYLE = ("2d hand-drawn cartoon illustration, bold dark outlines, storybook animation background, soft painted shading, "
            "cinematic warm lighting, history documentary cartoon style, highly detailed environment, no text, no watermark")
-G.NEG = ("photo, photorealistic, realistic, 3d render, modern tent, camping tent, nylon, text, letters, words, watermark, logo, "
+G.NEG = ("nude, naked, topless, nsfw, photo, photorealistic, realistic, 3d render, modern tent, camping tent, nylon, text, letters, words, watermark, logo, "
          "signature, blurry, deformed, ugly, extra limbs, extra fingers")
 M = "roman emperor Marcus Aurelius, man with short curly brown beard, laurel wreath, dark red cloak"
 MO = "old roman emperor Marcus Aurelius, short curly grey beard, laurel wreath, dark red cloak, tired face"

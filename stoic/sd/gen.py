@@ -4,7 +4,7 @@ import sys, os, time, torch
 from diffusers import StableDiffusionPipeline, LCMScheduler
 STYLE = ("digital painting, storybook illustration, 2d cartoon background art, rich detailed environment, warm cinematic lighting, "
          "painterly textures, clean shapes, muted night palette with warm accents, no text, no watermark")
-NEG = "text, watermark, logo, signature, photo, realistic photo, blurry, deformed, ugly, extra limbs"
+NEG = "nude, naked, topless, nsfw, text, watermark, logo, signature, photo, realistic photo, blurry, deformed, ugly, extra limbs"
 _pipe = None
 
 

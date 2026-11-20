@@ -8,7 +8,7 @@ LEG = "roman legionaries in red cloaks with iron helmets and rectangular shields
 AUC = "outdoor ancient roman street market auction in front of a temple, a merchant holding up a golden cup, marble statues and silk dresses for sale, crowd of romans in togas bidding, sunny day"
 FIX2 = {
     34: ("old grey-bearded roman senator in a blue toga writing on scrolls at a wooden desk in an ancient roman office, oil lamp, window with moon", "computer, monitor, screen, laptop, clock, modern furniture", 3401),
-    49: ("a roman auctioneer standing on a wooden platform holding up a shining golden cup, tables with marble statues, silver plates and silk dresses, crowd of romans in togas raising hands to bid, forum", "tablecloth, banquet, restaurant, chairs", 4911),
+    49: ("close-up of a wooden market table in ancient rome covered with golden cups, silver plates, jewelry and folded silk dresses, a hand giving bronze coins to another hand, sunny forum in the background", "nude, naked, topless, nipples, woman, person, face, tablecloth, banquet", 4921),
     76: ("old roman emperor with grey beard and laurel wreath lying ill on a simple cot under a blanket inside a military tent, pale face, orange sunset light", "writing, desk, book, sitting", 7601),
     78: ("a young roman officer in a helmet standing at the entrance of a tent, looking at an old dying emperor lying on a cot, warm sunset light", "writing, desk, book", 7801),
 }
@@ -25,7 +25,10 @@ FIX = {
 }
 base_neg = G.NEG
 prompts = json.load(open(os.path.join(OUT, "prompts.json")))
-for i, (p, neg, seed) in (FIX2 if "--fix2" in sys.argv else FIX).items():
+sel = FIX2 if "--fix2" in sys.argv else FIX
+only = [int(x) for x in sys.argv[sys.argv.index("--only") + 1].split(",")] if "--only" in sys.argv else None
+for i, (p, neg, seed) in sel.items():
+    if only and i not in only: continue
     G.NEG = base_neg + ", " + neg
     for f in (f"up_{i:03d}.png", f"shot_{i:03d}_depth.npy"):
         if os.path.exists(os.path.join(OUT, f)): os.remove(os.path.join(OUT, f))
