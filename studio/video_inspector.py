@@ -41,7 +41,7 @@ def tech(video, long_video):
               ("Rezolucija 1920x1080" if long_video else "Rezolucija 1080x1920", res["rezolucija"] == ("1920x1080" if long_video else "1080x1920")),
               ("Glasnoća -14 LUFS ±1", abs(I + 14) <= 1.0), ("Vrh zvuka <= -1 dBFS", peak <= -1.0),
               ("Bez crnih delova > 0.5 s", not res["crni_delovi"]), ("Bez zamrznute slike > 4 s", not res["zamrznuto"]),
-              ("Bez tišina > 3.5 s", not res["duge_tisine"])]
+              ("Bez tišina > 3.5 s (osim završetka)", not [x for x in res["duge_tisine"] if float(x) < dur - 6])]
     return res, checks
 
 
@@ -73,7 +73,8 @@ def content(video, timing, plan=None):
     tm = json.load(open(timing))
     sents = [s for ch in tm["chapters"] for p in ch["paras"] for s in p["sentences"]]
     shots = json.load(open(plan)) if plan else [{"t0": s["t0"], "t1": s["t1"], "prompt": s["text"], "info": False} for s in sents]
-    times = [(s["t0"] + s["t1"]) / 2 + 0.3 for s in shots]
+    # kadar sa karticom poglavlja: uzorak POSLE kartice (prvih 2.6 s je veliki natpis preko slike)
+    times = [max((s["t0"] + s["t1"]) / 2 + 0.3, s["t0"] + 2.9) if s.get("card") else (s["t0"] + s["t1"]) / 2 + 0.3 for s in shots]
     frames = frames_at(video, times)
     from transformers import CLIPModel, CLIPProcessor
     import torch
