@@ -582,6 +582,22 @@ EDITS = {
         "caption": "They laughed at the plan. Now they ask for the plan. Who doubted you? \U0001F447",
         "tags": "#stoicism #discipline #mindset #success #provethemwrong",
         "sound": "slowed dark phonk / emotional trap (trending ↗) - drop na 4.0 s (let them watch)"},
+    # ---- ŽIVI snimci (korisnik: "žive snimke, ne AI"): poker/rizik/moć
+    30: {"mode": "story", "hook": "Everyone bets on something. Bet on yourself.", "word": "RISK", "line": "go all in.",
+        "loop": ("mk_5230", 0.45, 4.0, "", "poker-moc"),                # čovek u odelu gura sve žetone
+        "shots": [("mk_40603", 0.5, None, "", "poker-moc", 0.5),       # nameše manžetne, spreman
+                  ("mk_40600", 0.4, None, "", "poker-moc", 0.5),       # ruke, dugmad za manžetne
+                  ("mk_4642", 0.45, None, "", "poker-moc", 0.5),       # aerodrom, putuje
+                  ("mk_40512", 0.5, None, "", "poker-moc", 0.5),       # RISK: karte se dele
+                  ("mk_5245", 0.5, None, "", "poker-moc", 0.5),        # žetoni padaju
+                  ("mk_40507", 0.5, None, "", "poker-moc", 0.5),       # uzima žetone za ulog
+                  ("mk_40500", 0.5, None, "", "poker-moc", 0.5),       # baca karte
+                  ("mk_5240", 0.5, None, "", "poker-moc", 1.0),        # go all in: kraljevska kenta
+                  ("mk_40511", 0.5, None, "", "poker-moc", 1.0),       # skida kulu žetona - dobitak
+                  ("mk_4605", 0.55, None, "", "poker-moc", 0.5)],      # ljudi u odelima - moć
+        "caption": "Nobody's going to bet on you until you do. What are you going all in on? \U0001F447",
+        "tags": "#stoicism #discipline #mindset #betonyourself #success",
+        "sound": "dark casino phonk / slow suspense trap (trending ↗) - drop na 4.0 s (go all in)"},
 }
 
 
