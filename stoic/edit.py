@@ -620,7 +620,7 @@ EDITS = {
         "caption": "Money comes back. Hours don't. What would you do with 10 free hours a week? \U0001F447",
         "tags": "#entrepreneur #mindset #success #timeismoney #businessmotivation",
         "sound": "smooth dark trap / ticking-clock intro (trending ↗) - drop na 4.0 s (buy back your hours). Pexels snimci: Mizuno K (pexels.com/@mizunokozuki)"},
-    32: {"mode": "story", "hits": [2.0, 4.0], "flash": (0.22, 0.08), "hook_y": 0.76, "hook": "Six weeks left in this year.", "word": "SPRINT", "line": "finish it loud.",
+    32: {"mode": "story", "hits": [2.0, 4.0], "flash": (0.22, 0.08), "hook_y": 0.70, "hook": "Six weeks left in this year.", "word": "SPRINT", "line": "finish it loud.",
         "loop": ("mk_51534", 0.50, 1.5, "eq=gamma=1.7", "gala-sprint"),   # JUNAKINJA: gleda gore, razmišlja (hook + kraj, šav loop-a 1.0-2.0)
         "shots": [("mk_51562", 0.45, 3.0, "", "gala-sprint", 0.7667),                  # SIX WEEKS LEFT: godina se puni kao čaša (jedino točenje)
                   ("mk_51530", 0.72, 0.4, "eq=gamma=1.15", "gala-sprint", 0.7333),     # ona podiže čašu, odlučuje

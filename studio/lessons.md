@@ -95,3 +95,9 @@
 - Objave po EVROPSKOM vremenu: 2 klipa u 19:00 i 2 u 21:00 (CET). Razlog: publika je ~100% evropska (DE/IT/PL/NL/GB), vrhunac aktivnosti 17-21 h; stari termin 18:00 NY = ponoć u Evropi = najslabija probna grupa.
 - Najviše 2 klipa po terminu, 4 dnevno, dok ne probijemo zid 250. Tekst ostaje na engleskom.
 - Amerika dolazi tek kad klip prođe evropsku probnu grupu — ne jurimo NY vreme.
+
+## Unapređivač — stoic_edit_32 (20.11.)
+47. **Trajanja u celim frejmovima (30 fps):** 0.75 s = 22.5 frejma -> na rezu nastaje kadar od 1 frejma (`flash_shot`). Koristi 0.7667/0.7333 (23/22 frejma) ili višekratnike 1/30; zbir mora dati tačno 7.0 s (6.75 -> 6.733 pada `duration_ok`).
+48. **Pre izbora sveta prebroj snimke junaka:** pravilo "svaki izvor jednom" znači da 4 snimka junakinje = najviše 4 njena kadra (+ loop). Za 90+ treba ≥6 snimaka istog lika; ostatak Mixkit seta su često apstraktne čaše/pena (51540-51573 bez nje).
+49. **Radnja na drop:** postavi `start` tako da ključni trenutak (čep puca na 4.8 s izvora) padne tačno na 4.0 s klipa: start = trenutak − (4.0 − početak kadra). Jedan sinhronizovan udarac vredi više od tri kadra pene.
+50. **Hook preko krupnog lica:** `hook_y` radi i NADOLE (0.70 = ispod brade); 0.76 već izlazi iz sigurne zone. Opcija `"flash": (0.22, 0.08)` slabi beli blic kad gasi lice.
