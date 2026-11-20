@@ -601,6 +601,41 @@ EDITS = {
         "caption": "Nobody's going to bet on you until you do. What are you going all in on? \U0001F447",
         "tags": "#stoicism #discipline #mindset #betonyourself #success",
         "sound": "dark casino phonk / slow suspense trap (trending ↗) - drop na 4.0 s (go all in)"},
+    # ---- 20.11. 18:00 NY (hype recept #2, skaut: Pexels set Mizuno K + Mixkit satovi)
+    31: {"mode": "story", "hits": [2.0, 4.0], "hook": "The rich buy time, not things.", "word": "TIME", "line": "buy back your hours.",
+        "loop": ("px_13801273", 0.5, 4.0, "", "preduzetnik-sat"),   # junak se smeje, high five (prvi frejm, svetao, pokret)
+        "shots": [("px_13801280", 0.5, 3.0, "", "preduzetnik-sat", 0.5),               # gleda u sat
+                  ("px_13801270", 0.5, 1.5, "", "preduzetnik-sat", 0.5),               # potpisuje - kupuje
+                  ("px_13801255", 0.5, 2.0, "", "preduzetnik-sat", 0.5),               # silueta nad gradom, telefon
+                  ("mk_28887", 0.5, 4.4, "", "preduzetnik-sat", 0.3333),               # TIME: sekundara prelazi 12
+                  ("px_13801281", 0.5, 3.0, "", "preduzetnik-sat", 0.3333),            # na klupi gleda u sat
+                  ("mk_28893", 0.4, 3.0, "", "preduzetnik-sat", 0.3333),               # kazaljke jure
+                  ("px_13801289", 0.5, 2.6, "eq=gamma=1.2", "preduzetnik-sat", 0.3333),# čelo na zidu
+                  ("mk_39824", 0.45, 2.0, "", "preduzetnik-sat", 0.3333),              # metalni sat, brze kazaljke
+                  ("px_13801293", 0.5, 3.8, "eq=gamma=1.3", "preduzetnik-sat", 0.3334),# trlja oči - prodao vreme
+                  ("px_13801288", 0.5, 3.8, "", "preduzetnik-sat", 0.75),              # BUY BACK: rukovanje
+                  ("px_13801268", 0.5, 1.0, "", "preduzetnik-sat", 0.75),              # radi mirno na suncu
+                  ("px_13801264", 0.5, 2.0, "", "preduzetnik-sat", 1.0)],              # vlasnik ispred NYSE
+        "caption": "Money comes back. Hours don't. What would you do with 10 free hours a week? \U0001F447",
+        "tags": "#entrepreneur #mindset #success #timeismoney #businessmotivation",
+        "sound": "smooth dark trap / ticking-clock intro (trending ↗) - drop na 4.0 s (buy back your hours). Pexels snimci: Mizuno K (pexels.com/@mizunokozuki)"},
+    32: {"mode": "story", "hits": [2.0, 4.0], "hook": "Six weeks left in this year.", "word": "SPRINT", "line": "finish it loud.",
+        "loop": ("mk_51537", 0.45, 4.6, "", "gala-sprint"),   # JUNAKINJA: čep puca, vrišti od smeha
+        "shots": [("mk_51534", 0.50, 1.2, "eq=gamma=1.15", "gala-sprint", 0.5),     # SIX WEEKS LEFT: gleda gore, razmišlja
+                  ("mk_51550", 0.35, 2.0, "", "gala-sprint", 0.5),                   # prazna čaša čeka da se napuni
+                  ("mk_51522", 0.45, 3.0, "eq=gamma=1.3", "gala-sprint", 0.5),       # vrata se otvaraju, društvo maše
+                  ("mk_51562", 0.45, 3.5, "", "gala-sprint", 0.3333),                # SPRINT: flaša juri u čašu
+                  ("mk_51529", 0.42, 2.9, "eq=gamma=1.1", "gala-sprint", 0.3333),    # ruke kucaju čašama
+                  ("mk_51569", 0.5, 12.5, "", "gala-sprint", 0.3333),                # pena juri do vrha
+                  ("mk_51535", 0.45, 4.9, "", "gala-sprint", 0.3333),                # ispija naiskap
+                  ("mk_51555", 0.55, 11.8, "", "gala-sprint", 0.3333),               # mlaz među punim čašama
+                  ("mk_51560", 0.5, 11.5, "", "gala-sprint", 0.3334),                # pena do ivice
+                  ("mk_51530", 0.72, 3.55, "", "gala-sprint", 0.75),                 # FINISH IT LOUD: glasno se smeje, kucanje
+                  ("mk_51536", 0.35, 3.0, "", "gala-sprint", 0.75),                  # zabacuje glavu od smeha
+                  ("mk_51539", 0.62, 10.8, "eq=gamma=1.3", "gala-sprint", 1.0)],     # prskalica, ruka gore
+        "caption": "Most people wait for January. Six weeks is enough to change your year. What will you finish before Dec 31? \U0001F447",
+        "tags": "#newyeargoals #mindset #discipline #success #luxurylifestyle",
+        "sound": "euphoric build / celebratory trap (trending ↗) - tiho do 2 s, drop na 4.0 s uz prskalice"},
 }
 
 
