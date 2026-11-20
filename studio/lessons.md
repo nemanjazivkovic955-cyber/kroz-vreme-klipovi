@@ -79,3 +79,8 @@
 41. **Mixkit serije su susedni ID-jevi:** isti set snimanja (40497-40512, 5230-5247) daje nove kadrove istog sveta; thumbnail `assets.mixkit.co/videos/ID/ID-thumb-360-0.jpg` radi i kad je pretraga blokirana (Cloudflare).
 42. **Luma u inspekciji uključuje traku za tekst + GRADE:** sirovi izvor 0.10-0.15 posle gamma 1.8-2.0 ostaje ~0.22-0.25 i postaje mlečan; za cilj ≥0.28 birati izvore sa sirovom lumom ≥0.20.
 43. **Udarci na smeni teksta:** polje `"hits": [2.0, 4.0]` u unosu klipa (punch-in + blic 2 frejma); podrazumevano isključeno.
+
+## Unapređivač — stoic_edit_31 (20.11.)
+44. **Hook tekst ne sme preko lica:** portretni izvori (Pexels 9:16) ne mogu da se pomere kropom - za hook kadar sa licem u sredini koristi `"hook_y": 0.25` (tekst iznad glave). Ostale kadrove 0-2 s birati sa licem u donjoj polovini. qc_inspect sada blokira tamni hook (`dark_hook`, luma < 0.28).
+45. **Pexels setovi:** fajl `https://videos.pexels.com/video-files/ID/ID-hd_1080_1920_24fps.mp4` (ili `uhd_1440_2560_24fps`); set autora ide i ispod i iznad prvog ID-ja (Mizuno K: 13801225-13801295). Proveri rezoluciju posle skidanja - "hd_1080" ime nije garancija (281 je bio 720p).
+46. **Isti snimak = dve radnje:** pre odbacivanja "ponovljene radnje" pogledaj ceo snimak na 0.5 s mreži - 280 ima sat (3.0 s) I šake na glavi (5.0 s), 281 ima glavu u šaci (5.8 s).

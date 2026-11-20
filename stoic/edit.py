@@ -606,16 +606,16 @@ EDITS = {
         "loop": ("px_13801264", 0.5, 2.0, "eq=gamma=1.3", "preduzetnik-sat"),   # JUNAK: portret pred NYSE, gleda u kameru (hook + kraj, svetao)
         "shots": [("px_13801280", 0.5, 3.0, "eq=gamma=1.3", "preduzetnik-sat", 0.5),   # BUY TIME: gleda u sat
                   ("px_13801270", 0.5, 1.5, "", "preduzetnik-sat", 0.5),               # potpisuje - kupuje
-                  ("px_13801275", 0.5, 4.4, "", "preduzetnik-sat", 0.5),               # NOT THINGS: spušta i odlaže telefon
+                  ("px_13801275", 0.5, 4.4, "eq=gamma=1.3", "preduzetnik-sat", 0.5),               # NOT THINGS: spušta i odlaže telefon
                   ("mk_28887", 0.5, 4.4, "", "preduzetnik-sat", 0.3333),               # TIME: sekundara prelazi 12
-                  ("px_13801281", 0.5, 5.8, "", "preduzetnik-sat", 0.3333),            # glava u šaci na klupi (1440p)
+                  ("px_13801281", 0.5, 5.8, "eq=gamma=1.2", "preduzetnik-sat", 0.3333),            # glava u šaci na klupi (1440p)
                   ("mk_28893", 0.0, 1.5, "", "preduzetnik-sat", 0.3333),               # osovina + obe kazaljke + broj 10
-                  ("px_13801276", 0.5, 0.2, "", "preduzetnik-sat", 0.3333),            # zabrinut nad laptopom u sumrak
+                  ("px_13801276", 0.5, 0.2, "eq=gamma=1.4", "preduzetnik-sat", 0.3333),            # zabrinut nad laptopom u sumrak
                   ("mk_39824", 0.45, 2.0, "", "preduzetnik-sat", 0.3333),              # metalni sat, brze kazaljke
                   ("px_13801293", 0.5, 3.8, "eq=gamma=1.45", "preduzetnik-sat", 0.3334),# trlja oči - prodao vreme
-                  ("px_13801288", 0.5, 4.1, "", "preduzetnik-sat", 0.5),               # BUY BACK: rukovanje
-                  ("px_13801268", 0.5, 1.0, "", "preduzetnik-sat", 0.5),               # radi mirno na suncu
-                  ("px_13801271", 0.5, 2.6, "eq=gamma=1.15", "preduzetnik-sat", 0.5),               # partnerka stiska pesnicu - dobra vest
+                  ("px_13801288", 0.5, 4.4, "", "preduzetnik-sat", 0.5),               # BUY BACK: rukovanje
+                  ("px_13801230", 0.5, 9.2, "", "preduzetnik-sat", 0.5),               # slobodan: ide ka kameri u zlatnom svetlu, sako preko ramena
+                  ("px_13801271", 0.5, 2.6, "eq=gamma=1.35", "preduzetnik-sat", 0.5),               # partnerka stiska pesnicu - dobra vest
                   ("px_13801273", 0.5, 3.6, "eq=gamma=1.3", "preduzetnik-sat", 1.0)],  # high five - kraj, pa loop na portret
         "caption": "Money comes back. Hours don't. What would you do with 10 free hours a week? \U0001F447",
         "tags": "#entrepreneur #mindset #success #timeismoney #businessmotivation",

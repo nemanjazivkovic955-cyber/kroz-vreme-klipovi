@@ -91,7 +91,7 @@ def expected_for(vid):
         _t, _pc = 0.5, [0.5]
         for _x in _e.get("shots", []): _t += _E.sdur(_x); _pc.append(round(_t, 3))
         return {"texts": [], "text_changes": [2.0, 4.0] if _e.get("hook") else [4.0], "silent": True, "loop": True, "kind": "stoic_edit", "dur": (7, 11),
-                "planned_cuts": _pc, "hits": _e.get("hits", []),
+                "planned_cuts": _pc, "hits": _e.get("hits", []), "hook_y": _e.get("hook_y"),
                 "min_luma": 0.07, "min_shot": 0.2 if any(len(x) > 5 for x in _e.get("shots", [])) else 0.45}
     try:
         import talks
@@ -200,6 +200,9 @@ def inspect(path, vid=None, expect_silent=None):
     for k in range(1, n):
         run = run + 1 if diff[k] < 0.35 else 0
         if run == int(fps * 0.6): issue("major", "frozen", T(k - run), f"zamrznuta slika >= 0.6 s od {T(k - run)} s")
+    # hook kadar (prvi frejm) mora biti svetao (lekcije 36/44; ponavljalo se u stoic_edit_30 i _31: 0.27 / 0.215)
+    if exp.get("kind") == "stoic_edit" and shots and shots[0]["luma"] < 0.28:
+        issue("major", "dark_hook", 0.0, f"hook kadar pretaman ({shots[0]['luma']} < 0.28) - gamma 1.3-1.6 ili svetliji izvor")
     for s in shots:
         if s["overexposed_frac"] > 0.35: issue("minor", "overexposed", s["start"], f"kadar {s['index']}: {s['overexposed_frac']:.0%} piksela izgoreno")
         if s["luma"] < exp.get("min_luma", 0.22): issue("major", "underexposed", s["start"], f"kadar {s['index']}: osvetljenost {s['luma']}")
@@ -237,7 +240,12 @@ def inspect(path, vid=None, expect_silent=None):
         nbm = round(float(np.median(diff[1:])), 2)
         seam = {"seam_diff": seam, "median_neighbor_diff": nbm, "ok": seam <= max(4.0, 2.5 * nbm) or seam < 15}
         # tekst se menja na spoju (hook != kraj) pa meri i bez trake
-        sb = round(float(np.abs(nb[0] - nb[-1]).mean()), 2); seam["seam_diff_no_text"] = sb
+        sb = round(float(np.abs(nb[0] - nb[-1]).mean()), 2)
+        if exp.get("hook_y"):  # hook pomeren (hook_y): njegova traka je drugde nego traka kraja -> skloni obe
+            hh_ = small[0].shape[0]; top = int(hh_ * max(0.0, min(0.25, exp["hook_y"] - 0.15)))
+            m0, m1 = np.vstack([small[0][:top], small[0][int(hh_ * 0.62):]]), np.vstack([small[-1][:top], small[-1][int(hh_ * 0.62):]])
+            sb = round(float(np.abs(m0 - m1).mean()), 2)
+        seam["seam_diff_no_text"] = sb
         seam["ok"] = sb <= max(6.0, 3 * nbm)
         if not seam["ok"]: issue("major", "loop_seam", meta["duration"], f"loop spoj vidljiv (bez teksta {sb} vs susedni {nbm})")
     # 6 smena teksta vs plan

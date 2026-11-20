@@ -17,5 +17,25 @@
   ],
   "najveci_skok": "jedan junak + slika pogađa tekst (+12); zatim tempo RISK 0.333 s + udarci na smeni teksta (+8)",
   "preostalo": "luma 0.22-0.26 (izvori 40500-serije sirovo 0.10-0.15); kockice = drugi igrač; reč RISK sitna (format)"
+ },
+ {
+  "klip": "stoic_edit_31",
+  "datum": "2026-11-20",
+  "ocene": [
+   76,
+   82,
+   85,
+   86,
+   87
+  ],
+  "promene": [
+   "krug 1: hook = px_13801264 (portret pred NYSE, gamma 1.3, luma 0.215 -> 0.32); high five (273) samo kao kraj 1.0 s; silueta 255 izbačena -> 275 (spušta telefon) za 'not things'; 289 izbačen; 281 (720p) zamenjen 1440p verzijom i koristi se za glavu u šaci (5.8 s) umesto drugog 'gleda u sat'; mk_28893 xc 0.0 start 1.5 (osovina + obe kazaljke + broj 10); 276 (zabrinut nad laptopom u sumrak) u TIME bloku; 288 start 4.1; tempo posle 4.0 s 0.5/0.5/0.5/1.0",
+   "krug 2: nova opcija 'hook_y' u stoic/edit.py (hook tekst pomeren na 0.25H iznad lica; podrazumevano isključeno) + qc_inspect maskira i hook traku pri merenju loop spoja; 269 (leđa, tamno) -> 271 (partnerka stiska pesnicu)",
+   "krug 3: gamma 1.4 na 276 (0.17 -> 0.26), 1.35 na 271, 1.2 na 281",
+   "krug 4: Mizuno K set proširen nadole (13801225-13801249); 268 (statičan) -> 230 (junak ide ka kameri u zlatnom svetlu, start 9.2 da lice bude iznad teksta); 288 start 4.4 (mutan ulaz ruku, Laplacian 17 -> 31)",
+   "automatska provera: qc_inspect 'dark_hook' (major) za stoic_edit kad je luma hook kadra < 0.28 - ponavljalo se u 30 i 31"
+  ],
+  "najveci_skok": "svetao portret junaka na prvom frejmu sa tekstom iznad lica (+6); zatim TIME blok sa istim junakom umesto siluete/apstraktnih linija (+3)",
+  "preostalo": "87/100 - u setu nema slike za 'not things' (odbija kupovinu); hook statičan portret; 293 u teget odelu; hook tekst na 0.25H prekriva lica u kadrovima 0.5-1.0 i 1.5-2.0"
  }
 ]
