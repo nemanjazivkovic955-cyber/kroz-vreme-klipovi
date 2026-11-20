@@ -799,6 +799,8 @@ def make(n):
     live = e.get("style") == "live"
     rk = dict(grade=LIVE_GRADE, vig="PI/6") if live else {}
     check_variety(n)
+    odd = [x[0] for x in shots if abs(sdur(x) * FPS - round(sdur(x) * FPS)) > 0.05]  # lekcija 47: 0.75 s = 22.5 frejma -> kadar od 1 frejma
+    if odd: print(f"UPOZORENJE edit {n}: trajanja nisu cela frejma ({odd}) - koristi 0.7667/0.7333")
     lname, lx, a, lex = e["loop"][:4]
     full = os.path.join(M.TMP, f"e{n}_loop.mp4")
     M.render_shot(full, lname, a - BEAT, 2 * BEAT, lx, 1.00, 1.04, lex, **rk)
