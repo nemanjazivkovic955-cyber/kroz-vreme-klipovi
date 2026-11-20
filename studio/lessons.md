@@ -66,3 +66,10 @@
 32. Previše objava (do 11/dan, u naletima) -> 1-2 dnevno u isto vreme.
 33. Opisi bez pitanja = 0 komentara -> uvek koristiti opis sa pitanjem iz _opis.txt.
 34. Kraći klipovi (7-10 s) imaju ~2x veći % gledanja do kraja od 27 s klipova.
+
+## ZID 250 PREGLEDA (dijagnoza 20.11., Windsor.ai)
+35. ~250 pregleda = TikTok test grupa (For You 91-96%, nepratioci 99%). Klip ide dalje samo ako test grupa ostane: posle 2 s ostaje samo 14-37% -> PRVIH 0.5 s je sve.
+36. Prvi frejm: SVETAO, lice ili pokret, udarac zumom; hook ≤ 6 reči čitljiv za <1 s. Tamni prvi kadrovi = gubitak.
+37. 6-7 s + savršen loop (prosečno gledanje >100%). Trending zvuk sa jakim početkom (korisnik dodaje) obavezan.
+38. Publika je evropska (DE/IT/PL/NL/GB) jer je nalog regionalno u Evropi; američko vreme objave pomaže samo delimično.
+39. Mnogo objava dnevno iz novog naloga deli test grupu; posle prvog proboja povećavati.

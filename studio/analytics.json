@@ -71,5 +71,19 @@
     "cuvanja": 4
    }
   ]
+ },
+ "2026-11-20_dijagnoza_zid_250": {
+  "izvor": "Windsor.ai (40 videa, 7 dana)",
+  "for_you_pct": "91-96%",
+  "nepratioci_pct": "99-100%",
+  "retencija": {
+   "1s": "45-68%",
+   "2s": "14-37%",
+   "3s": "7-29%",
+   "do_kraja": "0-10%"
+  },
+  "zemlje": "DE, IT, PL, NL, GB (Evropa) - nalog je regionalno evropski",
+  "zakljucak": "~250 = test grupa For You; klipovi padaju na testu jer ljudi odlaze u 1-2 s; pratioci (follow-za-follow) ne gledaju",
+  "aktivnost_pratilaca_vrhunac_sati": "17-21"
  }
 }
