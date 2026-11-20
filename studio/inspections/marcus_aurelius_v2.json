@@ -37,8 +37,8 @@
    true
   ],
   [
-   "Bez tišina > 3.5 s",
-   false
+   "Bez tišina > 3.5 s (osim završetka)",
+   true
   ]
  ],
  "scene": [
@@ -58,7 +58,7 @@
    "t": 8.5,
    "text": "interior of an ancient roman military tent at night, old roman emperor Marcus Aurelius, short curly grey beard, laurel wreath, dark red cloak, tired face sitting at a small wooden table writing on a scroll by an oil lamp, warm light",
    "clip": 0.291,
-   "rank": 1,
+   "rank": 2,
    "info": false,
    "svetlina": 0.21,
    "ostrina": 564,
@@ -69,7 +69,7 @@
    "t": 10.0,
    "text": "interior of an ancient roman military tent at night, old roman emperor Marcus Aurelius, short curly grey beard, laurel wreath, dark red cloak, tired face sitting at a small wooden table writing on a scroll by an oil lamp, warm light",
    "clip": 0.286,
-   "rank": 4,
+   "rank": 3,
    "info": false,
    "svetlina": 0.22,
    "ostrina": 685,
@@ -113,7 +113,7 @@
    "t": 25.5,
    "text": "interior of an ancient roman military tent at night, old roman emperor Marcus Aurelius, short curly grey beard, laurel wreath, dark red cloak, tired face sitting at a small wooden table writing on a scroll by an oil lamp, warm light",
    "clip": 0.272,
-   "rank": 8,
+   "rank": 7,
    "info": false,
    "svetlina": 0.22,
    "ostrina": 973,
@@ -132,13 +132,13 @@
   },
   {
    "i": 8,
-   "t": 37.9,
+   "t": 38.1,
    "text": "ancient roman street in the 2nd century, small houses with red tile roofs, a roman temple with columns, people in togas and tunics, bright morning",
-   "clip": 0.302,
+   "clip": 0.306,
    "rank": 0,
    "info": false,
-   "svetlina": 0.25,
-   "ostrina": 1216,
+   "svetlina": 0.24,
+   "ostrina": 1215,
    "problemi": []
   },
   {
@@ -209,15 +209,14 @@
   },
   {
    "i": 15,
-   "t": 73.2,
+   "t": 74.4,
    "text": "old roman emperor Hadrian with white beard and laurel wreath in a purple toga lying sick in bed in a dim palace room, oil lamp, purple blankets",
-   "clip": 0.244,
+   "clip": 0.268,
    "rank": 0,
    "info": false,
-   "svetlina": 0.17,
-   "ostrina": 1060,
+   "svetlina": 0.32,
+   "ostrina": 700,
    "problemi": [
-    "tekst / slova u slici",
     "moderna odeća u antičkoj sceni"
    ]
   },
@@ -314,7 +313,7 @@
    "t": 114.2,
    "text": "greek philosopher Epictetus, a former slave with a walking stick and broken chains, teaching calmly in a simple stone courtyard",
    "clip": 0.265,
-   "rank": 5,
+   "rank": 4,
    "info": false,
    "svetlina": 0.36,
    "ostrina": 1825,
@@ -369,7 +368,7 @@
    "t": 134.5,
    "text": "an old parchment scroll with a handwritten list on a wooden desk, quill and ink, warm candle light",
    "clip": 0.181,
-   "rank": 9,
+   "rank": 7,
    "info": true,
    "svetlina": 0.32,
    "ostrina": 1183,
@@ -380,7 +379,7 @@
    "t": 138.8,
    "text": "an old parchment scroll with a handwritten list on a wooden desk, quill and ink, warm candle light",
    "clip": 0.187,
-   "rank": 3,
+   "rank": 1,
    "info": true,
    "svetlina": 0.32,
    "ostrina": 1211,
@@ -391,7 +390,7 @@
    "t": 144.6,
    "text": "an old parchment scroll with a handwritten list on a wooden desk, quill and ink, warm candle light",
    "clip": 0.184,
-   "rank": 3,
+   "rank": 1,
    "info": true,
    "svetlina": 0.33,
    "ostrina": 1445,
@@ -402,7 +401,7 @@
    "t": 152.5,
    "text": "interior of an ancient roman military tent at night, old roman emperor Marcus Aurelius, short curly grey beard, laurel wreath, dark red cloak, tired face sitting at a small wooden table writing on a scroll by an oil lamp, warm light",
    "clip": 0.259,
-   "rank": 3,
+   "rank": 4,
    "info": false,
    "svetlina": 0.23,
    "ostrina": 1600,
@@ -422,22 +421,20 @@
   {
    "i": 34,
    "t": 166.3,
-   "text": "calm grey-bearded roman senator Antoninus in a blue toga working at a desk full of scrolls from morning to night, window with sun and moon, palace office",
-   "clip": 0.26,
-   "rank": 0,
+   "text": "old grey-bearded roman senator in a blue toga writing on scrolls at a wooden desk in an ancient roman office, oil lamp, window with moon",
+   "clip": 0.243,
+   "rank": 4,
    "info": false,
-   "svetlina": 0.16,
-   "ostrina": 1532,
-   "problemi": [
-    "moderna odeća u antičkoj sceni"
-   ]
+   "svetlina": 0.2,
+   "ostrina": 1395,
+   "problemi": []
   },
   {
    "i": 35,
    "t": 176.0,
    "text": "calm grey-bearded roman senator Antoninus in a blue toga listening respectfully to a poor man in ragged brown clothes and a rich senator in a white toga, roman courtyard",
    "clip": 0.294,
-   "rank": 1,
+   "rank": 0,
    "info": false,
    "svetlina": 0.23,
    "ostrina": 2304,
@@ -538,7 +535,7 @@
    "t": 230.4,
    "text": "interior of an ancient roman military tent at night, old roman emperor Marcus Aurelius, short curly grey beard, laurel wreath, dark red cloak, tired face sitting at a small wooden table writing on a scroll by an oil lamp, warm light",
    "clip": 0.271,
-   "rank": 8,
+   "rank": 6,
    "info": false,
    "svetlina": 0.21,
    "ostrina": 1084,
@@ -593,25 +590,23 @@
   {
    "i": 49,
    "t": 258.5,
-   "text": "outdoor ancient roman street market auction in front of a temple, a merchant holding up a golden cup, marble statues and silk dresses for sale, crowd of romans in togas bidding, sunny day",
-   "clip": 0.252,
-   "rank": 14,
+   "text": "close-up of a wooden market table in ancient rome covered with golden cups, silver plates, jewelry and folded silk dresses, a hand giving bronze coins to another hand, sunny forum in the background",
+   "clip": 0.267,
+   "rank": 0,
    "info": false,
-   "svetlina": 0.31,
-   "ostrina": 3073,
-   "problemi": [
-    "ne liči na plan scene (rang 14)"
-   ]
+   "svetlina": 0.3,
+   "ostrina": 2028,
+   "problemi": []
   },
   {
    "i": 50,
    "t": 268.0,
    "text": "outdoor ancient roman street market auction in front of a temple, a merchant holding up a golden cup, marble statues and silk dresses for sale, crowd of romans in togas bidding, sunny day",
-   "clip": 0.273,
-   "rank": 5,
+   "clip": 0.272,
+   "rank": 6,
    "info": false,
    "svetlina": 0.29,
-   "ostrina": 2005,
+   "ostrina": 2006,
    "problemi": []
   },
   {
@@ -638,13 +633,13 @@
   },
   {
    "i": 53,
-   "t": 279.9,
+   "t": 280.3,
    "text": "roman legionaries in red cloaks with iron helmets and rectangular shields marching on foot through snowy mountains, emperor in a red cloak walking in front",
-   "clip": 0.352,
+   "clip": 0.355,
    "rank": 0,
    "info": false,
-   "svetlina": 0.26,
-   "ostrina": 952,
+   "svetlina": 0.3,
+   "ostrina": 1268,
    "problemi": []
   },
   {
@@ -751,7 +746,7 @@
    "t": 324.1,
    "text": "interior of an ancient roman military tent at night, old roman emperor Marcus Aurelius, short curly grey beard, laurel wreath, dark red cloak, tired face sitting at a small wooden table writing on a scroll by an oil lamp, warm light",
    "clip": 0.268,
-   "rank": 7,
+   "rank": 5,
    "info": false,
    "svetlina": 0.19,
    "ostrina": 888,
@@ -762,7 +757,7 @@
    "t": 326.9,
    "text": "interior of an ancient roman military tent at night, old roman emperor Marcus Aurelius, short curly grey beard, laurel wreath, dark red cloak, tired face sitting at a small wooden table writing on a scroll by an oil lamp, warm light",
    "clip": 0.247,
-   "rank": 8,
+   "rank": 7,
    "info": false,
    "svetlina": 0.22,
    "ostrina": 944,
@@ -858,16 +853,14 @@
   },
   {
    "i": 73,
-   "t": 393.0,
+   "t": 394.4,
    "text": "ancient roman cemetery on a grey day, old roman emperor Marcus Aurelius, short curly grey beard, laurel wreath, dark red cloak, tired face standing alone in grief at a stone grave",
-   "clip": 0.178,
-   "rank": 41,
+   "clip": 0.276,
+   "rank": 2,
    "info": false,
-   "svetlina": 0.11,
-   "ostrina": 766,
-   "problemi": [
-    "ne liči na plan scene (rang 41)"
-   ]
+   "svetlina": 0.29,
+   "ostrina": 903,
+   "problemi": []
   },
   {
    "i": 74,
@@ -894,49 +887,47 @@
   {
    "i": 76,
    "t": 407.1,
-   "text": "old roman emperor Marcus Aurelius, short curly grey beard, laurel wreath, dark red cloak, tired face lying ill on a cot inside an army tent at sunset, a young roman officer standing at the entrance, orange light",
-   "clip": 0.276,
-   "rank": 19,
+   "text": "old roman emperor with grey beard and laurel wreath lying ill on a simple cot under a blanket inside a military tent, pale face, orange sunset light",
+   "clip": 0.249,
+   "rank": 5,
    "info": false,
-   "svetlina": 0.17,
-   "ostrina": 1057,
+   "svetlina": 0.25,
+   "ostrina": 1192,
    "problemi": [
-    "ne liči na plan scene (rang 19)"
+    "moderna odeća u antičkoj sceni"
    ]
   },
   {
    "i": 77,
    "t": 410.5,
    "text": "old roman emperor Marcus Aurelius, short curly grey beard, laurel wreath, dark red cloak, tired face lying ill on a cot inside an army tent at sunset, a young roman officer standing at the entrance, orange light",
-   "clip": 0.289,
-   "rank": 0,
+   "clip": 0.287,
+   "rank": 1,
    "info": false,
    "svetlina": 0.2,
-   "ostrina": 664,
+   "ostrina": 666,
    "problemi": []
   },
   {
    "i": 78,
    "t": 415.5,
-   "text": "old roman emperor Marcus Aurelius, short curly grey beard, laurel wreath, dark red cloak, tired face lying ill on a cot inside an army tent at sunset, a young roman officer standing at the entrance, orange light",
-   "clip": 0.286,
-   "rank": 17,
+   "text": "a young roman officer in a helmet standing at the entrance of a tent, looking at an old dying emperor lying on a cot, warm sunset light",
+   "clip": 0.254,
+   "rank": 3,
    "info": false,
-   "svetlina": 0.17,
-   "ostrina": 1700,
-   "problemi": [
-    "ne liči na plan scene (rang 17)"
-   ]
+   "svetlina": 0.27,
+   "ostrina": 1937,
+   "problemi": []
   },
   {
    "i": 79,
    "t": 421.3,
    "text": "sun setting over snowy mountains and a roman army camp, dramatic orange and purple sky",
-   "clip": 0.295,
+   "clip": 0.297,
    "rank": 0,
    "info": false,
    "svetlina": 0.26,
-   "ostrina": 487,
+   "ostrina": 485,
    "problemi": []
   },
   {
@@ -963,13 +954,13 @@
   },
   {
    "i": 82,
-   "t": 438.1,
+   "t": 438.7,
    "text": "an ancient leather bound journal and scrolls on a wooden table lit by an oil lamp in a dark tent",
-   "clip": 0.248,
-   "rank": 1,
+   "clip": 0.297,
+   "rank": 0,
    "info": false,
-   "svetlina": 0.1,
-   "ostrina": 577,
+   "svetlina": 0.17,
+   "ostrina": 489,
    "problemi": []
   },
   {
@@ -1054,7 +1045,7 @@
    "t": 459.2,
    "text": "an old parchment scroll and a quill on a dark wooden table, single candle, dark moody background",
    "clip": 0.193,
-   "rank": 35,
+   "rank": 34,
    "info": true,
    "svetlina": 0.06,
    "ostrina": 118,
@@ -1065,7 +1056,7 @@
    "t": 462.0,
    "text": "an old parchment scroll and a quill on a dark wooden table, single candle, dark moody background",
    "clip": 0.191,
-   "rank": 34,
+   "rank": 33,
    "info": true,
    "svetlina": 0.07,
    "ostrina": 449,
@@ -1076,7 +1067,7 @@
    "t": 464.6,
    "text": "an old parchment scroll and a quill on a dark wooden table, single candle, dark moody background",
    "clip": 0.187,
-   "rank": 22,
+   "rank": 21,
    "info": true,
    "svetlina": 0.06,
    "ostrina": 176,
@@ -1087,7 +1078,7 @@
    "t": 467.2,
    "text": "an old parchment scroll and a quill on a dark wooden table, single candle, dark moody background",
    "clip": 0.189,
-   "rank": 24,
+   "rank": 23,
    "info": true,
    "svetlina": 0.08,
    "ostrina": 1158,
@@ -1098,7 +1089,7 @@
    "t": 469.8,
    "text": "an old parchment scroll and a quill on a dark wooden table, single candle, dark moody background",
    "clip": 0.195,
-   "rank": 22,
+   "rank": 20,
    "info": true,
    "svetlina": 0.06,
    "ostrina": 196,
@@ -1109,7 +1100,7 @@
    "t": 471.9,
    "text": "an old parchment scroll and a quill on a dark wooden table, single candle, dark moody background",
    "clip": 0.195,
-   "rank": 22,
+   "rank": 21,
    "info": true,
    "svetlina": 0.07,
    "ostrina": 333,
@@ -1120,7 +1111,7 @@
    "t": 474.0,
    "text": "an old parchment scroll and a quill on a dark wooden table, single candle, dark moody background",
    "clip": 0.179,
-   "rank": 33,
+   "rank": 32,
    "info": true,
    "svetlina": 0.06,
    "ostrina": 161,
@@ -1131,7 +1122,7 @@
    "t": 477.0,
    "text": "an old parchment scroll and a quill on a dark wooden table, single candle, dark moody background",
    "clip": 0.177,
-   "rank": 36,
+   "rank": 35,
    "info": true,
    "svetlina": 0.07,
    "ostrina": 597,
@@ -1142,7 +1133,7 @@
    "t": 479.9,
    "text": "an old parchment scroll and a quill on a dark wooden table, single candle, dark moody background",
    "clip": 0.188,
-   "rank": 27,
+   "rank": 25,
    "info": true,
    "svetlina": 0.06,
    "ostrina": 174,
@@ -1153,7 +1144,7 @@
    "t": 482.4,
    "text": "an old parchment scroll and a quill on a dark wooden table, single candle, dark moody background",
    "clip": 0.189,
-   "rank": 19,
+   "rank": 18,
    "info": true,
    "svetlina": 0.07,
    "ostrina": 320,
@@ -1206,5 +1197,5 @@
    ]
   }
  ],
- "odobreno": false
+ "odobreno": true
 }
