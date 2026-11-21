@@ -5375,6 +5375,110 @@
   }
  },
  {
+  "id": "stoic_edit_36",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "awake",
+  "hook": "A W A K E",
+  "text": [
+   "A W A K E",
+   "they sleep. I collect."
+  ],
+  "ending": "they sleep. I collect.",
+  "footage": [
+   "mk_63",
+   "mk_49",
+   "mk_50163",
+   "mk_44553",
+   "mk_44551",
+   "mk_44554"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_36.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_36.md",
+   "inspected_at": "2026-11-21T15:54:02",
+   "approval": {
+    "technical_pass": false,
+    "vision_reviewed": false,
+    "weak_scenes": 0,
+    "creative_score": null,
+    "approved": false,
+    "blocking": [
+     "1 većih problema",
+     "nema vizuelnog pregleda"
+    ]
+   },
+   "issues": 2,
+   "cuts": [
+    0.5,
+    1.267,
+    2.0,
+    3.0,
+    6.5
+   ],
+   "loop_seam": {
+    "seam_diff": 9.15,
+    "median_neighbor_diff": 1.64,
+    "ok": true,
+    "seam_diff_no_text": 3.25
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_35",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "forged",
+  "hook": "F O R G E D",
+  "text": [
+   "F O R G E D",
+   "stack it cold."
+  ],
+  "ending": "stack it cold.",
+  "footage": [
+   "mk_2861",
+   "mk_18299",
+   "mk_2865",
+   "mk_5186",
+   "mk_2862"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_35.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_35.md",
+   "inspected_at": "2026-11-21T16:00:45",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": false,
+    "weak_scenes": 0,
+    "creative_score": null,
+    "approved": false,
+    "blocking": [
+     "nema vizuelnog pregleda"
+    ]
+   },
+   "issues": 1,
+   "cuts": [
+    0.5,
+    1.3,
+    2.0,
+    4.0,
+    6.5
+   ],
+   "loop_seam": {
+    "seam_diff": 9.74,
+    "median_neighbor_diff": 2.13,
+    "ok": true,
+    "seam_diff_no_text": 2.36
+   }
+  }
+ },
+ {
   "id": "talk_city",
   "family": "talk_v1",
   "format": "TikTok 9:16 ~30 s, glas + muzika",

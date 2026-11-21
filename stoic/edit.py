@@ -674,7 +674,7 @@ EDITS = {
         "loop": ("mk_2861", 0.55, 1.0, "eq=gamma=1.35:saturation=1.1", "kovanje-zlato"),   # HOOK: tečno zlato pljuska u kalup, varnice
         "shots": [("mk_18299", 0.55, 1.2, "eq=gamma=1.3", "kovanje-zlato", 0.8),              # PRESSURE: novčanica izlazi iz praznog novčanika
                   ("mk_2865", 0.50, 7.4, "eq=gamma=1.6:saturation=1.1", "kovanje-zlato", 0.7),  # bljesak rubina
-                  ("mk_151", 0.48, 6.1, "eq=gamma=1.8", "kovanje-zlato", 2.0, 1.15),           # FORGED (hit 2.0): sako legne na ramena pred gradom
+                  ("mk_5186", 0.85, 8.3, "eq=contrast=1.15:saturation=0.85", "kovanje-zlato", 2.0),  # FORGED (hit 2.0): pesnica zateže manžetnu
                   ("mk_2862", 0.55, 0.7, "eq=gamma=0.85:contrast=1.15", "kovanje-zlato", 2.5, 1.12)],  # STACK IT COLD: poluge na polici trezora
         "caption": "Pressure breaks most. It forges a few. What's your fire right now? \U0001F447",
         "tags": "#gold #money #mindset #discipline #luxurylifestyle",
