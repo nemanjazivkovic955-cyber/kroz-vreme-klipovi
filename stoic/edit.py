@@ -646,6 +646,19 @@ EDITS = {
         "caption": "Every skyline started as empty sand. What are you building from nothing? \U0001F447",
         "tags": "#ambition #mindset #success #skyline #luxurylifestyle",
         "sound": "We could stay here or we could go up (trending ↗, rani trend) ili cinematic build-up phonk, drop na 4.0 s"},
+    34: {"mode": "story", "hits": [2.0, 4.0], "hook": "Calm hands win big tables.", "word": "NERVE", "line": "never blink first.",
+        "loop": ("mk_5185", 0.57, 9.5, "eq=gamma=1.3", "bond-kazino"),   # ruke stežu belu leptir-mašnu (hook + kraj)
+        "shots": [("mk_4300", 0.38, 3.0, "eq=gamma=1.3", "bond-kazino", 0.4),     # kazino Monte Karlo noću
+                  ("mk_4246", 0.5, 0.0, "", "bond-kazino", 0.5),                   # zlatna svetla sale
+                  ("mk_100390", 0.42, 0.15, "eq=gamma=1.5", "bond-kazino", 0.6),   # CALM HANDS: diler ispaljuje kartu
+                  ("mk_100391", 0.57, 1.9, "eq=gamma=1.7", "bond-kazino", 0.7),    # NERVE (hit 2.0): karta u objektiv
+                  ("mk_100388", 0.5, 4.0, "eq=gamma=1.3", "bond-kazino", 0.7),     # karte prskaju u kameru
+                  ("mk_5186", 0.29, 1.4, "", "bond-kazino", 0.6),                  # mirni prsti na manžetni
+                  ("mk_18245", 0.5, 6.75, "", "bond-kazino", 0.5),                 # NEVER BLINK (hit 4.0): crvena haljina do lica
+                  ("mk_18246", 0.5, 5.5, "eq=gamma=1.3", "bond-kazino", 2.0)],     # ona gleda u kameru, ne trepće -> loop na mašnu
+        "caption": "In a big game, money doesn't win. Nerve does. Who blinks first at your table? \U0001F447",
+        "tags": "#mindset #luxurylifestyle #money #discipline #sigma",
+        "sound": "Spy/Bond stil (bas-gitara + duvački udarac) ili brazilski phonk 'Montagem', drop na 2.0 s kad karta uleti u kameru"},
 }
 
 
