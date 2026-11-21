@@ -116,3 +116,8 @@
 
 ## SCENA UBICA (od 21.11.2026, zahtev korisnika)
 - Posle prvog rendera, pre kontrolora, svaki klip prolazi agenta `scena-ubica`: svaki kadar dobija ocenu ubijanja 1-10; < 7 se menja, hook mora biti >= 9. Bez čudnih, neobičnih, apstraktnih, mutnih kadrova. "Brutalno" = vizuelno najjače, NIKAD oružje/nasilje/droga/alkohol.
+
+## STUBOVI SLIKE (od 21.11.2026, zahtev korisnika: "poenta priče, ne mlake")
+- SVAKI kadar mora jasno pokazati bar jedan od 4 stuba: **KOLA** (luksuzna/sportska, noću, farovi, volan, ulazak/izlazak), **NOVAC** (keš, svežnjevi, brojanje, bacanje, sef, zlato kao keš), **PUTOVANJA** (privatni avion, jahta, luksuzni hotel/vila, egzotična destinacija), **ŽENE** (uz luks: u autu, na jahti, u avionu, pogled u kameru).
+- Ostalo je MLAKO i ne ulazi: manžetne, leptir-mašne, dugmad, rubini, kranovi/gradilišta, pustinja, palme same, gradovi iz drona bez auta/žene/novca, karte bez novca, apstraktni detalji.
+- Poenta priče mora biti vidljiva u slici: tekst kaže novac -> vidi se novac; kaže noć/smena -> vidi se auto noću; kaže ona bira -> vidi se žena.
