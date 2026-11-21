@@ -1,0 +1,204 @@
+{
+ "id": "stoic_edit_36",
+ "file": "videos/stoic/stoic_edit_36.mp4",
+ "inspected_at": "2026-11-21T15:48:21",
+ "method": "Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.",
+ "meta": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "duration": 7.0,
+  "vcodec": "h264",
+  "pix_fmt": "yuv420p",
+  "video_streams": 1,
+  "audio_streams": 0,
+  "acodec": null,
+  "bitrate_kbps": 23846
+ },
+ "expected": {
+  "texts": [],
+  "text_changes": [
+   2.0,
+   4.0
+  ],
+  "silent": true,
+  "loop": true,
+  "kind": "stoic_edit",
+  "dur": [
+   7,
+   11
+  ],
+  "planned_cuts": [
+   0.5,
+   1.267,
+   2.0,
+   3.267,
+   4.0,
+   6.5
+  ],
+  "hits": [
+   2.0,
+   4.0
+  ],
+  "hook_y": null,
+  "min_luma": 0.07,
+  "min_shot": 0.2
+ },
+ "technical": {
+  "resolution_ok": true,
+  "aspect": "1080:1920",
+  "fps_ok": true,
+  "duration_ok": true,
+  "audio_rule_ok": true,
+  "frames_decoded": 210,
+  "frames_expected": 210
+ },
+ "shots": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.5,
+   "dur": 0.5,
+   "luma": 0.31,
+   "sharpness": 117.6,
+   "overexposed_frac": 0.008,
+   "hue": 99.0
+  },
+  {
+   "index": 1,
+   "start": 0.5,
+   "end": 1.267,
+   "dur": 0.767,
+   "luma": 0.163,
+   "sharpness": 82.3,
+   "overexposed_frac": 0.008,
+   "hue": 114.9
+  },
+  {
+   "index": 2,
+   "start": 1.267,
+   "end": 2.0,
+   "dur": 0.733,
+   "luma": 0.132,
+   "sharpness": 57.0,
+   "overexposed_frac": 0.008,
+   "hue": 116.9
+  },
+  {
+   "index": 3,
+   "start": 2.0,
+   "end": 3.267,
+   "dur": 1.267,
+   "luma": 0.168,
+   "sharpness": 53.5,
+   "overexposed_frac": 0.0,
+   "hue": 112.3
+  },
+  {
+   "index": 4,
+   "start": 3.267,
+   "end": 4.0,
+   "dur": 0.733,
+   "luma": 0.13,
+   "sharpness": 66.9,
+   "overexposed_frac": 0.0,
+   "hue": 92.7
+  },
+  {
+   "index": 5,
+   "start": 4.0,
+   "end": 7.0,
+   "dur": 3.0,
+   "luma": 0.147,
+   "sharpness": 61.5,
+   "overexposed_frac": 0.001,
+   "hue": 131.0
+  }
+ ],
+ "cuts": [
+  0.5,
+  1.267,
+  2.0,
+  3.267,
+  4.0
+ ],
+ "dissolves": [],
+ "continuity": [
+  {
+   "t": 0.5,
+   "luma_jump": 0.224,
+   "hue_jump": 19.0
+  },
+  {
+   "t": 1.267,
+   "luma_jump": 0.029,
+   "hue_jump": 2.9
+  },
+  {
+   "t": 2.0,
+   "luma_jump": 0.242,
+   "hue_jump": 4.2
+  },
+  {
+   "t": 3.267,
+   "luma_jump": 0.02,
+   "hue_jump": 19.7
+  },
+  {
+   "t": 4.0,
+   "luma_jump": 0.23,
+   "hue_jump": 39.3
+  }
+ ],
+ "loop_seam": {
+  "seam_diff": 9.69,
+  "median_neighbor_diff": 1.46,
+  "ok": true,
+  "seam_diff_no_text": 4.87
+ },
+ "text_timing": {
+  "detected": [
+   2.0,
+   4.0
+  ],
+  "expected": [
+   2.0,
+   4.0
+  ],
+  "offset_s": [
+   0.0,
+   0.0
+  ],
+  "on_beat_120bpm": true
+ },
+ "audio": {
+  "streams": 0,
+  "note": "bez zvučnog zapisa — po pravilu korisnika (muziku dodaje u TikTok-u)"
+ },
+ "repetition": {
+  "in_video": [],
+  "across_videos": []
+ },
+ "issues": [],
+ "sheets": [
+  "studio/inspections/stoic_edit_36/sheet_time.jpg",
+  "studio/inspections/stoic_edit_36/sheet_cuts.jpg"
+ ],
+ "history": [
+  {
+   "at": "2026-11-21T15:45:51",
+   "approved": false,
+   "issues": 2
+  }
+ ],
+ "approval": {
+  "technical_pass": true,
+  "vision_reviewed": false,
+  "weak_scenes": 0,
+  "creative_score": null,
+  "approved": false,
+  "blocking": [
+   "nema vizuelnog pregleda"
+  ]
+ }
+}
