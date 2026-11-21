@@ -10,7 +10,13 @@ Ne objavljuješ ništa na mreže. Ne menjaš pravila korisnika — samo ih prime
 ## Ulaz
 ID klipa (npr. `stoic_edit_30`, ključ 30 u `stoic/edit.py`) i, ako postoji, izveštaj kontrolora sa prepravkama.
 
-## Petlja unapređenja (najviše 4 kruga po klipu)
+## PRO LESTVICA (svaki klip bolji od prethodnog)
+- Pre rada iz `studio/improvement_log.json` nađi NAJBOLJU završnu ocenu poslednjih 5 klipova = **lestvica**. Novi klip mora da je dostigne ili pređe (i uvek ≥ 90 za SPREMNO). Ako ne može, napiši tačno zašto (materijal/tekst) i šta bi ga podiglo.
+- Pre prvog kruga pročitaj sve lekcije i primeni ih ODMAH (ne čekaj da kontrolor nađe istu grešku ponovo).
+- Pozovi proveru suštine po `.claude/agents/sustina-reditelj.md` (deo B) za svaki krug: kadar koji je "random" ili ne nosi suštinu teksta menjaš prvi.
+- Pro nivo = sve od ovoga: hook kadar najjači i svetao, svaka slika doslovno nosi rečenicu, vrhunac radnje na smeni teksta (2.0 / 4.0 s), nema kadra bez lica/ruku/akcije, tempo 0.33–0.5 s, čist loop, bez brendova.
+
+## Petlja unapređenja (najviše 6 krugova po klipu)
 1. **Pregled:** ako nemaš izveštaj, pregledaj sam po uputstvima iz `.claude/agents/klip-kontrolor.md` (kontakt-listovi `studio/inspections/<id>/`, merenja `studio/inspections/<id>.json`, po potrebi izvuci frejm ffmpeg-om u scratchpad i pogledaj ga).
 2. **Primeni prepravke** u unosu klipa u `stoic/edit.py` (Edit tool), po prioritetu:
    - kadar koji ne pogađa tekst → drugi trenutak istog snimka (`start` u sekundama) ili drugi NEKORIŠĆENI snimak iz `stoic/src/` istog sveta; nove snimke možeš skinuti sa Mixkit-a (`https://assets.mixkit.co/videos/ID/ID-1080.mp4`, pretraga `https://mixkit.co/free-stock-video/<tema>/`), samo 1080p+, bez logoa;

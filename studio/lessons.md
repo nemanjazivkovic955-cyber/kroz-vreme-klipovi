@@ -91,10 +91,10 @@
 45. **Pexels setovi:** fajl `https://videos.pexels.com/video-files/ID/ID-hd_1080_1920_24fps.mp4` (ili `uhd_1440_2560_24fps`); set autora ide i ispod i iznad prvog ID-ja (Mizuno K: 13801225-13801295). Proveri rezoluciju posle skidanja - "hd_1080" ime nije garancija (281 je bio 720p).
 46. **Isti snimak = dve radnje:** pre odbacivanja "ponovljene radnje" pogledaj ceo snimak na 0.5 s mreži - 280 ima sat (3.0 s) I šake na glavi (5.0 s), 281 ima glavu u šaci (5.8 s).
 
-## TERMINI (od 20.11.2026, odluka korisnika)
-- Objave po EVROPSKOM vremenu: 2 klipa u 19:00 i 2 u 21:00 (CET). Razlog: publika je ~100% evropska (DE/IT/PL/NL/GB), vrhunac aktivnosti 17-21 h; stari termin 18:00 NY = ponoć u Evropi = najslabija probna grupa.
-- Najviše 2 klipa po terminu, 4 dnevno, dok ne probijemo zid 250. Tekst ostaje na engleskom.
-- Amerika dolazi tek kad klip prođe evropsku probnu grupu — ne jurimo NY vreme.
+## TERMINI (od 21.11.2026, odluka korisnika)
+- Objave po EVROPSKOM vremenu: 2 klipa u 08:00, 2 u 12:00 i 2 u 18:00 (CET). Publika je evropska (DE/IT/PL/NL/GB). Izrada kreće u 04:13, 08:13 i 14:13.
+- Najviše 2 klipa po terminu. Tekst ostaje na engleskom. Ne jurimo NY vreme.
+- Pre svakog skauta: agent `sustina-reditelj` (suština teksta -> brutalna doslovna slika). Unapređivač radi po PRO LESTVICI (dostići najbolju ocenu poslednjih 5 klipova i >= 90).
 
 ## Unapređivač — stoic_edit_32 (20.11.)
 47. **Trajanja u celim frejmovima (30 fps):** 0.75 s = 22.5 frejma -> na rezu nastaje kadar od 1 frejma (`flash_shot`). Koristi 0.7667/0.7333 (23/22 frejma) ili višekratnike 1/30; zbir mora dati tačno 7.0 s (6.75 -> 6.733 pada `duration_ok`).
