@@ -1,7 +1,7 @@
 {
  "id": "stoic_edit_34",
  "file": "videos/stoic/stoic_edit_34.mp4",
- "inspected_at": "2026-11-21T13:25:16",
+ "inspected_at": "2026-11-21T13:38:40",
  "method": "Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.",
  "meta": {
   "width": 1080,
@@ -13,7 +13,7 @@
   "video_streams": 1,
   "audio_streams": 0,
   "acodec": null,
-  "bitrate_kbps": 24242
+  "bitrate_kbps": 24487
  },
  "expected": {
   "texts": [],
@@ -30,13 +30,14 @@
   ],
   "planned_cuts": [
    0.5,
-   0.9,
-   1.4,
+   1.0,
+   1.5,
    2.0,
-   2.7,
-   3.4,
+   2.333,
+   2.833,
+   3.333,
    4.0,
-   4.5,
+   5.5,
    6.5
   ],
   "hits": [
@@ -62,173 +63,188 @@
    "start": 0.0,
    "end": 0.5,
    "dur": 0.5,
-   "luma": 0.332,
-   "sharpness": 125.8,
+   "luma": 0.299,
+   "sharpness": 122.1,
    "overexposed_frac": 0.008,
-   "hue": 89.3
+   "hue": 81.9
   },
   {
    "index": 1,
    "start": 0.5,
-   "end": 0.9,
-   "dur": 0.4,
-   "luma": 0.217,
-   "sharpness": 140.2,
+   "end": 1.0,
+   "dur": 0.5,
+   "luma": 0.317,
+   "sharpness": 58.9,
    "overexposed_frac": 0.008,
-   "hue": 93.0
+   "hue": 75.8
   },
   {
    "index": 2,
-   "start": 0.9,
-   "end": 1.4,
+   "start": 1.0,
+   "end": 1.5,
    "dur": 0.5,
-   "luma": 0.38,
-   "sharpness": 114.4,
+   "luma": 0.186,
+   "sharpness": 54.8,
    "overexposed_frac": 0.008,
-   "hue": 40.8
+   "hue": 101.4
   },
   {
    "index": 3,
-   "start": 1.4,
+   "start": 1.5,
    "end": 2.0,
-   "dur": 0.6,
-   "luma": 0.168,
-   "sharpness": 46.9,
+   "dur": 0.5,
+   "luma": 0.152,
+   "sharpness": 63.4,
    "overexposed_frac": 0.008,
-   "hue": 94.2
+   "hue": 90.3
   },
   {
    "index": 4,
    "start": 2.0,
-   "end": 2.7,
-   "dur": 0.7,
-   "luma": 0.258,
-   "sharpness": 81.4,
+   "end": 2.333,
+   "dur": 0.333,
+   "luma": 0.171,
+   "sharpness": 73.5,
    "overexposed_frac": 0.0,
-   "hue": 90.9
+   "hue": 84.4
   },
   {
    "index": 5,
-   "start": 2.7,
-   "end": 3.4,
-   "dur": 0.7,
-   "luma": 0.244,
-   "sharpness": 72.3,
+   "start": 2.333,
+   "end": 2.833,
+   "dur": 0.5,
+   "luma": 0.203,
+   "sharpness": 62.1,
    "overexposed_frac": 0.0,
-   "hue": 85.0
+   "hue": 80.7
   },
   {
    "index": 6,
-   "start": 3.4,
-   "end": 4.0,
-   "dur": 0.6,
-   "luma": 0.227,
-   "sharpness": 40.2,
+   "start": 2.833,
+   "end": 3.333,
+   "dur": 0.5,
+   "luma": 0.117,
+   "sharpness": 71.9,
    "overexposed_frac": 0.0,
-   "hue": 100.3
+   "hue": 101.4
   },
   {
    "index": 7,
-   "start": 4.0,
-   "end": 4.5,
-   "dur": 0.5,
-   "luma": 0.351,
-   "sharpness": 69.9,
-   "overexposed_frac": 0.001,
-   "hue": 128.8
+   "start": 3.333,
+   "end": 4.0,
+   "dur": 0.667,
+   "luma": 0.204,
+   "sharpness": 149.3,
+   "overexposed_frac": 0.0,
+   "hue": 102.7
   },
   {
    "index": 8,
-   "start": 4.5,
-   "end": 6.5,
-   "dur": 2.0,
-   "luma": 0.166,
-   "sharpness": 54.1,
+   "start": 4.0,
+   "end": 5.5,
+   "dur": 1.5,
+   "luma": 0.191,
+   "sharpness": 62.0,
    "overexposed_frac": 0.001,
-   "hue": 96.6
+   "hue": 92.4
   },
   {
    "index": 9,
+   "start": 5.5,
+   "end": 6.5,
+   "dur": 1.0,
+   "luma": 0.146,
+   "sharpness": 118.8,
+   "overexposed_frac": 0.001,
+   "hue": 104.9
+  },
+  {
+   "index": 10,
    "start": 6.5,
    "end": 7.0,
    "dur": 0.5,
-   "luma": 0.354,
-   "sharpness": 99.4,
+   "luma": 0.295,
+   "sharpness": 96.9,
    "overexposed_frac": 0.001,
-   "hue": 89.5
+   "hue": 80.2
   }
  ],
  "cuts": [
   0.5,
-  0.9,
-  1.4,
+  1.0,
+  1.5,
   2.0,
-  2.7,
-  3.4,
+  2.333,
+  2.833,
+  3.333,
   4.0,
-  4.5,
+  5.5,
   6.5
  ],
  "dissolves": [],
  "continuity": [
   {
    "t": 0.5,
-   "luma_jump": 0.114,
-   "hue_jump": 3.6
+   "luma_jump": 0.023,
+   "hue_jump": 10.2
   },
   {
-   "t": 0.9,
-   "luma_jump": 0.164,
-   "hue_jump": 51.4
+   "t": 1.0,
+   "luma_jump": 0.165,
+   "hue_jump": 23.0
   },
   {
-   "t": 1.4,
-   "luma_jump": 0.204,
-   "hue_jump": 53.1
+   "t": 1.5,
+   "luma_jump": 0.018,
+   "hue_jump": 11.7
   },
   {
    "t": 2.0,
-   "luma_jump": 0.25,
-   "hue_jump": 2.2
+   "luma_jump": 0.088,
+   "hue_jump": 3.9
   },
   {
-   "t": 2.7,
-   "luma_jump": 0.057,
-   "hue_jump": 14.6
+   "t": 2.333,
+   "luma_jump": 0.042,
+   "hue_jump": 4.7
   },
   {
-   "t": 3.4,
-   "luma_jump": 0.006,
-   "hue_jump": 14.1
+   "t": 2.833,
+   "luma_jump": 0.09,
+   "hue_jump": 22.6
+  },
+  {
+   "t": 3.333,
+   "luma_jump": 0.072,
+   "hue_jump": 3.1
   },
   {
    "t": 4.0,
-   "luma_jump": 0.256,
-   "hue_jump": 23.1
+   "luma_jump": 0.015,
+   "hue_jump": 10.1
   },
   {
-   "t": 4.5,
-   "luma_jump": 0.153,
-   "hue_jump": 31.3
+   "t": 5.5,
+   "luma_jump": 0.044,
+   "hue_jump": 14.0
   },
   {
    "t": 6.5,
-   "luma_jump": 0.187,
-   "hue_jump": 6.8
+   "luma_jump": 0.15,
+   "hue_jump": 23.2
   }
  ],
  "loop_seam": {
-  "seam_diff": 9.92,
-  "median_neighbor_diff": 2.81,
+  "seam_diff": 8.33,
+  "median_neighbor_diff": 3.66,
   "ok": true,
-  "seam_diff_no_text": 3.23
+  "seam_diff_no_text": 1.61
  },
  "text_timing": {
   "detected": [
-   0.9,
-   1.333,
    2.0,
-   4.0
+   3.333,
+   3.767
   ],
   "expected": [
    2.0,
@@ -248,33 +264,144 @@
   "in_video": [],
   "across_videos": []
  },
- "issues": [
-  {
-   "severity": "minor",
-   "type": "continuity",
-   "t": 4.0,
-   "msg": "nagli skok osvetljenosti na rezu (0.26)"
-  }
- ],
+ "issues": [],
  "sheets": [
   "studio/inspections/stoic_edit_34/sheet_time.jpg",
   "studio/inspections/stoic_edit_34/sheet_cuts.jpg"
  ],
+ "vision_review": {
+  "reviewer": "klip-unapredivac (krug 4)",
+  "summary": "Jedan svet (noćni sto, crno-crveno): hook ruke stežu čvor leptir-mašne (5185 @10.5, svetao 0.30), ruke mešaju karte nad suknom (100398), krupije u leptir-mašni pod lusterom (100423), diler zamahuje (100390); NERVE na 2.0 s = karta raste prema objektivu preko reči (100391 @2.0, gamma 1.4/contrast 1.2, blic 0.3/0.1), lepeza karata u objektiv (100388 @3.05), mirne ruke prelivaju špil (100363), protivnik bulji (100429); 4.0 tvrd rez bez belog na nju (18246 @5.6, spori punch-in 1.0->1.18), pa on gleda pravo u kameru i ne trepće (100448 @4.5), loop na mašnu. Izbačeni 4300 (Mini/tablice), 4246 (bokeh), 5186 (mutno), 18245 (belo nebo = belo pretapanje). Nema natpisa/brendova/pića u kadru. Krug 4: gamma 1.55-1.85 + saturation 1.1 na tamnim kadrovima (100423/100390/100391/100388/100448) - vizuelno čitljivije, bez mleka, ali luma u klipu ostaje 0.12-0.20 (crne pozadine).",
+  "scenes": [
+   {
+    "index": 0,
+    "t": "0.0-0.5",
+    "shot": "mk_5185 @10.5 (loop)",
+    "verdict": "ok",
+    "note": "ruke stežu čvor u prvih 0.3 s, svetao 0.30"
+   },
+   {
+    "index": 1,
+    "t": "0.5-1.0",
+    "shot": "mk_100398 @1.6",
+    "verdict": "ok",
+    "note": "calm hands: karte kaskadno padaju iz ruke u ruku, 0.32"
+   },
+   {
+    "index": 2,
+    "t": "1.0-1.5",
+    "shot": "mk_100423 @0.0",
+    "verdict": "ok",
+    "note": "big tables: krupije u leptir-mašni, luster; lice odsečeno, tamno 0.19"
+   },
+   {
+    "index": 3,
+    "t": "1.5-2.0",
+    "shot": "mk_100390 @0.15",
+    "verdict": "ok",
+    "note": "zamah karte, najavljuje udarac"
+   },
+   {
+    "index": 4,
+    "t": "2.0-2.33",
+    "shot": "mk_100391 @2.0",
+    "verdict": "ok",
+    "note": "NERVE: karta raste ka objektivu, punch-in + blagi blic; nije mlečno"
+   },
+   {
+    "index": 5,
+    "t": "2.33-3.33",
+    "shot": "mk_100388 @3.05 + mk_100363 @1.5",
+    "verdict": "ok",
+    "note": "lepeza karata oštro u kameru, pa mirne ruke na crnom; tamno 0.15"
+   },
+   {
+    "index": 6,
+    "t": "3.33-4.0",
+    "shot": "mk_100429 @0.0",
+    "verdict": "ok",
+    "note": "protivnik bulji preko stola, oštro (129)"
+   },
+   {
+    "index": 7,
+    "t": "4.0-5.5",
+    "shot": "mk_18246 @5.6",
+    "verdict": "ok",
+    "note": "tvrd rez na njen pogled u kameru, punch-in, ne trepće"
+   },
+   {
+    "index": 8,
+    "t": "5.5-6.5",
+    "shot": "mk_100448 @4.5",
+    "verdict": "ok",
+    "note": "on gleda pravo u kameru - doslovno 'never blink first'; 0.16"
+   },
+   {
+    "index": 9,
+    "t": "6.5-7.0",
+    "shot": "mk_5185 (loop rep)",
+    "verdict": "ok",
+    "note": "kontinualan šav na hook"
+   }
+  ],
+  "storytelling": "Luk: priprema (mašna, ruke, sto) -> NERVE karta u lice -> duel pogleda (protivnik, ona, on). Svaka rečenica ima doslovnu sliku. Slabost: tri različita muškarca (mladoženja, protivnik, junak) - junak nije isti čovek kroz ceo klip.",
+  "creative_score": 84,
+  "breakdown": {
+   "storytelling": 17,
+   "vizuelna_produkcija": 15,
+   "hook": 12,
+   "kinematografija": 12,
+   "zvuk": 8,
+   "montaza_tempo": 9,
+   "originalnost": 8,
+   "napomena": "zvuk = tihi klip, ritam na 2.0/4.0"
+  },
+  "recommendations": [
+   "Izvori su noir na crnom (sirovo 0.12-0.18): luma u klipu 0.14-0.20 - za 87+ treba svetliji kadar za NERVE ili sto pod jakim svetlom",
+   "Junak nije jedan čovek: naći Mixkit set gde isti muškarac u smokingu i veže mašnu i gleda u kameru",
+   "100423 kropovati da lice krupijea uđe u kadar (izvor ne dozvoljava na @0.0)"
+  ]
+ },
  "history": [
   {
    "at": "2026-11-21T13:24:11",
    "approved": false,
    "issues": 3
+  },
+  {
+   "at": "2026-11-21T13:25:16",
+   "approved": false,
+   "issues": 1
+  },
+  {
+   "at": "2026-11-21T13:32:43",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-21T13:34:04",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-21T13:35:35",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-21T13:36:51",
+   "approved": false,
+   "issues": 0
   }
  ],
  "approval": {
   "technical_pass": true,
-  "vision_reviewed": false,
+  "vision_reviewed": true,
   "weak_scenes": 0,
-  "creative_score": null,
+  "creative_score": 84,
   "approved": false,
   "blocking": [
-   "nema vizuelnog pregleda"
+   "kreativna ocena 84 < 90"
   ]
  }
 }

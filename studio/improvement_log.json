@@ -71,5 +71,25 @@
   ],
   "najveci_skok": "obrnut luk (gradnja pod AMBITION, noćni grad pod 'build') + izbacivanje snega/para/Kapitola: 71 -> 83",
   "preostalo": "86 < 90: 49873 noćni skyline 0.18 (izvor 0.10, gamma ne pomaže dalje); sve dron/total bez detalja/lica; Austin umesto Dubaija. Mixkit Dubai noćni snimci (20109, 20111, 30992, 39451...) postoje samo u 720p - pravilo 1080p ih isključuje."
+ },
+ {
+  "klip": "stoic_edit_34",
+  "datum": "2026-11-21",
+  "ocene": [
+   64,
+   80,
+   83,
+   84,
+   84
+  ],
+  "promene": [
+   "krug 1: izbačeni 4300 (Mini Cooper/tablice), 4246 (bokeh), 5186 (mutno), 18245 (belo nebo = belo pretapanje na 4.0); novi Mixkit 1080p iz 100xxx serije: 100398 (ruke mešaju karte nad suknom), 100423 (krupije u leptir-mašni pod lusterom), 100363 (isti diler, karte iz šake u šaku), 100429 (protivnik bulji), 100448 (muškarac gleda pravo u kameru, ne trepće); loop 5185 @10.5 (čvor se steže u prvih 0.3 s), eq gamma 1.15/contrast 1.15/sat 1.1",
+   "krug 1: nove opcije u stoic/edit.py (podrazumevano isključene): 'flash_at' (blic samo na izabranim udarcima; 34: samo 2.0 -> tvrd rez na 4.0) i 7. polje kadra = kraj zuma (18246: spori punch-in 1.0->1.18 umesto statičnih 2 s)",
+   "krug 2: 100398 xc 0.8 (kaskada karata u kadru), flash (0.3, 0.1), gamma podignuta; 100388 @3.05 (oštra lepeza, ne mutni deo)",
+   "krug 3: 100391 0.333 s od 2.0 s izvora - karta raste preko reči NERVE (na 1.9/2.12 punch-in je sekao kartu ili je karta već izašla)",
+   "krug 4: gamma 1.55-1.85 + saturation na tamnim kadrovima - čitljivije, luma skoro ista"
+  ],
+  "najveci_skok": "zamena random kadrova (bokeh, Mini, mutna manžetna, belo nebo) licima i rukama iz istog sveta + duel pogleda na kraju (+16)",
+  "preostalo": "84 < lestvica 87: noir izvori na crnom (luma 0.12-0.20 u klipu); junak nije isti čovek (mladoženja/protivnik/junak); krupijeu (100423) lice odsečeno"
  }
 ]

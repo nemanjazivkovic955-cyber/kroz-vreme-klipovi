@@ -5314,6 +5314,67 @@
   }
  },
  {
+  "id": "stoic_edit_34",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "nerve",
+  "hook": "N E R V E",
+  "text": [
+   "N E R V E",
+   "never blink first."
+  ],
+  "ending": "never blink first.",
+  "footage": [
+   "mk_5185",
+   "mk_100398",
+   "mk_100423",
+   "mk_100390",
+   "mk_100391",
+   "mk_100388",
+   "mk_100363",
+   "mk_100429",
+   "mk_18246",
+   "mk_100448"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_34.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_34.md",
+   "inspected_at": "2026-11-21T13:38:40",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 84,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 84 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.333,
+    2.833,
+    3.333,
+    4.0,
+    5.5,
+    6.5
+   ],
+   "loop_seam": {
+    "seam_diff": 8.33,
+    "median_neighbor_diff": 3.66,
+    "ok": true,
+    "seam_diff_no_text": 1.61
+   }
+  }
+ },
+ {
   "id": "talk_city",
   "family": "talk_v1",
   "format": "TikTok 9:16 ~30 s, glas + muzika",

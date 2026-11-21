@@ -107,3 +107,9 @@
 52. **Noćni izvor ispod 0.15 sirove lume ne spasava gamma:** posle grade-a i trake teksta ostaje ~0.18 (49873: 0.10 -> 0.18 sa gamma 1.75; 1.95+contrast daje 0.175 i mlečno). Za noć birati sumrak/plavi sat (49871/49872: sirovo 0.24-0.27 -> ~0.24-0.26 u klipu).
 53. **Render spušta lumu ~40%** (51785: sirovo 0.46 -> 0.23 u klipu bez gamme). Cilj ≥0.22 u klipu znači sirovo ≥0.35 bez korekcije ili gamma 1.3+.
 54. **Lažni `repeat_across_videos` na ravnom horizontu** (pustinja/more, pola neba): pomeri `xc`/`start` ili biraj kadar odozgo bez neba.
+
+## Unapređivač — stoic_edit_34 (21.11.)
+55. **Mixkit 100xxx (novi ID-jevi):** `videos/ID/ID-1080.mp4` uvek 403; prava putanja je `active_storage/video_items/ID/<ts>/ID-video-1080.mp4` (`<ts>` iz `-720.mp4` linka na stranici `mixkit.co/free-stock-video/x-ID/`). Kazino/karte setovi 100363-100448 su besplatni u 1080p.
+56. **Predmet koji leti u kameru + punch-in udarca:** zum 12% na hitu seče ivice kadra - start postavi kad je predmet već u centru kropa (100391: 2.0 s, ne 1.9/2.1) i drži kadar 0.333 s dok raste.
+57. **Opcije:** `"flash_at": [2.0]` = blic samo na izabranim udarcima (tvrd rez na ostalim); 7. polje kadra = kraj zuma (1.18 = spori punch-in) za statičan kadar duži od 1 s umesto deljenja (isti izvor se ne sme ponoviti).
+58. **Contrast na noir izvoru spušta lumu** (crna pozadina, 100448: gamma 1.75 -> 1.85+contrast 1.15 = 0.157 -> 0.146). Za crne pozadine diži samo gamma/saturation; luma ispod 0.20 ovde ne znači nečitljiv subjekat - proveri kontakt-list.

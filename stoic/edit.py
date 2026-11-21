@@ -646,16 +646,17 @@ EDITS = {
         "caption": "Every skyline started as empty sand. What are you building from nothing? \U0001F447",
         "tags": "#ambition #mindset #success #skyline #luxurylifestyle",
         "sound": "We could stay here or we could go up (trending ↗, rani trend) ili cinematic build-up phonk, drop na 4.0 s"},
-    34: {"mode": "story", "hits": [2.0, 4.0], "hook": "Calm hands win big tables.", "word": "NERVE", "line": "never blink first.",
-        "loop": ("mk_5185", 0.57, 9.5, "eq=gamma=1.3", "bond-kazino"),   # ruke stežu belu leptir-mašnu (hook + kraj)
-        "shots": [("mk_4300", 0.38, 3.0, "eq=gamma=1.3", "bond-kazino", 0.4),     # kazino Monte Karlo noću
-                  ("mk_4246", 0.5, 0.0, "", "bond-kazino", 0.5),                   # zlatna svetla sale
-                  ("mk_100390", 0.42, 0.15, "eq=gamma=1.5", "bond-kazino", 0.6),   # CALM HANDS: diler ispaljuje kartu
-                  ("mk_100391", 0.57, 1.9, "eq=gamma=1.7", "bond-kazino", 0.7),    # NERVE (hit 2.0): karta u objektiv
-                  ("mk_100388", 0.5, 4.0, "eq=gamma=1.3", "bond-kazino", 0.7),     # karte prskaju u kameru
-                  ("mk_5186", 0.29, 1.4, "", "bond-kazino", 0.6),                  # mirni prsti na manžetni
-                  ("mk_18245", 0.5, 6.75, "", "bond-kazino", 0.5),                 # NEVER BLINK (hit 4.0): crvena haljina do lica
-                  ("mk_18246", 0.5, 5.5, "eq=gamma=1.3", "bond-kazino", 2.0)],     # ona gleda u kameru, ne trepće -> loop na mašnu
+    34: {"mode": "story", "hits": [2.0, 4.0], "flash_at": [2.0], "flash": (0.3, 0.1), "hook": "Calm hands win big tables.", "word": "NERVE", "line": "never blink first.",
+        "loop": ("mk_5185", 0.57, 10.5, "eq=gamma=1.15:contrast=1.15:saturation=1.1", "bond-kazino"),  # ruke stežu čvor leptir-mašne (hook + kraj)
+        "shots": [("mk_100398", 0.8, 1.6, "eq=gamma=1.3:contrast=1.1", "bond-kazino", 0.5),          # CALM HANDS: ruke mešaju karte nad suknom
+                  ("mk_100423", 0.4, 0.0, "eq=gamma=1.8:contrast=1.15:saturation=1.1", "bond-kazino", 0.5),          # BIG TABLES: krupije u leptir-mašni pod lusterom
+                  ("mk_100390", 0.42, 0.15, "eq=gamma=1.75:contrast=1.15:saturation=1.1", "bond-kazino", 0.5),        # diler zamahuje kartom
+                  ("mk_100391", 0.6, 2.0, "eq=gamma=1.55:contrast=1.2:saturation=1.15", "bond-kazino", 0.3333),       # NERVE (hit 2.0): karta raste preko kadra
+                  ("mk_100388", 0.5, 3.05, "eq=gamma=1.6:contrast=1.15:saturation=1.1", "bond-kazino", 0.5),        # lepeza karata, oštro
+                  ("mk_100363", 0.3, 1.5, "eq=gamma=1.6:contrast=1.15", "bond-kazino", 0.5),         # mirne ruke: karte padaju iz šake u šaku
+                  ("mk_100429", 0.48, 0.0, "eq=gamma=1.5:contrast=1.1", "bond-kazino", 0.6667),         # protivnik za stolom bulji
+                  ("mk_18246", 0.5, 5.6, "eq=gamma=1.45:contrast=1.05", "bond-kazino", 1.5, 1.18),                  # NEVER BLINK (hit 4.0, tvrd rez): ona gleda u kameru, spori punch-in
+                  ("mk_100448", 0.55, 4.5, "eq=gamma=1.85:contrast=1.15:saturation=1.1", "bond-kazino", 1.0)],        # on gleda pravo u kameru, ne trepće -> loop na mašnu
         "caption": "In a big game, money doesn't win. Nerve does. Who blinks first at your table? \U0001F447",
         "tags": "#mindset #luxurylifestyle #money #discipline #sigma",
         "sound": "Spy/Bond stil (bas-gitara + duvački udarac) ili brazilski phonk 'Montagem', drop na 2.0 s kad karta uleti u kameru"},
@@ -825,15 +826,17 @@ def make(n):
         if st is None: st = best_moment(nm, d, xc) if e.get("best") else round(dur(M.src(nm)) * 0.4, 2)
         o = os.path.join(M.TMP, f"e{n}_{k:02d}.mp4")
         hz = 0.12 if any(abs(t0 - h) < 0.02 for h in hits) else (0.07 if live else 0.0)
-        M.render_shot(o, nm, st, d, xc, 1.00, 1.04, ex, hit=hz, **rk); parts.append(o); t0 += d
+        z1 = x[6] if len(x) > 6 else 1.04  # opciono 7. polje: kraj zuma (npr. 1.18 = spori punch-in na statičnom kadru); podrazumevano 1.04
+        M.render_shot(o, nm, st, d, xc, 1.00, z1, ex, hit=hz, **rk); parts.append(o); t0 += d
     parts.append(tail)
     lst = os.path.join(M.TMP, f"e{n}_list.txt"); open(lst, "w").write("".join(f"file '{q}'\n" for q in parts))
     base = os.path.join(M.TMP, f"e{n}_base.mp4")
     subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", base], check=True)
     ov = os.path.join(M.TMP, f"e{n}_ov.mov"); overlay(e, n, total, ov)
-    # vizuelni udarac: beli blic 2 frejma (55% pa 25%) na trenucima iz "hits" (samo ako je zadato)
+    # vizuelni udarac: beli blic 2 frejma (55% pa 25%) na trenucima iz "hits" (samo ako je zadato);
+    # opciono "flash_at": samo neki udarci dobijaju blic (npr. [2.0] = tvrdi rez bez belog na 4.0 s)
     flash = "".join(f",drawbox=t=fill:color=white@{a}:enable='eq(n,{int(round(h * FPS)) + i})'"
-                    for h in e.get("hits", []) for i, a in enumerate(e.get("flash", (0.55, 0.25))))  # opciono "flash": slabiji blic (npr. (0.22, 0.08)) da ne gasi lice
+                    for h in e.get("flash_at", e.get("hits", [])) for i, a in enumerate(e.get("flash", (0.55, 0.25))))  # opciono "flash": slabiji blic (npr. (0.22, 0.08)) da ne gasi lice
     out = os.path.join(M.OUT, f"stoic_edit_{n:02d}.mp4"); part = out.replace(".mp4", ".part.mp4")
     subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-i", base, "-i", ov, "-filter_complex",
                     f"[0:v][1:v]overlay=format=auto{flash},noise=alls={4 if live else 7}:allf=t,format=yuv420p[v]", "-map", "[v]", "-an",
