@@ -113,3 +113,6 @@
 56. **Predmet koji leti u kameru + punch-in udarca:** zum 12% na hitu seče ivice kadra - start postavi kad je predmet već u centru kropa (100391: 2.0 s, ne 1.9/2.1) i drži kadar 0.333 s dok raste.
 57. **Opcije:** `"flash_at": [2.0]` = blic samo na izabranim udarcima (tvrd rez na ostalim); 7. polje kadra = kraj zuma (1.18 = spori punch-in) za statičan kadar duži od 1 s umesto deljenja (isti izvor se ne sme ponoviti).
 58. **Contrast na noir izvoru spušta lumu** (crna pozadina, 100448: gamma 1.75 -> 1.85+contrast 1.15 = 0.157 -> 0.146). Za crne pozadine diži samo gamma/saturation; luma ispod 0.20 ovde ne znači nečitljiv subjekat - proveri kontakt-list.
+
+## SCENA UBICA (od 21.11.2026, zahtev korisnika)
+- Posle prvog rendera, pre kontrolora, svaki klip prolazi agenta `scena-ubica`: svaki kadar dobija ocenu ubijanja 1-10; < 7 se menja, hook mora biti >= 9. Bez čudnih, neobičnih, apstraktnih, mutnih kadrova. "Brutalno" = vizuelno najjače, NIKAD oružje/nasilje/droga/alkohol.
