@@ -92,8 +92,8 @@
 46. **Isti snimak = dve radnje:** pre odbacivanja "ponovljene radnje" pogledaj ceo snimak na 0.5 s mreži - 280 ima sat (3.0 s) I šake na glavi (5.0 s), 281 ima glavu u šaci (5.8 s).
 
 ## TERMINI (od 21.11.2026, odluka korisnika)
-- Objave po EVROPSKOM vremenu: 2 klipa u 08:00, 2 u 12:00 i 2 u 18:00 (CET). Publika je evropska (DE/IT/PL/NL/GB). Izrada kreće u 04:13, 08:13 i 14:13.
-- Najviše 2 klipa po terminu. Tekst ostaje na engleskom. Ne jurimo NY vreme.
+- Objave po EVROPSKOM vremenu: 4 klipa u 08:00, 4 u 12:00 i 4 u 18:00 (CET) — korisnik je izričito tražio 4 po terminu (21.11). Publika je evropska (DE/IT/PL/NL/GB). Izrada kreće u 04:13, 08:13 i 14:13.
+- Tekst ostaje na engleskom. Ne jurimo NY vreme.
 - Pre svakog skauta: agent `sustina-reditelj` (suština teksta -> brutalna doslovna slika). Unapređivač radi po PRO LESTVICI (dostići najbolju ocenu poslednjih 5 klipova i >= 90).
 
 ## Unapređivač — stoic_edit_32 (20.11.)
