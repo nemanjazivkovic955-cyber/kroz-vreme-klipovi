@@ -660,22 +660,22 @@ EDITS = {
         "caption": "In a big game, money doesn't win. Nerve does. Who blinks first at your table? \U0001F447",
         "tags": "#mindset #luxurylifestyle #money #discipline #sigma",
         "sound": "Spy/Bond stil (bas-gitara + duvački udarac) ili brazilski phonk 'Montagem', drop na 2.0 s kad karta uleti u kameru"},
-    36: {"mode": "story", "hits": [2.0, 4.0], "hook": "Night shift pays different.", "word": "AWAKE", "line": "they sleep. I collect.",
-        "loop": ("mk_49", 0.55, 1.6, "eq=gamma=1.4", "noc-garaza"),   # far eksplodira u bljesak (match-cut sa tamnom karoserijom)
-        "shots": [("mk_63", 0.6, 0.3, "eq=gamma=1.3:saturation=1.05", "noc-garaza", 0.7667),     # PAYS: svetlo klizi po crvenoj karoseriji
-                  ("mk_44553", 0.0, 15.3, "eq=gamma=1.4", "noc-garaza", 0.7333),                 # NIGHT SHIFT: ona stavlja naočare pod neonom
-                  ("mk_44551", 0.13, 14.6, "eq=gamma=1.7:saturation=1.1", "noc-garaza", 1.2667), # AWAKE (hit 2.0): oči u retrovizoru
+    36: {"mode": "story", "hits": [2.0, 4.0], "flash_at": [], "hook": "Night shift pays different.", "word": "AWAKE", "line": "they sleep. I collect.",
+        "loop": ("mk_63", 0.6, 0.8, "eq=gamma=1.75:saturation=1.15", "noc-garaza"),   # HOOK: svetlo klizi po crvenoj karoseriji (najjači kadar)
+        "shots": [("mk_49", 0.55, 1.9, "eq=gamma=1.2:contrast=1.2", "noc-garaza", 0.7667),         # farovi bljesnu u garaži
                   ("mk_50163", 0.4, 2.0, "", "noc-garaza", 0.7333),                              # grad spava: palme i lampe
-                  ("mk_44554", 0.28, 3.3, "eq=gamma=1.5", "noc-garaza", 2.5, 1.12)],             # THEY SLEEP. I COLLECT.: izlazi iz auta u crvenom neonu, punch-in
+                  ("mk_44553", 0.0, 15.3, "eq=gamma=1.8", "noc-garaza", 1.0, 1.1),               # AWAKE (hit 2.0): okreće glavu pod neonom
+                  ("mk_44551", 0.13, 14.6, "eq=gamma=1.7:saturation=1.1", "noc-garaza", 1.0),    # pogled u retrovizoru
+                  ("mk_44554", 0.28, 3.3, "eq=gamma=1.75:contrast=1.1", "noc-garaza", 2.5, 1.15)],  # THEY SLEEP. I COLLECT.: izlazi iz auta u neonu
         "caption": "While they sleep, the night pays. Day job or night shift? \U0001F447",
         "tags": "#nightlife #luxurylifestyle #money #mindset #grind",
         "sound": "Brazilski phonk 'Montagem' ili synthwave/neon (Vice City vibe, bez GTA zvuka), drop na 2.0 s na pogled u retrovizoru"},
-    35: {"mode": "story", "hits": [2.0, 4.0], "hook": "Pressure. Fire. Then gold.", "word": "FORGED", "line": "stack it cold.",
+    35: {"mode": "story", "hits": [2.0, 4.0], "flash_at": [], "hook": "Pressure. Fire. Then gold.", "word": "FORGED", "line": "stack it cold.",
         "loop": ("mk_2861", 0.55, 1.0, "eq=gamma=1.35:saturation=1.1", "kovanje-zlato"),   # HOOK: tečno zlato pljuska u kalup, varnice
-        "shots": [("mk_18299", 0.55, 0.9, "eq=gamma=1.3", "kovanje-zlato", 1.5),          # PRESSURE: prazan novčanik, jedan dolar
-                  ("mk_151", 0.48, 6.1, "eq=gamma=1.5", "kovanje-zlato", 2.0, 1.1),       # FORGED (hit 2.0): sako legne na ramena pred gradom
-                  ("mk_2862", 0.55, 0.6, "", "kovanje-zlato", 2.0),                       # STACK IT COLD: poluge na polici trezora
-                  ("mk_2865", 0.50, 7.4, "eq=gamma=1.6:saturation=1.1", "kovanje-zlato", 0.5)],  # rubini -> loop na izlivanje
+        "shots": [("mk_18299", 0.55, 1.2, "eq=gamma=1.3", "kovanje-zlato", 0.8),              # PRESSURE: novčanica izlazi iz praznog novčanika
+                  ("mk_2865", 0.50, 7.4, "eq=gamma=1.6:saturation=1.1", "kovanje-zlato", 0.7),  # bljesak rubina
+                  ("mk_151", 0.48, 6.1, "eq=gamma=1.8", "kovanje-zlato", 2.0, 1.15),           # FORGED (hit 2.0): sako legne na ramena pred gradom
+                  ("mk_2862", 0.55, 0.7, "eq=gamma=0.85:contrast=1.15", "kovanje-zlato", 2.5, 1.12)],  # STACK IT COLD: poluge na polici trezora
         "caption": "Pressure breaks most. It forges a few. What's your fire right now? \U0001F447",
         "tags": "#gold #money #mindset #discipline #luxurylifestyle",
         "sound": "Brazilski phonk 'Montagem' (kravlje zvono) ili 'Money Talks' slowed, drop na 2.0 s kad sako legne"},
