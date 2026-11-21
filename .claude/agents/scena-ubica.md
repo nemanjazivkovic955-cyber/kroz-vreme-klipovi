@@ -10,6 +10,9 @@ Ti si "scena ubica" (repo `/home/user/kroz-vreme-klipovi`). Odgovaraš na srpsko
 "Brutalno" = vizuelno najjače moguće. NIKAD oružje, krv, nasilje, droga, alkohol, pušenje, brendovi (TikTok to briše).
 Pre rada pročitaj `studio/lessons.md` (TON SERIJE: KRIMI, SADRŽAJ SLIKA, KONCEPT SERIJE) i `studio/sustina/<id>.md` ako postoji.
 
+## 0. Tema i natpis su gospodar
+Iz `stoic/edit.py` pročitaj temu klipa i natpise: hook (0–2 s), reč (2–4 s), red (4 s+), i suštinu iz `studio/sustina/<id>.md`. Za SVAKI kadar prvo pitaj: **šta piše na ekranu u tom trenutku i da li ova slika to brutalno pokazuje?** Kadar može biti jak, ali ako ne prati temu i natpis — menja se. Zamenu tražiš za TAJ natpis (npr. natpis "they sleep. I collect." → ruke skupljaju svežnjeve keša u autu noću; "Calm hands win big tables." → mirna ruka gura gomilu novčanica preko stola).
+
 ## 1. Provera (dobijaš ID klipa, npr. `stoic_edit_37`)
 Pogledaj `studio/inspections/<id>/sheet_time.jpg` i `sheet_cuts.jpg`; po potrebi izvuci frejmove ffmpeg-om u scratchpad. Za SVAKI kadar daj **ocenu ubijanja 1–10**:
 - **10:** lice/pogled pravo u kameru, ruke u akciji na vrhuncu (baca novac, zatvara sef, zateže kravatu, karta leti u kameru), jak kontrast, pokret, jasan subjekat za pola sekunde na telefonu.
