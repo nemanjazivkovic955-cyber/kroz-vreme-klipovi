@@ -1,0 +1,254 @@
+{
+ "id": "stoic_rule_03",
+ "file": "videos/stoic/stoic_rule_03.mp4",
+ "inspected_at": "2026-11-19T13:04:11",
+ "method": "Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.",
+ "meta": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "duration": 10.0,
+  "vcodec": "h264",
+  "pix_fmt": "yuv420p",
+  "video_streams": 1,
+  "audio_streams": 0,
+  "acodec": null,
+  "bitrate_kbps": 23194
+ },
+ "expected": {
+  "texts": [
+   "This is why people don't respect you.",
+   "Their opinion of you is not your business.",
+   "Your character is.",
+   "Focus on that.",
+   "Follow for rule #4"
+  ],
+  "text_changes": [
+   2.0,
+   4.5,
+   7.0,
+   9.0
+  ],
+  "silent": true,
+  "loop": true,
+  "kind": "stoic",
+  "dur": [
+   9,
+   11
+  ],
+  "min_luma": 0.07
+ },
+ "technical": {
+  "resolution_ok": true,
+  "aspect": "1080:1920",
+  "fps_ok": true,
+  "duration_ok": true,
+  "audio_rule_ok": true,
+  "frames_decoded": 300,
+  "frames_expected": 300
+ },
+ "shots": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 2.0,
+   "dur": 2.0,
+   "luma": 0.122,
+   "sharpness": 136.0,
+   "overexposed_frac": 0.012,
+   "hue": 52.7
+  },
+  {
+   "index": 1,
+   "start": 2.0,
+   "end": 4.5,
+   "dur": 2.5,
+   "luma": 0.155,
+   "sharpness": 122.5,
+   "overexposed_frac": 0.005,
+   "hue": 109.4
+  },
+  {
+   "index": 2,
+   "start": 4.5,
+   "end": 7.0,
+   "dur": 2.5,
+   "luma": 0.246,
+   "sharpness": 148.2,
+   "overexposed_frac": 0.003,
+   "hue": 63.9
+  },
+  {
+   "index": 3,
+   "start": 7.0,
+   "end": 9.0,
+   "dur": 2.0,
+   "luma": 0.156,
+   "sharpness": 126.7,
+   "overexposed_frac": 0.002,
+   "hue": 43.2
+  },
+  {
+   "index": 4,
+   "start": 9.0,
+   "end": 10.0,
+   "dur": 1.0,
+   "luma": 0.113,
+   "sharpness": 129.5,
+   "overexposed_frac": 0.003,
+   "hue": 53.0
+  }
+ ],
+ "cuts": [
+  2.0,
+  4.5,
+  7.0,
+  9.0
+ ],
+ "dissolves": [],
+ "continuity": [
+  {
+   "t": 2.0,
+   "luma_jump": 0.028,
+   "hue_jump": 59.6
+  },
+  {
+   "t": 4.5,
+   "luma_jump": 0.081,
+   "hue_jump": 46.0
+  },
+  {
+   "t": 7.0,
+   "luma_jump": 0.074,
+   "hue_jump": 21.8
+  },
+  {
+   "t": 9.0,
+   "luma_jump": 0.027,
+   "hue_jump": 14.9
+  }
+ ],
+ "loop_seam": {
+  "seam_diff": 5.6,
+  "median_neighbor_diff": 1.87,
+  "ok": true,
+  "seam_diff_no_text": 1.1
+ },
+ "text_timing": {
+  "detected": [
+   2.0,
+   4.5,
+   7.0,
+   7.633,
+   9.0
+  ],
+  "expected": [
+   2.0,
+   4.5,
+   7.0,
+   9.0
+  ],
+  "offset_s": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "on_beat_120bpm": true
+ },
+ "audio": {
+  "streams": 0,
+  "note": "bez zvučnog zapisa — po pravilu korisnika (muziku dodaje u TikTok-u)"
+ },
+ "repetition": {
+  "in_video": [],
+  "across_videos": []
+ },
+ "issues": [],
+ "sheets": [
+  "studio/inspections/stoic_rule_03/sheet_time.jpg",
+  "studio/inspections/stoic_rule_03/sheet_cuts.jpg"
+ ],
+ "vision_review": {
+  "reviewer": "Claude (vision) — kontakt-listovi 0.5 s + frejmovi oko rezova/loop spoja; video NIJE gledan u pokretu",
+  "summary": "Silueta u dimu (kontrast pojačan posle prvog pregleda jer se nije videla) -> kapi kiše -> kamene statue -> plamen sveće.",
+  "scenes": [
+   {
+    "index": 0,
+    "verdict": "ok",
+    "note": "Silueta sada vidljiva; kadar taman ali čitljiv."
+   },
+   {
+    "index": 1,
+    "verdict": "ok",
+    "note": "Kapi sa krova = tuđa buka; apstraktno."
+   },
+   {
+    "index": 2,
+    "verdict": "good",
+    "note": "Kamena statua - karakter; najjači kadar."
+   },
+   {
+    "index": 3,
+    "verdict": "good",
+    "note": "Plamen izbliza - fokus."
+   },
+   {
+    "index": 4,
+    "verdict": "ok",
+    "note": "Loop bez šava."
+   }
+  ],
+  "storytelling": "Provokativan hook, pravilo okreće krivicu ka sopstvenom karakteru, jasan nalog 'Focus on that.'",
+  "creative_score": 83,
+  "breakdown": {
+   "storytelling": 18,
+   "visual": 16,
+   "hook": 12,
+   "cinematography": 12,
+   "sound": 8,
+   "editing": 9,
+   "originality": 8
+  },
+  "recommendations": [
+   "Jači hook kadar sa jasnijom siluetom (Pexels)"
+  ]
+ },
+ "history": [
+  {
+   "at": "2026-11-19T10:55:03",
+   "approved": false,
+   "issues": 1
+  },
+  {
+   "at": "2026-11-19T11:00:00",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-19T11:06:59",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-19T11:10:46",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-19T13:01:34",
+   "approved": false,
+   "issues": 0
+  }
+ ],
+ "approval": {
+  "technical_pass": true,
+  "vision_reviewed": true,
+  "weak_scenes": 0,
+  "creative_score": 83,
+  "approved": false,
+  "blocking": [
+   "kreativna ocena 83 < 90"
+  ]
+ }
+}

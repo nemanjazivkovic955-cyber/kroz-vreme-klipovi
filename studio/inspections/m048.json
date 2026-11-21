@@ -1,0 +1,250 @@
+{
+ "id": "m048",
+ "file": "videos/tiktok_loops/m048.mp4",
+ "inspected_at": "2026-11-19T13:03:57",
+ "method": "Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.",
+ "meta": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "duration": 12.0,
+  "vcodec": "h264",
+  "pix_fmt": "yuv420p",
+  "video_streams": 1,
+  "audio_streams": 0,
+  "acodec": null,
+  "bitrate_kbps": 32749
+ },
+ "expected": {
+  "texts": [
+   "This boat is perfectly safe. That's the problem.",
+   "Harbors are where boats wait.",
+   "Boats were built for open water.",
+   "Neither are you.",
+   "Leave the harbor.",
+   "Still tied to the dock?"
+  ],
+  "text_changes": [
+   2.0,
+   4.0,
+   6.0,
+   8.0,
+   10.0
+  ],
+  "silent": true,
+  "loop": true,
+  "kind": "tiktok_loop_v2"
+ },
+ "technical": {
+  "resolution_ok": true,
+  "aspect": "1080:1920",
+  "fps_ok": true,
+  "duration_ok": true,
+  "audio_rule_ok": true,
+  "frames_decoded": 360,
+  "frames_expected": 360
+ },
+ "shots": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 2.0,
+   "dur": 2.0,
+   "luma": 0.445,
+   "sharpness": 130.0,
+   "overexposed_frac": 0.002,
+   "hue": 75.0
+  },
+  {
+   "index": 1,
+   "start": 2.0,
+   "end": 4.0,
+   "dur": 2.0,
+   "luma": 0.349,
+   "sharpness": 293.2,
+   "overexposed_frac": 0.0,
+   "hue": 52.4
+  },
+  {
+   "index": 2,
+   "start": 4.0,
+   "end": 6.0,
+   "dur": 2.0,
+   "luma": 0.284,
+   "sharpness": 157.7,
+   "overexposed_frac": 0.0,
+   "hue": 107.1
+  },
+  {
+   "index": 3,
+   "start": 6.0,
+   "end": 8.0,
+   "dur": 2.0,
+   "luma": 0.4,
+   "sharpness": 1281.3,
+   "overexposed_frac": 0.0,
+   "hue": 58.4
+  },
+  {
+   "index": 4,
+   "start": 8.0,
+   "end": 9.0,
+   "dur": 1.0,
+   "luma": 0.289,
+   "sharpness": 78.6,
+   "overexposed_frac": 0.0,
+   "hue": 30.6
+  },
+  {
+   "index": 5,
+   "start": 9.0,
+   "end": 10.0,
+   "dur": 1.0,
+   "luma": 0.314,
+   "sharpness": 152.4,
+   "overexposed_frac": 0.0,
+   "hue": 90.2
+  },
+  {
+   "index": 6,
+   "start": 10.0,
+   "end": 12.0,
+   "dur": 2.0,
+   "luma": 0.433,
+   "sharpness": 138.0,
+   "overexposed_frac": 0.0,
+   "hue": 74.8
+  }
+ ],
+ "cuts": [
+  2.0,
+  4.0,
+  6.0,
+  8.0,
+  9.0,
+  10.0
+ ],
+ "dissolves": [],
+ "continuity": [
+  {
+   "t": 2.0,
+   "luma_jump": 0.113,
+   "hue_jump": 21.5
+  },
+  {
+   "t": 4.0,
+   "luma_jump": 0.066,
+   "hue_jump": 55.1
+  },
+  {
+   "t": 6.0,
+   "luma_jump": 0.118,
+   "hue_jump": 50.1
+  },
+  {
+   "t": 8.0,
+   "luma_jump": 0.117,
+   "hue_jump": 27.7
+  },
+  {
+   "t": 9.0,
+   "luma_jump": 0.025,
+   "hue_jump": 59.3
+  },
+  {
+   "t": 10.0,
+   "luma_jump": 0.111,
+   "hue_jump": 14.3
+  }
+ ],
+ "loop_seam": {
+  "seam_diff": 11.15,
+  "median_neighbor_diff": 2.28,
+  "ok": true,
+  "seam_diff_no_text": 3.85
+ },
+ "text_timing": {
+  "detected": [
+   2.0,
+   4.0,
+   6.0,
+   8.0,
+   10.0
+  ],
+  "expected": [
+   2.0,
+   4.0,
+   6.0,
+   8.0,
+   10.0
+  ],
+  "offset_s": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "on_beat_120bpm": true
+ },
+ "audio": {
+  "streams": 0,
+  "note": "bez zvučnog zapisa — po pravilu korisnika (muziku dodaje u TikTok-u)"
+ },
+ "repetition": {
+  "in_video": [],
+  "across_videos": []
+ },
+ "issues": [],
+ "sheets": [
+  "studio/inspections/m048/sheet_time.jpg",
+  "studio/inspections/m048/sheet_cuts.jpg"
+ ],
+ "history": [
+  {
+   "at": "2026-11-19T09:54:04",
+   "approved": false,
+   "issues": 2
+  },
+  {
+   "at": "2026-11-19T09:54:40",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-19T10:09:02",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-19T10:23:45",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-19T10:34:39",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-19T11:06:48",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-19T13:02:00",
+   "approved": false,
+   "issues": 0
+  }
+ ],
+ "approval": {
+  "technical_pass": true,
+  "vision_reviewed": false,
+  "weak_scenes": 0,
+  "creative_score": null,
+  "approved": false,
+  "blocking": [
+   "nema vizuelnog pregleda"
+  ]
+ }
+}

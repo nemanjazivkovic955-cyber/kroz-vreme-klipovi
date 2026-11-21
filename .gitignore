@@ -1,0 +1,10 @@
+tools/out/
+__pycache__/
+videos/*.silent.mp4
+videos/*.mp4.txt
+motivacija/out/
+the_price/out/
+the_price/src/
+stoic/src/
+stoic/out/
+*.part.mp4

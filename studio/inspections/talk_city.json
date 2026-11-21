@@ -1,0 +1,574 @@
+{
+ "id": "talk_city",
+ "file": "videos/the_price/talk_city_9x16.mp4",
+ "inspected_at": "2026-11-19T10:00:31",
+ "method": "Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.",
+ "meta": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "duration": 32.2,
+  "vcodec": "h264",
+  "pix_fmt": "yuv420p",
+  "video_streams": 1,
+  "audio_streams": 1,
+  "acodec": "aac",
+  "bitrate_kbps": 9461
+ },
+ "expected": {
+  "silent": false,
+  "loop": false,
+  "kind": "talk"
+ },
+ "technical": {
+  "resolution_ok": true,
+  "aspect": "1080:1920",
+  "fps_ok": true,
+  "duration_ok": true,
+  "audio_rule_ok": true,
+  "frames_decoded": 966,
+  "frames_expected": 966
+ },
+ "shots": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 5.833,
+   "dur": 5.833,
+   "luma": 0.024,
+   "sharpness": 287.0,
+   "overexposed_frac": 0.0,
+   "hue": 115.3
+  },
+  {
+   "index": 1,
+   "start": 5.833,
+   "end": 13.8,
+   "dur": 7.967,
+   "luma": 0.189,
+   "sharpness": 263.1,
+   "overexposed_frac": 0.0,
+   "hue": 86.7
+  },
+  {
+   "index": 2,
+   "start": 13.8,
+   "end": 21.9,
+   "dur": 8.1,
+   "luma": 0.214,
+   "sharpness": 349.7,
+   "overexposed_frac": 0.0,
+   "hue": 92.1
+  },
+  {
+   "index": 3,
+   "start": 21.9,
+   "end": 22.667,
+   "dur": 0.767,
+   "luma": 0.344,
+   "sharpness": 397.3,
+   "overexposed_frac": 0.0,
+   "hue": 22.6
+  },
+  {
+   "index": 4,
+   "start": 22.667,
+   "end": 22.833,
+   "dur": 0.167,
+   "luma": 0.335,
+   "sharpness": 138.8,
+   "overexposed_frac": 0.0,
+   "hue": 27.7
+  },
+  {
+   "index": 5,
+   "start": 22.833,
+   "end": 23.1,
+   "dur": 0.267,
+   "luma": 0.331,
+   "sharpness": 168.3,
+   "overexposed_frac": 0.0,
+   "hue": 23.0
+  },
+  {
+   "index": 6,
+   "start": 23.1,
+   "end": 24.2,
+   "dur": 1.1,
+   "luma": 0.147,
+   "sharpness": 408.7,
+   "overexposed_frac": 0.0,
+   "hue": 76.3
+  },
+  {
+   "index": 7,
+   "start": 24.2,
+   "end": 32.2,
+   "dur": 8.0,
+   "luma": 0.143,
+   "sharpness": 302.3,
+   "overexposed_frac": 0.0,
+   "hue": 80.3
+  }
+ ],
+ "cuts": [
+  5.833,
+  13.8,
+  21.9,
+  22.667,
+  22.833,
+  23.1,
+  24.2
+ ],
+ "dissolves": [
+  5.833,
+  13.8,
+  24.2
+ ],
+ "continuity": [
+  {
+   "t": 5.833,
+   "luma_jump": 0.05,
+   "hue_jump": 1.4
+  },
+  {
+   "t": 13.8,
+   "luma_jump": 0.053,
+   "hue_jump": 5.6
+  },
+  {
+   "t": 21.9,
+   "luma_jump": 0.12,
+   "hue_jump": 38.7
+  },
+  {
+   "t": 22.667,
+   "luma_jump": 0.004,
+   "hue_jump": 2.4
+  },
+  {
+   "t": 22.833,
+   "luma_jump": 0.033,
+   "hue_jump": 5.3
+  },
+  {
+   "t": 23.1,
+   "luma_jump": 0.156,
+   "hue_jump": 52.7
+  },
+  {
+   "t": 24.2,
+   "luma_jump": 0.034,
+   "hue_jump": 1.5
+  }
+ ],
+ "loop_seam": null,
+ "text_timing": {
+  "detected": [
+   1.6,
+   2.9,
+   3.467,
+   4.533,
+   6.9,
+   7.467,
+   8.4,
+   9.433,
+   12.033,
+   14.367,
+   15.433,
+   16.4,
+   18.567,
+   19.033,
+   19.967,
+   21.8,
+   22.233,
+   22.667,
+   23.1,
+   23.567,
+   25.367,
+   25.933,
+   31.9
+  ],
+  "subtitle_vs_speech": {
+   "sentence_starts": [
+    1.0,
+    2.82,
+    5.14,
+    6.96,
+    9.14,
+    12.08,
+    15.68,
+    23.3,
+    25.66,
+    27.6
+   ],
+   "nearest_caption_change_offset_s": [
+    0.08,
+    -0.61,
+    -0.06,
+    0.29,
+    -0.05,
+    -0.25,
+    -0.2,
+    0.27,
+    -1.67
+   ],
+   "out_of_sync": [
+    [
+     5.14,
+     -0.61
+    ],
+    [
+     27.6,
+     -1.67
+    ]
+   ]
+  }
+ },
+ "audio": {
+  "streams": 1,
+  "integrated_lufs": -13.5,
+  "true_peak_dbfs": -1.2,
+  "silences": 0,
+  "transcript": "While they sleep, you bell. While they scroll, you work. Nobody sees the late nights. Nobody claps for the quiet hours. But every hour you give is a brick in a house they will never understand. So stay quiet, stay focused, let the results speak.",
+  "wer": 0.022,
+  "words": [
+   {
+    "w": "While",
+    "t": 1.0
+   },
+   {
+    "w": "they",
+    "t": 1.76
+   },
+   {
+    "w": "sleep,",
+    "t": 1.98
+   },
+   {
+    "w": "you",
+    "t": 2.82
+   },
+   {
+    "w": "bell.",
+    "t": 3.72
+   },
+   {
+    "w": "While",
+    "t": 5.14
+   },
+   {
+    "w": "they",
+    "t": 5.68
+   },
+   {
+    "w": "scroll,",
+    "t": 5.92
+   },
+   {
+    "w": "you",
+    "t": 6.96
+   },
+   {
+    "w": "work.",
+    "t": 7.6
+   },
+   {
+    "w": "Nobody",
+    "t": 9.14
+   },
+   {
+    "w": "sees",
+    "t": 9.64
+   },
+   {
+    "w": "the",
+    "t": 10.18
+   },
+   {
+    "w": "late",
+    "t": 10.48
+   },
+   {
+    "w": "nights.",
+    "t": 10.64
+   },
+   {
+    "w": "Nobody",
+    "t": 12.08
+   },
+   {
+    "w": "claps",
+    "t": 12.7
+   },
+   {
+    "w": "for",
+    "t": 13.34
+   },
+   {
+    "w": "the",
+    "t": 13.54
+   },
+   {
+    "w": "quiet",
+    "t": 13.62
+   },
+   {
+    "w": "hours.",
+    "t": 13.9
+   },
+   {
+    "w": "But",
+    "t": 15.68
+   },
+   {
+    "w": "every",
+    "t": 16.44
+   },
+   {
+    "w": "hour",
+    "t": 16.64
+   },
+   {
+    "w": "you",
+    "t": 17.02
+   },
+   {
+    "w": "give",
+    "t": 17.34
+   },
+   {
+    "w": "is",
+    "t": 17.58
+   },
+   {
+    "w": "a",
+    "t": 19.04
+   },
+   {
+    "w": "brick",
+    "t": 19.18
+   },
+   {
+    "w": "in",
+    "t": 19.38
+   },
+   {
+    "w": "a",
+    "t": 19.66
+   },
+   {
+    "w": "house",
+    "t": 19.76
+   },
+   {
+    "w": "they",
+    "t": 20.04
+   },
+   {
+    "w": "will",
+    "t": 20.44
+   },
+   {
+    "w": "never",
+    "t": 20.58
+   },
+   {
+    "w": "understand.",
+    "t": 20.92
+   },
+   {
+    "w": "So",
+    "t": 23.3
+   },
+   {
+    "w": "stay",
+    "t": 24.06
+   },
+   {
+    "w": "quiet,",
+    "t": 24.34
+   },
+   {
+    "w": "stay",
+    "t": 25.66
+   },
+   {
+    "w": "focused,",
+    "t": 26.14
+   },
+   {
+    "w": "let",
+    "t": 27.6
+   },
+   {
+    "w": "the",
+    "t": 27.9
+   },
+   {
+    "w": "results",
+    "t": 28.1
+   },
+   {
+    "w": "speak.",
+    "t": 28.32
+   }
+  ],
+  "diff": [
+   [
+    "replace",
+    "build",
+    "bell"
+   ]
+  ]
+ },
+ "repetition": {
+  "in_video": [
+   [
+    3,
+    4,
+    6
+   ],
+   [
+    3,
+    5,
+    8
+   ],
+   [
+    4,
+    5,
+    8
+   ]
+  ],
+  "across_videos": []
+ },
+ "issues": [
+  {
+   "severity": "critical",
+   "type": "black_frames",
+   "t": 32.0,
+   "msg": "6 crnih frejmova (prvi 32.0 s)"
+  },
+  {
+   "severity": "major",
+   "type": "underexposed",
+   "t": 0.0,
+   "msg": "kadar 0: osvetljenost 0.024"
+  },
+  {
+   "severity": "major",
+   "type": "underexposed",
+   "t": 5.833,
+   "msg": "kadar 1: osvetljenost 0.189"
+  },
+  {
+   "severity": "major",
+   "type": "underexposed",
+   "t": 13.8,
+   "msg": "kadar 2: osvetljenost 0.214"
+  },
+  {
+   "severity": "major",
+   "type": "flash_shot",
+   "t": 22.667,
+   "msg": "kadar 4 traje samo 0.167 s"
+  },
+  {
+   "severity": "major",
+   "type": "flash_shot",
+   "t": 22.833,
+   "msg": "kadar 5 traje samo 0.267 s"
+  },
+  {
+   "severity": "major",
+   "type": "underexposed",
+   "t": 23.1,
+   "msg": "kadar 6: osvetljenost 0.147"
+  },
+  {
+   "severity": "major",
+   "type": "underexposed",
+   "t": 24.2,
+   "msg": "kadar 7: osvetljenost 0.143"
+  },
+  {
+   "severity": "major",
+   "type": "repeat_in_video",
+   "t": 22.667,
+   "msg": "kadar 4 skoro isti kao kadar 3 (dHash 6)"
+  },
+  {
+   "severity": "major",
+   "type": "repeat_in_video",
+   "t": 22.833,
+   "msg": "kadar 5 skoro isti kao kadar 3 (dHash 8)"
+  },
+  {
+   "severity": "major",
+   "type": "repeat_in_video",
+   "t": 22.833,
+   "msg": "kadar 5 skoro isti kao kadar 4 (dHash 8)"
+  },
+  {
+   "severity": "minor",
+   "type": "subtitle_sync",
+   "t": 5.14,
+   "msg": "rečenica počinje u 5.14 s, titl se menja -0.61 s od toga"
+  },
+  {
+   "severity": "minor",
+   "type": "subtitle_sync",
+   "t": 27.6,
+   "msg": "rečenica počinje u 27.6 s, titl se menja -1.67 s od toga"
+  },
+  {
+   "severity": "minor",
+   "type": "pronunciation",
+   "t": 0,
+   "msg": "scenario 'build' -> čuje se 'bell'"
+  }
+ ],
+ "sheets": [
+  "studio/inspections/talk_city/sheet_time.jpg",
+  "studio/inspections/talk_city/sheet_cuts.jpg"
+ ],
+ "history": [
+  {
+   "at": "2026-11-19T09:55:00",
+   "approved": false,
+   "issues": 8
+  },
+  {
+   "at": "2026-11-19T09:58:25",
+   "approved": false,
+   "issues": 11
+  },
+  {
+   "at": "2026-11-19T09:58:48",
+   "approved": false,
+   "issues": 11
+  },
+  {
+   "at": "2026-11-19T09:59:38",
+   "approved": false,
+   "issues": 11
+  },
+  {
+   "at": "2026-11-19T10:00:03",
+   "approved": false,
+   "issues": 11
+  }
+ ],
+ "approval": {
+  "technical_pass": false,
+  "vision_reviewed": false,
+  "weak_scenes": 0,
+  "creative_score": null,
+  "approved": false,
+  "blocking": [
+   "1 kritičnih",
+   "10 većih problema",
+   "nema vizuelnog pregleda"
+  ]
+ }
+}

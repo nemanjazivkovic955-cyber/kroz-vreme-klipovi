@@ -1,0 +1,5565 @@
+[
+ {
+  "id": "m001",
+  "family": "quote_v1",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "general",
+  "hook": "Nobody sees how hard you fight.",
+  "text": [
+   "Nobody sees how hard you fight.",
+   "But you know.",
+   "Every day you don't give up is a quiet victory.",
+   "The waves don't ask if you're ready.",
+   "So become the rock."
+  ],
+  "ending": "So become the rock.",
+  "footage": [
+   "waves_12136143"
+  ],
+  "visual_style": "stok pozadina + beli/zlatni tekst",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m001.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 44,
+   "breakdown": {
+    "storytelling": 10,
+    "visual": 9,
+    "hook": 5,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 5,
+    "originality": 4
+   },
+   "evidence": "Jedan snimak, statičan tekst, bez hook-a, bez strukture.",
+   "verdict": "ISPOD PRAGA"
+  }
+ },
+ {
+  "id": "m002",
+  "family": "quote_v1",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "general",
+  "hook": "You don't have to see the whole mountain.",
+  "text": [
+   "You don't have to see the whole mountain.",
+   "Just the next step.",
+   "Slow progress is still progress.",
+   "One day you'll look back",
+   "and thank yourself for not quitting."
+  ],
+  "ending": "and thank yourself for not quitting.",
+  "footage": [
+   "mountains_11856435"
+  ],
+  "visual_style": "stok pozadina + beli/zlatni tekst",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m002.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 44,
+   "breakdown": {
+    "storytelling": 10,
+    "visual": 9,
+    "hook": 5,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 5,
+    "originality": 4
+   },
+   "evidence": "Jedan snimak, statičan tekst, bez hook-a, bez strukture.",
+   "verdict": "ISPOD PRAGA"
+  }
+ },
+ {
+  "id": "m003",
+  "family": "quote_v1",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "general",
+  "hook": "Some nights feel heavier than others.",
+  "text": [
+   "Some nights feel heavier than others.",
+   "That's okay.",
+   "Rain doesn't last forever.",
+   "Neither does this feeling.",
+   "Rest if you must. But don't quit."
+  ],
+  "ending": "Rest if you must. But don't quit.",
+  "footage": [
+   "rain_18222676"
+  ],
+  "visual_style": "stok pozadina + beli/zlatni tekst",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m003.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 44,
+   "breakdown": {
+    "storytelling": 10,
+    "visual": 9,
+    "hook": 5,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 5,
+    "originality": 4
+   },
+   "evidence": "Jedan snimak, statičan tekst, bez hook-a, bez strukture.",
+   "verdict": "ISPOD PRAGA"
+  }
+ },
+ {
+  "id": "m004",
+  "family": "quote_v1",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "general",
+  "hook": "While they sleep, you build.",
+  "text": [
+   "While they sleep, you build.",
+   "While they talk, you work.",
+   "Discipline is choosing what you want most",
+   "over what you want now.",
+   "Stay quiet. Let results speak."
+  ],
+  "ending": "Stay quiet. Let results speak.",
+  "footage": [
+   "pexels_11390239"
+  ],
+  "visual_style": "stok pozadina + beli/zlatni tekst",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m004.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 44,
+   "breakdown": {
+    "storytelling": 10,
+    "visual": 9,
+    "hook": 5,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 5,
+    "originality": 4
+   },
+   "evidence": "Jedan snimak, statičan tekst, bez hook-a, bez strukture.",
+   "verdict": "ISPOD PRAGA"
+  }
+ },
+ {
+  "id": "m005",
+  "family": "quote_v1",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "general",
+  "hook": "The road ahead won't always be clear.",
+  "text": [
+   "The road ahead won't always be clear.",
+   "Drive anyway.",
+   "You weren't meant to stay where you started.",
+   "Every mile is proof you're growing.",
+   "Keep going."
+  ],
+  "ending": "Keep going.",
+  "footage": [
+   "road_16535478"
+  ],
+  "visual_style": "stok pozadina + beli/zlatni tekst",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m005.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 44,
+   "breakdown": {
+    "storytelling": 10,
+    "visual": 9,
+    "hook": 5,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 5,
+    "originality": 4
+   },
+   "evidence": "Jedan snimak, statičan tekst, bez hook-a, bez strukture.",
+   "verdict": "ISPOD PRAGA"
+  }
+ },
+ {
+  "id": "m006",
+  "family": "quote_v1",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "general",
+  "hook": "Stars can't shine without darkness.",
+  "text": [
+   "Stars can't shine without darkness.",
+   "Your hardest season",
+   "might be the one that makes you glow.",
+   "Don't rush the process.",
+   "Your time is coming."
+  ],
+  "ending": "Your time is coming.",
+  "footage": [
+   "stars_5747525"
+  ],
+  "visual_style": "stok pozadina + beli/zlatni tekst",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m006.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 44,
+   "breakdown": {
+    "storytelling": 10,
+    "visual": 9,
+    "hook": 5,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 5,
+    "originality": 4
+   },
+   "evidence": "Jedan snimak, statičan tekst, bez hook-a, bez strukture.",
+   "verdict": "ISPOD PRAGA"
+  }
+ },
+ {
+  "id": "m007",
+  "family": "quote_v1",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "general",
+  "hook": "Sometimes life hits hard.",
+  "text": [
+   "Sometimes life hits hard.",
+   "Let it.",
+   "Then stand back up.",
+   "You've survived every bad day so far.",
+   "You'll survive this one too."
+  ],
+  "ending": "You'll survive this one too.",
+  "footage": [
+   "waves_8438341"
+  ],
+  "visual_style": "stok pozadina + beli/zlatni tekst",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m007.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 44,
+   "breakdown": {
+    "storytelling": 10,
+    "visual": 9,
+    "hook": 5,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 5,
+    "originality": 4
+   },
+   "evidence": "Jedan snimak, statičan tekst, bez hook-a, bez strukture.",
+   "verdict": "ISPOD PRAGA"
+  }
+ },
+ {
+  "id": "m008",
+  "family": "quote_v1",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "general",
+  "hook": "Motivation gets you started.",
+  "text": [
+   "Motivation gets you started.",
+   "Habit keeps you going.",
+   "Show up on the days you don't feel like it.",
+   "Those are the days that count.",
+   "Run your own race."
+  ],
+  "ending": "Run your own race.",
+  "footage": [
+   "run_19523592"
+  ],
+  "visual_style": "stok pozadina + beli/zlatni tekst",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m008.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 44,
+   "breakdown": {
+    "storytelling": 10,
+    "visual": 9,
+    "hook": 5,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 5,
+    "originality": 4
+   },
+   "evidence": "Jedan snimak, statičan tekst, bez hook-a, bez strukture.",
+   "verdict": "ISPOD PRAGA"
+  }
+ },
+ {
+  "id": "m009",
+  "family": "quote_v1",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "general",
+  "hook": "You were never meant to be calm in every storm.",
+  "text": [
+   "You were never meant to be calm in every storm.",
+   "You were meant to survive it.",
+   "Pressure makes diamonds.",
+   "Chaos makes warriors.",
+   "Let the storm shape you."
+  ],
+  "ending": "Let the storm shape you.",
+  "footage": [
+   "lightning_5387436"
+  ],
+  "visual_style": "stok pozadina + beli/zlatni tekst",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m009.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 44,
+   "breakdown": {
+    "storytelling": 10,
+    "visual": 9,
+    "hook": 5,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 5,
+    "originality": 4
+   },
+   "evidence": "Jedan snimak, statičan tekst, bez hook-a, bez strukture.",
+   "verdict": "ISPOD PRAGA"
+  }
+ },
+ {
+  "id": "m010",
+  "family": "quote_v1",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "general",
+  "hook": "It's okay if you feel lost right now.",
+  "text": [
+   "It's okay if you feel lost right now.",
+   "Even trees lose their leaves.",
+   "And they still grow back.",
+   "This is not your ending.",
+   "It's your quiet season."
+  ],
+  "ending": "It's your quiet season.",
+  "footage": [
+   "forest_15086974"
+  ],
+  "visual_style": "stok pozadina + beli/zlatni tekst",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m010.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 44,
+   "breakdown": {
+    "storytelling": 10,
+    "visual": 9,
+    "hook": 5,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 5,
+    "originality": 4
+   },
+   "evidence": "Jedan snimak, statičan tekst, bez hook-a, bez strukture.",
+   "verdict": "ISPOD PRAGA"
+  }
+ },
+ {
+  "id": "m011",
+  "family": "quote_v1",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "general",
+  "hook": "The climb is cold and lonely.",
+  "text": [
+   "The climb is cold and lonely.",
+   "That's why so few reach the top.",
+   "Every step you take today",
+   "is a step they were too afraid to take.",
+   "Keep climbing."
+  ],
+  "ending": "Keep climbing.",
+  "footage": [
+   "pexels_6650177"
+  ],
+  "visual_style": "stok pozadina + beli/zlatni tekst",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m011.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 44,
+   "breakdown": {
+    "storytelling": 10,
+    "visual": 9,
+    "hook": 5,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 5,
+    "originality": 4
+   },
+   "evidence": "Jedan snimak, statičan tekst, bez hook-a, bez strukture.",
+   "verdict": "ISPOD PRAGA"
+  }
+ },
+ {
+  "id": "m012",
+  "family": "quote_v1",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "general",
+  "hook": "Every sunset is proof",
+  "text": [
+   "Every sunset is proof",
+   "that endings can be beautiful too.",
+   "Let go of what's already gone.",
+   "Tomorrow the sun rises again.",
+   "And so will you."
+  ],
+  "ending": "And so will you.",
+  "footage": [
+   "sunset_5189814"
+  ],
+  "visual_style": "stok pozadina + beli/zlatni tekst",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m012.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 44,
+   "breakdown": {
+    "storytelling": 10,
+    "visual": 9,
+    "hook": 5,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 5,
+    "originality": 4
+   },
+   "evidence": "Jedan snimak, statičan tekst, bez hook-a, bez strukture.",
+   "verdict": "ISPOD PRAGA"
+  }
+ },
+ {
+  "id": "m013",
+  "family": "quote_v1",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "general",
+  "hook": "Stop waiting for the perfect moment.",
+  "text": [
+   "Stop waiting for the perfect moment.",
+   "It doesn't exist.",
+   "Start scared. Start unsure.",
+   "Just start.",
+   "Clarity comes from action."
+  ],
+  "ending": "Clarity comes from action.",
+  "footage": [
+   "mountains_11856435"
+  ],
+  "visual_style": "stok pozadina + beli/zlatni tekst",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m013.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 44,
+   "breakdown": {
+    "storytelling": 10,
+    "visual": 9,
+    "hook": 5,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 5,
+    "originality": 4
+   },
+   "evidence": "Jedan snimak, statičan tekst, bez hook-a, bez strukture.",
+   "verdict": "ISPOD PRAGA"
+  }
+ },
+ {
+  "id": "m014",
+  "family": "quote_v1",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "general",
+  "hook": "One year from now",
+  "text": [
+   "One year from now",
+   "you'll wish you started today.",
+   "Small steps. Every single day.",
+   "Nobody has to believe in you.",
+   "You just have to."
+  ],
+  "ending": "You just have to.",
+  "footage": [
+   "pexels_11390239"
+  ],
+  "visual_style": "stok pozadina + beli/zlatni tekst",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m014.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 44,
+   "breakdown": {
+    "storytelling": 10,
+    "visual": 9,
+    "hook": 5,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 5,
+    "originality": 4
+   },
+   "evidence": "Jedan snimak, statičan tekst, bez hook-a, bez strukture.",
+   "verdict": "ISPOD PRAGA"
+  }
+ },
+ {
+  "id": "m015",
+  "family": "quote_v1",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "general",
+  "hook": "Stop comparing your chapter 1",
+  "text": [
+   "Stop comparing your chapter 1",
+   "to someone else's chapter 20.",
+   "Their path is not your path.",
+   "Your only competition",
+   "is who you were yesterday."
+  ],
+  "ending": "is who you were yesterday.",
+  "footage": [
+   "road_16535478"
+  ],
+  "visual_style": "stok pozadina + beli/zlatni tekst",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m015.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 44,
+   "breakdown": {
+    "storytelling": 10,
+    "visual": 9,
+    "hook": 5,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 5,
+    "originality": 4
+   },
+   "evidence": "Jedan snimak, statičan tekst, bez hook-a, bez strukture.",
+   "verdict": "ISPOD PRAGA"
+  }
+ },
+ {
+  "id": "m016",
+  "family": "quote_v1",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "general",
+  "hook": "You are not too much.",
+  "text": [
+   "You are not too much.",
+   "You were just around the wrong people.",
+   "Know your worth.",
+   "Then add tax.",
+   "Never settle for less than respect."
+  ],
+  "ending": "Never settle for less than respect.",
+  "footage": [
+   "rain_18222676"
+  ],
+  "visual_style": "stok pozadina + beli/zlatni tekst",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m016.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 44,
+   "breakdown": {
+    "storytelling": 10,
+    "visual": 9,
+    "hook": 5,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 5,
+    "originality": 4
+   },
+   "evidence": "Jedan snimak, statičan tekst, bez hook-a, bez strukture.",
+   "verdict": "ISPOD PRAGA"
+  }
+ },
+ {
+  "id": "m017",
+  "family": "quote_v2",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "priroda",
+  "hook": "The sun doesn't ask permission to rise.",
+  "text": [
+   "The sun doesn't ask permission to rise.",
+   "It just shows up. Every single day.",
+   "Even after the darkest night.",
+   "Be like the sun.",
+   "Consistency beats intensity. Show up daily."
+  ],
+  "ending": "Consistency beats intensity. Show up daily.",
+  "footage": [
+   "pexels_39657533"
+  ],
+  "visual_style": "stok pozadina + tekst preko (QOTD kartica)",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m017.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 49,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 10,
+    "hook": 6,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 6,
+    "originality": 5
+   },
+   "evidence": "Otvara natpisom 'Quote of the Day' umesto hook-a; 27 s predugo; jedan stok snimak po klipu; tekst ravnomerno 5.2 s; snimci ponovljeni između serija.",
+   "verdict": "ISPOD PRAGA - format zamenjen TikTok standardom"
+  }
+ },
+ {
+  "id": "m018",
+  "family": "quote_v2",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "trening",
+  "hook": "Nobody claps for your 5 AM workout.",
+  "text": [
+   "Nobody claps for your 5 AM workout.",
+   "Nobody sees the reps you do alone.",
+   "But one day",
+   "everyone will see the results.",
+   "Discipline is doing it even when nobody is watching."
+  ],
+  "ending": "Discipline is doing it even when nobody is watching.",
+  "footage": [
+   "pexels_6296377"
+  ],
+  "visual_style": "stok pozadina + tekst preko (QOTD kartica)",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m018.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 49,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 10,
+    "hook": 6,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 6,
+    "originality": 5
+   },
+   "evidence": "Otvara natpisom 'Quote of the Day' umesto hook-a; 27 s predugo; jedan stok snimak po klipu; tekst ravnomerno 5.2 s; snimci ponovljeni između serija.",
+   "verdict": "ISPOD PRAGA - format zamenjen TikTok standardom"
+  }
+ },
+ {
+  "id": "m019",
+  "family": "quote_v2",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "kola_novac",
+  "hook": "They laughed when you saved",
+  "text": [
+   "They laughed when you saved",
+   "instead of spending.",
+   "Now they ask how you did it.",
+   "Delayed gratification pays the best interest.",
+   "Buy assets first. Luxuries later."
+  ],
+  "ending": "Buy assets first. Luxuries later.",
+  "footage": [
+   "pexels_39371057"
+  ],
+  "visual_style": "stok pozadina + tekst preko (QOTD kartica)",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m019.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 49,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 10,
+    "hook": 6,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 6,
+    "originality": 5
+   },
+   "evidence": "Otvara natpisom 'Quote of the Day' umesto hook-a; 27 s predugo; jedan stok snimak po klipu; tekst ravnomerno 5.2 s; snimci ponovljeni između serija.",
+   "verdict": "ISPOD PRAGA - format zamenjen TikTok standardom"
+  }
+ },
+ {
+  "id": "m020",
+  "family": "quote_v2",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "putovanja",
+  "hook": "Collect moments, not things.",
+  "text": [
+   "Collect moments, not things.",
+   "The world is too big",
+   "to stay in one place your whole life.",
+   "Work hard. Then go see it.",
+   "Invest in experiences. They pay you back forever."
+  ],
+  "ending": "Invest in experiences. They pay you back forever.",
+  "footage": [
+   "pexels_18934517"
+  ],
+  "visual_style": "stok pozadina + tekst preko (QOTD kartica)",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m020.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 49,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 10,
+    "hook": 6,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 6,
+    "originality": 5
+   },
+   "evidence": "Otvara natpisom 'Quote of the Day' umesto hook-a; 27 s predugo; jedan stok snimak po klipu; tekst ravnomerno 5.2 s; snimci ponovljeni između serija.",
+   "verdict": "ISPOD PRAGA - format zamenjen TikTok standardom"
+  }
+ },
+ {
+  "id": "m021",
+  "family": "quote_v2",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "priroda",
+  "hook": "The ocean doesn't apologize for its waves.",
+  "text": [
+   "The ocean doesn't apologize for its waves.",
+   "It crashes. It rises. It returns.",
+   "Storms don't break you.",
+   "They show you how deep you are.",
+   "Hard times don't define you. How you respond does."
+  ],
+  "ending": "Hard times don't define you. How you respond does.",
+  "footage": [
+   "pexels_34769638"
+  ],
+  "visual_style": "stok pozadina + tekst preko (QOTD kartica)",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m021.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 49,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 10,
+    "hook": 6,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 6,
+    "originality": 5
+   },
+   "evidence": "Otvara natpisom 'Quote of the Day' umesto hook-a; 27 s predugo; jedan stok snimak po klipu; tekst ravnomerno 5.2 s; snimci ponovljeni između serija.",
+   "verdict": "ISPOD PRAGA - format zamenjen TikTok standardom"
+  }
+ },
+ {
+  "id": "m022",
+  "family": "quote_v2",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "trening",
+  "hook": "You don't need to be perfect.",
+  "text": [
+   "You don't need to be perfect.",
+   "You just need to be better than last week.",
+   "One more rep. One more set.",
+   "That's how strength is built.",
+   "Progress over perfection. Every single time."
+  ],
+  "ending": "Progress over perfection. Every single time.",
+  "footage": [
+   "pexels_4944398"
+  ],
+  "visual_style": "stok pozadina + tekst preko (QOTD kartica)",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m022.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 49,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 10,
+    "hook": 6,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 6,
+    "originality": 5
+   },
+   "evidence": "Otvara natpisom 'Quote of the Day' umesto hook-a; 27 s predugo; jedan stok snimak po klipu; tekst ravnomerno 5.2 s; snimci ponovljeni između serija.",
+   "verdict": "ISPOD PRAGA - format zamenjen TikTok standardom"
+  }
+ },
+ {
+  "id": "m023",
+  "family": "quote_v2",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "kola_novac",
+  "hook": "Rich people don't work for money.",
+  "text": [
+   "Rich people don't work for money.",
+   "They make money work for them.",
+   "Every dollar you save",
+   "is a soldier working for your future.",
+   "Pay yourself first. Save before you spend."
+  ],
+  "ending": "Pay yourself first. Save before you spend.",
+  "footage": [
+   "pexels_7735913"
+  ],
+  "visual_style": "stok pozadina + tekst preko (QOTD kartica)",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m023.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 49,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 10,
+    "hook": 6,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 6,
+    "originality": 5
+   },
+   "evidence": "Otvara natpisom 'Quote of the Day' umesto hook-a; 27 s predugo; jedan stok snimak po klipu; tekst ravnomerno 5.2 s; snimci ponovljeni između serija.",
+   "verdict": "ISPOD PRAGA - format zamenjen TikTok standardom"
+  }
+ },
+ {
+  "id": "m024",
+  "family": "quote_v2",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "putovanja",
+  "hook": "Life begins at the end of your comfort zone.",
+  "text": [
+   "Life begins at the end of your comfort zone.",
+   "Book the trip. Take the risk.",
+   "Ten years from now",
+   "you'll remember the adventures, not the excuses.",
+   "Say yes to the things that scare you."
+  ],
+  "ending": "Say yes to the things that scare you.",
+  "footage": [
+   "pexels_13589137"
+  ],
+  "visual_style": "stok pozadina + tekst preko (QOTD kartica)",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m024.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 49,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 10,
+    "hook": 6,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 6,
+    "originality": 5
+   },
+   "evidence": "Otvara natpisom 'Quote of the Day' umesto hook-a; 27 s predugo; jedan stok snimak po klipu; tekst ravnomerno 5.2 s; snimci ponovljeni između serija.",
+   "verdict": "ISPOD PRAGA - format zamenjen TikTok standardom"
+  }
+ },
+ {
+  "id": "m025",
+  "family": "quote_v2",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "priroda",
+  "hook": "Bamboo grows roots for five years",
+  "text": [
+   "Bamboo grows roots for five years",
+   "before anything shows above the ground.",
+   "Then it grows ninety feet in weeks.",
+   "You're not stuck. You're rooting.",
+   "Growth you can't see is still growth."
+  ],
+  "ending": "Growth you can't see is still growth.",
+  "footage": [
+   "pexels_30762707"
+  ],
+  "visual_style": "stok pozadina + tekst preko (QOTD kartica)",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m025.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 49,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 10,
+    "hook": 6,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 6,
+    "originality": 5
+   },
+   "evidence": "Otvara natpisom 'Quote of the Day' umesto hook-a; 27 s predugo; jedan stok snimak po klipu; tekst ravnomerno 5.2 s; snimci ponovljeni između serija.",
+   "verdict": "ISPOD PRAGA - format zamenjen TikTok standardom"
+  }
+ },
+ {
+  "id": "m026",
+  "family": "quote_v2",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "trening",
+  "hook": "Pain is temporary.",
+  "text": [
+   "Pain is temporary.",
+   "Quitting lasts forever.",
+   "Your mind will tell you to stop",
+   "long before your body needs to.",
+   "Train your mind and the body will follow."
+  ],
+  "ending": "Train your mind and the body will follow.",
+  "footage": [
+   "pexels_7314350"
+  ],
+  "visual_style": "stok pozadina + tekst preko (QOTD kartica)",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m026.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 49,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 10,
+    "hook": 6,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 6,
+    "originality": 5
+   },
+   "evidence": "Otvara natpisom 'Quote of the Day' umesto hook-a; 27 s predugo; jedan stok snimak po klipu; tekst ravnomerno 5.2 s; snimci ponovljeni između serija.",
+   "verdict": "ISPOD PRAGA - format zamenjen TikTok standardom"
+  }
+ },
+ {
+  "id": "m027",
+  "family": "quote_v2",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "kola_novac",
+  "hook": "Don't buy the car",
+  "text": [
+   "Don't buy the car",
+   "to impress people who don't care.",
+   "Looking rich and being rich",
+   "are two very different things.",
+   "Real wealth is the money you don't see."
+  ],
+  "ending": "Real wealth is the money you don't see.",
+  "footage": [
+   "pexels_40965920"
+  ],
+  "visual_style": "stok pozadina + tekst preko (QOTD kartica)",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m027.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 49,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 10,
+    "hook": 6,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 6,
+    "originality": 5
+   },
+   "evidence": "Otvara natpisom 'Quote of the Day' umesto hook-a; 27 s predugo; jedan stok snimak po klipu; tekst ravnomerno 5.2 s; snimci ponovljeni između serija.",
+   "verdict": "ISPOD PRAGA - format zamenjen TikTok standardom"
+  }
+ },
+ {
+  "id": "m028",
+  "family": "quote_v2",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "putovanja",
+  "hook": "Go alone if you have to.",
+  "text": [
+   "Go alone if you have to.",
+   "Some of the best views",
+   "are waiting for people who didn't wait for company.",
+   "Get lost. Find yourself.",
+   "Don't wait for others to start living."
+  ],
+  "ending": "Don't wait for others to start living.",
+  "footage": [
+   "pexels_34899705"
+  ],
+  "visual_style": "stok pozadina + tekst preko (QOTD kartica)",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m028.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 49,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 10,
+    "hook": 6,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 6,
+    "originality": 5
+   },
+   "evidence": "Otvara natpisom 'Quote of the Day' umesto hook-a; 27 s predugo; jedan stok snimak po klipu; tekst ravnomerno 5.2 s; snimci ponovljeni između serija.",
+   "verdict": "ISPOD PRAGA - format zamenjen TikTok standardom"
+  }
+ },
+ {
+  "id": "m029",
+  "family": "quote_v2",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "priroda",
+  "hook": "The sun sets every evening",
+  "text": [
+   "The sun sets every evening",
+   "and nobody calls it a failure.",
+   "Endings are part of the plan.",
+   "Rest. Then rise again.",
+   "Rest is not quitting. It's how you recharge."
+  ],
+  "ending": "Rest is not quitting. It's how you recharge.",
+  "footage": [
+   "pexels_30370640"
+  ],
+  "visual_style": "stok pozadina + tekst preko (QOTD kartica)",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m029.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 49,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 10,
+    "hook": 6,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 6,
+    "originality": 5
+   },
+   "evidence": "Otvara natpisom 'Quote of the Day' umesto hook-a; 27 s predugo; jedan stok snimak po klipu; tekst ravnomerno 5.2 s; snimci ponovljeni između serija.",
+   "verdict": "ISPOD PRAGA - format zamenjen TikTok standardom"
+  }
+ },
+ {
+  "id": "m030",
+  "family": "quote_v2",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "trening",
+  "hook": "The body you want",
+  "text": [
+   "The body you want",
+   "is on the other side of the workouts you skip.",
+   "Stop negotiating with yourself.",
+   "Just go.",
+   "Don't wait to feel motivated. Start and it will come."
+  ],
+  "ending": "Don't wait to feel motivated. Start and it will come.",
+  "footage": [
+   "pexels_29569378"
+  ],
+  "visual_style": "stok pozadina + tekst preko (QOTD kartica)",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m030.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 49,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 10,
+    "hook": 6,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 6,
+    "originality": 5
+   },
+   "evidence": "Otvara natpisom 'Quote of the Day' umesto hook-a; 27 s predugo; jedan stok snimak po klipu; tekst ravnomerno 5.2 s; snimci ponovljeni između serija.",
+   "verdict": "ISPOD PRAGA - format zamenjen TikTok standardom"
+  }
+ },
+ {
+  "id": "m031",
+  "family": "quote_v2",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "kola_novac",
+  "hook": "Your salary is what you earn.",
+  "text": [
+   "Your salary is what you earn.",
+   "Your wealth is what you keep.",
+   "Spend less than you make.",
+   "Invest the difference.",
+   "It's not about how much you make. It's how much you keep."
+  ],
+  "ending": "It's not about how much you make. It's how much you keep.",
+  "footage": [
+   "pexels_35353790"
+  ],
+  "visual_style": "stok pozadina + tekst preko (QOTD kartica)",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m031.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 49,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 10,
+    "hook": 6,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 6,
+    "originality": 5
+   },
+   "evidence": "Otvara natpisom 'Quote of the Day' umesto hook-a; 27 s predugo; jedan stok snimak po klipu; tekst ravnomerno 5.2 s; snimci ponovljeni između serija.",
+   "verdict": "ISPOD PRAGA - format zamenjen TikTok standardom"
+  }
+ },
+ {
+  "id": "m032",
+  "family": "quote_v2",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "putovanja",
+  "hook": "Somewhere in the world",
+  "text": [
+   "Somewhere in the world",
+   "there's a place that will change you.",
+   "You just have to go find it.",
+   "The world is your classroom.",
+   "Travel teaches what books never can."
+  ],
+  "ending": "Travel teaches what books never can.",
+  "footage": [
+   "pexels_33545687"
+  ],
+  "visual_style": "stok pozadina + tekst preko (QOTD kartica)",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m032.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 49,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 10,
+    "hook": 6,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 6,
+    "originality": 5
+   },
+   "evidence": "Otvara natpisom 'Quote of the Day' umesto hook-a; 27 s predugo; jedan stok snimak po klipu; tekst ravnomerno 5.2 s; snimci ponovljeni između serija.",
+   "verdict": "ISPOD PRAGA - format zamenjen TikTok standardom"
+  }
+ },
+ {
+  "id": "m033",
+  "family": "quote_v2",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "priroda",
+  "hook": "The stars you see tonight",
+  "text": [
+   "The stars you see tonight",
+   "sent their light thousands of years ago.",
+   "The work you do today",
+   "will shine long after you.",
+   "Build something that outlives you."
+  ],
+  "ending": "Build something that outlives you.",
+  "footage": [
+   "pexels_39139504"
+  ],
+  "visual_style": "stok pozadina + tekst preko (QOTD kartica)",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m033.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 49,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 10,
+    "hook": 6,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 6,
+    "originality": 5
+   },
+   "evidence": "Otvara natpisom 'Quote of the Day' umesto hook-a; 27 s predugo; jedan stok snimak po klipu; tekst ravnomerno 5.2 s; snimci ponovljeni između serija.",
+   "verdict": "ISPOD PRAGA - format zamenjen TikTok standardom"
+  }
+ },
+ {
+  "id": "m034",
+  "family": "quote_v2",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "trening",
+  "hook": "Excuses don't build muscle.",
+  "text": [
+   "Excuses don't build muscle.",
+   "Reps do.",
+   "Nobody is coming to save you.",
+   "Pick up the weight.",
+   "Taking responsibility is the first rep."
+  ],
+  "ending": "Taking responsibility is the first rep.",
+  "footage": [
+   "pexels_34901409"
+  ],
+  "visual_style": "stok pozadina + tekst preko (QOTD kartica)",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m034.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 49,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 10,
+    "hook": 6,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 6,
+    "originality": 5
+   },
+   "evidence": "Otvara natpisom 'Quote of the Day' umesto hook-a; 27 s predugo; jedan stok snimak po klipu; tekst ravnomerno 5.2 s; snimci ponovljeni između serija.",
+   "verdict": "ISPOD PRAGA - format zamenjen TikTok standardom"
+  }
+ },
+ {
+  "id": "m035",
+  "family": "quote_v2",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "kola_novac",
+  "hook": "Before you buy the car,",
+  "text": [
+   "Before you buy the car,",
+   "buy the skills that pay for it.",
+   "Knowledge compounds",
+   "faster than any stock.",
+   "The best investment is in yourself."
+  ],
+  "ending": "The best investment is in yourself.",
+  "footage": [
+   "pexels_39421363"
+  ],
+  "visual_style": "stok pozadina + tekst preko (QOTD kartica)",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m035.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 49,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 10,
+    "hook": 6,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 6,
+    "originality": 5
+   },
+   "evidence": "Otvara natpisom 'Quote of the Day' umesto hook-a; 27 s predugo; jedan stok snimak po klipu; tekst ravnomerno 5.2 s; snimci ponovljeni između serija.",
+   "verdict": "ISPOD PRAGA - format zamenjen TikTok standardom"
+  }
+ },
+ {
+  "id": "m036",
+  "family": "quote_v2",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "putovanja",
+  "hook": "From up here",
+  "text": [
+   "From up here",
+   "your problems look small.",
+   "Sometimes you need distance",
+   "to see what really matters.",
+   "Change your view. Change your perspective."
+  ],
+  "ending": "Change your view. Change your perspective.",
+  "footage": [
+   "pexels_34467289"
+  ],
+  "visual_style": "stok pozadina + tekst preko (QOTD kartica)",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m036.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 49,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 10,
+    "hook": 6,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 6,
+    "originality": 5
+   },
+   "evidence": "Otvara natpisom 'Quote of the Day' umesto hook-a; 27 s predugo; jedan stok snimak po klipu; tekst ravnomerno 5.2 s; snimci ponovljeni između serija.",
+   "verdict": "ISPOD PRAGA - format zamenjen TikTok standardom"
+  }
+ },
+ {
+  "id": "m037",
+  "family": "quote_v2",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "priroda",
+  "hook": "Water doesn't fight the rock.",
+  "text": [
+   "Water doesn't fight the rock.",
+   "It finds another way.",
+   "Plans can change.",
+   "The destination doesn't have to.",
+   "Be flexible with the path. Firm with the goal."
+  ],
+  "ending": "Be flexible with the path. Firm with the goal.",
+  "footage": [
+   "pexels_38840179"
+  ],
+  "visual_style": "stok pozadina + tekst preko (QOTD kartica)",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m037.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 49,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 10,
+    "hook": 6,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 6,
+    "originality": 5
+   },
+   "evidence": "Otvara natpisom 'Quote of the Day' umesto hook-a; 27 s predugo; jedan stok snimak po klipu; tekst ravnomerno 5.2 s; snimci ponovljeni između serija.",
+   "verdict": "ISPOD PRAGA - format zamenjen TikTok standardom"
+  }
+ },
+ {
+  "id": "m038",
+  "family": "quote_v2",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "trening",
+  "hook": "Run with people",
+  "text": [
+   "Run with people",
+   "who make you faster.",
+   "Your circle decides",
+   "how far you will go.",
+   "Surround yourself with people who raise your standards."
+  ],
+  "ending": "Surround yourself with people who raise your standards.",
+  "footage": [
+   "pexels_31939567"
+  ],
+  "visual_style": "stok pozadina + tekst preko (QOTD kartica)",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m038.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 49,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 10,
+    "hook": 6,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 6,
+    "originality": 5
+   },
+   "evidence": "Otvara natpisom 'Quote of the Day' umesto hook-a; 27 s predugo; jedan stok snimak po klipu; tekst ravnomerno 5.2 s; snimci ponovljeni između serija.",
+   "verdict": "ISPOD PRAGA - format zamenjen TikTok standardom"
+  }
+ },
+ {
+  "id": "m039",
+  "family": "quote_v2",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "kola_novac",
+  "hook": "Everyone sees the car.",
+  "text": [
+   "Everyone sees the car.",
+   "Nobody saw the ten years",
+   "of work, failure and doubt",
+   "that paid for it.",
+   "Overnight success takes years."
+  ],
+  "ending": "Overnight success takes years.",
+  "footage": [
+   "pexels_32779590"
+  ],
+  "visual_style": "stok pozadina + tekst preko (QOTD kartica)",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m039.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 49,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 10,
+    "hook": 6,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 6,
+    "originality": 5
+   },
+   "evidence": "Otvara natpisom 'Quote of the Day' umesto hook-a; 27 s predugo; jedan stok snimak po klipu; tekst ravnomerno 5.2 s; snimci ponovljeni između serija.",
+   "verdict": "ISPOD PRAGA - format zamenjen TikTok standardom"
+  }
+ },
+ {
+  "id": "m040",
+  "family": "quote_v2",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "putovanja",
+  "hook": "Nobody gets this view",
+  "text": [
+   "Nobody gets this view",
+   "by taking the easy road.",
+   "Every step burned.",
+   "Every step was worth it.",
+   "The best views come after the hardest climbs."
+  ],
+  "ending": "The best views come after the hardest climbs.",
+  "footage": [
+   "pexels_8970213"
+  ],
+  "visual_style": "stok pozadina + tekst preko (QOTD kartica)",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m040.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 49,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 10,
+    "hook": 6,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 6,
+    "originality": 5
+   },
+   "evidence": "Otvara natpisom 'Quote of the Day' umesto hook-a; 27 s predugo; jedan stok snimak po klipu; tekst ravnomerno 5.2 s; snimci ponovljeni između serija.",
+   "verdict": "ISPOD PRAGA - format zamenjen TikTok standardom"
+  }
+ },
+ {
+  "id": "m041",
+  "family": "quote_v2",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "priroda",
+  "hook": "The river doesn't rush.",
+  "text": [
+   "The river doesn't rush.",
+   "Yet it always arrives.",
+   "Trust your timing.",
+   "You are exactly where you need to be.",
+   "Trust the process. You are not late."
+  ],
+  "ending": "Trust the process. You are not late.",
+  "footage": [
+   "pexels_13878296"
+  ],
+  "visual_style": "stok pozadina + tekst preko (QOTD kartica)",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m041.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 49,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 10,
+    "hook": 6,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 6,
+    "originality": 5
+   },
+   "evidence": "Otvara natpisom 'Quote of the Day' umesto hook-a; 27 s predugo; jedan stok snimak po klipu; tekst ravnomerno 5.2 s; snimci ponovljeni između serija.",
+   "verdict": "ISPOD PRAGA - format zamenjen TikTok standardom"
+  }
+ },
+ {
+  "id": "m042",
+  "family": "quote_v2",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "trening",
+  "hook": "You don't lose.",
+  "text": [
+   "You don't lose.",
+   "You learn.",
+   "Every round you survive",
+   "makes the next one easier.",
+   "Failure is just feedback."
+  ],
+  "ending": "Failure is just feedback.",
+  "footage": [
+   "pexels_7187460"
+  ],
+  "visual_style": "stok pozadina + tekst preko (QOTD kartica)",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m042.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 49,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 10,
+    "hook": 6,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 6,
+    "originality": 5
+   },
+   "evidence": "Otvara natpisom 'Quote of the Day' umesto hook-a; 27 s predugo; jedan stok snimak po klipu; tekst ravnomerno 5.2 s; snimci ponovljeni između serija.",
+   "verdict": "ISPOD PRAGA - format zamenjen TikTok standardom"
+  }
+ },
+ {
+  "id": "m043",
+  "family": "quote_v2",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "kola_novac",
+  "hook": "Rich is not a moment.",
+  "text": [
+   "Rich is not a moment.",
+   "It's a decision",
+   "you make every single day",
+   "for years.",
+   "Think in decades, not days."
+  ],
+  "ending": "Think in decades, not days.",
+  "footage": [
+   "pexels_29470443"
+  ],
+  "visual_style": "stok pozadina + tekst preko (QOTD kartica)",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m043.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 49,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 10,
+    "hook": 6,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 6,
+    "originality": 5
+   },
+   "evidence": "Otvara natpisom 'Quote of the Day' umesto hook-a; 27 s predugo; jedan stok snimak po klipu; tekst ravnomerno 5.2 s; snimci ponovljeni između serija.",
+   "verdict": "ISPOD PRAGA - format zamenjen TikTok standardom"
+  }
+ },
+ {
+  "id": "m044",
+  "family": "quote_v2",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "putovanja",
+  "hook": "The destination is beautiful.",
+  "text": [
+   "The destination is beautiful.",
+   "But the journey",
+   "is where you become",
+   "someone new.",
+   "Enjoy the road. It's shaping you."
+  ],
+  "ending": "Enjoy the road. It's shaping you.",
+  "footage": [
+   "pexels_37838353"
+  ],
+  "visual_style": "stok pozadina + tekst preko (QOTD kartica)",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/motivacija/m044.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 49,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 10,
+    "hook": 6,
+    "cinematography": 6,
+    "sound": 5,
+    "editing": 6,
+    "originality": 5
+   },
+   "evidence": "Otvara natpisom 'Quote of the Day' umesto hook-a; 27 s predugo; jedan stok snimak po klipu; tekst ravnomerno 5.2 s; snimci ponovljeni između serija.",
+   "verdict": "ISPOD PRAGA - format zamenjen TikTok standardom"
+  }
+ },
+ {
+  "id": "rl1",
+  "family": "rich_life_mosaic",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "kola_novac",
+  "hook": "Never spend money",
+  "text": [
+   "Never spend money",
+   "before you have it.",
+   "Debt steals your future.",
+   "Live below your means."
+  ],
+  "ending": "Live below your means.",
+  "footage": [
+   "pexels_39371052"
+  ],
+  "visual_style": "stok pozadina + tekst preko (QOTD kartica)",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/videos/shorts/rich_life/rl1.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 58,
+   "breakdown": {
+    "storytelling": 9,
+    "visual": 12,
+    "hook": 9,
+    "cinematography": 7,
+    "sound": 5,
+    "editing": 7,
+    "originality": 9
+   },
+   "evidence": "Originalna ideja mozaika profila; pojedinačni klipovi su QOTD format bez hook-a.",
+   "verdict": "ISPOD PRAGA"
+  }
+ },
+ {
+  "id": "rl2",
+  "family": "rich_life_mosaic",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "kola_novac",
+  "hook": "One salary is one risk.",
+  "text": [
+   "One salary is one risk.",
+   "Build multiple streams.",
+   "Freedom has many sources.",
+   "Never depend on one paycheck."
+  ],
+  "ending": "Never depend on one paycheck.",
+  "footage": [
+   "pexels_30028386"
+  ],
+  "visual_style": "stok pozadina + tekst preko (QOTD kartica)",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/videos/shorts/rich_life/rl2.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 58,
+   "breakdown": {
+    "storytelling": 9,
+    "visual": 12,
+    "hook": 9,
+    "cinematography": 7,
+    "sound": 5,
+    "editing": 7,
+    "originality": 9
+   },
+   "evidence": "Originalna ideja mozaika profila; pojedinačni klipovi su QOTD format bez hook-a.",
+   "verdict": "ISPOD PRAGA"
+  }
+ },
+ {
+  "id": "rl3",
+  "family": "rich_life_mosaic",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "kola_novac",
+  "hook": "School taught you to earn.",
+  "text": [
+   "School taught you to earn.",
+   "Nobody taught you to keep.",
+   "So teach yourself.",
+   "Learn how money works."
+  ],
+  "ending": "Learn how money works.",
+  "footage": [
+   "pexels_6326861"
+  ],
+  "visual_style": "stok pozadina + tekst preko (QOTD kartica)",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/videos/shorts/rich_life/rl3.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 58,
+   "breakdown": {
+    "storytelling": 9,
+    "visual": 12,
+    "hook": 9,
+    "cinematography": 7,
+    "sound": 5,
+    "editing": 7,
+    "originality": 9
+   },
+   "evidence": "Originalna ideja mozaika profila; pojedinačni klipovi su QOTD format bez hook-a.",
+   "verdict": "ISPOD PRAGA"
+  }
+ },
+ {
+  "id": "rl4",
+  "family": "rich_life_mosaic",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "kola_novac",
+  "hook": "Cars lose value every day.",
+  "text": [
+   "Cars lose value every day.",
+   "Investments grow every day.",
+   "Choose your order.",
+   "Let your investments pay for your toys."
+  ],
+  "ending": "Let your investments pay for your toys.",
+  "footage": [
+   "pexels_40061525"
+  ],
+  "visual_style": "stok pozadina + tekst preko (QOTD kartica)",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/videos/shorts/rich_life/rl4.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 58,
+   "breakdown": {
+    "storytelling": 9,
+    "visual": 12,
+    "hook": 9,
+    "cinematography": 7,
+    "sound": 5,
+    "editing": 7,
+    "originality": 9
+   },
+   "evidence": "Originalna ideja mozaika profila; pojedinačni klipovi su QOTD format bez hook-a.",
+   "verdict": "ISPOD PRAGA"
+  }
+ },
+ {
+  "id": "rl5",
+  "family": "rich_life_mosaic",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "kola_novac",
+  "hook": "Stay quiet.",
+  "text": [
+   "Stay quiet.",
+   "Build in silence.",
+   "Let the results talk.",
+   "Success makes the noise. You don't have to."
+  ],
+  "ending": "Success makes the noise. You don't have to.",
+  "footage": [
+   "pexels_6266251"
+  ],
+  "visual_style": "stok pozadina + tekst preko (QOTD kartica)",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/videos/shorts/rich_life/rl5.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 58,
+   "breakdown": {
+    "storytelling": 9,
+    "visual": 12,
+    "hook": 9,
+    "cinematography": 7,
+    "sound": 5,
+    "editing": 7,
+    "originality": 9
+   },
+   "evidence": "Originalna ideja mozaika profila; pojedinačni klipovi su QOTD format bez hook-a.",
+   "verdict": "ISPOD PRAGA"
+  }
+ },
+ {
+  "id": "rl6",
+  "family": "rich_life_mosaic",
+  "format": "TikTok 9:16 ~27 s",
+  "topic": "kola_novac",
+  "hook": "The good life isn't luck.",
+  "text": [
+   "The good life isn't luck.",
+   "It's discipline",
+   "repeated every single day.",
+   "Your habits build your lifestyle."
+  ],
+  "ending": "Your habits build your lifestyle.",
+  "footage": [
+   "pexels_19713848"
+  ],
+  "visual_style": "stok pozadina + tekst preko (QOTD kartica)",
+  "music": "cinematic_piano (bez muzike verzija za TikTok)",
+  "editing": "statičan tekst po rečenici, fade",
+  "output": "videos/videos/shorts/rich_life/rl6.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 58,
+   "breakdown": {
+    "storytelling": 9,
+    "visual": 12,
+    "hook": 9,
+    "cinematography": 7,
+    "sound": 5,
+    "editing": 7,
+    "originality": 9
+   },
+   "evidence": "Originalna ideja mozaika profila; pojedinačni klipovi su QOTD format bez hook-a.",
+   "verdict": "ISPOD PRAGA"
+  }
+ },
+ {
+  "id": "loop_discipline",
+  "family": "tiktok_loop_v1",
+  "format": "TikTok 9:16 12 s loop, bez zvuka",
+  "topic": "Which part hit you the hardest? 👇",
+  "hook": "Nobody tells you this about discipline…",
+  "text": [
+   "Nobody tells you this about discipline…",
+   "It's not about feeling motivated.",
+   "It's doing it anyway.",
+   "Tired. Bored. Unseen.",
+   "Do it anyway.",
+   "That's what nobody tells you about discipline."
+  ],
+  "ending": "That's what nobody tells you about discipline.",
+  "footage": [
+   "01_alarm",
+   "02_wake",
+   "04_runner",
+   "06_bandage",
+   "07_boxer",
+   "09_typing",
+   "08_bag",
+   "11_exhausted",
+   "04_runner",
+   "07_boxer",
+   "12_sunrise"
+  ],
+  "visual_style": "hladan kolor, punch-in, 12 rezova po 1 s",
+  "music": "nema (korisnik dodaje)",
+  "editing": "tekst na 4 udarca, rez na 2 udarca @120 BPM, loop isti snimak",
+  "output": "videos/tiktok_loops/loop_discipline.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 47,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 7,
+    "hook": 8,
+    "cinematography": 5,
+    "sound": 6,
+    "editing": 6,
+    "originality": 4
+   },
+   "evidence": "Kadrovi m034/m036: svih 6 smena teksta je isti snimak (gym silueta, pogled iz aviona); slika podeksponirana (COLD grade); hook šabloni (nobody_tells, feeling_q, watch_this); rezovi na 1 s unutar istog snimka deluju kao greška; loop spoj čist (razlika 1.8/255); bez zvuka po pravilu - ritam-mreža 120 BPM ok.",
+   "verdict": "ISPOD PRAGA - ne isporučivati bez dorade"
+  }
+ },
+ {
+  "id": "loop_m033",
+  "family": "tiktok_loop_v1",
+  "format": "TikTok 9:16 12 s loop, bez zvuka",
+  "topic": "What are you building that will outlive you? ✨",
+  "hook": "Look up. This will change how you work.",
+  "text": [
+   "Look up. This will change how you work.",
+   "That starlight left thousands of years ago.",
+   "It's still shining.",
+   "Your work can do the same.",
+   "Build something that outlives you.",
+   "So tonight… look up."
+  ],
+  "ending": "So tonight… look up.",
+  "footage": [
+   "pexels_39139504"
+  ],
+  "visual_style": "hladan kolor, punch-in, 12 rezova po 1 s (svi iz ISTOG snimka)",
+  "music": "nema (korisnik dodaje)",
+  "editing": "tekst na 4 udarca, rez na 2 udarca @120 BPM, loop isti snimak",
+  "output": "videos/tiktok_loops/m033.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 47,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 7,
+    "hook": 8,
+    "cinematography": 5,
+    "sound": 6,
+    "editing": 6,
+    "originality": 4
+   },
+   "evidence": "Kadrovi m034/m036: svih 6 smena teksta je isti snimak (gym silueta, pogled iz aviona); slika podeksponirana (COLD grade); hook šabloni (nobody_tells, feeling_q, watch_this); rezovi na 1 s unutar istog snimka deluju kao greška; loop spoj čist (razlika 1.8/255); bez zvuka po pravilu - ritam-mreža 120 BPM ok.",
+   "verdict": "ISPOD PRAGA - ne isporučivati bez dorade"
+  }
+ },
+ {
+  "id": "loop_m034",
+  "family": "tiktok_loop_v1",
+  "format": "TikTok 9:16 12 s loop, bez zvuka",
+  "topic": "What's your excuse today? Be honest 👇",
+  "hook": "Nobody tells you this about strength…",
+  "text": [
+   "Nobody tells you this about strength…",
+   "Excuses don't build muscle.",
+   "Reps do.",
+   "No one will save you.",
+   "Responsibility is the first rep.",
+   "That's the truth about strength."
+  ],
+  "ending": "That's the truth about strength.",
+  "footage": [
+   "pexels_34901409"
+  ],
+  "visual_style": "hladan kolor, punch-in, 12 rezova po 1 s (svi iz ISTOG snimka)",
+  "music": "nema (korisnik dodaje)",
+  "editing": "tekst na 4 udarca, rez na 2 udarca @120 BPM, loop isti snimak",
+  "output": "videos/tiktok_loops/m034.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 47,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 7,
+    "hook": 8,
+    "cinematography": 5,
+    "sound": 6,
+    "editing": 6,
+    "originality": 4
+   },
+   "evidence": "Kadrovi m034/m036: svih 6 smena teksta je isti snimak (gym silueta, pogled iz aviona); slika podeksponirana (COLD grade); hook šabloni (nobody_tells, feeling_q, watch_this); rezovi na 1 s unutar istog snimka deluju kao greška; loop spoj čist (razlika 1.8/255); bez zvuka po pravilu - ritam-mreža 120 BPM ok.",
+   "verdict": "ISPOD PRAGA - ne isporučivati bez dorade"
+  }
+ },
+ {
+  "id": "loop_m035",
+  "family": "tiktok_loop_v1",
+  "format": "TikTok 9:16 12 s loop, bez zvuka",
+  "topic": "Which skill are you learning this year? 📚",
+  "hook": "Watch this before you buy a car.",
+  "text": [
+   "Watch this before you buy a car.",
+   "Buy the skills first.",
+   "Skills pay for the car.",
+   "Knowledge compounds faster than stocks.",
+   "Invest in yourself first.",
+   "Then come back and watch this."
+  ],
+  "ending": "Then come back and watch this.",
+  "footage": [
+   "pexels_39421363"
+  ],
+  "visual_style": "hladan kolor, punch-in, 12 rezova po 1 s (svi iz ISTOG snimka)",
+  "music": "nema (korisnik dodaje)",
+  "editing": "tekst na 4 udarca, rez na 2 udarca @120 BPM, loop isti snimak",
+  "output": "videos/tiktok_loops/m035.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 47,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 7,
+    "hook": 8,
+    "cinematography": 5,
+    "sound": 6,
+    "editing": 6,
+    "originality": 4
+   },
+   "evidence": "Kadrovi m034/m036: svih 6 smena teksta je isti snimak (gym silueta, pogled iz aviona); slika podeksponirana (COLD grade); hook šabloni (nobody_tells, feeling_q, watch_this); rezovi na 1 s unutar istog snimka deluju kao greška; loop spoj čist (razlika 1.8/255); bez zvuka po pravilu - ritam-mreža 120 BPM ok.",
+   "verdict": "ISPOD PRAGA - ne isporučivati bez dorade"
+  }
+ },
+ {
+  "id": "loop_m036",
+  "family": "tiktok_loop_v1",
+  "format": "TikTok 9:16 12 s loop, bez zvuka",
+  "topic": "What would you see differently from up here? ✈️",
+  "hook": "Feeling stuck? Look at this view.",
+  "text": [
+   "Feeling stuck? Look at this view.",
+   "From up here, problems look small.",
+   "Sometimes you need distance",
+   "to see what matters.",
+   "Change your view. Change your life.",
+   "Still feeling stuck?"
+  ],
+  "ending": "Still feeling stuck?",
+  "footage": [
+   "pexels_34467289"
+  ],
+  "visual_style": "hladan kolor, punch-in, 12 rezova po 1 s (svi iz ISTOG snimka)",
+  "music": "nema (korisnik dodaje)",
+  "editing": "tekst na 4 udarca, rez na 2 udarca @120 BPM, loop isti snimak",
+  "output": "videos/tiktok_loops/m036.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 47,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 7,
+    "hook": 8,
+    "cinematography": 5,
+    "sound": 6,
+    "editing": 6,
+    "originality": 4
+   },
+   "evidence": "Kadrovi m034/m036: svih 6 smena teksta je isti snimak (gym silueta, pogled iz aviona); slika podeksponirana (COLD grade); hook šabloni (nobody_tells, feeling_q, watch_this); rezovi na 1 s unutar istog snimka deluju kao greška; loop spoj čist (razlika 1.8/255); bez zvuka po pravilu - ritam-mreža 120 BPM ok.",
+   "verdict": "ISPOD PRAGA - ne isporučivati bez dorade"
+  }
+ },
+ {
+  "id": "loop_m037",
+  "family": "tiktok_loop_v1",
+  "format": "TikTok 9:16 12 s loop, bez zvuka",
+  "topic": "What plan failed but led you somewhere better? 💧",
+  "hook": "If your plans failed, watch this.",
+  "text": [
+   "If your plans failed, watch this.",
+   "Water doesn't fight the rock.",
+   "It finds another way.",
+   "The path can change.",
+   "The goal stays the same.",
+   "So when plans fail… watch this."
+  ],
+  "ending": "So when plans fail… watch this.",
+  "footage": [
+   "pexels_38840179"
+  ],
+  "visual_style": "hladan kolor, punch-in, 12 rezova po 1 s (svi iz ISTOG snimka)",
+  "music": "nema (korisnik dodaje)",
+  "editing": "tekst na 4 udarca, rez na 2 udarca @120 BPM, loop isti snimak",
+  "output": "videos/tiktok_loops/m037.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 47,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 7,
+    "hook": 8,
+    "cinematography": 5,
+    "sound": 6,
+    "editing": 6,
+    "originality": 4
+   },
+   "evidence": "Kadrovi m034/m036: svih 6 smena teksta je isti snimak (gym silueta, pogled iz aviona); slika podeksponirana (COLD grade); hook šabloni (nobody_tells, feeling_q, watch_this); rezovi na 1 s unutar istog snimka deluju kao greška; loop spoj čist (razlika 1.8/255); bez zvuka po pravilu - ritam-mreža 120 BPM ok.",
+   "verdict": "ISPOD PRAGA - ne isporučivati bez dorade"
+  }
+ },
+ {
+  "id": "loop_m038",
+  "family": "tiktok_loop_v1",
+  "format": "TikTok 9:16 12 s loop, bez zvuka",
+  "topic": "Does your circle make you faster or slower? 🏃",
+  "hook": "Your friends decide your future.",
+  "text": [
+   "Your friends decide your future.",
+   "Run with people who make you faster.",
+   "Your circle sets your speed.",
+   "Raise your standards.",
+   "Change your circle if you must.",
+   "Never forget: your friends decide…"
+  ],
+  "ending": "Never forget: your friends decide…",
+  "footage": [
+   "pexels_31939567"
+  ],
+  "visual_style": "hladan kolor, punch-in, 12 rezova po 1 s (svi iz ISTOG snimka)",
+  "music": "nema (korisnik dodaje)",
+  "editing": "tekst na 4 udarca, rez na 2 udarca @120 BPM, loop isti snimak",
+  "output": "videos/tiktok_loops/m038.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 47,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 7,
+    "hook": 8,
+    "cinematography": 5,
+    "sound": 6,
+    "editing": 6,
+    "originality": 4
+   },
+   "evidence": "Kadrovi m034/m036: svih 6 smena teksta je isti snimak (gym silueta, pogled iz aviona); slika podeksponirana (COLD grade); hook šabloni (nobody_tells, feeling_q, watch_this); rezovi na 1 s unutar istog snimka deluju kao greška; loop spoj čist (razlika 1.8/255); bez zvuka po pravilu - ritam-mreža 120 BPM ok.",
+   "verdict": "ISPOD PRAGA - ne isporučivati bez dorade"
+  }
+ },
+ {
+  "id": "loop_m039",
+  "family": "tiktok_loop_v1",
+  "format": "TikTok 9:16 12 s loop, bez zvuka",
+  "topic": "How many years are you willing to give your dream? 🏎️",
+  "hook": "You saw the car. Not this.",
+  "text": [
+   "You saw the car. Not this.",
+   "Ten years of work.",
+   "Failure. Doubt. Repeat.",
+   "Then one day… this.",
+   "Overnight success takes years.",
+   "Everyone only sees the car…"
+  ],
+  "ending": "Everyone only sees the car…",
+  "footage": [
+   "pexels_32779590"
+  ],
+  "visual_style": "hladan kolor, punch-in, 12 rezova po 1 s (svi iz ISTOG snimka)",
+  "music": "nema (korisnik dodaje)",
+  "editing": "tekst na 4 udarca, rez na 2 udarca @120 BPM, loop isti snimak",
+  "output": "videos/tiktok_loops/m039.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 47,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 7,
+    "hook": 8,
+    "cinematography": 5,
+    "sound": 6,
+    "editing": 6,
+    "originality": 4
+   },
+   "evidence": "Kadrovi m034/m036: svih 6 smena teksta je isti snimak (gym silueta, pogled iz aviona); slika podeksponirana (COLD grade); hook šabloni (nobody_tells, feeling_q, watch_this); rezovi na 1 s unutar istog snimka deluju kao greška; loop spoj čist (razlika 1.8/255); bez zvuka po pravilu - ritam-mreža 120 BPM ok.",
+   "verdict": "ISPOD PRAGA - ne isporučivati bez dorade"
+  }
+ },
+ {
+  "id": "loop_m040",
+  "family": "tiktok_loop_v1",
+  "format": "TikTok 9:16 12 s loop, bez zvuka",
+  "topic": "What's the hardest climb you've ever finished? 🏔️",
+  "hook": "This view costs everything.",
+  "text": [
+   "This view costs everything.",
+   "There's no easy road up here.",
+   "Every step burned.",
+   "Every step was worth it.",
+   "The best views follow hard climbs.",
+   "That's why this view costs…"
+  ],
+  "ending": "That's why this view costs…",
+  "footage": [
+   "pexels_8970213"
+  ],
+  "visual_style": "hladan kolor, punch-in, 12 rezova po 1 s (svi iz ISTOG snimka)",
+  "music": "nema (korisnik dodaje)",
+  "editing": "tekst na 4 udarca, rez na 2 udarca @120 BPM, loop isti snimak",
+  "output": "videos/tiktok_loops/m040.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 47,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 7,
+    "hook": 8,
+    "cinematography": 5,
+    "sound": 6,
+    "editing": 6,
+    "originality": 4
+   },
+   "evidence": "Kadrovi m034/m036: svih 6 smena teksta je isti snimak (gym silueta, pogled iz aviona); slika podeksponirana (COLD grade); hook šabloni (nobody_tells, feeling_q, watch_this); rezovi na 1 s unutar istog snimka deluju kao greška; loop spoj čist (razlika 1.8/255); bez zvuka po pravilu - ritam-mreža 120 BPM ok.",
+   "verdict": "ISPOD PRAGA - ne isporučivati bez dorade"
+  }
+ },
+ {
+  "id": "loop_m041",
+  "family": "tiktok_loop_v1",
+  "format": "TikTok 9:16 12 s loop, bez zvuka",
+  "topic": "Who needed to hear this today? 🌊",
+  "hook": "Think you're late? Read this.",
+  "text": [
+   "Think you're late? Read this.",
+   "The river never rushes.",
+   "Yet it always arrives.",
+   "Trust your own timing.",
+   "You are not late.",
+   "Still think you're late?"
+  ],
+  "ending": "Still think you're late?",
+  "footage": [
+   "pexels_13878296"
+  ],
+  "visual_style": "hladan kolor, punch-in, 12 rezova po 1 s (svi iz ISTOG snimka)",
+  "music": "nema (korisnik dodaje)",
+  "editing": "tekst na 4 udarca, rez na 2 udarca @120 BPM, loop isti snimak",
+  "output": "videos/tiktok_loops/m041.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 47,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 7,
+    "hook": 8,
+    "cinematography": 5,
+    "sound": 6,
+    "editing": 6,
+    "originality": 4
+   },
+   "evidence": "Kadrovi m034/m036: svih 6 smena teksta je isti snimak (gym silueta, pogled iz aviona); slika podeksponirana (COLD grade); hook šabloni (nobody_tells, feeling_q, watch_this); rezovi na 1 s unutar istog snimka deluju kao greška; loop spoj čist (razlika 1.8/255); bez zvuka po pravilu - ritam-mreža 120 BPM ok.",
+   "verdict": "ISPOD PRAGA - ne isporučivati bez dorade"
+  }
+ },
+ {
+  "id": "loop_m042",
+  "family": "tiktok_loop_v1",
+  "format": "TikTok 9:16 12 s loop, bez zvuka",
+  "topic": "What did your last failure teach you? 🥊",
+  "hook": "You didn't lose. Listen.",
+  "text": [
+   "You didn't lose. Listen.",
+   "You learned.",
+   "Every round you survive",
+   "makes the next one easier.",
+   "Failure is just feedback.",
+   "Next time you think you lost…"
+  ],
+  "ending": "Next time you think you lost…",
+  "footage": [
+   "pexels_7187460"
+  ],
+  "visual_style": "hladan kolor, punch-in, 12 rezova po 1 s (svi iz ISTOG snimka)",
+  "music": "nema (korisnik dodaje)",
+  "editing": "tekst na 4 udarca, rez na 2 udarca @120 BPM, loop isti snimak",
+  "output": "videos/tiktok_loops/m042.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 47,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 7,
+    "hook": 8,
+    "cinematography": 5,
+    "sound": 6,
+    "editing": 6,
+    "originality": 4
+   },
+   "evidence": "Kadrovi m034/m036: svih 6 smena teksta je isti snimak (gym silueta, pogled iz aviona); slika podeksponirana (COLD grade); hook šabloni (nobody_tells, feeling_q, watch_this); rezovi na 1 s unutar istog snimka deluju kao greška; loop spoj čist (razlika 1.8/255); bez zvuka po pravilu - ritam-mreža 120 BPM ok.",
+   "verdict": "ISPOD PRAGA - ne isporučivati bez dorade"
+  }
+ },
+ {
+  "id": "loop_m043",
+  "family": "tiktok_loop_v1",
+  "format": "TikTok 9:16 12 s loop, bez zvuka",
+  "topic": "What does rich mean to you? ✈️",
+  "hook": "Rich isn't what you think.",
+  "text": [
+   "Rich isn't what you think.",
+   "It's not a moment.",
+   "It's a decision",
+   "repeated for years.",
+   "Think in decades, not days.",
+   "Still think you know what rich is?"
+  ],
+  "ending": "Still think you know what rich is?",
+  "footage": [
+   "pexels_29470443"
+  ],
+  "visual_style": "hladan kolor, punch-in, 12 rezova po 1 s (svi iz ISTOG snimka)",
+  "music": "nema (korisnik dodaje)",
+  "editing": "tekst na 4 udarca, rez na 2 udarca @120 BPM, loop isti snimak",
+  "output": "videos/tiktok_loops/m043.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 47,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 7,
+    "hook": 8,
+    "cinematography": 5,
+    "sound": 6,
+    "editing": 6,
+    "originality": 4
+   },
+   "evidence": "Kadrovi m034/m036: svih 6 smena teksta je isti snimak (gym silueta, pogled iz aviona); slika podeksponirana (COLD grade); hook šabloni (nobody_tells, feeling_q, watch_this); rezovi na 1 s unutar istog snimka deluju kao greška; loop spoj čist (razlika 1.8/255); bez zvuka po pravilu - ritam-mreža 120 BPM ok.",
+   "verdict": "ISPOD PRAGA - ne isporučivati bez dorade"
+  }
+ },
+ {
+  "id": "loop_m044",
+  "family": "tiktok_loop_v1",
+  "format": "TikTok 9:16 12 s loop, bez zvuka",
+  "topic": "Are you enjoying your road right now? 🏜️",
+  "hook": "Stop rushing to the destination.",
+  "text": [
+   "Stop rushing to the destination.",
+   "The journey shapes you.",
+   "Every mile makes you new.",
+   "Enjoy the road.",
+   "It's building who you'll become.",
+   "So please… stop rushing."
+  ],
+  "ending": "So please… stop rushing.",
+  "footage": [
+   "pexels_37838353"
+  ],
+  "visual_style": "hladan kolor, punch-in, 12 rezova po 1 s (svi iz ISTOG snimka)",
+  "music": "nema (korisnik dodaje)",
+  "editing": "tekst na 4 udarca, rez na 2 udarca @120 BPM, loop isti snimak",
+  "output": "videos/tiktok_loops/m044.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 47,
+   "breakdown": {
+    "storytelling": 11,
+    "visual": 7,
+    "hook": 8,
+    "cinematography": 5,
+    "sound": 6,
+    "editing": 6,
+    "originality": 4
+   },
+   "evidence": "Kadrovi m034/m036: svih 6 smena teksta je isti snimak (gym silueta, pogled iz aviona); slika podeksponirana (COLD grade); hook šabloni (nobody_tells, feeling_q, watch_this); rezovi na 1 s unutar istog snimka deluju kao greška; loop spoj čist (razlika 1.8/255); bez zvuka po pravilu - ritam-mreža 120 BPM ok.",
+   "verdict": "ISPOD PRAGA - ne isporučivati bez dorade"
+  }
+ },
+ {
+  "id": "m045",
+  "family": "tiktok_loop_v2",
+  "format": "TikTok 9:16 12 s loop, bez zvuka",
+  "topic": "How many of your weeks went to waiting? Be honest ⏳",
+  "hook": "You get about 4,000 weeks. Total.",
+  "text": [
+   "You get about 4,000 weeks. Total.",
+   "Some are already gone.",
+   "Most go to scrolling.",
+   "Some go to waiting.",
+   "Spend this one on purpose.",
+   "Because you only get about…"
+  ],
+  "ending": "Because you only get about…",
+  "footage": [
+   "mk_28892",
+   "mk_3133",
+   "mk_4808",
+   "mk_4511",
+   "mk_4831",
+   "mk_4397"
+  ],
+  "visual_style": "paleta po kadru, auto-ekspozicija, kadar po rečenici",
+  "music": "nema (korisnik dodaje)",
+  "editing": "2 s po tekstu, 2 reza po 1 s na vrhuncu, kontinualan loop spoj",
+  "output": "videos/tiktok_loops/m045.mp4",
+  "evaluation": {
+   "cycle": 1,
+   "score": 86,
+   "breakdown": {
+    "storytelling": 18,
+    "visual": 17,
+    "hook": 13,
+    "cinematography": 12,
+    "sound": 8,
+    "editing": 9,
+    "originality": 9
+   },
+   "evidence": "Hook sa brojem (4,000 weeks) + lista + obrt 'Spend this one on purpose'; kraj se gramatički vraća u hook. 6 izvora, svaki ilustruje rečenicu (sat, zalazak, čovek sa telefonom, žena kod prozora, sunce kroz drveće, silueta). Slabo: hook kadar statičan detalj bez čoveka; kadar 'waiting' je potiljak. Luma 0.30-0.42, spoj loop-a 1.8/255 (= susedni frejmovi 0.9).",
+   "verdict": "ISPOD PRAGA (86) - isporučeno uz napomenu"
+  },
+  "inspection": {
+   "report": "studio/inspections/m045.md",
+   "inspected_at": "2026-11-19T13:03:39",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": false,
+    "weak_scenes": 0,
+    "creative_score": null,
+    "approved": false,
+    "blocking": [
+     "nema vizuelnog pregleda"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    2.0,
+    4.0,
+    6.033,
+    8.033,
+    9.033,
+    10.033
+   ],
+   "loop_seam": {
+    "seam_diff": 11.51,
+    "median_neighbor_diff": 1.37,
+    "ok": true,
+    "seam_diff_no_text": 2.98
+   }
+  }
+ },
+ {
+  "id": "m046",
+  "family": "tiktok_loop_v2",
+  "format": "TikTok 9:16 12 s loop, bez zvuka",
+  "topic": "Sore or sorry — which one did you pick today? 💪",
+  "hook": "Sore today. Or sorry in ten years?",
+  "text": [
+   "Sore today. Or sorry in ten years?",
+   "Soreness fades in two days.",
+   "Regret compounds for years.",
+   "Your future self is watching.",
+   "Pick the pain that pays.",
+   "So which one… sore, or sorry?"
+  ],
+  "ending": "So which one… sore, or sorry?",
+  "footage": [
+   "mk_52317",
+   "mk_50972",
+   "mk_4573",
+   "mk_50756",
+   "mk_52089",
+   "mk_52099"
+  ],
+  "visual_style": "paleta po kadru, auto-ekspozicija, kadar po rečenici",
+  "music": "nema (korisnik dodaje)",
+  "editing": "2 s po tekstu, 2 reza po 1 s na vrhuncu, kontinualan loop spoj",
+  "output": "videos/tiktok_loops/m046.mp4",
+  "evaluation": {
+   "cycle": 1,
+   "score": 88,
+   "breakdown": {
+    "storytelling": 18,
+    "visual": 18,
+    "hook": 13,
+    "cinematography": 13,
+    "sound": 8,
+    "editing": 9,
+    "originality": 9
+   },
+   "evidence": "Kontrast sore/sorry kao igra reči, obrt 'future self is watching' sa čovekom ispred ogledala; lica u 4/6 kadrova; total teretana, krupno lice, srednji ogledalo. Slabo: hook kadar teretana tamnija (luma 0.33), čovek delom van centra. Spoj 3.8 (= susedni 3.2).",
+   "verdict": "ISPOD PRAGA (88)"
+  },
+  "inspection": {
+   "report": "studio/inspections/m046.md",
+   "inspected_at": "2026-11-19T13:03:45",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": false,
+    "weak_scenes": 0,
+    "creative_score": null,
+    "approved": false,
+    "blocking": [
+     "nema vizuelnog pregleda"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    2.0,
+    4.0,
+    6.0,
+    8.0,
+    9.0,
+    10.0
+   ],
+   "loop_seam": {
+    "seam_diff": 11.73,
+    "median_neighbor_diff": 3.42,
+    "ok": true,
+    "seam_diff_no_text": 3.16
+   }
+  }
+ },
+ {
+  "id": "m047",
+  "family": "tiktok_loop_v2",
+  "format": "TikTok 9:16 12 s loop, bez zvuka",
+  "topic": "Are you selling your time or buying it back? 💸",
+  "hook": "Broke people sell this. Rich people buy it.",
+  "text": [
+   "Broke people sell this. Rich people buy it.",
+   "Time.",
+   "Selling hours has a ceiling.",
+   "Assets work while you rest.",
+   "Start buying your time back.",
+   "That's what broke people sell."
+  ],
+  "ending": "That's what broke people sell.",
+  "footage": [
+   "mk_3672",
+   "mk_4079",
+   "mk_918",
+   "mk_3162",
+   "mk_4477",
+   "mk_2167"
+  ],
+  "visual_style": "paleta po kadru, auto-ekspozicija, kadar po rečenici",
+  "music": "nema (korisnik dodaje)",
+  "editing": "2 s po tekstu, 2 reza po 1 s na vrhuncu, kontinualan loop spoj",
+  "output": "videos/tiktok_loops/m047.mp4",
+  "evaluation": {
+   "cycle": 1,
+   "score": 88,
+   "breakdown": {
+    "storytelling": 18,
+    "visual": 17,
+    "hook": 14,
+    "cinematography": 13,
+    "sound": 8,
+    "editing": 9,
+    "originality": 9
+   },
+   "evidence": "Obrnuta logika sa otkrićem 'Time.' u 2. sekundi; match-cut sat -> Big Ben; kancelarija -> grad noću -> jedrilica na zalasku = luk rad->sloboda. Slabo: luma 0.29-0.30 na 3 kadra (granično), kadar grada nije vezan za 'assets'. Spoj 5.3 (= susedni 6.7).",
+   "verdict": "ISPOD PRAGA (88)"
+  },
+  "inspection": {
+   "report": "studio/inspections/m047.md",
+   "inspected_at": "2026-11-19T13:03:51",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": false,
+    "weak_scenes": 0,
+    "creative_score": null,
+    "approved": false,
+    "blocking": [
+     "nema vizuelnog pregleda"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    2.0,
+    4.0,
+    6.0,
+    8.0,
+    9.0,
+    10.0
+   ],
+   "loop_seam": {
+    "seam_diff": 12.49,
+    "median_neighbor_diff": 4.12,
+    "ok": true,
+    "seam_diff_no_text": 4.86
+   }
+  }
+ },
+ {
+  "id": "m048",
+  "family": "tiktok_loop_v2",
+  "format": "TikTok 9:16 12 s loop, bez zvuka",
+  "topic": "What's your harbor — the thing keeping you safe and stuck? ⛵",
+  "hook": "This boat is perfectly safe. That's the problem.",
+  "text": [
+   "This boat is perfectly safe. That's the problem.",
+   "Harbors are where boats wait.",
+   "Boats were built for open water.",
+   "Neither are you.",
+   "Leave the harbor.",
+   "Still tied to the dock?"
+  ],
+  "ending": "Still tied to the dock?",
+  "footage": [
+   "mk_4280",
+   "mk_4491",
+   "mk_51478",
+   "mk_34583",
+   "mk_40080",
+   "mk_4680"
+  ],
+  "visual_style": "paleta po kadru, auto-ekspozicija, kadar po rečenici",
+  "music": "nema (korisnik dodaje)",
+  "editing": "2 s po tekstu, 2 reza po 1 s na vrhuncu, kontinualan loop spoj",
+  "output": "videos/tiktok_loops/m048.mp4",
+  "evaluation": {
+   "cycle": 1,
+   "score": 87,
+   "breakdown": {
+    "storytelling": 18,
+    "visual": 18,
+    "hook": 13,
+    "cinematography": 13,
+    "sound": 8,
+    "editing": 9,
+    "originality": 8
+   },
+   "evidence": "Metafora brod/luka, svoje rečenice (prvobitni Shedd citat zamenjen). Svaki kadar ilustruje: privezana jahta, jarboli u marini, jedrilica na pučini, čovek na vrhu gleda horizont, brod izlazi iz luke, katamaran. Slabo: hook kadar bez pokreta/čoveka; 'Neither are you' je planinar, ne pomorski motiv. Spoj 3.1.",
+   "verdict": "ISPOD PRAGA (87)"
+  },
+  "inspection": {
+   "report": "studio/inspections/m048.md",
+   "inspected_at": "2026-11-19T13:03:57",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": false,
+    "weak_scenes": 0,
+    "creative_score": null,
+    "approved": false,
+    "blocking": [
+     "nema vizuelnog pregleda"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    2.0,
+    4.0,
+    6.0,
+    8.0,
+    9.0,
+    10.0
+   ],
+   "loop_seam": {
+    "seam_diff": 11.15,
+    "median_neighbor_diff": 2.28,
+    "ok": true,
+    "seam_diff_no_text": 3.85
+   }
+  }
+ },
+ {
+  "id": "price_ep1",
+  "family": "the_price",
+  "format": "16:9 + 9:16 54 s",
+  "topic": "cena uspeha",
+  "hook": "Everyone wants the car.",
+  "text": [
+   "Everyone wants the car.",
+   "Nobody wants 5 A.M.",
+   "Nobody wants",
+   "the cold mornings.",
+   "The empty streets.",
+   "The rain.",
+   "Nobody wants",
+   "the pain.",
+   "The nights alone,",
+   "while everyone else",
+   "is asleep.",
+   "No applause.",
+   "Just work.",
+   "Day after day.",
+   "Until one morning...",
+   "you don't wake up",
+   "for the alarm anymore.",
+   "You wake up",
+   "for the life",
+   "you built.",
+   "Everyone wants",
+   "the result.",
+   "Few are willing",
+   "to pay the price."
+  ],
+  "ending": "to pay the price.",
+  "footage": [
+   "01_alarm",
+   "02_wake",
+   "03_midnight",
+   "04_runner",
+   "05_rain",
+   "06_bandage",
+   "07_boxer",
+   "08_bag",
+   "09_typing",
+   "10_overtime",
+   "11_exhausted",
+   "12_sunrise",
+   "13_watch_on",
+   "14_watch_close",
+   "15_dashboard",
+   "16_red_car",
+   "17_ferrari",
+   "18_blue_car",
+   "19_jet",
+   "20_burj",
+   "21_yacht",
+   "22_champagne"
+  ],
+  "visual_style": "letterbox, hladno (muka) -> toplo (nagrada), zrno",
+  "music": "sintetisani dark trap + SFX",
+  "editing": "rezovi 2.0/2.6 s, riser + impact na preokretu",
+  "output": "videos/the_price/ep1_the_price_16x9.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 73,
+   "breakdown": {
+    "storytelling": 16,
+    "visual": 14,
+    "hook": 11,
+    "cinematography": 10,
+    "sound": 7,
+    "editing": 8,
+    "originality": 7
+   },
+   "evidence": "Jasan luk muka->nagrada, kolor prati priču, riser+impact na preokretu; ali 1.5 s kartica pre hook-a, sintetisana muzika jednostavna, 9:16 isečci gube motiv (sat u kutiji), stok snimci delom ponovljeni kasnije.",
+   "verdict": "ISPOD PRAGA - najjači format do sada"
+  }
+ },
+ {
+  "id": "yt_i_made_it",
+  "family": "youtube_comp",
+  "format": "YouTube 16:9 2:22",
+  "topic": "I made it",
+  "hook": "Started from zero.",
+  "text": [
+   "Started from zero.",
+   "Nobody believed.",
+   "I kept going.",
+   "Now the garage is full.",
+   "Earned, not given.",
+   "Sunset drives. No alarm clock.",
+   "My time is mine.",
+   "All eyes on me.",
+   "The work paid off.",
+   "Dream car. Real life.",
+   "No more someday.",
+   "Good company. Good life.",
+   "Energy attracts energy.",
+   "Class never shouts.",
+   "Elegance is a choice.",
+   "Next stop: Dubai.",
+   "Higher than ever.",
+   "The city is mine.",
+   "Views I worked for.",
+   "Rest is earned.",
+   "Summer every day.",
+   "Paradise mode.",
+   "From grind to paradise.",
+   "Freedom looks like this.",
+   "Every sunset is a reward.",
+   "Peace bought with discipline.",
+   "Deals on the water.",
+   "Partners, not bosses.",
+   "Nights on the yacht.",
+   "Once just a dream.",
+   "Pop it. You earned it.",
+   "Celebrate the grind.",
+   "Same friends. New level.",
+   "I made it."
+  ],
+  "ending": "I made it.",
+  "footage": [
+   "kola_04",
+   "kola_05",
+   "kola_03",
+   "kola_01",
+   "kola_02",
+   "kola_06",
+   "kola_07",
+   "kola_08",
+   "kola_09",
+   "kola_10",
+   "kola_11",
+   "devojke_06",
+   "devojke_07",
+   "devojke_08",
+   "devojke_09",
+   "destinacije_06",
+   "destinacije_05",
+   "destinacije_08",
+   "destinacije_03",
+   "destinacije_04",
+   "devojke_10",
+   "devojke_11",
+   "destinacije_09",
+   "destinacije_10",
+   "destinacije_01",
+   "destinacije_02",
+   "uspeh_09",
+   "uspeh_10",
+   "uspeh_05",
+   "uspeh_06",
+   "uspeh_01",
+   "uspeh_02",
+   "uspeh_03",
+   "uspeh_04"
+  ],
+  "visual_style": "Mixkit lux, tekst donja trećina",
+  "music": "cinematic_piano",
+  "editing": "tvrdi rezovi 4 s",
+  "output": "videos/youtube/i_made_it_youtube.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 52,
+   "breakdown": {
+    "storytelling": 10,
+    "visual": 13,
+    "hook": 5,
+    "cinematography": 9,
+    "sound": 5,
+    "editing": 5,
+    "originality": 5
+   },
+   "evidence": "Kompilacija tvrdih rezova po 4 s, tekst po kadru, otvara karticom; nema luka ni ritma.",
+   "verdict": "ISPOD PRAGA"
+  }
+ },
+ {
+  "id": "yt_rich_life",
+  "family": "youtube_comp",
+  "format": "YouTube 16:9 1:54",
+  "topic": "rich life",
+  "hook": "RICH LIFE (kartica)",
+  "text": [],
+  "ending": "SUBSCRIBE",
+  "footage": [
+   "kola_15",
+   "kola_16",
+   "kola_01",
+   "kola_02",
+   "kola_11",
+   "kola_12",
+   "novac_03",
+   "novac_04",
+   "kola_09",
+   "kola_10",
+   "kola_07",
+   "kola_08",
+   "kola_13",
+   "kola_14",
+   "moc_03",
+   "moc_04",
+   "moc_01",
+   "moc_02",
+   "kola_05",
+   "kola_06",
+   "kola_03",
+   "kola_04",
+   "novac_01",
+   "novac_02",
+   "novac_05",
+   "novac_06",
+   "zene_luksuz_01"
+  ],
+  "visual_style": "Pexels lux",
+  "music": "cinematic_piano",
+  "editing": "tvrdi rezovi 4 s",
+  "output": "videos/youtube/rich_life_youtube.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 52,
+   "breakdown": {
+    "storytelling": 10,
+    "visual": 13,
+    "hook": 5,
+    "cinematography": 9,
+    "sound": 5,
+    "editing": 5,
+    "originality": 5
+   },
+   "evidence": "Kompilacija tvrdih rezova po 4 s, tekst po kadru, otvara karticom; nema luka ni ritma.",
+   "verdict": "ISPOD PRAGA"
+  }
+ },
+ {
+  "id": "shorts_rich_edit",
+  "family": "shorts_rich_edit",
+  "format": "kratki isečci bez teksta (sync to beat)",
+  "topic": "rich life",
+  "hook": "-",
+  "text": [],
+  "ending": "-",
+  "footage": [
+   "pexels_39371057",
+   "pexels_39371052",
+   "pexels_40965920",
+   "pexels_40061525",
+   "pexels_32779590",
+   "pexels_39421363",
+   "pexels_35353790",
+   "pexels_30028386",
+   "pexels_6266251",
+   "pexels_6326861",
+   "pexels_7735913",
+   "pexels_19713848",
+   "pexels_30351567",
+   "pexels_31030553",
+   "pexels_3402880",
+   "pexels_4691250",
+   "pexels_37572083",
+   "pexels_31767702",
+   "pexels_29470443",
+   "pexels_35168475",
+   "pexels_6700180",
+   "pexels_8345155",
+   "pexels_8345041",
+   "pexels_11390239"
+  ],
+  "visual_style": "luksuz, topli zlatni kolor",
+  "music": "nema",
+  "editing": "isečci po 4 s",
+  "output": "videos/shorts/rich_edit/"
+ },
+ {
+  "id": "stoic_rule_01",
+  "family": "stoic_rules",
+  "format": "TikTok 9:16 10 s loop, bez zvuka",
+  "topic": "kontrola",
+  "hook": "Stop wasting energy on this.",
+  "text": [
+   "Stop wasting energy on this.",
+   "You can't control what happens to you.",
+   "You can only control how you respond.",
+   "That's where your power is."
+  ],
+  "ending": "Follow for rule #2",
+  "footage": [
+   "mk_4059",
+   "mk_3428",
+   "mk_4832",
+   "mk_41739"
+  ],
+  "visual_style": "tamno-hladni filmski, zrno, beli Poppins Bold",
+  "music": "nema (korisnik dodaje)",
+  "editing": "2/2.5/2.5/2/1 s, reči na 1/8 @120 BPM",
+  "output": "videos/stoic/stoic_rule_01.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_rule_01.md",
+   "inspected_at": "2026-11-19T13:04:02",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 82,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 82 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    2.0,
+    4.5,
+    7.0,
+    9.0
+   ],
+   "loop_seam": {
+    "seam_diff": 8.01,
+    "median_neighbor_diff": 1.08,
+    "ok": true,
+    "seam_diff_no_text": 1.4
+   }
+  }
+ },
+ {
+  "id": "stoic_rule_02",
+  "family": "stoic_rules",
+  "format": "TikTok 9:16 10 s loop, bez zvuka",
+  "topic": "tišina",
+  "hook": "The strongest people do this quietly.",
+  "text": [
+   "The strongest people do this quietly.",
+   "Don't explain yourself to everyone.",
+   "Silence is not weakness.",
+   "It's control."
+  ],
+  "ending": "Follow for rule #3",
+  "footage": [
+   "mk_402",
+   "mk_2846",
+   "mk_4063",
+   "mk_49736"
+  ],
+  "visual_style": "tamno-hladni filmski, zrno, beli Poppins Bold",
+  "music": "nema (korisnik dodaje)",
+  "editing": "2/2.5/2.5/2/1 s, reči na 1/8 @120 BPM",
+  "output": "videos/stoic/stoic_rule_02.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_rule_02.md",
+   "inspected_at": "2026-11-19T13:04:06",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 85,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 85 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    2.0,
+    4.5,
+    7.0,
+    9.0
+   ],
+   "loop_seam": {
+    "seam_diff": 5.43,
+    "median_neighbor_diff": 1.13,
+    "ok": true,
+    "seam_diff_no_text": 1.56
+   }
+  }
+ },
+ {
+  "id": "stoic_rule_03",
+  "family": "stoic_rules",
+  "format": "TikTok 9:16 10 s loop, bez zvuka",
+  "topic": "mišljenje drugih",
+  "hook": "This is why people don't respect you.",
+  "text": [
+   "This is why people don't respect you.",
+   "Their opinion of you is not your business.",
+   "Your character is.",
+   "Focus on that."
+  ],
+  "ending": "Follow for rule #4",
+  "footage": [
+   "mk_434",
+   "mk_2716",
+   "mk_1759",
+   "mk_41744"
+  ],
+  "visual_style": "tamno-hladni filmski, zrno, beli Poppins Bold",
+  "music": "nema (korisnik dodaje)",
+  "editing": "2/2.5/2.5/2/1 s, reči na 1/8 @120 BPM",
+  "output": "videos/stoic/stoic_rule_03.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_rule_03.md",
+   "inspected_at": "2026-11-19T13:04:11",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 83,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 83 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    2.0,
+    4.5,
+    7.0,
+    9.0
+   ],
+   "loop_seam": {
+    "seam_diff": 5.6,
+    "median_neighbor_diff": 1.87,
+    "ok": true,
+    "seam_diff_no_text": 1.1
+   }
+  }
+ },
+ {
+  "id": "stoic_rule_04",
+  "family": "stoic_rules",
+  "format": "TikTok 9:16 10 s loop, bez zvuka",
+  "topic": "disciplina",
+  "hook": "Motivation is lying to you.",
+  "text": [
+   "Motivation is lying to you.",
+   "Motivation fades by noon.",
+   "Discipline shows up anyway.",
+   "Be the one who shows up."
+  ],
+  "ending": "Follow for rule #5",
+  "footage": [
+   "mk_50957",
+   "mk_41741",
+   "mk_22729",
+   "mk_2752"
+  ],
+  "visual_style": "tamno-hladni filmski, zrno, beli Poppins Bold",
+  "music": "nema (korisnik dodaje)",
+  "editing": "2/2.5/2.5/2/1 s, reči na 1/8 @120 BPM",
+  "output": "videos/stoic/stoic_rule_04.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_rule_04.md",
+   "inspected_at": "2026-11-19T13:04:16",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 84,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 84 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    2.0,
+    4.5,
+    7.0,
+    9.0
+   ],
+   "loop_seam": {
+    "seam_diff": 8.99,
+    "median_neighbor_diff": 1.36,
+    "ok": true,
+    "seam_diff_no_text": 2.9
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_01",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "patience",
+  "hook": "P A T I E N C E",
+  "text": [
+   "P A T I E N C E",
+   "patience pays."
+  ],
+  "ending": "patience pays.",
+  "footage": [
+   "mk_28888",
+   "mk_64",
+   "mk_18296",
+   "mk_4446",
+   "mk_231",
+   "mk_53",
+   "mk_22739",
+   "mk_3673",
+   "mk_4076",
+   "mk_43770",
+   "mk_4067",
+   "mk_18303",
+   "mk_4087",
+   "mk_51559",
+   "mk_4805",
+   "mk_4196",
+   "mk_30016"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_01.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_01.md",
+   "inspected_at": "2026-11-19T15:53:34",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 85,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 85 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0,
+    6.5,
+    7.0,
+    7.5,
+    8.0,
+    8.5
+   ],
+   "loop_seam": {
+    "seam_diff": 3.42,
+    "median_neighbor_diff": 3.02,
+    "ok": true,
+    "seam_diff_no_text": 1.99
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_02",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "hunger",
+  "hook": "H U N G E R",
+  "text": [
+   "H U N G E R",
+   "stay hungry."
+  ],
+  "ending": "stay hungry.",
+  "footage": [
+   "mk_40964",
+   "mk_4596",
+   "mk_40948",
+   "mk_52084",
+   "mk_52088",
+   "mk_731",
+   "mk_40276",
+   "mk_44439",
+   "mk_597",
+   "mk_735",
+   "mk_40246",
+   "mk_52094",
+   "mk_608",
+   "mk_40275"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_02.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_02.md",
+   "inspected_at": "2026-11-19T15:53:37",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 87,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 87 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0,
+    6.5,
+    7.0
+   ],
+   "loop_seam": {
+    "seam_diff": 3.67,
+    "median_neighbor_diff": 2.44,
+    "ok": true,
+    "seam_diff_no_text": 1.98
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_03",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "silence",
+  "hook": "S I L E N C E",
+  "text": [
+   "S I L E N C E",
+   "move in silence."
+  ],
+  "ending": "move in silence.",
+  "footage": [
+   "mk_42039",
+   "mk_2026",
+   "mk_42037",
+   "mk_40746",
+   "mk_2709",
+   "mk_4383",
+   "mk_4431",
+   "mk_50998",
+   "mk_1724",
+   "mk_4646",
+   "mk_42782",
+   "mk_3361",
+   "mk_40672",
+   "mk_41161",
+   "mk_42343",
+   "mk_4433"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_03.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_03.md",
+   "inspected_at": "2026-11-19T15:53:41",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 84,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 84 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    1.0,
+    2.0,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0,
+    6.5,
+    7.5,
+    8.0
+   ],
+   "loop_seam": {
+    "seam_diff": 3.91,
+    "median_neighbor_diff": 2.53,
+    "ok": true,
+    "seam_diff_no_text": 1.47
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_04",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "freedom",
+  "hook": "F R E E D O M",
+  "text": [
+   "F R E E D O M",
+   "earn your freedom."
+  ],
+  "ending": "earn your freedom.",
+  "footage": [
+   "mk_2385",
+   "mk_44651",
+   "mk_39912",
+   "mk_4204",
+   "mk_1076",
+   "mk_52427",
+   "mk_2049",
+   "mk_43114",
+   "mk_5008",
+   "mk_40901",
+   "mk_3298",
+   "mk_5363",
+   "mk_4839",
+   "mk_51689",
+   "mk_4281",
+   "mk_38948"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_04.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_04.md",
+   "inspected_at": "2026-11-19T15:54:22",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 85,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 85 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0,
+    6.5,
+    7.0,
+    8.0
+   ],
+   "loop_seam": {
+    "seam_diff": 3.1,
+    "median_neighbor_diff": 2.05,
+    "ok": true,
+    "seam_diff_no_text": 1.57
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_05",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "focus",
+  "hook": "F O C U S",
+  "text": [
+   "F O C U S",
+   "no distractions."
+  ],
+  "ending": "no distractions.",
+  "footage": [
+   "mk_609",
+   "mk_39825",
+   "mk_44147",
+   "mk_40765",
+   "mk_50695",
+   "mk_41943",
+   "mk_13807",
+   "mk_4827",
+   "mk_43798",
+   "mk_39779",
+   "mk_43446",
+   "mk_52451",
+   "mk_40891",
+   "mk_39855",
+   "mk_4852"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_05.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_05.md",
+   "inspected_at": "2026-11-19T15:53:49",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 84,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 84 < 90"
+    ]
+   },
+   "issues": 1,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0,
+    6.5,
+    7.0,
+    7.5
+   ],
+   "loop_seam": {
+    "seam_diff": 8.55,
+    "median_neighbor_diff": 2.64,
+    "ok": true,
+    "seam_diff_no_text": 7.57
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_06",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "energy",
+  "hook": "E N E R G Y",
+  "text": [
+   "E N E R G Y",
+   "guard it."
+  ],
+  "ending": "guard it.",
+  "footage": [
+   "mk_39786",
+   "mk_31413",
+   "mk_51399",
+   "mk_372",
+   "mk_31412",
+   "mk_3533",
+   "mk_28883",
+   "mk_50755",
+   "mk_10342",
+   "mk_4985",
+   "mk_4851",
+   "mk_3572",
+   "mk_51106",
+   "mk_2002"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_06.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_06.md",
+   "inspected_at": "2026-11-19T15:53:52",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 85,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 85 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    0.5,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0,
+    6.5,
+    7.0
+   ],
+   "loop_seam": {
+    "seam_diff": 9.96,
+    "median_neighbor_diff": 3.53,
+    "ok": true,
+    "seam_diff_no_text": 3.84
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_07",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "wealth",
+  "hook": "W E A L T H",
+  "text": [
+   "W E A L T H",
+   "build, don't spend."
+  ],
+  "ending": "build, don't spend.",
+  "footage": [
+   "mk_18264",
+   "mk_42136",
+   "mk_992",
+   "mk_42123",
+   "mk_4147",
+   "mk_3671",
+   "mk_4893",
+   "mk_1439",
+   "mk_4010",
+   "mk_4648",
+   "mk_42333",
+   "mk_39828",
+   "mk_4997"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_07.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_07.md",
+   "inspected_at": "2026-11-19T15:53:56",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 87,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 87 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0,
+    6.5
+   ],
+   "loop_seam": {
+    "seam_diff": 8.17,
+    "median_neighbor_diff": 4.02,
+    "ok": true,
+    "seam_diff_no_text": 2.86
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_08",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "secret",
+  "hook": "S E C R E T",
+  "text": [
+   "S E C R E T",
+   "let results talk."
+  ],
+  "ending": "let results talk.",
+  "footage": [
+   "mk_2501",
+   "mk_2514",
+   "mk_2490",
+   "mk_41043",
+   "mk_18312",
+   "mk_43300",
+   "mk_1202",
+   "mk_87",
+   "mk_43322",
+   "mk_3308",
+   "mk_51110",
+   "mk_3335",
+   "mk_4396"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_08.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_08.md",
+   "inspected_at": "2026-11-19T15:53:59",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 86,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 86 < 90"
+    ]
+   },
+   "issues": 1,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0,
+    6.5
+   ],
+   "loop_seam": {
+    "seam_diff": 7.88,
+    "median_neighbor_diff": 3.37,
+    "ok": true,
+    "seam_diff_no_text": 1.48
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_09",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "calm",
+  "hook": "C A L M",
+  "text": [
+   "C A L M",
+   "stay unshaken."
+  ],
+  "ending": "stay unshaken.",
+  "footage": [
+   "mk_5002",
+   "mk_4149",
+   "mk_51506",
+   "mk_41864",
+   "mk_4285",
+   "mk_3352",
+   "mk_34363",
+   "mk_1954",
+   "mk_3317",
+   "mk_43605",
+   "mk_51104",
+   "mk_4048",
+   "mk_5030"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_09.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_09.md",
+   "inspected_at": "2026-11-19T15:54:03",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 84,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 84 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0,
+    6.5
+   ],
+   "loop_seam": {
+    "seam_diff": 7.39,
+    "median_neighbor_diff": 5.0,
+    "ok": true,
+    "seam_diff_no_text": 0.97
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_10",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "endure",
+  "hook": "E N D U R E",
+  "text": [
+   "E N D U R E",
+   "quit later. not today."
+  ],
+  "ending": "quit later. not today.",
+  "footage": [
+   "mk_50922",
+   "mk_4755",
+   "mk_41054",
+   "mk_44621",
+   "mk_50925",
+   "mk_26110",
+   "mk_43298",
+   "mk_345",
+   "mk_50199",
+   "mk_41091",
+   "mk_51793",
+   "mk_41045",
+   "mk_3371",
+   "mk_3370"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_10.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_10.md",
+   "inspected_at": "2026-11-19T15:54:26",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 85,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 85 < 90"
+    ]
+   },
+   "issues": 1,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0,
+    6.5,
+    7.0
+   ],
+   "loop_seam": {
+    "seam_diff": 8.58,
+    "median_neighbor_diff": 3.25,
+    "ok": true,
+    "seam_diff_no_text": 3.15
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_11",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "habits",
+  "hook": "H A B I T S",
+  "text": [
+   "H A B I T S",
+   "small wins. daily."
+  ],
+  "ending": "small wins. daily.",
+  "footage": [
+   "mk_44448",
+   "mk_42541",
+   "mk_725",
+   "mk_43776",
+   "mk_3168",
+   "mk_873",
+   "mk_591",
+   "mk_472",
+   "mk_52316",
+   "mk_3171",
+   "mk_759",
+   "mk_2273",
+   "mk_43494",
+   "mk_878",
+   "mk_1367"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_11.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_11.md",
+   "inspected_at": "2026-11-19T16:17:33",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 86,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 86 < 90"
+    ]
+   },
+   "issues": 1,
+   "cuts": [
+    0.5,
+    1.0,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    5.767,
+    6.0,
+    6.267,
+    6.533
+   ],
+   "loop_seam": {
+    "seam_diff": 16.46,
+    "median_neighbor_diff": 7.05,
+    "ok": true,
+    "seam_diff_no_text": 12.64
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_12",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "growth",
+  "hook": "G R O W T H",
+  "text": [
+   "G R O W T H",
+   "get uncomfortable."
+  ],
+  "ending": "get uncomfortable.",
+  "footage": [
+   "mk_41010",
+   "mk_3373",
+   "mk_1276",
+   "mk_3378",
+   "mk_3362",
+   "mk_2186",
+   "mk_40742",
+   "mk_4016",
+   "mk_52497",
+   "mk_50244",
+   "mk_3340",
+   "mk_4568",
+   "mk_25542",
+   "mk_1366",
+   "mk_3333"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_12.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_12.md",
+   "inspected_at": "2026-11-19T16:15:37",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 87,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 87 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    5.767,
+    6.033,
+    6.3
+   ],
+   "loop_seam": {
+    "seam_diff": 14.55,
+    "median_neighbor_diff": 5.69,
+    "ok": true,
+    "seam_diff_no_text": 11.62
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_13",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "circle",
+  "hook": "C I R C L E",
+  "text": [
+   "C I R C L E",
+   "choose your people."
+  ],
+  "ending": "choose your people.",
+  "footage": [
+   "mk_40147",
+   "mk_44469",
+   "mk_3621",
+   "mk_43486",
+   "mk_4185",
+   "mk_1375",
+   "mk_51296",
+   "mk_4155",
+   "mk_44464",
+   "mk_46874",
+   "mk_4344",
+   "mk_341",
+   "mk_4151",
+   "mk_51540",
+   "mk_4401"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_13.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_13.md",
+   "inspected_at": "2026-11-19T16:19:13",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 86,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 86 < 90"
+    ]
+   },
+   "issues": 5,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0,
+    6.267,
+    6.533
+   ],
+   "loop_seam": {
+    "seam_diff": 16.47,
+    "median_neighbor_diff": 6.64,
+    "ok": true,
+    "seam_diff_no_text": 11.9
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_14",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "earn",
+  "hook": "E A R N",
+  "text": [
+   "E A R N",
+   "go get it."
+  ],
+  "ending": "go get it.",
+  "footage": [
+   "mk_2285",
+   "mk_43484",
+   "mk_877",
+   "mk_3338",
+   "mk_3624",
+   "mk_2923",
+   "mk_869",
+   "mk_4437",
+   "mk_3356",
+   "mk_4152",
+   "mk_50243",
+   "mk_3628",
+   "mk_2275",
+   "mk_583",
+   "mk_4156"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_14.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_14.md",
+   "inspected_at": "2026-11-19T16:15:44",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 86,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 86 < 90"
+    ]
+   },
+   "issues": 1,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    5.767,
+    6.033,
+    6.3
+   ],
+   "loop_seam": {
+    "seam_diff": 19.71,
+    "median_neighbor_diff": 7.84,
+    "ok": true,
+    "seam_diff_no_text": 16.01
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_15",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "purpose",
+  "hook": "P U R P O S E",
+  "text": [
+   "P U R P O S E",
+   "pick one direction."
+  ],
+  "ending": "pick one direction.",
+  "footage": [
+   "mk_421",
+   "mk_4180",
+   "mk_683",
+   "mk_4390",
+   "mk_349",
+   "mk_677",
+   "mk_4026",
+   "mk_4244",
+   "mk_478",
+   "mk_4154",
+   "mk_3619",
+   "mk_4064",
+   "mk_42742",
+   "mk_3622",
+   "mk_52507"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_15.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_15.md",
+   "inspected_at": "2026-11-19T16:15:47",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 85,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 85 < 90"
+    ]
+   },
+   "issues": 1,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0,
+    6.267,
+    6.5
+   ],
+   "loop_seam": {
+    "seam_diff": 11.79,
+    "median_neighbor_diff": 10.08,
+    "ok": true,
+    "seam_diff_no_text": 5.92
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_16",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "rise",
+  "hook": "R I S E",
+  "text": [
+   "R I S E",
+   "get back up."
+  ],
+  "ending": "get back up.",
+  "footage": [
+   "mk_40962",
+   "mk_40969",
+   "mk_40961",
+   "mk_40958",
+   "mk_40970",
+   "mk_40972",
+   "mk_40967",
+   "mk_40954",
+   "mk_40968",
+   "mk_40974"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_16.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_16.md",
+   "inspected_at": "2026-11-19T16:36:50",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 88,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 88 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    0.5,
+    2.0,
+    3.0,
+    4.0,
+    4.5,
+    6.5
+   ],
+   "loop_seam": {
+    "seam_diff": 7.67,
+    "median_neighbor_diff": 4.49,
+    "ok": true,
+    "seam_diff_no_text": 2.17
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_17",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "sacrifice",
+  "hook": "S A C R I F I C E",
+  "text": [
+   "S A C R I F I C E",
+   "pay now. live later."
+  ],
+  "ending": "pay now. live later.",
+  "footage": [
+   "mk_75",
+   "mk_18302",
+   "mk_51571",
+   "mk_66",
+   "mk_4317",
+   "mk_18297",
+   "mk_18305",
+   "mk_50753",
+   "mk_52079",
+   "mk_39834",
+   "mk_52087",
+   "mk_241",
+   "mk_4830",
+   "mk_52080",
+   "mk_4758",
+   "mk_52091",
+   "mk_4813",
+   "mk_51553",
+   "mk_30013",
+   "mk_4351",
+   "mk_52415",
+   "mk_40077",
+   "mk_51631",
+   "mk_4045",
+   "mk_50"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_17.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_17.md",
+   "inspected_at": "2026-11-19T20:01:05",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 85,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 85 < 90"
+    ]
+   },
+   "issues": 2,
+   "cuts": [
+    0.5,
+    0.733,
+    1.0,
+    1.233,
+    1.5,
+    1.733,
+    2.0,
+    2.233,
+    2.5,
+    2.733,
+    3.0,
+    3.233,
+    3.5,
+    3.733,
+    4.0,
+    4.233,
+    4.5,
+    4.733,
+    5.0,
+    5.233,
+    5.5,
+    5.733,
+    6.0,
+    6.233
+   ],
+   "loop_seam": {
+    "seam_diff": 7.6,
+    "median_neighbor_diff": 4.38,
+    "ok": true,
+    "seam_diff_no_text": 1.25
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_18",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "solitude",
+  "hook": "S O L I T U D E",
+  "text": [
+   "S O L I T U D E",
+   "the quiet hours count."
+  ],
+  "ending": "the quiet hours count.",
+  "footage": [
+   "mk_50133",
+   "mk_1793",
+   "mk_52198",
+   "mk_308",
+   "mk_1728",
+   "mk_1781",
+   "mk_50111",
+   "mk_1730",
+   "mk_50109",
+   "mk_242",
+   "mk_50116",
+   "mk_29997",
+   "mk_3983",
+   "mk_4038",
+   "mk_42653",
+   "mk_4954"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_18.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_18.md",
+   "inspected_at": "2026-11-20T09:24:56",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 87,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 87 < 90"
+    ]
+   },
+   "issues": 1,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.233,
+    2.5,
+    2.733,
+    3.0,
+    3.233,
+    3.5,
+    3.733,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.5
+   ],
+   "loop_seam": {
+    "seam_diff": 8.82,
+    "median_neighbor_diff": 2.32,
+    "ok": true,
+    "seam_diff_no_text": 2.59
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_19",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "delay",
+  "hook": "D E L A Y",
+  "text": [
+   "D E L A Y",
+   "wait for it."
+  ],
+  "ending": "wait for it.",
+  "footage": [
+   "mk_44086",
+   "mk_52219",
+   "mk_4919",
+   "mk_52213",
+   "mk_4911",
+   "mk_52207",
+   "mk_42133",
+   "mk_4801",
+   "mk_18263",
+   "mk_18307",
+   "mk_43699",
+   "mk_43697",
+   "mk_43702",
+   "mk_4776",
+   "mk_43706",
+   "mk_4998",
+   "mk_4881"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_19.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_19.md",
+   "inspected_at": "2026-11-20T09:19:06",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 88,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 88 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.233,
+    2.5,
+    2.733,
+    3.0,
+    3.233,
+    3.5,
+    3.733,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0,
+    6.5
+   ],
+   "loop_seam": {
+    "seam_diff": 9.17,
+    "median_neighbor_diff": 3.75,
+    "ok": true,
+    "seam_diff_no_text": 2.26
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_21",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "vision",
+  "hook": "V I S I O N",
+  "text": [
+   "V I S I O N",
+   "then build it."
+  ],
+  "ending": "then build it.",
+  "footage": [
+   "mk_42182",
+   "mk_42196",
+   "mk_2858",
+   "mk_29984",
+   "mk_1437",
+   "mk_41602",
+   "mk_40310",
+   "mk_44708",
+   "mk_44644",
+   "mk_1440",
+   "mk_1457",
+   "mk_1442",
+   "mk_600",
+   "mk_581",
+   "mk_613",
+   "mk_2788",
+   "mk_4854"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_21.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_21.md",
+   "inspected_at": "2026-11-20T09:26:31",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 86,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 86 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.233,
+    2.5,
+    3.0,
+    3.233,
+    3.5,
+    3.733,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0,
+    6.5
+   ],
+   "loop_seam": {
+    "seam_diff": 6.91,
+    "median_neighbor_diff": 3.22,
+    "ok": true,
+    "seam_diff_no_text": 2.14
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_22",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "adapt",
+  "hook": "A D A P T",
+  "text": [
+   "A D A P T",
+   "ride it."
+  ],
+  "ending": "ride it.",
+  "footage": [
+   "mk_1065",
+   "mk_1071",
+   "mk_1070",
+   "mk_38933",
+   "mk_1042",
+   "mk_1163",
+   "mk_1032",
+   "mk_1074",
+   "mk_1127",
+   "mk_1075",
+   "mk_1128",
+   "mk_38939",
+   "mk_1045",
+   "mk_1002",
+   "mk_1220",
+   "mk_38901",
+   "mk_1069"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_22.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_22.md",
+   "inspected_at": "2026-11-20T09:48:25",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 88,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 88 < 90"
+    ]
+   },
+   "issues": 1,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    2.733,
+    3.0,
+    3.733,
+    4.0,
+    4.5,
+    5.5,
+    6.0,
+    6.5
+   ],
+   "loop_seam": {
+    "seam_diff": 9.99,
+    "median_neighbor_diff": 4.08,
+    "ok": true,
+    "seam_diff_no_text": 3.42
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_23",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "strategy",
+  "hook": "S T R A T E G Y",
+  "text": [
+   "S T R A T E G Y",
+   "play the long game."
+  ],
+  "ending": "play the long game.",
+  "footage": [
+   "mk_49885",
+   "mk_5339",
+   "mk_49721",
+   "mk_49731",
+   "mk_49714",
+   "mk_49734",
+   "mk_49723",
+   "mk_49710",
+   "mk_49716",
+   "mk_49733",
+   "mk_49909",
+   "mk_49906",
+   "mk_4762",
+   "mk_49725"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_23.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_23.md",
+   "inspected_at": "2026-11-20T09:48:29",
+   "approval": {
+    "technical_pass": false,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 85,
+    "approved": false,
+    "blocking": [
+     "2 većih problema",
+     "kreativna ocena 85 < 90"
+    ]
+   },
+   "issues": 2,
+   "cuts": [
+    0.5,
+    1.0,
+    2.0,
+    2.5,
+    2.733,
+    3.5,
+    4.0,
+    5.0,
+    6.5
+   ],
+   "loop_seam": {
+    "seam_diff": 8.78,
+    "median_neighbor_diff": 1.91,
+    "ok": true,
+    "seam_diff_no_text": 3.26
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_24",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "ritual",
+  "hook": "R I T U A L",
+  "text": [
+   "R I T U A L",
+   "own your mornings."
+  ],
+  "ending": "own your mornings.",
+  "footage": [
+   "mk_808",
+   "mk_4984",
+   "mk_816",
+   "mk_4982",
+   "mk_42906",
+   "mk_236",
+   "mk_42909",
+   "mk_41859",
+   "mk_43925",
+   "mk_810",
+   "mk_43912",
+   "mk_10428",
+   "mk_4866",
+   "mk_43935",
+   "mk_4992"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_24.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_24.md",
+   "inspected_at": "2026-11-20T09:50:24",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 86,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 86 < 90"
+    ]
+   },
+   "issues": 1,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.233,
+    2.5,
+    2.733,
+    3.0,
+    3.233,
+    3.5,
+    3.733,
+    4.0,
+    4.5,
+    5.5,
+    6.5
+   ],
+   "loop_seam": {
+    "seam_diff": 6.94,
+    "median_neighbor_diff": 2.65,
+    "ok": true,
+    "seam_diff_no_text": 1.31
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_25",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "mastery",
+  "hook": "M A S T E R Y",
+  "text": [
+   "M A S T E R Y",
+   "repeat until great."
+  ],
+  "ending": "repeat until great.",
+  "footage": [
+   "mk_43048",
+   "mk_42464",
+   "mk_1669",
+   "mk_42467",
+   "mk_43055",
+   "mk_43021",
+   "mk_42469",
+   "mk_43037",
+   "mk_43063",
+   "mk_4678",
+   "mk_40534",
+   "mk_50052",
+   "mk_50017",
+   "mk_50015",
+   "mk_2430"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_25.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_25.md",
+   "inspected_at": "2026-11-20T09:48:35",
+   "approval": {
+    "technical_pass": false,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 86,
+    "approved": false,
+    "blocking": [
+     "1 većih problema",
+     "kreativna ocena 86 < 90"
+    ]
+   },
+   "issues": 1,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.233,
+    2.5,
+    2.733,
+    3.0,
+    3.233,
+    3.5,
+    3.733,
+    4.0,
+    5.5,
+    6.5
+   ],
+   "loop_seam": {
+    "seam_diff": 8.85,
+    "median_neighbor_diff": 2.26,
+    "ok": true,
+    "seam_diff_no_text": 1.43
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_26",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "rich",
+  "hook": "R I C H",
+  "text": [
+   "R I C H",
+   "build the habit."
+  ],
+  "ending": "build the habit.",
+  "footage": [
+   "mk_4301",
+   "mk_18304",
+   "mk_18249",
+   "mk_22741",
+   "mk_42649",
+   "mk_40075",
+   "mk_2889",
+   "mk_44500",
+   "mk_1270",
+   "mk_4046",
+   "mk_4641",
+   "mk_4198",
+   "mk_2883",
+   "mk_5368",
+   "mk_4999"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_26.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_26.md",
+   "inspected_at": "2026-11-20T10:09:11",
+   "approval": {
+    "technical_pass": false,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 86,
+    "approved": false,
+    "blocking": [
+     "6 većih problema",
+     "kreativna ocena 86 < 90"
+    ]
+   },
+   "issues": 7,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.233,
+    2.5,
+    2.733,
+    3.0,
+    3.233,
+    3.5,
+    3.733,
+    4.0,
+    4.5,
+    5.5,
+    6.5
+   ],
+   "loop_seam": {
+    "seam_diff": 9.17,
+    "median_neighbor_diff": 2.78,
+    "ok": true,
+    "seam_diff_no_text": 2.92
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_27",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "power",
+  "hook": "P O W E R",
+  "text": [
+   "P O W E R",
+   "carry yourself."
+  ],
+  "ending": "carry yourself.",
+  "footage": [
+   "mk_309",
+   "mk_317",
+   "mk_4169",
+   "mk_4802",
+   "mk_4809",
+   "mk_42648",
+   "mk_30012",
+   "mk_4144",
+   "mk_40673",
+   "mk_4007",
+   "mk_4368",
+   "mk_40099",
+   "mk_4840",
+   "mk_44391",
+   "mk_10332"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_27.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_27.md",
+   "inspected_at": "2026-11-20T10:05:57",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 85,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 85 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.233,
+    2.5,
+    2.733,
+    3.0,
+    3.233,
+    3.5,
+    3.733,
+    4.0,
+    4.5,
+    5.5,
+    6.5
+   ],
+   "loop_seam": {
+    "seam_diff": 7.07,
+    "median_neighbor_diff": 2.8,
+    "ok": true,
+    "seam_diff_no_text": 1.12
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_28",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "status",
+  "hook": "S T A T U S",
+  "text": [
+   "S T A T U S",
+   "become the prize."
+  ],
+  "ending": "become the prize.",
+  "footage": [
+   "mk_70",
+   "mk_44547",
+   "mk_44541",
+   "mk_44544",
+   "mk_44542",
+   "mk_44555",
+   "mk_44557",
+   "mk_44556",
+   "mk_44545",
+   "mk_71",
+   "mk_43192",
+   "mk_4699",
+   "mk_44530",
+   "mk_3159",
+   "mk_1272"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_28.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_28.md",
+   "inspected_at": "2026-11-20T10:09:14",
+   "approval": {
+    "technical_pass": false,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 84,
+    "approved": false,
+    "blocking": [
+     "1 većih problema",
+     "kreativna ocena 84 < 90"
+    ]
+   },
+   "issues": 2,
+   "cuts": [
+    0.5,
+    3.233,
+    3.5,
+    3.733,
+    4.0,
+    4.5,
+    5.5,
+    6.5
+   ],
+   "loop_seam": {
+    "seam_diff": 8.49,
+    "median_neighbor_diff": 2.26,
+    "ok": true,
+    "seam_diff_no_text": 2.53
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_29",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "proof",
+  "hook": "P R O O F",
+  "text": [
+   "P R O O F",
+   "let them watch."
+  ],
+  "ending": "let them watch.",
+  "footage": [
+   "aic_full",
+   "aic_man",
+   "aic_tail",
+   "aic_city",
+   "aig_full",
+   "aig_face",
+   "aig_window",
+   "mk_4692",
+   "aic_wheel",
+   "aic_tower"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_29.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_29.md",
+   "inspected_at": "2026-11-20T14:48:00",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 89,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 89 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    1.5,
+    2.0,
+    3.5,
+    5.0
+   ],
+   "loop_seam": {
+    "seam_diff": 9.16,
+    "median_neighbor_diff": 1.99,
+    "ok": true,
+    "seam_diff_no_text": 2.2
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_30",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "risk",
+  "hook": "R I S K",
+  "text": [
+   "R I S K",
+   "go all in."
+  ],
+  "ending": "go all in.",
+  "footage": [
+   "mk_40603",
+   "mk_40600",
+   "mk_5231",
+   "mk_40512",
+   "mk_5245",
+   "mk_40507",
+   "mk_40501",
+   "mk_5238",
+   "mk_5234",
+   "mk_40510",
+   "mk_5230",
+   "mk_5240",
+   "mk_40511"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_30.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_30.md",
+   "inspected_at": "2026-11-20T15:31:19",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 87,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 87 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.333,
+    3.0,
+    3.333,
+    3.667,
+    4.0,
+    5.0,
+    5.733,
+    6.467
+   ],
+   "loop_seam": {
+    "seam_diff": 8.66,
+    "median_neighbor_diff": 4.13,
+    "ok": true,
+    "seam_diff_no_text": 1.83
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_31",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "time",
+  "hook": "T I M E",
+  "text": [
+   "T I M E",
+   "buy back your hours."
+  ],
+  "ending": "buy back your hours.",
+  "footage": [
+   "pexels_13801264",
+   "pexels_13801280",
+   "pexels_13801270",
+   "pexels_13801275",
+   "mk_28887",
+   "pexels_13801281",
+   "mk_28893",
+   "pexels_13801276",
+   "mk_39824",
+   "pexels_13801293",
+   "pexels_13801288",
+   "pexels_13801230",
+   "pexels_13801271",
+   "pexels_13801273"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_31.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_31.md",
+   "inspected_at": "2026-11-20T19:59:10",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 87,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 87 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    3.0,
+    3.333,
+    3.667,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.5
+   ],
+   "loop_seam": {
+    "seam_diff": 17.83,
+    "median_neighbor_diff": 3.24,
+    "ok": true,
+    "seam_diff_no_text": 5.81
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_32",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "sprint",
+  "hook": "S P R I N T",
+  "text": [
+   "S P R I N T",
+   "finish it loud."
+  ],
+  "ending": "finish it loud.",
+  "footage": [
+   "mk_51534",
+   "mk_51562",
+   "mk_51530",
+   "mk_51529",
+   "mk_51539",
+   "mk_51537"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_32.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_32.md",
+   "inspected_at": "2026-11-20T20:13:33",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 81,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 81 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    0.5,
+    1.267,
+    2.0,
+    2.767,
+    3.767,
+    6.5
+   ],
+   "loop_seam": {
+    "seam_diff": 15.17,
+    "median_neighbor_diff": 5.74,
+    "ok": true,
+    "seam_diff_no_text": 12.16
+   }
+  }
+ },
+ {
+  "id": "stoic_edit_33",
+  "family": "stoic_edit",
+  "format": "TikTok 9:16 9 s edit, bez zvuka",
+  "topic": "ambition",
+  "hook": "A M B I T I O N",
+  "text": [
+   "A M B I T I O N",
+   "build from nothing."
+  ],
+  "ending": "build from nothing.",
+  "footage": [
+   "mk_49833",
+   "mk_51785",
+   "mk_2786",
+   "mk_51794",
+   "mk_3970",
+   "mk_40718",
+   "mk_49870",
+   "mk_1587",
+   "mk_2010",
+   "mk_49872",
+   "mk_49873",
+   "mk_49871"
+  ],
+  "visual_style": "noćni luksuz, rez na svaki udarac",
+  "music": "nema (korisnik dodaje)",
+  "editing": "18 x 0.5 s @120 BPM",
+  "output": "videos/stoic/stoic_edit_33.mp4",
+  "inspection": {
+   "report": "studio/inspections/stoic_edit_33.md",
+   "inspected_at": "2026-11-20T20:33:41",
+   "approval": {
+    "technical_pass": true,
+    "vision_reviewed": true,
+    "weak_scenes": 0,
+    "creative_score": 86,
+    "approved": false,
+    "blocking": [
+     "kreativna ocena 86 < 90"
+    ]
+   },
+   "issues": 0,
+   "cuts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.4,
+    3.2,
+    3.6,
+    4.0,
+    4.767,
+    5.5,
+    6.5
+   ],
+   "loop_seam": {
+    "seam_diff": 10.25,
+    "median_neighbor_diff": 3.65,
+    "ok": true,
+    "seam_diff_no_text": 4.06
+   }
+  }
+ },
+ {
+  "id": "talk_city",
+  "family": "talk_v1",
+  "format": "TikTok 9:16 ~30 s, glas + muzika",
+  "topic": "WHILE THEY SLEEP",
+  "hook": "While they sleep...",
+  "text": [
+   "While they sleep...",
+   "you build.",
+   "While they scroll...",
+   "you work.",
+   "Nobody sees the late nights.",
+   "Nobody claps for the quiet hours.",
+   "But every hour you give...",
+   "is a brick in a house they will never understand.",
+   "So stay quiet.",
+   "Stay focused.",
+   "Let the results speak."
+  ],
+  "ending": "Let the results speak.",
+  "footage": [
+   "03_midnight",
+   "pexels_11390239",
+   "09_typing",
+   "10_overtime",
+   "pexels_30028386",
+   "pexels_8345041",
+   "11_exhausted",
+   "pexels_8345155",
+   "20_burj",
+   "pexels_19713848"
+  ],
+  "visual_style": "filmski kolor teal/zlato, meki prelazi, elegantni serif titlovi",
+  "music": "mixkit_88.mp3",
+  "editing": "xfade 0.7 s, push-in 6%",
+  "output": "videos/the_price/talk_city_9x16.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 66,
+   "breakdown": {
+    "storytelling": 15,
+    "visual": 13,
+    "hook": 9,
+    "cinematography": 9,
+    "sound": 7,
+    "editing": 7,
+    "originality": 6
+   },
+   "evidence": "Pravi luk govora i više snimaka po temi; ali spor početak (1.5 s tišine + mirna rečenica), TTS glas neproveren uhom, isti xfade 0.7 s svuda, snimci ponovljeni iz QOTD serije.",
+   "verdict": "ISPOD PRAGA - najbolja osnova za dalji razvoj"
+  },
+  "inspection": {
+   "report": "studio/inspections/talk_city.md",
+   "inspected_at": "2026-11-19T10:00:31",
+   "approval": {
+    "technical_pass": false,
+    "vision_reviewed": false,
+    "weak_scenes": 0,
+    "creative_score": null,
+    "approved": false,
+    "blocking": [
+     "1 kritičnih",
+     "10 većih problema",
+     "nema vizuelnog pregleda"
+    ]
+   },
+   "issues": 14,
+   "cuts": [
+    5.833,
+    13.8,
+    21.9,
+    22.667,
+    22.833,
+    23.1,
+    24.2
+   ],
+   "loop_seam": null
+  },
+  "archived": true
+ },
+ {
+  "id": "talk_climb",
+  "family": "talk_v1",
+  "format": "TikTok 9:16 ~30 s, glas + muzika",
+  "topic": "THE CLIMB",
+  "hook": "The mountain doesn't care how you feel.",
+  "text": [
+   "The mountain doesn't care how you feel.",
+   "It doesn't get smaller...",
+   "because you're tired.",
+   "You get stronger...",
+   "because you keep climbing.",
+   "Every step is heavy.",
+   "Every breath is hard.",
+   "But the view at the top...",
+   "belongs only to the ones who didn't turn back.",
+   "Keep climbing."
+  ],
+  "ending": "Keep climbing.",
+  "footage": [
+   "mountains_11856435",
+   "pexels_39657533",
+   "pexels_6650177",
+   "road_16535478",
+   "pexels_38840179",
+   "pexels_8970213",
+   "sunset_5189814",
+   "stars_5747525"
+  ],
+  "visual_style": "filmski kolor teal/zlato, meki prelazi, elegantni serif titlovi",
+  "music": "mixkit_350.mp3",
+  "editing": "xfade 0.7 s, push-in 6%",
+  "output": "videos/the_price/talk_climb_9x16.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 66,
+   "breakdown": {
+    "storytelling": 15,
+    "visual": 13,
+    "hook": 9,
+    "cinematography": 9,
+    "sound": 7,
+    "editing": 7,
+    "originality": 6
+   },
+   "evidence": "Pravi luk govora i više snimaka po temi; ali spor početak (1.5 s tišine + mirna rečenica), TTS glas neproveren uhom, isti xfade 0.7 s svuda, snimci ponovljeni iz QOTD serije.",
+   "verdict": "ISPOD PRAGA - najbolja osnova za dalji razvoj"
+  },
+  "archived": true
+ },
+ {
+  "id": "talk_storm",
+  "family": "talk_v1",
+  "format": "TikTok 9:16 ~30 s, glas + muzika",
+  "topic": "THE STORM",
+  "hook": "Calm seas never made a strong sailor.",
+  "text": [
+   "Calm seas never made a strong sailor.",
+   "The storm is not here to break you.",
+   "It's here to show you...",
+   "what you're made of.",
+   "So let it rain.",
+   "Let it thunder.",
+   "Stand in the middle of it...",
+   "and don't move.",
+   "Because storms don't last forever.",
+   "But you will."
+  ],
+  "ending": "But you will.",
+  "footage": [
+   "lightning_5387436",
+   "waves_8438341",
+   "rain_18222676",
+   "waves_12136143",
+   "pexels_34769638",
+   "lightning_5387436",
+   "waves_8438341",
+   "pexels_30370640"
+  ],
+  "visual_style": "filmski kolor teal/zlato, meki prelazi, elegantni serif titlovi",
+  "music": "mixkit_679.mp3",
+  "editing": "xfade 0.7 s, push-in 6%",
+  "output": "videos/the_price/talk_storm_9x16.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 66,
+   "breakdown": {
+    "storytelling": 15,
+    "visual": 13,
+    "hook": 9,
+    "cinematography": 9,
+    "sound": 7,
+    "editing": 7,
+    "originality": 6
+   },
+   "evidence": "Pravi luk govora i više snimaka po temi; ali spor početak (1.5 s tišine + mirna rečenica), TTS glas neproveren uhom, isti xfade 0.7 s svuda, snimci ponovljeni iz QOTD serije.",
+   "verdict": "ISPOD PRAGA - najbolja osnova za dalji razvoj"
+  },
+  "archived": true
+ },
+ {
+  "id": "talk_water",
+  "family": "talk_v1",
+  "format": "TikTok 9:16 69 s, glas + muzika",
+  "topic": "BE LIKE WATER",
+  "hook": "Look at the water.",
+  "text": [
+   "Look at the water.",
+   "It doesn't stop when it hits a rock.",
+   "It doesn't complain. It doesn't quit.",
+   "It finds another way.",
+   "And when there is no way...",
+   "it makes one.",
+   "Slowly. Quietly. Day after day.",
+   "Drop by drop, it cuts through mountains.",
+   "Not because it's strong...",
+   "but because it never stops.",
+   "So when life puts a wall in front of you,",
+   "don't wait for it to move.",
+   "Keep flowing.",
+   "Keep pushing.",
+   "One more day. One more step. One more try.",
+   "Because one day, they will look at who you became,",
+   "and call it talent.",
+   "But you'll know the truth.",
+   "It was never talent.",
+   "It was you... refusing to stop.",
+   "Be like water."
+  ],
+  "ending": "Be like water.",
+  "footage": [
+   "wf_slowmo",
+   "wf_crash",
+   "wf_rocks",
+   "wf_riverslow",
+   "wf_rocky",
+   "pexels_13878296",
+   "wf_iguazu",
+   "wf_niagara",
+   "wf_valley",
+   "pexels_6650177",
+   "wf_hiker",
+   "pexels_38840179",
+   "pexels_33545687",
+   "wf_rainbow",
+   "pexels_28951859",
+   "pexels_8970213"
+  ],
+  "visual_style": "vodopadi, filmski kolor",
+  "music": "mixkit_871",
+  "editing": "xfade 0.7 s",
+  "output": "videos/the_price/be_like_water_9x16.mp4",
+  "evaluation": {
+   "cycle": 0,
+   "score": 66,
+   "breakdown": {
+    "storytelling": 15,
+    "visual": 13,
+    "hook": 9,
+    "cinematography": 9,
+    "sound": 7,
+    "editing": 7,
+    "originality": 6
+   },
+   "evidence": "Pravi luk govora i više snimaka po temi; ali spor početak (1.5 s tišine + mirna rečenica), TTS glas neproveren uhom, isti xfade 0.7 s svuda, snimci ponovljeni iz QOTD serije.",
+   "verdict": "ISPOD PRAGA - najbolja osnova za dalji razvoj"
+  },
+  "archived": true
+ }
+]

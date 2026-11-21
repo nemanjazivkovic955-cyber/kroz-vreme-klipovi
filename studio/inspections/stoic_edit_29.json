@@ -1,0 +1,213 @@
+{
+ "id": "stoic_edit_29",
+ "file": "videos/stoic/stoic_edit_29.mp4",
+ "inspected_at": "2026-11-20T14:48:00",
+ "method": "Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.",
+ "meta": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "duration": 7.0,
+  "vcodec": "h264",
+  "pix_fmt": "yuv420p",
+  "video_streams": 1,
+  "audio_streams": 0,
+  "acodec": null,
+  "bitrate_kbps": 23927
+ },
+ "expected": {
+  "texts": [],
+  "text_changes": [
+   2.0,
+   4.0
+  ],
+  "silent": true,
+  "loop": true,
+  "kind": "stoic_edit",
+  "dur": [
+   7,
+   11
+  ],
+  "planned_cuts": [
+   0.5,
+   1.0,
+   1.5,
+   2.0,
+   2.5,
+   3.0,
+   3.5,
+   5.0,
+   5.75,
+   6.5
+  ],
+  "min_luma": 0.07,
+  "min_shot": 0.2
+ },
+ "technical": {
+  "resolution_ok": true,
+  "aspect": "1080:1920",
+  "fps_ok": true,
+  "duration_ok": true,
+  "audio_rule_ok": true,
+  "frames_decoded": 210,
+  "frames_expected": 210
+ },
+ "shots": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 1.5,
+   "dur": 1.5,
+   "luma": 0.124,
+   "sharpness": 119.0,
+   "overexposed_frac": 0.012,
+   "hue": 106.6
+  },
+  {
+   "index": 1,
+   "start": 1.5,
+   "end": 2.0,
+   "dur": 0.5,
+   "luma": 0.158,
+   "sharpness": 124.1,
+   "overexposed_frac": 0.012,
+   "hue": 107.3
+  },
+  {
+   "index": 2,
+   "start": 2.0,
+   "end": 3.5,
+   "dur": 1.5,
+   "luma": 0.073,
+   "sharpness": 65.9,
+   "overexposed_frac": 0.0,
+   "hue": 116.0
+  },
+  {
+   "index": 3,
+   "start": 3.5,
+   "end": 5.0,
+   "dur": 1.5,
+   "luma": 0.24,
+   "sharpness": 177.1,
+   "overexposed_frac": 0.001,
+   "hue": 79.0
+  },
+  {
+   "index": 4,
+   "start": 5.0,
+   "end": 7.0,
+   "dur": 2.0,
+   "luma": 0.106,
+   "sharpness": 135.8,
+   "overexposed_frac": 0.001,
+   "hue": 108.0
+  }
+ ],
+ "cuts": [
+  1.5,
+  2.0,
+  3.5,
+  5.0
+ ],
+ "dissolves": [],
+ "continuity": [
+  {
+   "t": 1.5,
+   "luma_jump": 0.039,
+   "hue_jump": 7.1
+  },
+  {
+   "t": 2.0,
+   "luma_jump": 0.091,
+   "hue_jump": 9.5
+  },
+  {
+   "t": 3.5,
+   "luma_jump": 0.151,
+   "hue_jump": 33.5
+  },
+  {
+   "t": 5.0,
+   "luma_jump": 0.161,
+   "hue_jump": 36.5
+  }
+ ],
+ "loop_seam": {
+  "seam_diff": 9.16,
+  "median_neighbor_diff": 1.99,
+  "ok": true,
+  "seam_diff_no_text": 2.2
+ },
+ "text_timing": {
+  "detected": [
+   2.0,
+   4.0
+  ],
+  "expected": [
+   2.0,
+   4.0
+  ],
+  "offset_s": [
+   0.0,
+   0.0
+  ],
+  "on_beat_120bpm": true
+ },
+ "audio": {
+  "streams": 0,
+  "note": "bez zvučnog zapisa — po pravilu korisnika (muziku dodaje u TikTok-u)"
+ },
+ "repetition": {
+  "in_video": [],
+  "across_videos": []
+ },
+ "issues": [],
+ "sheets": [
+  "studio/inspections/stoic_edit_29/sheet_time.jpg",
+  "studio/inspections/stoic_edit_29/sheet_cuts.jpg"
+ ],
+ "history": [
+  {
+   "at": "2026-11-20T14:46:35",
+   "approved": false,
+   "issues": 2
+  }
+ ],
+ "approval": {
+  "technical_pass": true,
+  "vision_reviewed": true,
+  "weak_scenes": 0,
+  "creative_score": 89,
+  "approved": false,
+  "blocking": [
+   "kreativna ocena 89 < 90"
+  ]
+ },
+ "vision_review": {
+  "reviewer": "Claude (vision) — kontakt-list 0.5 s + frejmovi oko rezova i loop spoja; video NIJE gledan u pokretu",
+  "summary": "Najjača priča do sada: čovek ide ka svom autu ispred nebodera (hook) -> PROOF: sam u 3 ujutru za laptopom -> ostrvo -> njegov auto i grad -> loop. AI materijal (Canva) originalan, bez logoa; krilo aviona sa natpisom izbačeno.",
+  "scenes": [
+   {
+    "index": 0,
+    "verdict": "good",
+    "note": "najjači hook kadar: auto, neboder, kiša, čovek"
+   }
+  ],
+  "storytelling": "Kontrast prošlost/sadašnjost sa jasnim obrtom; slika = rečenica.",
+  "creative_score": 89,
+  "breakdown": {
+   "storytelling": 19,
+   "visual": 18,
+   "hook": 14,
+   "cinematography": 13,
+   "sound": 9,
+   "editing": 8,
+   "originality": 8
+  },
+  "recommendations": [
+   "Samo 2 AI slike -> kadrovi su isečci; sa više AI slika (nova Canva kvota) 90+",
+   "Kadar ostrva je stok, svetliji od AI kadrova"
+  ]
+ }
+}

@@ -1,0 +1,75 @@
+[
+ {
+  "klip": "stoic_edit_30",
+  "datum": "2026-11-20",
+  "ocene": [
+   67,
+   79,
+   87
+  ],
+  "promene": [
+   "krug 1: izbačeni aerodromi/natpis, jedan svet (poker), lice junaka na hook",
+   "krug 2: go all in = guranje žetona, gamma na tamne kadrove",
+   "krug 3 (unapređivač): upaljač izbačen -> 5231 (crvena kravata gura žetone) pod 'Bet on yourself'; RISK 6x0.333 s sa 4 nova Mixkit snimka (40501, 5238, 5234, 40510); 40500 (natpis stola) i 40498 (mutno) odbačeni",
+   "krug 3: mk_5230 start 3.7 s (best_moment je birao 6.83 s - žetoni miruju) -> ruke guraju sve žetone kroz ceo kadar",
+   "krug 3: nova opcija 'hits' u stoic/edit.py (punch-in 12% + beli blic 2 frejma) na 2.0 i 4.0 s; qc_inspect ne broji blic kao kadar",
+   "krug 3: gamma 1.4-2.0 na tamnim kadrovima -> luma 0.18-0.22 -> 0.22-0.31"
+  ],
+  "najveci_skok": "jedan junak + slika pogađa tekst (+12); zatim tempo RISK 0.333 s + udarci na smeni teksta (+8)",
+  "preostalo": "luma 0.22-0.26 (izvori 40500-serije sirovo 0.10-0.15); kockice = drugi igrač; reč RISK sitna (format)"
+ },
+ {
+  "klip": "stoic_edit_31",
+  "datum": "2026-11-20",
+  "ocene": [
+   76,
+   82,
+   85,
+   86,
+   87
+  ],
+  "promene": [
+   "krug 1: hook = px_13801264 (portret pred NYSE, gamma 1.3, luma 0.215 -> 0.32); high five (273) samo kao kraj 1.0 s; silueta 255 izbačena -> 275 (spušta telefon) za 'not things'; 289 izbačen; 281 (720p) zamenjen 1440p verzijom i koristi se za glavu u šaci (5.8 s) umesto drugog 'gleda u sat'; mk_28893 xc 0.0 start 1.5 (osovina + obe kazaljke + broj 10); 276 (zabrinut nad laptopom u sumrak) u TIME bloku; 288 start 4.1; tempo posle 4.0 s 0.5/0.5/0.5/1.0",
+   "krug 2: nova opcija 'hook_y' u stoic/edit.py (hook tekst pomeren na 0.25H iznad lica; podrazumevano isključeno) + qc_inspect maskira i hook traku pri merenju loop spoja; 269 (leđa, tamno) -> 271 (partnerka stiska pesnicu)",
+   "krug 3: gamma 1.4 na 276 (0.17 -> 0.26), 1.35 na 271, 1.2 na 281",
+   "krug 4: Mizuno K set proširen nadole (13801225-13801249); 268 (statičan) -> 230 (junak ide ka kameri u zlatnom svetlu, start 9.2 da lice bude iznad teksta); 288 start 4.4 (mutan ulaz ruku, Laplacian 17 -> 31)",
+   "automatska provera: qc_inspect 'dark_hook' (major) za stoic_edit kad je luma hook kadra < 0.28 - ponavljalo se u 30 i 31"
+  ],
+  "najveci_skok": "svetao portret junaka na prvom frejmu sa tekstom iznad lica (+6); zatim TIME blok sa istim junakom umesto siluete/apstraktnih linija (+3)",
+  "preostalo": "87/100 - u setu nema slike za 'not things' (odbija kupovinu); hook statičan portret; 293 u teget odelu; hook tekst na 0.25H prekriva lica u kadrovima 0.5-1.0 i 1.5-2.0"
+ },
+ {
+  "klip": "stoic_edit_32",
+  "datum": "2026-11-20",
+  "ocene": [
+   63,
+   74,
+   79,
+   81
+  ],
+  "promene": [
+   "krug 1: loop = mk_51534 @1.5 (ona gleda gore, gamma 1.7, luma 0.28) - hook i šav loop-a; izbačeni 51569/51555/51560 (pene), 51535 (ispijanje), 51536 (muškarac), 51550, 51522; SPRINT = 51529 (ona kucne čašom) + 51539; 51537 tako da čep pukne tačno na 4.0 s; nova opcija 'flash' u stoic/edit.py (32: 0.22/0.08; podrazumevano 0.55/0.25 - 30/31/33 netaknuti); trajanja u celim frejmovima (0.7667/0.7333) - 0.75 s je pravio kadar od 1 frejma na rezu",
+   "krug 2: hook_y 0.62 (tekst skinut sa očiju), 51530 start 0.4 (kićanka više ne pokriva lice), 51529 xc 0.78 start 3.6 (njeno lice u kadru), 51539 noćni kadar @7.2 gamma 1.6 (0.046 -> 0.171), krimi ton po novom pravilu",
+   "krug 3: hook_y 0.70 (0.76 izlazi iz sigurne zone), 51539 xc 0.92 - iskra prskalice pomerena levo od reči SPRINT"
+  ],
+  "najveci_skok": "junakinja na prvom frejmu + čep tačno na drop 4.0 s; izbacivanje tri iste pene i muškarca iz 51536",
+  "preostalo": "81 < 90: set ima samo 4 snimka junakinje (svaki sme jednom), nema hoda/vrata/hladnog pogleda; završni kadar 2.73 s; 2.77-3.77 nije ona; ton slavljenički. Pregledano i odbačeno 51540-51573 (čaše/apstraktno/drugi svet), 51532/51533 (drugi likovi)."
+ },
+ {
+  "klip": "stoic_edit_33",
+  "datum": "2026-11-20",
+  "ocene": [
+   71,
+   83,
+   85,
+   86
+  ],
+  "promene": [
+   "krug 1: luk obrnut - AMBITION = gradnja (3970 kran u suncu na hit 2.0, 40718, 49870, 1587, 2010; 0.4 s), 'build from nothing' = noćni grad (novi 49872 osvetljen toranj, 49873 noćni skyline, 49871 plavi sat); pesak = novi 51785 + 2786 + 51794@19; izbačeni 52009, 2093 (sneg), 314 (par), 49822/49826/49860/49863 (Kapitol, gomila kula); nova Mixkit serija 49871-49878 (Austin noću, portret 1080x1920)",
+   "krug 2: gamma na sve tamne kadrove (51785 1.3, 51794 1.35, 40718 1.55, 49870 1.4, 1587 1.3, 49872 1.45, 49873 1.75, 49871 1.6), 3970 start 11.0 + contrast 1.2 (kran jasan, nije mlečan), 49871 start 1.0 (širi plan); 51785 xc 0.15 @8.0 jer je qc javio lažni repeat_across_videos sa stoic_edit_26 (horizont nebo/tlo)",
+   "krug 3: proba 49873 gamma 1.95+contrast -> luma pala 0.182->0.175 i mlečno; vraćeno na 1.75"
+  ],
+  "najveci_skok": "obrnut luk (gradnja pod AMBITION, noćni grad pod 'build') + izbacivanje snega/para/Kapitola: 71 -> 83",
+  "preostalo": "86 < 90: 49873 noćni skyline 0.18 (izvor 0.10, gamma ne pomaže dalje); sve dron/total bez detalja/lica; Austin umesto Dubaija. Mixkit Dubai noćni snimci (20109, 20111, 30992, 39451...) postoje samo u 720p - pravilo 1080p ih isključuje."
+ }
+]

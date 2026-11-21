@@ -1,0 +1,364 @@
+{
+ "id": "stoic_edit_22",
+ "file": "videos/stoic/stoic_edit_22.mp4",
+ "inspected_at": "2026-11-20T09:48:25",
+ "method": "Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.",
+ "meta": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "duration": 7.0,
+  "vcodec": "h264",
+  "pix_fmt": "yuv420p",
+  "video_streams": 1,
+  "audio_streams": 0,
+  "acodec": null,
+  "bitrate_kbps": 24391
+ },
+ "expected": {
+  "texts": [],
+  "text_changes": [
+   2.0,
+   4.0
+  ],
+  "silent": true,
+  "loop": true,
+  "kind": "stoic_edit",
+  "dur": [
+   7,
+   11
+  ],
+  "planned_cuts": [
+   0.5,
+   1.0,
+   1.5,
+   2.0,
+   2.233,
+   2.5,
+   2.733,
+   3.0,
+   3.233,
+   3.5,
+   3.733,
+   4.0,
+   4.5,
+   5.0,
+   5.5,
+   6.0,
+   6.5
+  ],
+  "min_luma": 0.07,
+  "min_shot": 0.2
+ },
+ "technical": {
+  "resolution_ok": true,
+  "aspect": "1080:1920",
+  "fps_ok": true,
+  "duration_ok": true,
+  "audio_rule_ok": true,
+  "frames_decoded": 210,
+  "frames_expected": 210
+ },
+ "shots": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.5,
+   "dur": 0.5,
+   "luma": 0.12,
+   "sharpness": 91.8,
+   "overexposed_frac": 0.01,
+   "hue": 94.3
+  },
+  {
+   "index": 1,
+   "start": 0.5,
+   "end": 1.0,
+   "dur": 0.5,
+   "luma": 0.314,
+   "sharpness": 162.7,
+   "overexposed_frac": 0.01,
+   "hue": 101.8
+  },
+  {
+   "index": 2,
+   "start": 1.0,
+   "end": 1.5,
+   "dur": 0.5,
+   "luma": 0.267,
+   "sharpness": 86.1,
+   "overexposed_frac": 0.01,
+   "hue": 100.1
+  },
+  {
+   "index": 3,
+   "start": 1.5,
+   "end": 2.0,
+   "dur": 0.5,
+   "luma": 0.148,
+   "sharpness": 86.2,
+   "overexposed_frac": 0.01,
+   "hue": 96.1
+  },
+  {
+   "index": 4,
+   "start": 2.0,
+   "end": 2.5,
+   "dur": 0.5,
+   "luma": 0.25,
+   "sharpness": 114.2,
+   "overexposed_frac": 0.0,
+   "hue": 101.5
+  },
+  {
+   "index": 5,
+   "start": 2.5,
+   "end": 2.733,
+   "dur": 0.233,
+   "luma": 0.2,
+   "sharpness": 69.2,
+   "overexposed_frac": 0.0,
+   "hue": 66.7
+  },
+  {
+   "index": 6,
+   "start": 2.733,
+   "end": 3.0,
+   "dur": 0.267,
+   "luma": 0.31,
+   "sharpness": 145.5,
+   "overexposed_frac": 0.0,
+   "hue": 101.8
+  },
+  {
+   "index": 7,
+   "start": 3.0,
+   "end": 3.733,
+   "dur": 0.733,
+   "luma": 0.368,
+   "sharpness": 61.2,
+   "overexposed_frac": 0.0,
+   "hue": 100.0
+  },
+  {
+   "index": 8,
+   "start": 3.733,
+   "end": 4.0,
+   "dur": 0.267,
+   "luma": 0.099,
+   "sharpness": 69.1,
+   "overexposed_frac": 0.0,
+   "hue": 101.5
+  },
+  {
+   "index": 9,
+   "start": 4.0,
+   "end": 4.5,
+   "dur": 0.5,
+   "luma": 0.192,
+   "sharpness": 106.2,
+   "overexposed_frac": 0.0,
+   "hue": 66.2
+  },
+  {
+   "index": 10,
+   "start": 4.5,
+   "end": 5.5,
+   "dur": 1.0,
+   "luma": 0.192,
+   "sharpness": 372.3,
+   "overexposed_frac": 0.001,
+   "hue": 62.8
+  },
+  {
+   "index": 11,
+   "start": 5.5,
+   "end": 6.0,
+   "dur": 0.5,
+   "luma": 0.302,
+   "sharpness": 141.2,
+   "overexposed_frac": 0.001,
+   "hue": 61.8
+  },
+  {
+   "index": 12,
+   "start": 6.0,
+   "end": 6.5,
+   "dur": 0.5,
+   "luma": 0.239,
+   "sharpness": 66.5,
+   "overexposed_frac": 0.001,
+   "hue": 91.6
+  },
+  {
+   "index": 13,
+   "start": 6.5,
+   "end": 7.0,
+   "dur": 0.5,
+   "luma": 0.106,
+   "sharpness": 84.1,
+   "overexposed_frac": 0.001,
+   "hue": 92.4
+  }
+ ],
+ "cuts": [
+  0.5,
+  1.0,
+  1.5,
+  2.0,
+  2.5,
+  2.733,
+  3.0,
+  3.733,
+  4.0,
+  4.5,
+  5.5,
+  6.0,
+  6.5
+ ],
+ "dissolves": [],
+ "continuity": [
+  {
+   "t": 0.5,
+   "luma_jump": 0.203,
+   "hue_jump": 10.1
+  },
+  {
+   "t": 1.0,
+   "luma_jump": 0.044,
+   "hue_jump": 1.5
+  },
+  {
+   "t": 1.5,
+   "luma_jump": 0.118,
+   "hue_jump": 3.8
+  },
+  {
+   "t": 2.0,
+   "luma_jump": 0.084,
+   "hue_jump": 3.7
+  },
+  {
+   "t": 2.5,
+   "luma_jump": 0.046,
+   "hue_jump": 36.7
+  },
+  {
+   "t": 2.733,
+   "luma_jump": 0.108,
+   "hue_jump": 33.9
+  },
+  {
+   "t": 3.0,
+   "luma_jump": 0.018,
+   "hue_jump": 3.4
+  },
+  {
+   "t": 3.733,
+   "luma_jump": 0.295,
+   "hue_jump": 3.3
+  },
+  {
+   "t": 4.0,
+   "luma_jump": 0.091,
+   "hue_jump": 34.4
+  },
+  {
+   "t": 4.5,
+   "luma_jump": 0.03,
+   "hue_jump": 12.8
+  },
+  {
+   "t": 5.5,
+   "luma_jump": 0.142,
+   "hue_jump": 10.7
+  },
+  {
+   "t": 6.0,
+   "luma_jump": 0.067,
+   "hue_jump": 29.9
+  },
+  {
+   "t": 6.5,
+   "luma_jump": 0.136,
+   "hue_jump": 1.1
+  }
+ ],
+ "loop_seam": {
+  "seam_diff": 9.99,
+  "median_neighbor_diff": 4.08,
+  "ok": true,
+  "seam_diff_no_text": 3.42
+ },
+ "text_timing": {
+  "detected": [
+   2.0,
+   4.0,
+   4.433
+  ],
+  "expected": [
+   2.0,
+   4.0
+  ],
+  "offset_s": [
+   0.0,
+   0.0
+  ],
+  "on_beat_120bpm": true
+ },
+ "audio": {
+  "streams": 0,
+  "note": "bez zvučnog zapisa — po pravilu korisnika (muziku dodaje u TikTok-u)"
+ },
+ "repetition": {
+  "in_video": [],
+  "across_videos": []
+ },
+ "issues": [
+  {
+   "severity": "minor",
+   "type": "continuity",
+   "t": 3.733,
+   "msg": "nagli skok osvetljenosti na rezu (0.30)"
+  }
+ ],
+ "sheets": [
+  "studio/inspections/stoic_edit_22/sheet_time.jpg",
+  "studio/inspections/stoic_edit_22/sheet_cuts.jpg"
+ ],
+ "approval": {
+  "technical_pass": true,
+  "vision_reviewed": true,
+  "weak_scenes": 0,
+  "creative_score": 88,
+  "approved": false,
+  "blocking": [
+   "kreativna ocena 88 < 90"
+  ]
+ },
+ "vision_review": {
+  "reviewer": "Claude (vision) — kontakt-listovi 0.5 s + frejmovi oko rezova i loop spoja; video NIJE gledan u pokretu",
+  "summary": "Surfer gleda more -> talasi se ruše -> vesla, hvata i vozi talas -> silueta u zalasku. Jedan svet, jasan luk.",
+  "scenes": [
+   {
+    "index": 0,
+    "verdict": "good",
+    "note": "hook čitljiv, subjekat u kadru"
+   }
+  ],
+  "storytelling": "Priča + LUXE montaža.",
+  "creative_score": 88,
+  "breakdown": {
+   "storytelling": 19,
+   "visual": 17,
+   "hook": 14,
+   "cinematography": 13,
+   "sound": 9,
+   "editing": 10,
+   "originality": 8
+  },
+  "recommendations": [
+   "Pexels za jače hook kadrove"
+  ]
+ }
+}

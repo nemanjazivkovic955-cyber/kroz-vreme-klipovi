@@ -1,0 +1,250 @@
+{
+ "id": "m046",
+ "file": "videos/tiktok_loops/m046.mp4",
+ "inspected_at": "2026-11-19T13:03:45",
+ "method": "Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.",
+ "meta": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "duration": 12.0,
+  "vcodec": "h264",
+  "pix_fmt": "yuv420p",
+  "video_streams": 1,
+  "audio_streams": 0,
+  "acodec": null,
+  "bitrate_kbps": 33464
+ },
+ "expected": {
+  "texts": [
+   "Sore today. Or sorry in ten years?",
+   "Soreness fades in two days.",
+   "Regret compounds for years.",
+   "Your future self is watching.",
+   "Pick the pain that pays.",
+   "So which one… sore, or sorry?"
+  ],
+  "text_changes": [
+   2.0,
+   4.0,
+   6.0,
+   8.0,
+   10.0
+  ],
+  "silent": true,
+  "loop": true,
+  "kind": "tiktok_loop_v2"
+ },
+ "technical": {
+  "resolution_ok": true,
+  "aspect": "1080:1920",
+  "fps_ok": true,
+  "duration_ok": true,
+  "audio_rule_ok": true,
+  "frames_decoded": 360,
+  "frames_expected": 360
+ },
+ "shots": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 2.0,
+   "dur": 2.0,
+   "luma": 0.322,
+   "sharpness": 82.5,
+   "overexposed_frac": 0.0,
+   "hue": 96.5
+  },
+  {
+   "index": 1,
+   "start": 2.0,
+   "end": 4.0,
+   "dur": 2.0,
+   "luma": 0.262,
+   "sharpness": 69.0,
+   "overexposed_frac": 0.0,
+   "hue": 81.8
+  },
+  {
+   "index": 2,
+   "start": 4.0,
+   "end": 6.0,
+   "dur": 2.0,
+   "luma": 0.281,
+   "sharpness": 84.8,
+   "overexposed_frac": 0.0,
+   "hue": 50.8
+  },
+  {
+   "index": 3,
+   "start": 6.0,
+   "end": 8.0,
+   "dur": 2.0,
+   "luma": 0.318,
+   "sharpness": 34.7,
+   "overexposed_frac": 0.0,
+   "hue": 17.5
+  },
+  {
+   "index": 4,
+   "start": 8.0,
+   "end": 9.0,
+   "dur": 1.0,
+   "luma": 0.304,
+   "sharpness": 46.1,
+   "overexposed_frac": 0.0,
+   "hue": 85.0
+  },
+  {
+   "index": 5,
+   "start": 9.0,
+   "end": 10.0,
+   "dur": 1.0,
+   "luma": 0.33,
+   "sharpness": 43.3,
+   "overexposed_frac": 0.0,
+   "hue": 57.3
+  },
+  {
+   "index": 6,
+   "start": 10.0,
+   "end": 12.0,
+   "dur": 2.0,
+   "luma": 0.317,
+   "sharpness": 87.5,
+   "overexposed_frac": 0.0,
+   "hue": 97.0
+  }
+ ],
+ "cuts": [
+  2.0,
+  4.0,
+  6.0,
+  8.0,
+  9.0,
+  10.0
+ ],
+ "dissolves": [],
+ "continuity": [
+  {
+   "t": 2.0,
+   "luma_jump": 0.076,
+   "hue_jump": 10.6
+  },
+  {
+   "t": 4.0,
+   "luma_jump": 0.005,
+   "hue_jump": 29.9
+  },
+  {
+   "t": 6.0,
+   "luma_jump": 0.01,
+   "hue_jump": 32.1
+  },
+  {
+   "t": 8.0,
+   "luma_jump": 0.03,
+   "hue_jump": 67.5
+  },
+  {
+   "t": 9.0,
+   "luma_jump": 0.051,
+   "hue_jump": 25.3
+  },
+  {
+   "t": 10.0,
+   "luma_jump": 0.008,
+   "hue_jump": 32.4
+  }
+ ],
+ "loop_seam": {
+  "seam_diff": 11.73,
+  "median_neighbor_diff": 3.42,
+  "ok": true,
+  "seam_diff_no_text": 3.16
+ },
+ "text_timing": {
+  "detected": [
+   2.0,
+   4.0,
+   6.0,
+   8.0,
+   10.0
+  ],
+  "expected": [
+   2.0,
+   4.0,
+   6.0,
+   8.0,
+   10.0
+  ],
+  "offset_s": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "on_beat_120bpm": true
+ },
+ "audio": {
+  "streams": 0,
+  "note": "bez zvučnog zapisa — po pravilu korisnika (muziku dodaje u TikTok-u)"
+ },
+ "repetition": {
+  "in_video": [],
+  "across_videos": []
+ },
+ "issues": [],
+ "sheets": [
+  "studio/inspections/m046/sheet_time.jpg",
+  "studio/inspections/m046/sheet_cuts.jpg"
+ ],
+ "history": [
+  {
+   "at": "2026-11-19T09:53:55",
+   "approved": false,
+   "issues": 2
+  },
+  {
+   "at": "2026-11-19T09:54:30",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-19T10:08:52",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-19T10:23:34",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-19T10:34:29",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-19T11:06:38",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-19T13:01:50",
+   "approved": false,
+   "issues": 0
+  }
+ ],
+ "approval": {
+  "technical_pass": true,
+  "vision_reviewed": false,
+  "weak_scenes": 0,
+  "creative_score": null,
+  "approved": false,
+  "blocking": [
+   "nema vizuelnog pregleda"
+  ]
+ }
+}

@@ -1,0 +1,442 @@
+{
+ "id": "stoic_edit_31",
+ "file": "videos/stoic/stoic_edit_31.mp4",
+ "inspected_at": "2026-11-20T19:59:10",
+ "method": "Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.",
+ "meta": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "duration": 7.0,
+  "vcodec": "h264",
+  "pix_fmt": "yuv420p",
+  "video_streams": 1,
+  "audio_streams": 0,
+  "acodec": null,
+  "bitrate_kbps": 24525
+ },
+ "expected": {
+  "texts": [],
+  "text_changes": [
+   2.0,
+   4.0
+  ],
+  "silent": true,
+  "loop": true,
+  "kind": "stoic_edit",
+  "dur": [
+   7,
+   11
+  ],
+  "planned_cuts": [
+   0.5,
+   1.0,
+   1.5,
+   2.0,
+   2.333,
+   2.667,
+   3.0,
+   3.333,
+   3.666,
+   4.0,
+   4.5,
+   5.0,
+   5.5,
+   6.5
+  ],
+  "hits": [
+   2.0,
+   4.0
+  ],
+  "hook_y": 0.25,
+  "min_luma": 0.07,
+  "min_shot": 0.2
+ },
+ "technical": {
+  "resolution_ok": true,
+  "aspect": "1080:1920",
+  "fps_ok": true,
+  "duration_ok": true,
+  "audio_rule_ok": true,
+  "frames_decoded": 210,
+  "frames_expected": 210
+ },
+ "shots": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.5,
+   "dur": 0.5,
+   "luma": 0.32,
+   "sharpness": 353.2,
+   "overexposed_frac": 0.007,
+   "hue": 121.2
+  },
+  {
+   "index": 1,
+   "start": 0.5,
+   "end": 1.0,
+   "dur": 0.5,
+   "luma": 0.284,
+   "sharpness": 386.7,
+   "overexposed_frac": 0.007,
+   "hue": 110.2
+  },
+  {
+   "index": 2,
+   "start": 1.0,
+   "end": 1.5,
+   "dur": 0.5,
+   "luma": 0.315,
+   "sharpness": 471.5,
+   "overexposed_frac": 0.007,
+   "hue": 102.6
+  },
+  {
+   "index": 3,
+   "start": 1.5,
+   "end": 2.0,
+   "dur": 0.5,
+   "luma": 0.296,
+   "sharpness": 380.7,
+   "overexposed_frac": 0.007,
+   "hue": 105.8
+  },
+  {
+   "index": 4,
+   "start": 2.0,
+   "end": 3.0,
+   "dur": 1.0,
+   "luma": 0.334,
+   "sharpness": 115.4,
+   "overexposed_frac": 0.0,
+   "hue": 109.5
+  },
+  {
+   "index": 5,
+   "start": 3.0,
+   "end": 3.333,
+   "dur": 0.333,
+   "luma": 0.262,
+   "sharpness": 159.1,
+   "overexposed_frac": 0.0,
+   "hue": 113.0
+  },
+  {
+   "index": 6,
+   "start": 3.333,
+   "end": 3.667,
+   "dur": 0.333,
+   "luma": 0.362,
+   "sharpness": 68.2,
+   "overexposed_frac": 0.0,
+   "hue": 105.9
+  },
+  {
+   "index": 7,
+   "start": 3.667,
+   "end": 4.0,
+   "dur": 0.333,
+   "luma": 0.235,
+   "sharpness": 234.0,
+   "overexposed_frac": 0.0,
+   "hue": 108.5
+  },
+  {
+   "index": 8,
+   "start": 4.0,
+   "end": 4.5,
+   "dur": 0.5,
+   "luma": 0.314,
+   "sharpness": 31.3,
+   "overexposed_frac": 0.001,
+   "hue": 109.4
+  },
+  {
+   "index": 9,
+   "start": 4.5,
+   "end": 5.0,
+   "dur": 0.5,
+   "luma": 0.279,
+   "sharpness": 99.9,
+   "overexposed_frac": 0.002,
+   "hue": 107.7
+  },
+  {
+   "index": 10,
+   "start": 5.0,
+   "end": 5.5,
+   "dur": 0.5,
+   "luma": 0.236,
+   "sharpness": 99.3,
+   "overexposed_frac": 0.002,
+   "hue": 112.1
+  },
+  {
+   "index": 11,
+   "start": 5.5,
+   "end": 6.5,
+   "dur": 1.0,
+   "luma": 0.285,
+   "sharpness": 133.0,
+   "overexposed_frac": 0.002,
+   "hue": 104.5
+  },
+  {
+   "index": 12,
+   "start": 6.5,
+   "end": 7.0,
+   "dur": 0.5,
+   "luma": 0.333,
+   "sharpness": 190.9,
+   "overexposed_frac": 0.002,
+   "hue": 121.7
+  }
+ ],
+ "cuts": [
+  0.5,
+  1.0,
+  1.5,
+  2.0,
+  3.0,
+  3.333,
+  3.667,
+  4.0,
+  4.5,
+  5.0,
+  5.5,
+  6.5
+ ],
+ "dissolves": [],
+ "continuity": [
+  {
+   "t": 0.5,
+   "luma_jump": 0.032,
+   "hue_jump": 11.1
+  },
+  {
+   "t": 1.0,
+   "luma_jump": 0.029,
+   "hue_jump": 8.2
+  },
+  {
+   "t": 1.5,
+   "luma_jump": 0.024,
+   "hue_jump": 2.2
+  },
+  {
+   "t": 2.0,
+   "luma_jump": 0.21,
+   "hue_jump": 4.2
+  },
+  {
+   "t": 3.0,
+   "luma_jump": 0.062,
+   "hue_jump": 2.8
+  },
+  {
+   "t": 3.333,
+   "luma_jump": 0.104,
+   "hue_jump": 7.2
+  },
+  {
+   "t": 3.667,
+   "luma_jump": 0.124,
+   "hue_jump": 2.6
+  },
+  {
+   "t": 4.0,
+   "luma_jump": 0.228,
+   "hue_jump": 0.3
+  },
+  {
+   "t": 4.5,
+   "luma_jump": 0.005,
+   "hue_jump": 3.0
+  },
+  {
+   "t": 5.0,
+   "luma_jump": 0.032,
+   "hue_jump": 4.7
+  },
+  {
+   "t": 5.5,
+   "luma_jump": 0.043,
+   "hue_jump": 6.5
+  },
+  {
+   "t": 6.5,
+   "luma_jump": 0.05,
+   "hue_jump": 15.5
+  }
+ ],
+ "loop_seam": {
+  "seam_diff": 17.83,
+  "median_neighbor_diff": 3.24,
+  "ok": true,
+  "seam_diff_no_text": 5.81
+ },
+ "text_timing": {
+  "detected": [
+   2.0,
+   4.0
+  ],
+  "expected": [
+   2.0,
+   4.0
+  ],
+  "offset_s": [
+   0.0,
+   0.0
+  ],
+  "on_beat_120bpm": true
+ },
+ "audio": {
+  "streams": 0,
+  "note": "bez zvučnog zapisa — po pravilu korisnika (muziku dodaje u TikTok-u)"
+ },
+ "repetition": {
+  "in_video": [],
+  "across_videos": []
+ },
+ "issues": [],
+ "sheets": [
+  "studio/inspections/stoic_edit_31/sheet_time.jpg",
+  "studio/inspections/stoic_edit_31/sheet_cuts.jpg"
+ ],
+ "vision_review": {
+  "reviewer": "Claude (klip-unapredjivac, vision) — kontakt-listovi rezova/vremena + izvučeni frejmovi 1.55-3.9 s i 3.95-5.15 s; video NIJE gledan u pokretu",
+  "summary": "Jedan junak (sivo odelo, Mizuno K set): portret pred NYSE (hook, tekst IZNAD lica - nova opcija hook_y 0.25) -> gleda u sat -> potpisuje -> spušta telefon -> TIME 6x0.333 s (sekundara na 12, glava u šaci, osovina sa obe kazaljke, zabrinut nad laptopom u sumrak, metalni sat, trlja oči) -> BUY BACK: rukovanje (bez ispranog početka) -> ide slobodan ka kameri u zlatnom svetlu -> partnerka stiska pesnicu -> high five 1.0 s -> loop na portret.",
+  "scenes": [
+   {
+    "index": 0,
+    "verdict": "good",
+    "note": "portret pred NYSE + zastava, luma 0.32 (bilo 0.215), lice slobodno - hook iznad glave"
+   },
+   {
+    "index": 1,
+    "verdict": "ok",
+    "note": "gleda u sat, sat jasan; hook tekst prekriva lice (glava gore u kadru)"
+   },
+   {
+    "index": 2,
+    "verdict": "good",
+    "note": "potpisuje - kupuje, lice vidljivo"
+   },
+   {
+    "index": 3,
+    "verdict": "ok",
+    "note": "spušta telefon - 'not things' samo naznačeno; lice pod tekstom"
+   },
+   {
+    "index": 4,
+    "verdict": "good",
+    "note": "TIME: sekundara na 12 + blic, glava u šaci (1440p), osovina + obe kazaljke + broj 10"
+   },
+   {
+    "index": 5,
+    "verdict": "good",
+    "note": "zabrinut nad laptopom u sumrak (gamma 1.4, luma 0.26)"
+   },
+   {
+    "index": 6,
+    "verdict": "good",
+    "note": "metalni sat, kazaljke"
+   },
+   {
+    "index": 7,
+    "verdict": "ok",
+    "note": "trlja oči uza zid - teget odelo (druga garderoba), luma 0.235"
+   },
+   {
+    "index": 8,
+    "verdict": "good",
+    "note": "rukovanje od prvog frejma (start 4.4), oštro posle blica"
+   },
+   {
+    "index": 9,
+    "verdict": "good",
+    "note": "junak ide ka kameri, sako preko ramena, oči zatvorene - sloboda; lice iznad teksta"
+   },
+   {
+    "index": 10,
+    "verdict": "ok",
+    "note": "partnerka stiska pesnicu (ista žena kao u high five), luma 0.236"
+   },
+   {
+    "index": 11,
+    "verdict": "good",
+    "note": "high five 1.0 s - vrhunac"
+   },
+   {
+    "index": 12,
+    "verdict": "good",
+    "note": "portret pred NYSE - kraj = početak, spoj 5.3 bez teksta"
+   }
+  ],
+  "storytelling": "Tvrdnja (bogati kupuju vreme) -> problem (vreme curi: satovi + stres, ubrzanje 0.333 s) -> odluka (rukovanje na 4.0 s) -> sloboda/radost -> vlasnik pred NYSE; jedna ideja sa zasluženim krajem. 'Not things' nema svoju sliku.",
+  "creative_score": 87,
+  "breakdown": {
+   "storytelling": 18,
+   "visual": 17,
+   "hook": 13,
+   "cinematography": 13,
+   "sound": 9,
+   "editing": 9,
+   "originality": 8
+  },
+  "recommendations": [
+   "Nedostaje slika za 'not things' (junak odbija kupovinu / ostavlja stvari) - u setu Mizuno K (13801225-13801295) ne postoji; bez nje storytelling i vizuelno ostaju 17-18",
+   "Hook je statičan portret: probati px_13801230 (junak ide ka kameri, 8.5-9.5 s) kao loop/hook - pokret + lice, ali traži proveru teksta i spoja",
+   "px_13801293 je u teget odelu (druga garderoba) - zameniti kadrom junaka u sivom ako se nađe",
+   "Hook tekst na 0.25H prekriva lica u kadrovima 1 i 3 (lice gore u kadru) - za hook_y birati kadrove sa licem u sredini/dole"
+  ]
+ },
+ "history": [
+  {
+   "at": "2026-11-20T19:42:28",
+   "approved": false,
+   "issues": 2
+  },
+  {
+   "at": "2026-11-20T19:50:31",
+   "approved": false,
+   "issues": 1
+  },
+  {
+   "at": "2026-11-20T19:52:50",
+   "approved": false,
+   "issues": 2
+  },
+  {
+   "at": "2026-11-20T19:53:17",
+   "approved": false,
+   "issues": 1
+  },
+  {
+   "at": "2026-11-20T19:54:34",
+   "approved": false,
+   "issues": 1
+  },
+  {
+   "at": "2026-11-20T19:57:10",
+   "approved": false,
+   "issues": 1
+  },
+  {
+   "at": "2026-11-20T19:58:17",
+   "approved": false,
+   "issues": 0
+  }
+ ],
+ "approval": {
+  "technical_pass": true,
+  "vision_reviewed": true,
+  "weak_scenes": 0,
+  "creative_score": 87,
+  "approved": false,
+  "blocking": [
+   "kreativna ocena 87 < 90"
+  ]
+ }
+}

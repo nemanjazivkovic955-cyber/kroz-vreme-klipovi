@@ -1,0 +1,381 @@
+{
+ "id": "stoic_edit_12",
+ "file": "videos/stoic/stoic_edit_12.mp4",
+ "inspected_at": "2026-11-19T16:15:37",
+ "method": "Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.",
+ "meta": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "duration": 7.0,
+  "vcodec": "h264",
+  "pix_fmt": "yuv420p",
+  "video_streams": 1,
+  "audio_streams": 0,
+  "acodec": null,
+  "bitrate_kbps": 24318
+ },
+ "expected": {
+  "texts": [],
+  "text_changes": [
+   2.0,
+   4.0
+  ],
+  "silent": true,
+  "loop": true,
+  "kind": "stoic_edit",
+  "dur": [
+   7,
+   11
+  ],
+  "planned_cuts": [
+   0.5,
+   1.0,
+   1.5,
+   2.0,
+   2.5,
+   3.0,
+   3.5,
+   4.0,
+   4.5,
+   5.0,
+   5.5,
+   5.75,
+   6.0,
+   6.25,
+   6.5
+  ],
+  "min_luma": 0.07,
+  "min_shot": 0.2
+ },
+ "technical": {
+  "resolution_ok": true,
+  "aspect": "1080:1920",
+  "fps_ok": true,
+  "duration_ok": true,
+  "audio_rule_ok": true,
+  "frames_decoded": 210,
+  "frames_expected": 210
+ },
+ "shots": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.5,
+   "dur": 0.5,
+   "luma": 0.274,
+   "sharpness": 58.5,
+   "overexposed_frac": 0.007,
+   "hue": 33.0
+  },
+  {
+   "index": 1,
+   "start": 0.5,
+   "end": 1.0,
+   "dur": 0.5,
+   "luma": 0.491,
+   "sharpness": 243.2,
+   "overexposed_frac": 0.007,
+   "hue": 57.7
+  },
+  {
+   "index": 2,
+   "start": 1.0,
+   "end": 1.5,
+   "dur": 0.5,
+   "luma": 0.321,
+   "sharpness": 84.4,
+   "overexposed_frac": 0.007,
+   "hue": 95.5
+  },
+  {
+   "index": 3,
+   "start": 1.5,
+   "end": 2.0,
+   "dur": 0.5,
+   "luma": 0.553,
+   "sharpness": 145.4,
+   "overexposed_frac": 0.007,
+   "hue": 56.0
+  },
+  {
+   "index": 4,
+   "start": 2.0,
+   "end": 2.5,
+   "dur": 0.5,
+   "luma": 0.41,
+   "sharpness": 257.7,
+   "overexposed_frac": 0.0,
+   "hue": 85.5
+  },
+  {
+   "index": 5,
+   "start": 2.5,
+   "end": 3.0,
+   "dur": 0.5,
+   "luma": 0.378,
+   "sharpness": 106.4,
+   "overexposed_frac": 0.0,
+   "hue": 85.0
+  },
+  {
+   "index": 6,
+   "start": 3.0,
+   "end": 3.5,
+   "dur": 0.5,
+   "luma": 0.194,
+   "sharpness": 452.1,
+   "overexposed_frac": 0.0,
+   "hue": 50.0
+  },
+  {
+   "index": 7,
+   "start": 3.5,
+   "end": 4.0,
+   "dur": 0.5,
+   "luma": 0.427,
+   "sharpness": 507.7,
+   "overexposed_frac": 0.001,
+   "hue": 91.9
+  },
+  {
+   "index": 8,
+   "start": 4.0,
+   "end": 4.5,
+   "dur": 0.5,
+   "luma": 0.449,
+   "sharpness": 178.9,
+   "overexposed_frac": 0.001,
+   "hue": 76.8
+  },
+  {
+   "index": 9,
+   "start": 4.5,
+   "end": 5.0,
+   "dur": 0.5,
+   "luma": 0.543,
+   "sharpness": 67.2,
+   "overexposed_frac": 0.002,
+   "hue": 82.3
+  },
+  {
+   "index": 10,
+   "start": 5.0,
+   "end": 5.5,
+   "dur": 0.5,
+   "luma": 0.311,
+   "sharpness": 369.0,
+   "overexposed_frac": 0.002,
+   "hue": 67.2
+  },
+  {
+   "index": 11,
+   "start": 5.5,
+   "end": 5.767,
+   "dur": 0.267,
+   "luma": 0.466,
+   "sharpness": 90.0,
+   "overexposed_frac": 0.002,
+   "hue": 34.9
+  },
+  {
+   "index": 12,
+   "start": 5.767,
+   "end": 6.033,
+   "dur": 0.267,
+   "luma": 0.48,
+   "sharpness": 298.4,
+   "overexposed_frac": 0.002,
+   "hue": 54.1
+  },
+  {
+   "index": 13,
+   "start": 6.033,
+   "end": 6.3,
+   "dur": 0.267,
+   "luma": 0.338,
+   "sharpness": 100.1,
+   "overexposed_frac": 0.002,
+   "hue": 40.5
+  },
+  {
+   "index": 14,
+   "start": 6.3,
+   "end": 7.0,
+   "dur": 0.7,
+   "luma": 0.365,
+   "sharpness": 72.8,
+   "overexposed_frac": 0.002,
+   "hue": 52.9
+  }
+ ],
+ "cuts": [
+  0.5,
+  1.0,
+  1.5,
+  2.0,
+  2.5,
+  3.0,
+  3.5,
+  4.0,
+  4.5,
+  5.0,
+  5.5,
+  5.767,
+  6.033,
+  6.3
+ ],
+ "dissolves": [],
+ "continuity": [
+  {
+   "t": 0.5,
+   "luma_jump": 0.22,
+   "hue_jump": 24.8
+  },
+  {
+   "t": 1.0,
+   "luma_jump": 0.171,
+   "hue_jump": 38.3
+  },
+  {
+   "t": 1.5,
+   "luma_jump": 0.234,
+   "hue_jump": 40.6
+  },
+  {
+   "t": 2.0,
+   "luma_jump": 0.143,
+   "hue_jump": 28.4
+  },
+  {
+   "t": 2.5,
+   "luma_jump": 0.038,
+   "hue_jump": 0.5
+  },
+  {
+   "t": 3.0,
+   "luma_jump": 0.184,
+   "hue_jump": 34.5
+  },
+  {
+   "t": 3.5,
+   "luma_jump": 0.23,
+   "hue_jump": 41.7
+  },
+  {
+   "t": 4.0,
+   "luma_jump": 0.02,
+   "hue_jump": 16.7
+  },
+  {
+   "t": 4.5,
+   "luma_jump": 0.096,
+   "hue_jump": 5.1
+  },
+  {
+   "t": 5.0,
+   "luma_jump": 0.233,
+   "hue_jump": 14.5
+  },
+  {
+   "t": 5.5,
+   "luma_jump": 0.163,
+   "hue_jump": 32.4
+  },
+  {
+   "t": 5.767,
+   "luma_jump": 0.022,
+   "hue_jump": 19.8
+  },
+  {
+   "t": 6.033,
+   "luma_jump": 0.14,
+   "hue_jump": 12.3
+  },
+  {
+   "t": 6.3,
+   "luma_jump": 0.154,
+   "hue_jump": 46.5
+  }
+ ],
+ "loop_seam": {
+  "seam_diff": 14.55,
+  "median_neighbor_diff": 5.69,
+  "ok": true,
+  "seam_diff_no_text": 11.62
+ },
+ "text_timing": {
+  "detected": [
+   0.033,
+   2.0,
+   3.5,
+   3.933,
+   4.4,
+   6.433
+  ],
+  "expected": [
+   2.0,
+   4.0
+  ],
+  "offset_s": [
+   0.0,
+   0.0
+  ],
+  "on_beat_120bpm": true
+ },
+ "audio": {
+  "streams": 0,
+  "note": "bez zvučnog zapisa — po pravilu korisnika (muziku dodaje u TikTok-u)"
+ },
+ "repetition": {
+  "in_video": [],
+  "across_videos": []
+ },
+ "issues": [],
+ "sheets": [
+  "studio/inspections/stoic_edit_12/sheet_time.jpg",
+  "studio/inspections/stoic_edit_12/sheet_cuts.jpg"
+ ],
+ "history": [
+  {
+   "at": "2026-11-19T16:13:40",
+   "approved": false,
+   "issues": 1
+  }
+ ],
+ "approval": {
+  "technical_pass": true,
+  "vision_reviewed": true,
+  "weak_scenes": 0,
+  "creative_score": 87,
+  "approved": false,
+  "blocking": [
+   "kreativna ocena 87 < 90"
+  ]
+ },
+ "vision_review": {
+  "reviewer": "Claude (vision) — kontakt-listovi 0.5 s + frejmovi oko rezova i loop spoja; video NIJE gledan u pokretu",
+  "summary": "Salto, sneg, skok u bazen, vodopad, veslanje, skijanje, skejt - jasna energija rasta.",
+  "scenes": [
+   {
+    "index": 0,
+    "verdict": "good",
+    "note": "hook rečenica čitljiva, subjekat u kadru"
+   }
+  ],
+  "storytelling": "v4 ŽIVO: krupan hook + topli kolor + udarac zumom + završni burst 0.25 s.",
+  "creative_score": 87,
+  "breakdown": {
+   "storytelling": 17,
+   "visual": 17,
+   "hook": 14,
+   "cinematography": 14,
+   "sound": 9,
+   "editing": 10,
+   "originality": 8
+  },
+  "recommendations": [
+   "Uporediti v4 (živo) sa v3 (tamno) po % gledanja do kraja"
+  ]
+ }
+}

@@ -1,0 +1,182 @@
+{
+ "tiktok_loop_v1": {
+  "cycle": 0,
+  "score": 47,
+  "breakdown": {
+   "storytelling": 11,
+   "visual": 7,
+   "hook": 8,
+   "cinematography": 5,
+   "sound": 6,
+   "editing": 6,
+   "originality": 4
+  },
+  "evidence": "Kadrovi m034/m036: svih 6 smena teksta je isti snimak (gym silueta, pogled iz aviona); slika podeksponirana (COLD grade); hook šabloni (nobody_tells, feeling_q, watch_this); rezovi na 1 s unutar istog snimka deluju kao greška; loop spoj čist (razlika 1.8/255); bez zvuka po pravilu - ritam-mreža 120 BPM ok.",
+  "verdict": "ISPOD PRAGA - ne isporučivati bez dorade"
+ },
+ "quote_v2": {
+  "cycle": 0,
+  "score": 49,
+  "breakdown": {
+   "storytelling": 11,
+   "visual": 10,
+   "hook": 6,
+   "cinematography": 6,
+   "sound": 5,
+   "editing": 6,
+   "originality": 5
+  },
+  "evidence": "Otvara natpisom 'Quote of the Day' umesto hook-a; 27 s predugo; jedan stok snimak po klipu; tekst ravnomerno 5.2 s; snimci ponovljeni između serija.",
+  "verdict": "ISPOD PRAGA - format zamenjen TikTok standardom"
+ },
+ "quote_v1": {
+  "cycle": 0,
+  "score": 44,
+  "breakdown": {
+   "storytelling": 10,
+   "visual": 9,
+   "hook": 5,
+   "cinematography": 6,
+   "sound": 5,
+   "editing": 5,
+   "originality": 4
+  },
+  "evidence": "Jedan snimak, statičan tekst, bez hook-a, bez strukture.",
+  "verdict": "ISPOD PRAGA"
+ },
+ "talk_v1": {
+  "cycle": 0,
+  "score": 66,
+  "breakdown": {
+   "storytelling": 15,
+   "visual": 13,
+   "hook": 9,
+   "cinematography": 9,
+   "sound": 7,
+   "editing": 7,
+   "originality": 6
+  },
+  "evidence": "Pravi luk govora i više snimaka po temi; ali spor početak (1.5 s tišine + mirna rečenica), TTS glas neproveren uhom, isti xfade 0.7 s svuda, snimci ponovljeni iz QOTD serije.",
+  "verdict": "ISPOD PRAGA - najbolja osnova za dalji razvoj"
+ },
+ "the_price": {
+  "cycle": 0,
+  "score": 73,
+  "breakdown": {
+   "storytelling": 16,
+   "visual": 14,
+   "hook": 11,
+   "cinematography": 10,
+   "sound": 7,
+   "editing": 8,
+   "originality": 7
+  },
+  "evidence": "Jasan luk muka->nagrada, kolor prati priču, riser+impact na preokretu; ali 1.5 s kartica pre hook-a, sintetisana muzika jednostavna, 9:16 isečci gube motiv (sat u kutiji), stok snimci delom ponovljeni kasnije.",
+  "verdict": "ISPOD PRAGA - najjači format do sada"
+ },
+ "youtube_comp": {
+  "cycle": 0,
+  "score": 52,
+  "breakdown": {
+   "storytelling": 10,
+   "visual": 13,
+   "hook": 5,
+   "cinematography": 9,
+   "sound": 5,
+   "editing": 5,
+   "originality": 5
+  },
+  "evidence": "Kompilacija tvrdih rezova po 4 s, tekst po kadru, otvara karticom; nema luka ni ritma.",
+  "verdict": "ISPOD PRAGA"
+ },
+ "rich_life_mosaic": {
+  "cycle": 0,
+  "score": 58,
+  "breakdown": {
+   "storytelling": 9,
+   "visual": 12,
+   "hook": 9,
+   "cinematography": 7,
+   "sound": 5,
+   "editing": 7,
+   "originality": 9
+  },
+  "evidence": "Originalna ideja mozaika profila; pojedinačni klipovi su QOTD format bez hook-a.",
+  "verdict": "ISPOD PRAGA"
+ },
+ "m045": {
+  "cycle": 1,
+  "score": 86,
+  "breakdown": {
+   "storytelling": 18,
+   "visual": 17,
+   "hook": 13,
+   "cinematography": 12,
+   "sound": 8,
+   "editing": 9,
+   "originality": 9
+  },
+  "evidence": "Hook sa brojem (4,000 weeks) + lista + obrt 'Spend this one on purpose'; kraj se gramatički vraća u hook. 6 izvora, svaki ilustruje rečenicu (sat, zalazak, čovek sa telefonom, žena kod prozora, sunce kroz drveće, silueta). Slabo: hook kadar statičan detalj bez čoveka; kadar 'waiting' je potiljak. Luma 0.30-0.42, spoj loop-a 1.8/255 (= susedni frejmovi 0.9).",
+  "verdict": "ISPOD PRAGA (86) - isporučeno uz napomenu"
+ },
+ "m046": {
+  "cycle": 1,
+  "score": 88,
+  "breakdown": {
+   "storytelling": 18,
+   "visual": 18,
+   "hook": 13,
+   "cinematography": 13,
+   "sound": 8,
+   "editing": 9,
+   "originality": 9
+  },
+  "evidence": "Kontrast sore/sorry kao igra reči, obrt 'future self is watching' sa čovekom ispred ogledala; lica u 4/6 kadrova; total teretana, krupno lice, srednji ogledalo. Slabo: hook kadar teretana tamnija (luma 0.33), čovek delom van centra. Spoj 3.8 (= susedni 3.2).",
+  "verdict": "ISPOD PRAGA (88)"
+ },
+ "m047": {
+  "cycle": 1,
+  "score": 88,
+  "breakdown": {
+   "storytelling": 18,
+   "visual": 17,
+   "hook": 14,
+   "cinematography": 13,
+   "sound": 8,
+   "editing": 9,
+   "originality": 9
+  },
+  "evidence": "Obrnuta logika sa otkrićem 'Time.' u 2. sekundi; match-cut sat -> Big Ben; kancelarija -> grad noću -> jedrilica na zalasku = luk rad->sloboda. Slabo: luma 0.29-0.30 na 3 kadra (granično), kadar grada nije vezan za 'assets'. Spoj 5.3 (= susedni 6.7).",
+  "verdict": "ISPOD PRAGA (88)"
+ },
+ "m048": {
+  "cycle": 1,
+  "score": 87,
+  "breakdown": {
+   "storytelling": 18,
+   "visual": 18,
+   "hook": 13,
+   "cinematography": 13,
+   "sound": 8,
+   "editing": 9,
+   "originality": 8
+  },
+  "evidence": "Metafora brod/luka, svoje rečenice (prvobitni Shedd citat zamenjen). Svaki kadar ilustruje: privezana jahta, jarboli u marini, jedrilica na pučini, čovek na vrhu gleda horizont, brod izlazi iz luke, katamaran. Slabo: hook kadar bez pokreta/čoveka; 'Neither are you' je planinar, ne pomorski motiv. Spoj 3.1.",
+  "verdict": "ISPOD PRAGA (87)"
+ },
+ "tiktok_loop_v2": {
+  "cycle": 1,
+  "score": 87,
+  "breakdown": {
+   "storytelling": 18,
+   "visual": 17.5,
+   "hook": 13.25,
+   "cinematography": 12.75,
+   "sound": 8,
+   "editing": 9,
+   "originality": 8.75
+  },
+  "evidence": "Prosek ciklusa 1 (m045-m048): +40 bodova u odnosu na v1 (47).",
+  "verdict": "ISPOD PRAGA - najbliže pragu do sada"
+ }
+}

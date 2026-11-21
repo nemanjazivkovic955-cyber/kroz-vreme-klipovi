@@ -1,0 +1,286 @@
+{
+ "id": "stoic_rule_01",
+ "file": "videos/stoic/stoic_rule_01.mp4",
+ "inspected_at": "2026-11-19T13:04:02",
+ "method": "Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.",
+ "meta": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "duration": 10.0,
+  "vcodec": "h264",
+  "pix_fmt": "yuv420p",
+  "video_streams": 1,
+  "audio_streams": 0,
+  "acodec": null,
+  "bitrate_kbps": 23506
+ },
+ "expected": {
+  "texts": [
+   "Stop wasting energy on this.",
+   "You can't control what happens to you.",
+   "You can only control how you respond.",
+   "That's where your power is.",
+   "Follow for rule #2"
+  ],
+  "text_changes": [
+   2.0,
+   4.5,
+   7.0,
+   9.0
+  ],
+  "silent": true,
+  "loop": true,
+  "kind": "stoic",
+  "dur": [
+   9,
+   11
+  ],
+  "min_luma": 0.07
+ },
+ "technical": {
+  "resolution_ok": true,
+  "aspect": "1080:1920",
+  "fps_ok": true,
+  "duration_ok": true,
+  "audio_rule_ok": true,
+  "frames_decoded": 300,
+  "frames_expected": 300
+ },
+ "shots": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 2.0,
+   "dur": 2.0,
+   "luma": 0.146,
+   "sharpness": 129.4,
+   "overexposed_frac": 0.015,
+   "hue": 72.1
+  },
+  {
+   "index": 1,
+   "start": 2.0,
+   "end": 4.5,
+   "dur": 2.5,
+   "luma": 0.243,
+   "sharpness": 192.2,
+   "overexposed_frac": 0.003,
+   "hue": 108.7
+  },
+  {
+   "index": 2,
+   "start": 4.5,
+   "end": 7.0,
+   "dur": 2.5,
+   "luma": 0.112,
+   "sharpness": 110.2,
+   "overexposed_frac": 0.003,
+   "hue": 101.0
+  },
+  {
+   "index": 3,
+   "start": 7.0,
+   "end": 9.0,
+   "dur": 2.0,
+   "luma": 0.16,
+   "sharpness": 128.6,
+   "overexposed_frac": 0.003,
+   "hue": 104.6
+  },
+  {
+   "index": 4,
+   "start": 9.0,
+   "end": 10.0,
+   "dur": 1.0,
+   "luma": 0.13,
+   "sharpness": 138.4,
+   "overexposed_frac": 0.003,
+   "hue": 70.1
+  }
+ ],
+ "cuts": [
+  2.0,
+  4.5,
+  7.0,
+  9.0
+ ],
+ "dissolves": [],
+ "continuity": [
+  {
+   "t": 2.0,
+   "luma_jump": 0.104,
+   "hue_jump": 35.6
+  },
+  {
+   "t": 4.5,
+   "luma_jump": 0.138,
+   "hue_jump": 8.8
+  },
+  {
+   "t": 7.0,
+   "luma_jump": 0.035,
+   "hue_jump": 6.0
+  },
+  {
+   "t": 9.0,
+   "luma_jump": 0.033,
+   "hue_jump": 31.6
+  }
+ ],
+ "loop_seam": {
+  "seam_diff": 8.01,
+  "median_neighbor_diff": 1.08,
+  "ok": true,
+  "seam_diff_no_text": 1.4
+ },
+ "text_timing": {
+  "detected": [
+   2.0,
+   2.633,
+   4.5,
+   7.0,
+   9.0
+  ],
+  "expected": [
+   2.0,
+   4.5,
+   7.0,
+   9.0
+  ],
+  "offset_s": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "on_beat_120bpm": true
+ },
+ "audio": {
+  "streams": 0,
+  "note": "bez zvučnog zapisa — po pravilu korisnika (muziku dodaje u TikTok-u)"
+ },
+ "repetition": {
+  "in_video": [],
+  "across_videos": []
+ },
+ "issues": [],
+ "sheets": [
+  "studio/inspections/stoic_rule_01/sheet_time.jpg",
+  "studio/inspections/stoic_rule_01/sheet_cuts.jpg"
+ ],
+ "vision_review": {
+  "reviewer": "Claude (vision) — kontakt-listovi: 0.5 s mreža (21 frejm) + frejmovi oko svakog reza i loop spoja; video NIJE gledan u pokretu",
+  "summary": "Dosledan stil serije: hladan čelično-sivi kolor, zrno, beli Poppins Bold sa senkom, oznaka STOIC RULE #1 gore levo, tekst u sigurnoj zoni, bez siročadi u redovima. Rezovi tačno na 2.0/4.5/7.0/9.0 s (udarci 120 BPM), reči izlaze na osminke. Loop spoj bez šava (bez teksta 0.99 vs susedni frejmovi 1.38).",
+  "scenes": [
+   {
+    "index": 0,
+    "verdict": "ok",
+    "note": "Hook: oluja nad okeanom, hladna; tekst krupan i jasan. SLABOST: kadar nema subjekat/pokret - vizuelno najslabiji deo hook-a."
+   },
+   {
+    "index": 1,
+    "verdict": "good",
+    "note": "Gomila prolaznika u sumrak = svet koji ne kontrolišeš; ilustruje rečenicu 1."
+   },
+   {
+    "index": 2,
+    "verdict": "good",
+    "note": "Čovek s leđa, miran, dok se iza njega kreće grad - 'how you respond'. Najjači kadar."
+   },
+   {
+    "index": 3,
+    "verdict": "good",
+    "note": "Ruke drže sveću - 'your power'; topli plamen kao jedini akcenat. Taman (luma 0.13) ali tekst čitljiv."
+   },
+   {
+    "index": 4,
+    "verdict": "ok",
+    "note": "Nastavak oluje, CTA 'Follow for rule #2', teče u početak."
+   }
+  ],
+  "storytelling": "Hook otvara jaz ('this' = šta?), 3 rečenice ga zatvaraju (kontrola -> odgovor -> moć), CTA najavljuje seriju. Jedna poruka.",
+  "creative_score": 82,
+  "breakdown": {
+   "storytelling": 17,
+   "visual": 16,
+   "hook": 12,
+   "cinematography": 12,
+   "sound": 8,
+   "editing": 9,
+   "originality": 8
+  },
+  "recommendations": [
+   "Jači hook kadar: subjekat u oluji (silueta čoveka/statua pod munjom) - na Mixkit-u nema u 1080p, potreban Pexels ključ",
+   "Kadar 4240 (saobraćaj) odbačen jer izvor treperi - inspektor ga je uhvatio",
+   "Ocena 'sound' je za bez-zvučni klip: ritam-mreža i tekst na udarcu (zvuk dodaje korisnik)"
+  ]
+ },
+ "history": [
+  {
+   "at": "2026-11-19T10:19:04",
+   "approved": false,
+   "issues": 189
+  },
+  {
+   "at": "2026-11-19T10:19:30",
+   "approved": false,
+   "issues": 126
+  },
+  {
+   "at": "2026-11-19T10:23:04",
+   "approved": false,
+   "issues": 1
+  },
+  {
+   "at": "2026-11-19T10:23:52",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-19T10:27:33",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-19T10:30:46",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-19T10:33:57",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-19T10:34:46",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-19T10:43:41",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-19T11:06:52",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-19T13:01:25",
+   "approved": false,
+   "issues": 0
+  }
+ ],
+ "approval": {
+  "technical_pass": true,
+  "vision_reviewed": true,
+  "weak_scenes": 0,
+  "creative_score": 82,
+  "approved": false,
+  "blocking": [
+   "kreativna ocena 82 < 90"
+  ]
+ }
+}

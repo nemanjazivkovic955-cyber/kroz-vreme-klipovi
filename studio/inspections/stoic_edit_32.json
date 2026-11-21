@@ -1,0 +1,315 @@
+{
+ "id": "stoic_edit_32",
+ "file": "videos/stoic/stoic_edit_32.mp4",
+ "inspected_at": "2026-11-20T20:13:33",
+ "method": "Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.",
+ "meta": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "duration": 7.0,
+  "vcodec": "h264",
+  "pix_fmt": "yuv420p",
+  "video_streams": 1,
+  "audio_streams": 0,
+  "acodec": null,
+  "bitrate_kbps": 23863
+ },
+ "expected": {
+  "texts": [],
+  "text_changes": [
+   2.0,
+   4.0
+  ],
+  "silent": true,
+  "loop": true,
+  "kind": "stoic_edit",
+  "dur": [
+   7,
+   11
+  ],
+  "planned_cuts": [
+   0.5,
+   1.267,
+   2.0,
+   2.767,
+   3.767,
+   6.5
+  ],
+  "hits": [
+   2.0,
+   4.0
+  ],
+  "hook_y": 0.7,
+  "min_luma": 0.07,
+  "min_shot": 0.2
+ },
+ "technical": {
+  "resolution_ok": true,
+  "aspect": "1080:1920",
+  "fps_ok": true,
+  "duration_ok": true,
+  "audio_rule_ok": true,
+  "frames_decoded": 210,
+  "frames_expected": 210
+ },
+ "shots": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.5,
+   "dur": 0.5,
+   "luma": 0.29,
+   "sharpness": 623.2,
+   "overexposed_frac": 0.007,
+   "hue": 56.6
+  },
+  {
+   "index": 1,
+   "start": 0.5,
+   "end": 1.267,
+   "dur": 0.767,
+   "luma": 0.165,
+   "sharpness": 623.9,
+   "overexposed_frac": 0.007,
+   "hue": 47.1
+  },
+  {
+   "index": 2,
+   "start": 1.267,
+   "end": 2.0,
+   "dur": 0.733,
+   "luma": 0.219,
+   "sharpness": 600.6,
+   "overexposed_frac": 0.007,
+   "hue": 49.5
+  },
+  {
+   "index": 3,
+   "start": 2.0,
+   "end": 2.767,
+   "dur": 0.767,
+   "luma": 0.205,
+   "sharpness": 120.9,
+   "overexposed_frac": 0.0,
+   "hue": 75.9
+  },
+  {
+   "index": 4,
+   "start": 2.767,
+   "end": 3.767,
+   "dur": 1.0,
+   "luma": 0.165,
+   "sharpness": 80.6,
+   "overexposed_frac": 0.0,
+   "hue": 98.0
+  },
+  {
+   "index": 5,
+   "start": 3.767,
+   "end": 6.5,
+   "dur": 2.733,
+   "luma": 0.207,
+   "sharpness": 56.4,
+   "overexposed_frac": 0.001,
+   "hue": 51.7
+  },
+  {
+   "index": 6,
+   "start": 6.5,
+   "end": 7.0,
+   "dur": 0.5,
+   "luma": 0.282,
+   "sharpness": 84.4,
+   "overexposed_frac": 0.001,
+   "hue": 56.7
+  }
+ ],
+ "cuts": [
+  0.5,
+  1.267,
+  2.0,
+  2.767,
+  3.767,
+  6.5
+ ],
+ "dissolves": [],
+ "continuity": [
+  {
+   "t": 0.5,
+   "luma_jump": 0.125,
+   "hue_jump": 15.7
+  },
+  {
+   "t": 1.267,
+   "luma_jump": 0.052,
+   "hue_jump": 0.5
+  },
+  {
+   "t": 2.0,
+   "luma_jump": 0.056,
+   "hue_jump": 28.5
+  },
+  {
+   "t": 2.767,
+   "luma_jump": 0.05,
+   "hue_jump": 34.3
+  },
+  {
+   "t": 3.767,
+   "luma_jump": 0.02,
+   "hue_jump": 34.1
+  },
+  {
+   "t": 6.5,
+   "luma_jump": 0.002,
+   "hue_jump": 9.5
+  }
+ ],
+ "loop_seam": {
+  "seam_diff": 15.17,
+  "median_neighbor_diff": 5.74,
+  "ok": true,
+  "seam_diff_no_text": 12.16
+ },
+ "text_timing": {
+  "detected": [
+   2.0,
+   2.467,
+   3.567,
+   4.0
+  ],
+  "expected": [
+   2.0,
+   4.0
+  ],
+  "offset_s": [
+   0.0,
+   0.0
+  ],
+  "on_beat_120bpm": true
+ },
+ "audio": {
+  "streams": 0,
+  "note": "bez zvučnog zapisa — po pravilu korisnika (muziku dodaje u TikTok-u)"
+ },
+ "repetition": {
+  "in_video": [],
+  "across_videos": []
+ },
+ "issues": [],
+ "sheets": [
+  "studio/inspections/stoic_edit_32/sheet_time.jpg",
+  "studio/inspections/stoic_edit_32/sheet_cuts.jpg"
+ ],
+ "history": [
+  {
+   "at": "2026-11-20T19:44:01",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-20T20:06:34",
+   "approved": false,
+   "issues": 3
+  },
+  {
+   "at": "2026-11-20T20:07:50",
+   "approved": false,
+   "issues": 2
+  },
+  {
+   "at": "2026-11-20T20:08:53",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-20T20:10:22",
+   "approved": false,
+   "issues": 1
+  },
+  {
+   "at": "2026-11-20T20:11:26",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-20T20:12:34",
+   "approved": false,
+   "issues": 0
+  }
+ ],
+ "approval": {
+  "technical_pass": true,
+  "vision_reviewed": true,
+  "weak_scenes": 0,
+  "creative_score": 81,
+  "approved": false,
+  "blocking": [
+   "kreativna ocena 81 < 90"
+  ]
+ },
+ "vision_review": {
+  "reviewer": "klip-unapredivac (krug 3)",
+  "summary": "Junakinja nosi 5 od 7 kadrova: hook 0-0.5 s je ona kako gleda gore (svetlo, luma 0.284), hook tekst ispod brade (hook_y 0.70). SPRINT 2.0-2.77 s: ona se naginje i kucne čašom (tamno pod reč); 2.77-3.77 noć, muškarac pali prskalicu, iskra pomerena levo od reči. Čep puca tačno na 4.0 s (drop), vrisak + flaša gore do 6.5 s, pa šav loop-a na isti pogled gore (1.0-2.0 s izvora). Pene/ispijanje/muškarac iz 51536 izbačeni, blic oslabljen (0.22/0.08).",
+  "scenes": [
+   {
+    "t": "0.0-0.5",
+    "shot": "mk_51534 @1.5",
+    "ok": true,
+    "note": "ona gleda gore, razmišlja; svetla; tekst ispod brade",
+    "index": 0
+   },
+   {
+    "t": "0.5-1.27",
+    "shot": "mk_51562 @3.0",
+    "ok": true,
+    "note": "jedino točenje - godina se puni; 0.77 s malo sporo",
+    "index": 1
+   },
+   {
+    "t": "1.27-2.0",
+    "shot": "mk_51530 @0.4",
+    "ok": true,
+    "note": "ona se smeje, podiže pogled; manje napetosti nego što hook traži",
+    "index": 2
+   },
+   {
+    "t": "2.0-2.77",
+    "shot": "mk_51529 @3.6",
+    "ok": true,
+    "note": "SPRINT: ona se naginje i kucne čašom, pozadina tamna",
+    "index": 3
+   },
+   {
+    "t": "2.77-3.77",
+    "shot": "mk_51539 @7.2",
+    "ok": false,
+    "note": "muškarac u mraku pali prskalicu - noćni, opasniji ton, ali nije ona",
+    "index": 4
+   },
+   {
+    "t": "3.77-6.5",
+    "shot": "mk_51537 @4.57",
+    "ok": true,
+    "note": "čep puca na 4.0 = 'finish it loud' doslovno; 2.73 s jedan kadar - sporo; red preko nosa/brade 4.5-6.0",
+    "index": 5
+   },
+   {
+    "t": "6.5-7.0",
+    "shot": "loop rep mk_51534 @1.0",
+    "ok": true,
+    "note": "loop šav neprimetan",
+    "index": 6
+   }
+  ],
+  "storytelling": "Jasan luk: razmišlja o 6 nedelja -> kreće (kucne) -> noć se pali -> čep puca na drop. Slabost: set ima samo 4 snimka junakinje (svaki sme jednom), nema hodanja/vrata/hladnog pogleda; ton je slavljenički, ne krimi.",
+  "creative_score": 81,
+  "breakdown": "hook 17/20, priča 16/20, kadrovi pogađaju tekst 16/20, tempo 12/15, tehnika/svetlo 13/15, loop 7/10",
+  "recommendations": [
+   "Za ≥90 treba novi materijal iste junakinje (hod kroz salu, hladan pogled) - Mixkit set 51522-51573 ga nema; alternativa je drugi svet za SPRINT.",
+   "Ako se nađe još 1-2 njena kadra: podeliti 51537 (2.73 s) i ubrzati hook na 0.5 s kadrove.",
+   "Red 'finish it loud.' preko lica u 51537 - opcija line_y bi pomogla."
+  ]
+ }
+}

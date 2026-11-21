@@ -1,0 +1,451 @@
+{
+ "id": "stoic_edit_30",
+ "file": "videos/stoic/stoic_edit_30.mp4",
+ "inspected_at": "2026-11-20T15:31:19",
+ "method": "Dekodiran svaki frejm (OpenCV) za merenja; vizuelni sadržaj ocenjen na kontakt-listovima (0.5 s mreža + frejmovi oko svakog reza), NE gledanjem videa u pokretu.",
+ "meta": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "duration": 7.0,
+  "vcodec": "h264",
+  "pix_fmt": "yuv420p",
+  "video_streams": 1,
+  "audio_streams": 0,
+  "acodec": null,
+  "bitrate_kbps": 24252
+ },
+ "expected": {
+  "texts": [],
+  "text_changes": [
+   2.0,
+   4.0
+  ],
+  "silent": true,
+  "loop": true,
+  "kind": "stoic_edit",
+  "dur": [
+   7,
+   11
+  ],
+  "planned_cuts": [
+   0.5,
+   1.0,
+   1.5,
+   2.0,
+   2.333,
+   2.667,
+   3.0,
+   3.333,
+   3.666,
+   4.0,
+   5.0,
+   5.75,
+   6.5
+  ],
+  "hits": [
+   2.0,
+   4.0
+  ],
+  "min_luma": 0.07,
+  "min_shot": 0.2
+ },
+ "technical": {
+  "resolution_ok": true,
+  "aspect": "1080:1920",
+  "fps_ok": true,
+  "duration_ok": true,
+  "audio_rule_ok": true,
+  "frames_decoded": 210,
+  "frames_expected": 210
+ },
+ "shots": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.5,
+   "dur": 0.5,
+   "luma": 0.27,
+   "sharpness": 180.3,
+   "overexposed_frac": 0.012,
+   "hue": 75.2
+  },
+  {
+   "index": 1,
+   "start": 0.5,
+   "end": 1.0,
+   "dur": 0.5,
+   "luma": 0.268,
+   "sharpness": 64.5,
+   "overexposed_frac": 0.012,
+   "hue": 63.8
+  },
+  {
+   "index": 2,
+   "start": 1.0,
+   "end": 1.5,
+   "dur": 0.5,
+   "luma": 0.274,
+   "sharpness": 62.4,
+   "overexposed_frac": 0.012,
+   "hue": 74.9
+  },
+  {
+   "index": 3,
+   "start": 1.5,
+   "end": 2.0,
+   "dur": 0.5,
+   "luma": 0.29,
+   "sharpness": 118.5,
+   "overexposed_frac": 0.012,
+   "hue": 95.7
+  },
+  {
+   "index": 4,
+   "start": 2.0,
+   "end": 2.333,
+   "dur": 0.333,
+   "luma": 0.307,
+   "sharpness": 128.2,
+   "overexposed_frac": 0.0,
+   "hue": 66.0
+  },
+  {
+   "index": 5,
+   "start": 2.333,
+   "end": 3.0,
+   "dur": 0.667,
+   "luma": 0.256,
+   "sharpness": 99.4,
+   "overexposed_frac": 0.0,
+   "hue": 97.2
+  },
+  {
+   "index": 6,
+   "start": 3.0,
+   "end": 3.333,
+   "dur": 0.333,
+   "luma": 0.256,
+   "sharpness": 82.0,
+   "overexposed_frac": 0.0,
+   "hue": 73.6
+  },
+  {
+   "index": 7,
+   "start": 3.333,
+   "end": 3.667,
+   "dur": 0.333,
+   "luma": 0.259,
+   "sharpness": 104.6,
+   "overexposed_frac": 0.0,
+   "hue": 69.7
+  },
+  {
+   "index": 8,
+   "start": 3.667,
+   "end": 4.0,
+   "dur": 0.333,
+   "luma": 0.225,
+   "sharpness": 87.3,
+   "overexposed_frac": 0.0,
+   "hue": 102.2
+  },
+  {
+   "index": 9,
+   "start": 4.0,
+   "end": 5.0,
+   "dur": 1.0,
+   "luma": 0.254,
+   "sharpness": 131.7,
+   "overexposed_frac": 0.001,
+   "hue": 99.5
+  },
+  {
+   "index": 10,
+   "start": 5.0,
+   "end": 5.733,
+   "dur": 0.733,
+   "luma": 0.395,
+   "sharpness": 60.3,
+   "overexposed_frac": 0.001,
+   "hue": 42.5
+  },
+  {
+   "index": 11,
+   "start": 5.733,
+   "end": 6.467,
+   "dur": 0.733,
+   "luma": 0.272,
+   "sharpness": 203.8,
+   "overexposed_frac": 0.001,
+   "hue": 99.7
+  },
+  {
+   "index": 12,
+   "start": 6.467,
+   "end": 7.0,
+   "dur": 0.533,
+   "luma": 0.272,
+   "sharpness": 145.0,
+   "overexposed_frac": 0.001,
+   "hue": 74.7
+  }
+ ],
+ "cuts": [
+  0.5,
+  1.0,
+  1.5,
+  2.0,
+  2.333,
+  3.0,
+  3.333,
+  3.667,
+  4.0,
+  5.0,
+  5.733,
+  6.467
+ ],
+ "dissolves": [],
+ "continuity": [
+  {
+   "t": 0.5,
+   "luma_jump": 0.004,
+   "hue_jump": 11.9
+  },
+  {
+   "t": 1.0,
+   "luma_jump": 0.001,
+   "hue_jump": 9.7
+  },
+  {
+   "t": 1.5,
+   "luma_jump": 0.003,
+   "hue_jump": 21.2
+  },
+  {
+   "t": 2.0,
+   "luma_jump": 0.132,
+   "hue_jump": 22.7
+  },
+  {
+   "t": 2.333,
+   "luma_jump": 0.0,
+   "hue_jump": 33.8
+  },
+  {
+   "t": 3.0,
+   "luma_jump": 0.002,
+   "hue_jump": 21.2
+  },
+  {
+   "t": 3.333,
+   "luma_jump": 0.01,
+   "hue_jump": 1.3
+  },
+  {
+   "t": 3.667,
+   "luma_jump": 0.04,
+   "hue_jump": 32.7
+  },
+  {
+   "t": 4.0,
+   "luma_jump": 0.193,
+   "hue_jump": 4.1
+  },
+  {
+   "t": 5.0,
+   "luma_jump": 0.157,
+   "hue_jump": 62.4
+  },
+  {
+   "t": 5.733,
+   "luma_jump": 0.105,
+   "hue_jump": 41.3
+  },
+  {
+   "t": 6.467,
+   "luma_jump": 0.003,
+   "hue_jump": 26.9
+  }
+ ],
+ "loop_seam": {
+  "seam_diff": 8.66,
+  "median_neighbor_diff": 4.13,
+  "ok": true,
+  "seam_diff_no_text": 1.83
+ },
+ "text_timing": {
+  "detected": [
+   2.0,
+   2.433,
+   3.667,
+   4.1
+  ],
+  "expected": [
+   2.0,
+   4.0
+  ],
+  "offset_s": [
+   0.0,
+   0.0
+  ],
+  "on_beat_120bpm": true
+ },
+ "audio": {
+  "streams": 0,
+  "note": "bez zvučnog zapisa — po pravilu korisnika (muziku dodaje u TikTok-u)"
+ },
+ "repetition": {
+  "in_video": [],
+  "across_videos": []
+ },
+ "issues": [],
+ "sheets": [
+  "studio/inspections/stoic_edit_30/sheet_time.jpg",
+  "studio/inspections/stoic_edit_30/sheet_cuts.jpg"
+ ],
+ "history": [
+  {
+   "at": "2026-11-20T14:55:53",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-20T15:07:15",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-20T15:14:29",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-20T15:24:45",
+   "approved": false,
+   "issues": 2
+  },
+  {
+   "at": "2026-11-20T15:25:03",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-20T15:26:43",
+   "approved": false,
+   "issues": 0
+  },
+  {
+   "at": "2026-11-20T15:28:12",
+   "approved": false,
+   "issues": 1
+  },
+  {
+   "at": "2026-11-20T15:29:40",
+   "approved": false,
+   "issues": 0
+  }
+ ],
+ "approval": {
+  "technical_pass": true,
+  "vision_reviewed": true,
+  "weak_scenes": 0,
+  "creative_score": 87,
+  "approved": false,
+  "blocking": [
+   "kreativna ocena 87 < 90"
+  ]
+ },
+ "vision_review": {
+  "reviewer": "Claude (klip-unapredjivac, vision) — kontakt-listovi rezova + izvučeni frejmovi 2.8/3.8 s; video NIJE gledan u pokretu",
+  "summary": "Jedan svet (poker), junak u odelu sa crvenom kravatom: lice (hook) -> manžetne -> crvena kravata gura žetone ('Bet on yourself') -> deljenje -> RISK 6x0.333 s (žetoni padaju, uzima ulog, ruka obara kulu, kockice, viri u dva keca, baca žeton uvis) -> GO ALL IN: ruke guraju sve žetone ceo kadar (punch-in + blic) -> kenta -> dobitak -> loop na lice. Upaljač izbačen.",
+  "scenes": [
+   {
+    "index": 0,
+    "verdict": "good",
+    "note": "lice junaka, luma 0.27, hook čitljiv"
+   },
+   {
+    "index": 1,
+    "verdict": "ok",
+    "note": "manžetne odela, sprema se"
+   },
+   {
+    "index": 2,
+    "verdict": "good",
+    "note": "crvena kravata + ruke na žetonima pod 'Bet on yourself'"
+   },
+   {
+    "index": 3,
+    "verdict": "ok",
+    "note": "karta se deli"
+   },
+   {
+    "index": 4,
+    "verdict": "good",
+    "note": "RISK: žetoni padaju, blic + punch-in na 2.0"
+   },
+   {
+    "index": 5,
+    "verdict": "ok",
+    "note": "uzima žetone; delimično natpis stola naopako, sitan"
+   },
+   {
+    "index": 6,
+    "verdict": "good",
+    "note": "ruka obara kulu žetona"
+   },
+   {
+    "index": 7,
+    "verdict": "ok",
+    "note": "kockice - drugi igrač (teksas košulja), van 'junaka'"
+   },
+   {
+    "index": 8,
+    "verdict": "good",
+    "note": "dva keca - napetost"
+   },
+   {
+    "index": 9,
+    "verdict": "good",
+    "note": "žeton uvis - opklada; najtamniji (0.225)"
+   },
+   {
+    "index": 10,
+    "verdict": "good",
+    "note": "GO ALL IN: ruke guraju sve žetone kroz ceo kadar"
+   },
+   {
+    "index": 11,
+    "verdict": "good",
+    "note": "kraljevska kenta - nagrada"
+   },
+   {
+    "index": 12,
+    "verdict": "ok",
+    "note": "skida kulu žetona"
+   },
+   {
+    "index": 13,
+    "verdict": "good",
+    "note": "loop na lice, šav 2.06 bez teksta"
+   }
+  ],
+  "storytelling": "Ulog -> rizik (ubrzanje) -> odluka (all in, zadržan kadar 1 s) -> nagrada -> junak; svaka smena teksta ima svoj udarac.",
+  "creative_score": 87,
+  "breakdown": {
+   "storytelling": 18,
+   "visual": 17,
+   "hook": 13,
+   "cinematography": 13,
+   "sound": 9,
+   "editing": 9,
+   "originality": 8
+  },
+  "recommendations": [
+   "Ekspozicija 0.22-0.26 umesto 0.28+: izvori 40500-serije su vrlo tamni (sirovo 0.10-0.15), dalji gamma pravi mlečnu sliku",
+   "Kockice (5238) su drugi igrač - zameniti kad se nađe svetao snimak junaka koji ulaže",
+   "Reč RISK sitna/proređena (format serije) - slabije čitljivo na telefonu"
+  ]
+ }
+}

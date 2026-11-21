@@ -1,0 +1,119 @@
+{
+ "2026-11-19_14:40": {
+  "izvor": "screenshot profila korisnika (TikTok app)",
+  "nalog": "@n722062 (ime: kroz-vreme-klipovi)",
+  "pratioci": 936,
+  "prati": 921,
+  "lajkovi_ukupno": 189,
+  "bio": "nema",
+  "klipovi": [
+   {
+    "klip": "najnoviji (u obradi)",
+    "pregledi": 0
+   },
+   {
+    "klip": "stoic_edit HUNGER",
+    "pregledi": 47
+   },
+   {
+    "klip": "stoic_edit PATIENCE (stara verzija sa 'STOIC RULE #5')",
+    "pregledi": 73
+   },
+   {
+    "klip": "stoic_rule_04 disciplina",
+    "pregledi": 70
+   },
+   {
+    "klip": "stoic_rule_03 mišljenje drugih",
+    "pregledi": 90
+   },
+   {
+    "klip": "stoic_rule_02 tišina",
+    "pregledi": 85
+   },
+   {
+    "klip": "stoic_rule_01 kontrola",
+    "pregledi": "van ekrana"
+   },
+   {
+    "klip": "stari QOTD (zlatni)",
+    "pregledi": "van ekrana"
+   }
+  ],
+  "nedostaje": "prosečno vreme gledanja, % do kraja, izvor saobraćaja (For You vs pratioci) - TikTok Studio"
+ },
+ "2026-11-19_windsor": {
+  "izvor": "Windsor.ai tiktok_organic (automatski)",
+  "period": "17-19.11.",
+  "klipova": 34,
+  "zakljucak": "prosek gledanja 1.5-4.5 s, do kraja 0-9%, komentari 0, deljenja 0; ~11 objava dnevno u naletima; opisi samo hashtagovi",
+  "najbolji": [
+   {
+    "id": "7709860468961185045",
+    "traj": 10,
+    "pregledi": 240,
+    "prosek_s": 4.65,
+    "do_kraja": 0.094
+   },
+   {
+    "id": "7709068582088494356",
+    "traj": 24,
+    "pregledi": 316,
+    "prosek_s": 5.83,
+    "do_kraja": 0.063,
+    "lajkovi": 17
+   },
+   {
+    "id": "7709546994800397588",
+    "traj": 10,
+    "pregledi": 210,
+    "lajkovi": 21,
+    "cuvanja": 4
+   }
+  ]
+ },
+ "2026-11-20_dijagnoza_zid_250": {
+  "izvor": "Windsor.ai (40 videa, 7 dana)",
+  "for_you_pct": "91-96%",
+  "nepratioci_pct": "99-100%",
+  "retencija": {
+   "1s": "45-68%",
+   "2s": "14-37%",
+   "3s": "7-29%",
+   "do_kraja": "0-10%"
+  },
+  "zemlje": "DE, IT, PL, NL, GB (Evropa) - nalog je regionalno evropski",
+  "zakljucak": "~250 = test grupa For You; klipovi padaju na testu jer ljudi odlaze u 1-2 s; pratioci (follow-za-follow) ne gledaju",
+  "aktivnost_pratilaca_vrhunac_sati": "17-21"
+ },
+ "2026-11-20_18h_dopuna": {
+  "izvor": "Windsor.ai tiktok_organic, 40 videa 17-20.11 + retencija po sekundi 19-20.11",
+  "klipovi_20_11": {
+   "broj": 5,
+   "pregledi": "162-241",
+   "ret_1s": "48-61%",
+   "ret_2s": "19-32%",
+   "ret_3s": "9-21%",
+   "do_kraja": "1-6%",
+   "komentari": 0,
+   "deljenja": 0
+  },
+  "najbolji_19_20": {
+   "video_id": "7709860468961185045",
+   "trajanje_s": 10.0,
+   "pregledi": 246,
+   "ret_1s": 0.58,
+   "ret_2s": 0.3,
+   "ret_3s": 0.21,
+   "do_kraja": 0.1,
+   "prosek_gledanja_s": 4.7
+  },
+  "novo": [
+   "Opisi na TikTok-u su SAMO hashtagovi - pitanje iz _opis.txt nije objavljeno ni na jednom od 40 klipova (lekcija 33 se ne primenjuje u praksi) -> 0 komentara",
+   "Hashtagovi nasumicni i neusaglaseni sa nisom (#1PictureTrend, #5KChallenge, #10MinutesChallenge, #makeup, #sleflove, #mony) - zbunjuju klasifikaciju publike",
+   "7 s story format (20.11) nije pomerio ret_1s (48-61%) - problem je i dalje prvi frejm/hook, ne duzina",
+   "Poster 20.11: 5 klipova u 5 sati (09:56-14:57) - test grupe se i dalje dele"
+  ],
+  "napomena": "uparivanje TikTok video_id <-> stoic_edit_NN nije pouzdano jer opisi ne sadrze tekst iz _opis.txt; potrebno: u opis staviti pitanje iz _opis.txt (jedinstveno po klipu)"
+ }
+}
