@@ -115,5 +115,46 @@
    "Poster 20.11: 5 klipova u 5 sati (09:56-14:57) - test grupe se i dalje dele"
   ],
   "napomena": "uparivanje TikTok video_id <-> stoic_edit_NN nije pouzdano jer opisi ne sadrze tekst iz _opis.txt; potrebno: u opis staviti pitanje iz _opis.txt (jedinstveno po klipu)"
+ },
+ "2026-11-21_vodilja_korisnik": {
+  "izvor": "screenshotovi korisnika 21.11 (TikTok Analytics) - VODILJA za sva istrazivanja",
+  "gledaoci_7d": {
+   "ukupno": "2.7K",
+   "novi": "2.6K",
+   "skok": "od 18-19.11 ~1.1-1.4K dnevno (posle 0)"
+  },
+  "zemlje": {
+   "DE": 12.0,
+   "GB": 8.7,
+   "FR": 8.1,
+   "US": 6.9,
+   "IT": 6.8,
+   "NL": 5.2,
+   "PL": 5.1,
+   "BE": 4.8,
+   "RO": 4.1,
+   "CH": 3.5,
+   "ostalo": 34.8
+  },
+  "uzrast": {
+   "18-24": 41.1,
+   "25-34": 43.6,
+   "35-44": 7.8,
+   "45-54": 5.6,
+   "55+": 1.9
+  },
+  "najbolji_klip": "STOIC RULE #5 PATIENCE (silueta muskarca u sumrak, jedna rec PATIENCE): 300 pregleda, 9 lajkova - TikTok: bolji od 90% kreatora sa slicnim brojem pratilaca",
+  "retencija_PATIENCE_jahta": {
+   "prosek_odgledano": "18%",
+   "vecina_odlazi": "0:01",
+   "na_0:02": "13%",
+   "duzina": "9 s"
+  },
+  "izvor_saobracaja": {
+   "For You": 93.7,
+   "profil": 6.0,
+   "Following": 0.3,
+   "DM": 0.0
+  }
  }
 }

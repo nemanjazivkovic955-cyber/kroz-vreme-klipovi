@@ -121,3 +121,10 @@
 - SVAKI kadar mora jasno pokazati bar jedan od 4 stuba: **KOLA** (luksuzna/sportska, noću, farovi, volan, ulazak/izlazak), **NOVAC** (keš, svežnjevi, brojanje, bacanje, sef, zlato kao keš), **PUTOVANJA** (privatni avion, jahta, luksuzni hotel/vila, egzotična destinacija), **ŽENE** (uz luks: u autu, na jahti, u avionu, pogled u kameru).
 - Ostalo je MLAKO i ne ulazi: manžetne, leptir-mašne, dugmad, rubini, kranovi/gradilišta, pustinja, palme same, gradovi iz drona bez auta/žene/novca, karte bez novca, apstraktni detalji.
 - Poenta priče mora biti vidljiva u slici: tekst kaže novac -> vidi se novac; kaže noć/smena -> vidi se auto noću; kaže ona bira -> vidi se žena.
+
+## VODILJA (screenshot korisnika 21.11) — sva istraživanja se vode po ovome i idu JAČE od ovoga
+- Publika: 85% je 18–34 godine (25–34 43.6%, 18–24 41.1%); zemlje DE 12%, GB 8.7%, FR 8.1%, US 6.9%, IT 6.8%, NL/PL/BE/RO/CH. Engleski tekst, evropsko vreme.
+- Najbolje prošao: PATIENCE — silueta čoveka u sumrak + jedna jaka reč (300 pregleda, 9 lajkova, "bolji od 90% kreatora"). Jedan čovek, jasan obris, jedna reč = radi.
+- Najveći problem: većina odlazi na **0:01** (prosek odgledano 18%, na 0:02 ostaje 13%). Klip od 9 s sa tamnom jahtom na prvom frejmu gubi ljude odmah.
+- Pravila iz toga: (1) prvi frejm = najjači kadar klipa, svetao, čovek/žena/lice ili nagli pokret, tekst čitljiv od 0.0 s; (2) nema tamnog statičnog otvaranja (noćna jahta, grad); (3) 6–7 s, ne 9; (4) jedna reč u sredini radi — zadržati; (5) 93.7% dolazi iz For You → sve zavisi od prve sekunde.
+- Cilj: prosek odgledano > 40%, na 0:02 > 50%, preko 300 pregleda po klipu.
